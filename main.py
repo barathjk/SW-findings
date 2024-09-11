@@ -151,7 +151,7 @@ if __name__ == '__main__':
         if modeladvisor_finding:
             pd.DataFrame.from_dict(modeladvisor_finding).to_excel(writer, index=False, sheet_name="Model Advisor")
 
-    formatted_excel = os.path.join(os.path.dirname(os.path.realpath(__file__)), "QualityChecks.xlsx")
+    formatted_excel = os.path.join(os.path.dirname(os.path.realpath(__file__)), "SW-findings-report.xlsx")
     writer = pd.ExcelWriter(formatted_excel, engine='xlsxwriter')
     dfs = {}
     print("\nFormatting the report")
