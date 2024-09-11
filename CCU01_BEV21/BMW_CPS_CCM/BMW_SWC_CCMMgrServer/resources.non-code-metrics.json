@@ -1,0 +1,50 @@
+[
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Send_BMW_SWC_CCMMgrServer_ppBMW_st_CcmExtn_rc_BMW_st_CcmExtn_rc", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Send_BMW_SWC_CCMMgrServer_ppBMW_st_CcmStd_rc_BMW_st_CcmStd_rc", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_MOD_CCMMgrExtServer/BMW_MOD_CCMMgrExtServer", 
+        "assessment": {
+            "YELLOW": "54"
+        }, 
+        "count": "54"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_MOD_CCMMgrServer/BMW_MOD_CCMMgrServer", 
+        "assessment": {
+            "YELLOW": "58"
+        }, 
+        "count": "58"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_CCMMgrServer/BMW_SWC_CCMMgrServer_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_CCMMgrServer/BMW_SWC_CCMMgrServer_B", 
+        "assessment": {
+            "YELLOW": "24"
+        }, 
+        "count": "24"
+    }
+]

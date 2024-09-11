@@ -1,0 +1,213 @@
+[
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/BMW_SWC_CifDiag.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/BMW_SWC_CifDiag_data.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/EvseKommunicationCcs_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/EvseKommunicationDcChademo_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/EvseKommunicationDcGbt_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadebereitschaftAcCcs_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadebereitschaftAcCcs_ReturnControlToECU.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadebereitschaftAcCcs_ShortTermAdjustment.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadedoseAcCcs_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadedoseDc_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadeklappeAcCcs_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadeklappeDc_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadenAbkDauerhafteKlappenentriegelung_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadenAbkDauerhafteKlappenentriegelung_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadenAbkDauerhafteSteckerentriegelung_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadenAbkDauerhafteSteckerentriegelung_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadenAbkEinmalSteckerentriegelung_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadenAbkEinmalSteckerentriegelung_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadeschnittstelleAcCcs_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadeschnittstelleChademo_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LadeschnittstelleGbT_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/Ladeverfahren_ReadData.c", 
+        "findings": [
+            {
+                "startLine": "124", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a95bf9a7bfef7590b6b5283b17023b1379e8b7a89f8a2d649c6ad2890edeed75"
+                }, 
+                "justification": "", 
+                "message": "[124:63] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "95", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "75da07d20ee31b076b24dcd703a0e76448def1e9d1bcc24e18981132c2cffad8"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[95:15] Variable 'rtb_BitShift' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LedLadedoseAcCcs_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LedLadedoseAcCcs_ReturnControlToECU.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LedLadedoseAcCcs_ShortTermAdjustment.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LedLadedoseDc_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LedLadedoseDc_ReturnControlToECU.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/LedLadedoseDc_ShortTermAdjustment.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/PilotSignalValue_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_CifDiag_3679.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_CifDiag_3683.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_CifDiag_3692.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_CifDiag_3712.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_CifDiag_3725.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_CifDiag_3731.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_CifDiag_3733.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/ZustandVerriegelungLadeklappe_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/ZustandVerriegelungLadestecker_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/ZvLadedoseAcCcs_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/ZvLadedoseAcCcs_ReturnControlToECU.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/ZvLadedoseAcCcs_ShortTermAdjustment.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/ZvLadeklappeAcCcs_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/ZvLadeklappeAcCcs_ReturnControlToECU.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/ZvLadeklappeAcCcs_ShortTermAdjustment.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/ZvLadeklappeDc_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/ZvLadeklappeDc_ReturnControlToECU.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/ZvLadeklappeDc_ShortTermAdjustment.c", 
+        "findings": []
+    }
+]

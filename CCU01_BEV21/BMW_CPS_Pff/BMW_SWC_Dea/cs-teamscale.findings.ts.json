@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_Dea/CCU01BEV21BMW/BMW_SWC_Dea.c", 
+        "findings": [
+            {
+                "startLine": "1489", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6f4e7465820711b87bf1a2bfa7841e1ced333e32c6b67fef86b4e04561f11e32"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1489] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "1971", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9c950e8a490452cfdd733022ea73e452d8def3b7b557f7c841bbdc9a9313b0d4"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1971] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }
+        ]
+    }
+]

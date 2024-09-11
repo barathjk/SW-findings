@@ -1,0 +1,27 @@
+[
+    {
+        "path": "SVN_BMW_SWC_eTmcVolfMdl/Model/LIB_BMW_MOD_eTmcVolfMdl.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Hhere Genauigkeit von round erforderlich!</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcVolfMdl/BMW_MOD_eTmcVolfMdl/Volumstromaufteilung Em1 Em2/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Hhere Genauigkeit von round erforderlich!</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcVolfMdl/BMW_MOD_eTmcVolfMdl/Volumstromaufteilung Em1 Em2/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

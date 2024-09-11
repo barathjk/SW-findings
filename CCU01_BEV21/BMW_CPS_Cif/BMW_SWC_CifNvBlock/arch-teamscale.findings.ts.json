@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_CifNvBlock/CCU01BEV21BMW/BMW_SWC_CifNvBlock.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1ca2f242e2b4cc9fc93a5f229fcb199de98489284f0738622838a2709256b7cf"
+                }, 
+                "message": "No block definition found in extension file J:\\BCI_WS\\AF4B4F40\\Sources\\BMW_SWC_CifNvBlock.extension. \n\tFor FR Blocks a block definition in the extension file is necessary. Please add extension file with block definition.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.missingfrblockdef"
+            }
+        ]
+    }
+]

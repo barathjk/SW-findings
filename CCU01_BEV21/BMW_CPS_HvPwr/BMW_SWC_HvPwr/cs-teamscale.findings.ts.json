@@ -1,0 +1,523 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvPwr/CCU01BEV21BMW/BMW_SWC_HvPwr.c", 
+        "findings": [
+            {
+                "startLine": "6267", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "3d1f1510f37a7b99ec1917690fb58f0ed0688b9f7bfaf977e9ba41087e237645"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6267] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6267", 
+                "whitelisted": "duplicate_uniqueID", 
+                "findingProperties": {
+                    "uniqueId": "73292589d9748f091950e211fb8737a28d31aa18df9833d26dfb410c516f905f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6267] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6306", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9011da00c9c77d1410d66696f2d4871dbd6cef49079771305263b53501f05dbd"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6306] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6306", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "905a9cf6cd5362f7955b7faef1a4dc997c89c705b00dcbed141d746a902d6060"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6306] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6253", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "3d1f1510f37a7b99ec1917690fb58f0ed0688b9f7bfaf977e9ba41087e237645"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6253] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6253", 
+                "whitelisted": "duplicate_uniqueID", 
+                "findingProperties": {
+                    "uniqueId": "73292589d9748f091950e211fb8737a28d31aa18df9833d26dfb410c516f905f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6253] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6256", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "3d1f1510f37a7b99ec1917690fb58f0ed0688b9f7bfaf977e9ba41087e237645"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6256] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6256", 
+                "whitelisted": "duplicate_uniqueID", 
+                "findingProperties": {
+                    "uniqueId": "73292589d9748f091950e211fb8737a28d31aa18df9833d26dfb410c516f905f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6256] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6428", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "099ef04b0f9340e9a1bead33b652952ebb5d9afd339afa3705be410f32ba950a"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6428] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6428", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "990b8f2681b95bf723e7464ccf298cd5b62d3aaea33b8803e7e2906199fe910e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6428] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6465", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a264279157d3105b86ea4d4cba3196da4ffbcb5c49af660d357b87a8406a275b"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6465] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6465", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "0e7c6fe8851268e9ffdf85169deff967a537a267e00e8c5176754c2c66b69307"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6465] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6481", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "23d1722f4f5439a2580402648a156e91a322ecd43ec875fc2dd532ad690cbf81"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6481] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6481", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "a63977eea6b4502dff1631b82421da23e3eaed087b88f422b77a5711eb57fc3f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6481] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6493", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "aff1422b0b650ed663e40351ec15a5e13ba529d81ab2a077934d82c7f6ba0b6d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6493] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6493", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a6c8358f63dc2527f2781a8b2851165e538266334e1fa048113e7d9a6fdd7d69"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6493] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6520", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "502ea6fde7997f9cd1ddf8ac0822328a69d3d92c7df3bc0a4ef3da7059558ae3"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6520] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6520", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "6fb95656d51385bd89bd44b829f28bd7360b06b2bcb96583f6608f74ab2f9e43"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6520] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6547", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4205167bef98f0abe0013c97d77e4c74f96cdad662b62b8faa20f59ea9e1471f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6547] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6547", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3e2b6ad10d05438474a215616f23a4d68973c4541a6f17b366616b7abf3f36d5"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6547] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6574", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "76b02e136f3be8f0127002ff07296a2b4566f07ca9c184f9482eb0369e6c0393"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6574] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6574", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e034e8b00f7e01cb72c46b2b948b1eeb28e75cec46205c3f80b187a01af605c4"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6574] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6601", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "901fd0a7f58b7bbb6ca63c86b92b03f1533b231ada17f9eebfb3c79785a547c2"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6601] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6601", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e6420fc34a89e7050681b6db3d764fa6d68b1d59916830293afe519b42928cf2"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6601] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6628", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "40e9f499da82cc1bd6f64cab1b8091cec441ad5f15bda0550ed2849af76243d6"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6628] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6628", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "975599d3cb74e8d2279dc449d40c738328fa816d64bbccdcd817a47706a5327d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6628] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6655", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "93fb0f58b92bc8c595cf2ae27c860e628d198e1d72907bd3cd786a0e13e3a440"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6655] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6655", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "041b1f8e1017fff35ecb8c9692d7f93684ccd51f52a77d61e692282e247f9db4"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6655] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6682", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "462565c9524277202536d9aaef0703a8252b95142d93a9de8dd7bf90617938c1"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6682] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6682", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6ae9754ecaa693a4ebc1fdac7b12c5e8c0eecf5bd32a487bb8e0841a212e5ae5"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6682] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6755", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c8f8efdd039360cea710617a5fab98224e92649a239d94a3035f8804e6adfccb"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6755] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6755", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7303cf873286e013ffa4b871470c1ba6ac46bf1355d65ee3b881bcead4cc8c03"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6755] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6879", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "516a3fe92b42a14e97977a9f99af43b15d5d1298818da24798aa4b8a9e8d6090"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6879] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "6852", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6ece8949e99c36617efe87342fc8fb12d834b557b2b4d22d33b8499309ab9c34"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6852] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "5076", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5b2a553f582e8d86397f00debee6e23a445c1d29257fc72e8c0dce591e981908"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][5076] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "5076", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "b2cebc039011cbfe1589b496db1f4998c1d08553b6dad4d0278c52fac06315f0"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][5076] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "5073", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5b2a553f582e8d86397f00debee6e23a445c1d29257fc72e8c0dce591e981908"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][5073] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "5073", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "b2cebc039011cbfe1589b496db1f4998c1d08553b6dad4d0278c52fac06315f0"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][5073] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "5097", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f813441b18743faa5ef78a6613c658c2dfbf3f4ed1c42f39f8c016c768bb62ba"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][5097] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "5097", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "33690c3a053bc8b1360736a543c0d89e638c4d031573c9612ab5717296c6532c"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][5097] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "1580", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b2422242ee1031bcc8120e2bc6b8e1901d87020f75e134a7719a3bd41ee3c74b"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1580] Shift Amount Exceeds Bit Width", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.ARITH.BIGSHIFT"
+            }, 
+            {
+                "startLine": "2552", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "86841f7c8ab213bf9eee25be24d81fa6ca4e947ad06a2f24cd462e9bde69ead7"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][2552] Shift Amount Exceeds Bit Width", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.ARITH.BIGSHIFT"
+            }, 
+            {
+                "startLine": "9388", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a395714dd7f481442ba477e79b4ba3d8826f28414ef5f5f26850f522333e5025"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][9388] Empty if Statement", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.EBS"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvPwr/CCU01BEV21BMW/BMW_SFUN_HvPwrCordIdListGen.c", 
+        "findings": [
+            {
+                "startLine": "29", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "34d2e3d64ba9e9aecf790332d002a2042e37a05e678c2fc7b8e39acba9f5e8f8"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][29] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvPwr/CCU01BEV21BMW/BMW_SFUN_HvPwrCordPwrAlloc.c", 
+        "findings": [
+            {
+                "startLine": "25", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dc39f040bdc0207824c2bccd77d8787535a7d778cf02418af848f00add5e7f49"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][25] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "44", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7953338ce91d95890373a56c775ae57cb4cb82962c1097595164863da7beb81a"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][44] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }
+        ]
+    }
+]

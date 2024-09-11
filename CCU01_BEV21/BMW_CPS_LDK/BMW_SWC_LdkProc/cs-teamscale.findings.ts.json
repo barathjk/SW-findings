@@ -1,0 +1,51 @@
+[
+    {
+        "path": "ART_BMW_SWC_LdkProc/CCU01BEV21BMW/BMW_SWC_LdkProc.c", 
+        "findings": [
+            {
+                "startLine": "963", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f56a98ca64e47913bca67bc66c7735226cdc132d446ed56d5b3ff0b32a434feb"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][963] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "963", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0dffacfc2493e11fff9510559f82e2230b5997bfac1da383b7dcde5f29ec6529"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][963] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "952", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c425b135349532878b7ec4c43e84b0f699c27030d975d359e3a1256af69b8630"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][952] Buffer Underrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BU"
+            }, 
+            {
+                "startLine": "952", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0456c2bf8b5f8c92815a0b9fd8b9d805031d1eed97f4046ec9563e483516d955"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][952] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }
+        ]
+    }
+]

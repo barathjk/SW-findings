@@ -1,0 +1,212 @@
+[
+    {
+        "path": "SVN_BMW_SWC_MXK/Model/LIB_BMW_MOD_MxkAxcSpUnf_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-3638</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpUnf_10ms/BMW_MOD_MxkAxcSpUnf_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion4 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-3638</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpUnf_10ms/BMW_MOD_MxkAxcSpUnf_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Data Type Conversion4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-3746</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpUnf_10ms/BMW_MOD_MxkAxcSpUnf_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-3746</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpUnf_10ms/BMW_MOD_MxkAxcSpUnf_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Product3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Lookup Table (n-D) is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-5454</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpUnf_10ms/BMW_MOD_MxkAxcSpUnf_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Moment_Primaerachse/Lookup Table (n-D)", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Lookup Table (n-D)1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-5454</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpUnf_10ms/BMW_MOD_MxkAxcSpUnf_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Moment_Primaerachse/Lookup Table (n-D)1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_MXK/Model/LIB_BMW_MOD_MxkWishMoTrac_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-3746</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkWishMoTrac_10ms/BMW_MOD_MxkWishMoTrac_10ms/s7000_Bestimmung_Momentenwunsch/s7100_Elektro/Divide", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_MXK/Model/LIB_BMW_MOD_MxkAxcSpLdc_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-3642</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpLdc_10ms/BMW_MOD_MxkAxcSpLdc_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-3638</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpLdc_10ms/BMW_MOD_MxkAxcSpLdc_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-4911</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpLdc_10ms/BMW_MOD_MxkAxcSpLdc_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-4911</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpLdc_10ms/BMW_MOD_MxkAxcSpLdc_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Product", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Lookup Table (n-D)1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-5454</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpLdc_10ms/BMW_MOD_MxkAxcSpLdc_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Moment_Primaerachse/Lookup Table (n-D)1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Lookup Table (n-D)2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-5454</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpLdc_10ms/BMW_MOD_MxkAxcSpLdc_10ms/s4000_Momentenverteilung_ungefilterter_Fahrerwunsch/s4100_E_Fahrzeug_Achshybrid/Moment_Primaerachse/Lookup Table (n-D)2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_MXK/Model/LIB_BMW_MOD_MxkAxcSpFild_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-3638</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpFild_10ms/BMW_MOD_MxkAxcSpFild_10ms/s3000_Momentenverteilung_gefilterter_Fahrerwunsch/s3100_E_Fahrzeug_Achshybrid/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-3638</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpFild_10ms/BMW_MOD_MxkAxcSpFild_10ms/s3000_Momentenverteilung_gefilterter_Fahrerwunsch/s3100_E_Fahrzeug_Achshybrid/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-3638</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpFild_10ms/BMW_MOD_MxkAxcSpFild_10ms/s3000_Momentenverteilung_gefilterter_Fahrerwunsch/s3100_E_Fahrzeug_Achshybrid/Product1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-3638</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpFild_10ms/BMW_MOD_MxkAxcSpFild_10ms/s3000_Momentenverteilung_gefilterter_Fahrerwunsch/s3100_E_Fahrzeug_Achshybrid/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Lookup Table (n-D) is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-5454</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpFild_10ms/BMW_MOD_MxkAxcSpFild_10ms/s3000_Momentenverteilung_gefilterter_Fahrerwunsch/s3100_E_Fahrzeug_Achshybrid/Moment_Primaerachse/Lookup Table (n-D)", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Lookup Table (n-D)1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method changed to nearest, because of TQW-5454</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MxkAxcSpFild_10ms/BMW_MOD_MxkAxcSpFild_10ms/s3000_Momentenverteilung_gefilterter_Fahrerwunsch/s3100_E_Fahrzeug_Achshybrid/Moment_Primaerachse/Lookup Table (n-D)1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

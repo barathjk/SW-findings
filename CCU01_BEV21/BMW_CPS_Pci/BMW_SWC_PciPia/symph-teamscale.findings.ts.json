@@ -1,0 +1,1129 @@
+[
+    {
+        "path": "ART_BMW_SWC_PciPia/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5d92f9cf5b6d691745733ca194fdd1275b00c8feffdd0379a1670e55f83a6070"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_RecuLvlCheckValue_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a656dd658c20aa0a93db8ff293ff04009b7a88e046bea96d4fa85f7b9714c364"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_RecuLvlConfig_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d84bcc5aec346a2de7aa03cbcea827ac9d2a342b4c98a224c6bc098989c09db0"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_RecuLvlDefaultValue_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6226c53fdb655214b874f2d6ed3d9296636612373c8162b9df91b2a2f79178c1"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_SptEngCheckValue_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7ee7e361280c26107de3841124533d43f91ee5fe90a5f119ce308e82802c06ed"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_SptEngConfig_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5e86e5d43eb1d0869803664b5e820c827543978207b4bd2c22f57b58e3ceee0c"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_SptEngDefaultValue_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fb01997fee0b22c838246820b6247692ed597e915b3be42554fa0490b7e0324a"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_TmChaManCheckValue_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "00e597a5b93302c72a3cbfca2e54c3a019451d3d423552640fa803c3d85c44e9"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_TmChaManConfig_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f6ea445892c9d08fb8a95af379794a176547ddabdf9da8005820493d0727f932"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_TmChaManDefaultValue_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2ee2326a25e7608b5203b309c706f63298df12d8ac3dfb4a9379b2a111c6c266"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgApem?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3ad4e2870c89f348df9e39366619c66bc4ebf543849bb5b0aeb0a365d3c5486c"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgApem_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4e183dace320744c5a118e79d4af059f7185db3bdeb1e0f7735cccd86db0c5df"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgAsr?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2aa963d63415bc262cef9f65028966363966992750bf769679ce1acc54399e61"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgAsr_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b10847879fb8096d0086df050e849b0c229e137e6b546295965be60d079b9164"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgCoa?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e8a7047cb7311bc5838ee5e125c712608c6f45923c62432c29b2e97f045afb26"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgCoa_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fbba5f69731a0ddd597642333e2a084a85d129ab0163956dfc16cbc0586d4c27"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgEcoCoa?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c55c3b80a2837394e26556274e428fd29829012a4a6b6d1c3c97daafb3da03c9"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgEcoCoa_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c7897b03c8cf2a5aca14f0e228e91dff6a82893b9eea84899e881fc806e62dcd"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgEcoMsa?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "458fecaf618d8aa440ae25611ae8c5808971ddd95d171c24167b583d738491aa"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgEcoMsa_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d90924513e1506f649cc2ecda1ab839b7a93fc1614d70d53b3ec3cb88e492f22"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgEngSouVeh?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "acff1e2eeace5b3131941892c47906c235282c4ae95f04e1051df623cc2b553b"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgEngSouVehStr?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3c4aa0545441a6c5a1e3c2a546e609778659364e5aef60af858c1e37e4e63e79"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgEngSouVehStr_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ee4bfe8aa31cc7600343745e7ce1da223fc3165e38bfb1d5874a748418b57e62"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgEngSouVeh_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8d77b1eef50af86ad8fc4b6c5f22a117eb7ba941b92e5d5862c4a481772c73b3"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgRecuLvl?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "82054911edcfafc115f2132a2357f4212674184d19eae5bc8c6a41d2e1b93739"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgRecuLvl_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "eff7d40c81cf4cf1a2492982a82fadb594e0bb2fc881f6c693c6c71249ece458"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgSptEng?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "51484fcaeb156815ab65c14568b1d21813e9817b2fa7440e9e37fb7372f67465"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgSptEng_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3242b3c3381920acb9a16e94f052b1ed6baedc4536e4009757a4d90d018737bf"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgSptGbx?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "54f2ab9d3662f00449d36e9c85ea883f49c37c1843ed42bd8b9e80f596654025"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgSptGbx_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "89eab6f3974bf74b172e9b6c36a5f77baefa46c99745e8d1a8ea711654bb7c27"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgTarSocBatCtl?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ad514d01de31db5ac3dc64db9ff5f0e951506b2b0e3fb034f357b215805fdae4"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgTarSocBatCtl_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c1926c466d2bc00f5c63693d4cc876e118a2ece309b91e8194855e1e28e54b17"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgWishEdm?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a62c5e5e74f9891c1d15501957b0ea5adf1ca12b3b198524fc366b21cd9dcd74"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaCfgWishEdm_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "446fc9ea6f158c2afaae27ff8b8ad2cebd248b0426104fa9c749e167b9048b0c"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaTmChaManAcvnDeac?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2461f1db1afa0b19f3daac6939b19bc1e32ca6d3c38eec6aeff30f3ec3cafb87"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpci_req_PiaTmChaManAcvnDeac_Ct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dff66bdfa1a2b9b4fc2aeda9d6df285888321412ddde2bf2aff26ce049533ada"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@517fb2c3 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "041412ac2c4226b15ba91e39fa896ac0eef57e3551a0d6841c2e6390f4abb625"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@6c289070 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4047e43993e3e3ebf0f11102a494e4f36bde45a8bc3b4469bc93b9b5fb42735e"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@69e58566 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "99b3916b66e9e5176794505e4fa30a6cf2723588c544867cd19c23ea00b5aff9"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@2e41e0c (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9dfb063ea1a90ed31b7ec6b0184c7f4c05f88324c0552f2ce88d63fca2ce04e4"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@2e214d39 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0d548bde5b7dd8dbd6f7713e3a4dfe2299b58290a2ddd855f1c939d65509c252"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@622e39d (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b4dcc720628e2e40a21ab790dda828ce09bcd16e04d16175cba5c948fad3d8cc"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@43a9988a (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a8dccff7cd9be8f9c5f8fd695b2452adf9bcba16e4fee3b5cb625dcb9bc6d858"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@611ffa8d (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1cf210f53ed4af9e11f1af3cbe02f102143b46eb03d4d6bb0cc6b7ea23a665fc"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@45f32b12 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7411bcd7b013bea67c0b6d565396dd4d883ebbd992bfabea5eee66052e3cb3f2"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@54dc163a (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "452085f8ae98f569425922f1aa0bec72c4662573e9138183a259efea6683eea6"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@5bbeb9e3 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "89486060a7d73f85500bf1e38c540f83814984a6efbc2e336ef770f0552831ee"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@456beb8b (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7150ad63ea33fbee1d696a0540487493e0f4bdb3d7087b651df98e139f4abf48"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@191cf38f (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "725bd1219eb68dbc7c8e5d74aeae9b2a1fc575bb6f7522fef081c31e071cd843"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@2dc54b50 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3331e0cba61928a6e04efd32375a2de8db316591a4fd1934fe89441367903f53"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@31a9eaa (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "34e64c7906530fc7311057c58b08556ce6449f1d6927f1aaba6662ffe37887b2"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@19370af1 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c91af0daff80f05539b3b3c2a35b335e6a811a0035487e35516998fb6a7b9e75"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@67c912d3 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dbcd86d90fb2d7e4bccfd51ae5c47b748b50cc8b2bf33f9c22b988d587b4f3c2"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@60515ab1 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dcbabc63e76cb8407329127a06a6809856bbc1cffa74558207f4bc0d25672986"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@37e967df (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "36791d94242e0b8dedbbe958b570f175846c376b6ffde71dd90583a875fa02b9"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@16a89351 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "11b69765ec184e6c6185d1b81edfcb4dbba050448e8211c6e0c86928efd81904"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@395854dd (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1243be316ff739775c17ac6ef78371e10971383915e9924eb100261ebb4e69dd"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@53b60595 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "97f8d37e499a92893866c1a73cab5556684f08c04506a84b429c7f5d1497bef4"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@2f9d47a3 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ead5502338fd3e3dfa849e1ba1c690ee5eb587b2464f791e66f55945006cbdc3"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@7d7d7b1a (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1ccdfe29d91ad9690096d7058a896b16b9f12e5ecdf9047a06362ebad3628af1"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@67836d4 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4d0234218160d5e9f1032cfb665ddbe93fb361236a48702228c1dfbdefdb0af1"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@65011123 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "867f86ceeef1d9d0a4db2392c8c7e78ba364cb2e5b14159214d43cdda57bae06"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@20e4e27f (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e41ff642423b3dec5649c03659e6723e5ebd97a5effd00feb1d009b0d4edb035"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@36d7e8d2 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "93be5b56e81f0752796f8c4cca323fa295bf3de80e0b879d8e44efcf4d3b0f48"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@715ea64a (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b755d45af8d08ae6c75c531b87a02a24eca2e468c0fb753c4e74f70ca8efda5c"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@1cbb394b (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ad1e0bae58ef89493b3a5cb882f5decdf26f3c7e32cf23d9dd3b0fa988806ac7"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@1b4bc7b9 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "508874b4b2318d12f4f96ba598a1aafff6e429dc1a7a9296f80c37657c2c0a55"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@12d33d7a (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4c63c603a364e73b26160b2debe11e7a9db1808f2628fd052127bfaa4d84c583"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@16bbb59c (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1fffe526fead5ff8c398038584f5567e93ac20a5c5dfb442e129d9698c0af559"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@538fb761 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "56e4d067e7e92faeac439528096b70ed4d95062774ff48f443319ca925e37ed5"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@163cd4a6 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "58935deacd68f2166f5b333b4bac42fa62d31b9b9395f29028a92ee889527915"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@1d0f03f6 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "058d06835e1017ea0cadf4cefa96d5b604300faa3a9c8cfcbd6b5f3e89a424ec"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@5653429e (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "edefe2bf14ad55ba42f6c09bd1873d44552b26bc688564d847421dc11e6ddcc3"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@78c9c38a (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3bb823150f82ea13fb41994bf751ebcea09e4497d935bb1cd594cd26d6d36037"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@8a0a1d1 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "03f7bf4cb3f3b0f604825cd7c9b7c8638acf22c398375bb174f0f30fc005abf2"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@6dd50380 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4f93edc13a92524ccf726e594d549c2185cc14a76f142de4deafb4324b06c5f7"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@215efb16 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "419088f6f1567b3a15cbd2065ff6bb14222df79b3e2f31933c8d9fcf873134c4"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@173da924 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "63988df9564801b73f800a13d38d354ff27ccbc6eaeb3f79f7c3752d22a1455a"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@1a9e2c3b (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "01fc0120d894cee29df5d7c51bee96796161bc5f200feb8c4dc9ac1c6dfee84b"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@5f92e5eb (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dd22bb5c4b6ede7f25eafd13ceadfb2db17fac45dca602521f346a1ac2df205c"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@9423344 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "31613914b71bc1ebb81c65191909d7bb71965cd8b116552ae1968447aeec4026"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@73ccdfc1 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f5cdf2c16de7a4bef4089d31bf935d5278378feffbe94c3eba3ebb544e4d6158"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@18d8da77 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "add41f7c346bdc6db7c56c8236a200495ac195d8919d535308ed347c32335ab7"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@502dc93a (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "52473000e50f37b4766b94bff558ebade1fa6562ea7584fece76d6ba27185f32"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@486d1868 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "075d0a63e00caa72f496cc59fcbff30942dddcb889ee9c12ab5a2ac67a89a464"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@5d4af473 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f0d5ae647a7c713e88e02cd9f17219fa84398cdbec05dabe38ae08ae39e403d9"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@31f96cf (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "267134103d599fbe072cc310e291729e546fe5960b09f8a23e22fd3c5bb6ddfb"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@3dc5eb8f (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2c52bfcae069649ce5f247c195176bb19910c46718af18e9516d36373d542f53"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@1d4b0a07 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "af4ed77cd6f0bedb7743525f2620f5aef1377a577a40562d899ded999e829bfa"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@17a89cb1 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "99bebffd6768ed3df72fa4e0383aeb9d71a00484a73c943769a7803c0c76bd83"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@68fec965 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d159fd78010ff9d35bc32a493cbda9223cfe9dd4d1e922a6441e25d92d7f5cbc"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@7af5ce66 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "94d399a0a2dc7f06f88d1b3bad30fdfc2a983235ad46a253c2cc42d2273e9788"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@3f2bf80d (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "831f4d5b8e9ae3a2a5148e909cd1911bf3d9d953ad5e6ab33631d949f2136380"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@6cb5a64d (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bc1a5a1fc0d2cb46ddd5a467f7e0fbb7283f10da846e352091810a60e66a2b52"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@729eef5f (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "209acc0168c0be6529e29c831cbaf8f1a2e2f85059d44c4d9fc1bfe1b20f6051"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@264c9994 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ac99f401e4cde01adb5accd9a6780076e24c80a0d39e04edef36f442e7bcf47f"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@46c7e6c0 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8e5989e5fb3f72f843b7f2b0c5f22dcf34ae3df8029fcb88a0c09630c9ef5cdd"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@701a79b (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "913852a30b9defb58718bb975c1aff000451d910d7048f4890ddc402390470e1"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@2605433 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ac2b2da9a654ec7f02c23f1bbf19a94fb3fc6df1f49ce0d8a8713c39f8865599"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@40a2fdd2 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0e6428bc4d81aa17e5d6a864ba06c23d2d2a2e2d578406c5d9f3d592e300e4d3"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@392af2e0 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "766c6748a725729740fb4d3a80f2b2f6c3ffbbca04f9b619ed459911bec855e0"
+                }, 
+                "message": "Missing mandatory feature(s) [bitSize] for object com.bmw.symphony.sym10.impl.EnumImplementationImpl@331da721 (ident: null, versionInfo: null, trace: []) (initial: null, invalid: null) (baseType: SINT32, bitSize: null) (literalMask: []).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }
+        ]
+    }
+]

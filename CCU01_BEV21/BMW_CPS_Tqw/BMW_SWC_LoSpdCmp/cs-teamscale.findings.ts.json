@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_LoSpdCmp/CCU01BEV21BMW/BMW_SWC_LoSpdCmp.c", 
+        "findings": [
+            {
+                "startLine": "8377", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "eeaf284a9b7ba583451c7478a84f26adc65e528741761f0aa9b279c53a7c1599"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Reliability][8377] Ignored Return Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.FUNCS.IRV"
+            }, 
+            {
+                "startLine": "9351", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "144c702bc70784dcd0302d580cee88fd267179439cb23e39d7e56726a77e91ea"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Reliability][9351] Ignored Return Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.FUNCS.IRV"
+            }, 
+            {
+                "startLine": "8325", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "735054a9bf5c8addad2387f8e0f4af42e8247d7a2bda0c82c714d9e9bf8cfe27"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Reliability][8325] Ignored Return Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.FUNCS.IRV"
+            }
+        ]
+    }
+]

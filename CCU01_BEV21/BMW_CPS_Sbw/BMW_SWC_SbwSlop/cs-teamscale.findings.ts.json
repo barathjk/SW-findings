@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_SbwSlop/CCU01BEV21BMW/BMW_SWC_SbwSlop.c", 
+        "findings": [
+            {
+                "startLine": "258", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "accaa7b4bef8af6ebe6243d3aa385b035d074deea6d41b92d1841270ebeb28f6"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][258] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }
+        ]
+    }
+]

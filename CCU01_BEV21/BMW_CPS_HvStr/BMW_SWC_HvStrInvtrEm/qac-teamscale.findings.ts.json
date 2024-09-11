@@ -1,0 +1,44 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvStrInvtrEm/CCU01BEV21BMW/BMW_SWC_HvStrInvtrEm.c", 
+        "findings": [
+            {
+                "startLine": "2765", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2765:8] 'rtb_MinMax' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "2812", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "48f4992df38a55156a191fbd4efaa7bca366076690c2cfbb177bbb0e319271c2"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2812:15] Variable 'rtb_MinMax' previously seen here. (Specimen value: '7').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3171", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "34ee6865978c0b2e34740dcba1c86f1fe3727ee5fdf8c192e4c3dafff50f8811"
+                }, 
+                "justification": "", 
+                "message": "[3171:54] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvStrInvtrEm/CCU01BEV21BMW/BMW_SWC_HvStrInvtrEm_data.c", 
+        "findings": []
+    }
+]

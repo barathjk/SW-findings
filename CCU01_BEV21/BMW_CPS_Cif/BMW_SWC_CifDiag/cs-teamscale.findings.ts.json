@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/BMW_SWC_CifDiag.c", 
+        "findings": [
+            {
+                "startLine": "493", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6bb438ad882e4b7705e4b76a1a2dc5f832c8d255bd118c90918958c07692ea4f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][493] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }
+        ]
+    }
+]

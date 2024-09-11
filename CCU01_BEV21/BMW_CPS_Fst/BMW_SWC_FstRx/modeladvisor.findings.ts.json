@@ -1,0 +1,482 @@
+[
+    {
+        "path": "SVN_BMW_SWC_FstRx/Model/LIB_BMW_MOD_FstRxMpp.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem FstWhileLoopFindMPP. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/FstWhileLoopFindMPP/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment2 was found in subsystem FstWhileLoopFindMPP. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/FstWhileLoopFindMPP/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment1 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment10 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment11 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment11", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment12 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment12", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment2 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment3 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment4 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment5 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment6 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment7 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment8 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment9 was found in subsystem Generate_MPP_Data. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMpp/BMW_MOD_FstRxMpp/MPP_generation/generate_new_mpp/Generate_MPP_Data/Assignment9", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_FstRx/Model/LIB_BMW_MOD_FstRxSpdLim.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim1/Product1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim1/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim2/Product1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim2/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim1/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim1/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim1/Product3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product4 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim1/Product4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim2/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim2/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim2/Product3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product4 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim2/Product4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem While_Schleife_SpdLim1. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim1/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem While_Schleife_SpdLim2. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxSpdLim/BMW_MOD_FstRxSpdLim/Fst_Search_Speedlimit/While_Schleife_SpdLim2/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_FstRx/Model/LIB_BMW_MOD_FstRxVirtCurv.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem While_Schleife_Virt_Curve_search. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxVirtCurv/BMW_MOD_FstRxVirtCurv/Fst_Search_Virtual_Curve/virtuelle_Kurve_2.0/While_Schleife_Virt_Curve_search/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_FstRx/Model/LIB_BMW_MOD_FstRxOut.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment1 was found in subsystem Extracted_properties. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxOut/BMW_MOD_FstRxOut/MPP_info/Iterator_Subsystem/Extracted_properties/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment2 was found in subsystem Extracted_properties. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxOut/BMW_MOD_FstRxOut/MPP_info/Iterator_Subsystem/Extracted_properties/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment3 was found in subsystem Extracted_properties. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxOut/BMW_MOD_FstRxOut/MPP_info/Iterator_Subsystem/Extracted_properties/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment4 was found in subsystem Extracted_properties. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxOut/BMW_MOD_FstRxOut/MPP_info/Iterator_Subsystem/Extracted_properties/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment5 was found in subsystem Extracted_properties. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxOut/BMW_MOD_FstRxOut/MPP_info/Iterator_Subsystem/Extracted_properties/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment1 was found in subsystem Speed_and_cause. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxOut/BMW_MOD_FstRxOut/MPP_info/Iterator_Subsystem/Speed_and_cause/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment2 was found in subsystem Speed_and_cause. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxOut/BMW_MOD_FstRxOut/MPP_info/Iterator_Subsystem/Speed_and_cause/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment2 was found in subsystem Posttreatment_slope_non_available_old. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxOut/BMW_MOD_FstRxOut/MPP_info/Steigungsinterpolation_alt/Posttreatment_slope_non_available_old/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment3 was found in subsystem Assign_new_slope. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxOut/BMW_MOD_FstRxOut/MPP_info/Steigungsinterpolation_neu/Posttreatment_slope_non_available_new/Assign_new_slope/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment3 was found in subsystem Final_processing_slopes_na. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive. A protection mecanism with saturate was already added to prevent this error.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxOut/BMW_MOD_FstRxOut/MPP_info/Steigungsinterpolation_neu/Posttreatment_slope_non_available_new/Final_processing_slopes_na/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_FstRx/Model/LIB_BMW_MOD_FstRxMtch.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMtch/BMW_MOD_FstRxMtch/MatchPosition/Product3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMtch/BMW_MOD_FstRxMtch/MatchPosition/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstRxMtch/BMW_MOD_FstRxMtch/MatchPosition/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_FstRx/Model/LIB_BMW_MOD_FstLoc_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstLoc_100ms/BMW_MOD_FstLoc_100ms/evaluateLocationData/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstLoc_100ms/BMW_MOD_FstLoc_100ms/evaluateLocationData/Product1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Required by vehicle testing</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FstLoc_100ms/BMW_MOD_FstLoc_100ms/evaluateLocationData/Product3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

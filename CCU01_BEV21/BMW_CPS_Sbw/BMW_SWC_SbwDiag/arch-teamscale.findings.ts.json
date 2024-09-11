@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_SbwDiag/CCU01BEV21BMW/BMW_SWC_SbwDiag.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2221059f072063ad321f0147f74271665fbbf09c9b4c8aa9561f509cc2d6fb4c"
+                }, 
+                "message": "No implementation for diagnostic service AutomatischeParksperre_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4ff4e74cf97fec207542302d4e5136d180efb5e7cb6d866f3b806a0f6f91a732"
+                }, 
+                "message": "No implementation for diagnostic service Fahrstufe_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "55cf99b4a2d1b8e2aa4a66f4fc1907301152010054af032060095e422ec316c5"
+                }, 
+                "message": "No implementation for diagnostic service CounterSbw_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }
+]

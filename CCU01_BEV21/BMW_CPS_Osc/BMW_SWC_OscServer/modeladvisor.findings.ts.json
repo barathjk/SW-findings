@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_OscServer/Model/LIB_BMW_MOD_GngWriteServer.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The output signal BMW_req_Gng_rc has the variant condition BMW_SP2018_SC_NEQ_1 in ADD but is used outside of a Variant in the process block BMW_MOD_GngWriteServer. This might lead to wrong code. <br/> <mark><em>[Whitelisted] adding a variant subsystem fails the code generation</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_GngWriteServer/BMW_MOD_GngWriteServer", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

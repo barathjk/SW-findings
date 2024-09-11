@@ -1,0 +1,7 @@
+---
+- name: publish
+  hosts: all
+  pre_tasks:
+    - name: Publish Artifacts
+      debug:
+        msg: "Artifacts successfully uploaded!"

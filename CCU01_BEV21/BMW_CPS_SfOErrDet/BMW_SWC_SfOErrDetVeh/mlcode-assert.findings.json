@@ -1,0 +1,145 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfOErrDetVeh/Model/LIB_BMW_MOD_SfOErrDetVehAcceAct_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfOErrDetVeh/BMW_MOD_SfOErrDetVehAcceAct_10ms/BMW_MOD_SfOErrDetVehAcceAct_10ms/Diagnose_Acce_ohne_Haftungsabriss/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetVehAcceAct_10ms/BMW_MOD_SfOErrDetVehAcceAct_10ms/Diagnose_Acce_ohne_Haftungsabriss/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfOErrDetVeh/BMW_MOD_SfOErrDetVehAcceAct_10ms/BMW_MOD_SfOErrDetVehAcceAct_10ms/Diagnose_Fahren_ASiKo/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetVehAcceAct_10ms/BMW_MOD_SfOErrDetVehAcceAct_10ms/Diagnose_Fahren_ASiKo/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfOErrDetVeh/BMW_MOD_SfOErrDetVehAcceAct_10ms/BMW_MOD_SfOErrDetVehAcceAct_10ms/Diagnose_Fahren_Ist_MdSiKo/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetVehAcceAct_10ms/BMW_MOD_SfOErrDetVehAcceAct_10ms/Diagnose_Fahren_Ist_MdSiKo/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfOErrDetVeh/BMW_MOD_SfOErrDetVehAcceAct_10ms/BMW_MOD_SfOErrDetVehAcceAct_10ms/Diagnose_Neutral/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetVehAcceAct_10ms/BMW_MOD_SfOErrDetVehAcceAct_10ms/Diagnose_Neutral/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfOErrDetVeh/BMW_MOD_SfOErrDetVehAcceAct_10ms/BMW_MOD_SfOErrDetVehAcceAct_10ms/Diagnose_Parken/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetVehAcceAct_10ms/BMW_MOD_SfOErrDetVehAcceAct_10ms/Diagnose_Parken/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SfOErrDetVeh/Model/LIB_BMW_MOD_SfOErrDetVehDecn_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfOErrDetVeh/BMW_MOD_SfOErrDetVehDecn_10ms/BMW_MOD_SfOErrDetVehDecn_10ms/BerechnungDiagundMotGenLim/IntegralTopfUndStatusDiag/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetVehDecn_10ms/BMW_MOD_SfOErrDetVehDecn_10ms/BerechnungDiagundMotGenLim/IntegralTopfUndStatusDiag/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SfOErrDetVeh/Model/LIB_BMW_MOD_SfOErrDetVehCrpAct_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfOErrDetVeh/BMW_MOD_SfOErrDetVehCrpAct_10ms/BMW_MOD_SfOErrDetVehCrpAct_10ms/BerechnungDiagundLimCreep/CreepIstMoment_IntegralTopfUndStatusDiag/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetVehCrpAct_10ms/BMW_MOD_SfOErrDetVehCrpAct_10ms/BerechnungDiagundLimCreep/CreepIstMoment_IntegralTopfUndStatusDiag/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfOErrDetVeh/BMW_MOD_SfOErrDetVehCrpAct_10ms/BMW_MOD_SfOErrDetVehCrpAct_10ms/BerechnungDiagundLimVollastJerk/JerkIstMoment_IntegralTopfUndStatusDiag_Volllastfehler/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetVehCrpAct_10ms/BMW_MOD_SfOErrDetVehCrpAct_10ms/BerechnungDiagundLimVollastJerk/JerkIstMoment_IntegralTopfUndStatusDiag_Volllastfehler/Integrator_ASAM/integrate/Integrator_ASAM_ext/BACE_Check_DataTypeRange/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_RngDisp/Model/LIB_BMW_MOD_RngDispEd_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWrng_t_HvsCellCoreAct has the variant condition BMW_PT_TOP_EL_SC_EQU_0 in ADD but is used within a variant condition not_BMW_PT_TOP_EL_SC_EQU_1 in process blockBMW_MOD_RngDispEd_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_RngDispEd_100ms/BMW_MOD_RngDispEd_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

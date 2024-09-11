@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_EtpmPPWshED/CCU01BEV21BMW/BMW_SWC_EtpmPPWshED.c", 
+        "findings": [
+            {
+                "startLine": "233", 
+                "whitelisted": "duplicate_uniqueID", 
+                "findingProperties": {
+                    "uniqueId": "3d22d5c3d3e5dcbbfba47f6d87e6cc3548e6a9876ccbe3480f35fc3d771ab6e1"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][233] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }
+        ]
+    }
+]

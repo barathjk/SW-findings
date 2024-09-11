@@ -1,0 +1,23 @@
+[
+    {
+        "path": "SVN_BMW_SWC_PrcIn/Model/LIB_BMW_MOD_PrcIn_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter Value of 'BMW_SWC_PrcIn/BMW_MOD_PrcIn_10ms/BMW_MOD_PrcIn_10ms/recordPlausibility/SignalProcessing_BMW_dst_Milg_rc/Replacement/ReplacementValue1' is being cast from a data type of 'uint32' to the signal data type 'single'. Possible loss of precision\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_PrcIn_10ms/BMW_MOD_PrcIn_10ms/recordPlausibility/SignalProcessing_BMW_dst_Milg_rc/Replacement/ReplacementValue1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "path": "ART_BMW_SWC_RngNvBlock/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "86df4c9809173a529ec7e6f4c8fd9cb3b88b48f8d5d953a7cb06a30020195e82"
+                }, 
+                "message": "Physical Unit (watt_hour_per_kilometer) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=3600.0], [numeratorOfFactor:  this=0.2777777777777778, reference=1000.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2fd70d2cbbb070274c2b8d0bb6ea6dd2f7ee6c35fd785f7b9a14308f208b5a81"
+                }, 
+                "message": "Physical Unit (kilometer) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=1000.0], [numeratorOfFactor:  this=0.001, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2e2288f947cb01e094a6e042a3db98632c71f3077ac7946fb540badf4ed87d44"
+                }, 
+                "message": "Physical Unit (kilowatt) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=1000.0], [numeratorOfFactor:  this=0.001, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ff25c63e6492c0495ce345f9e344afd0fc2e90bc9c93a33dc22e528e776b7e7c"
+                }, 
+                "message": "Physical Unit (kilometer_per_hour) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=1000.0], [numeratorOfFactor:  this=3.6, reference=3600.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "45d2ebfaf1a8cd46008122cf3f6fc5aa84f1879a114d4eb7d0bd471275f5145e"
+                }, 
+                "message": "Missing mandatory feature(s) [type] for object com.bmw.symphony.sym10.impl.TagImpl@2210af14 (ident: null, versionInfo: null, trace: []) (name: NVM_SERVICE_PORT).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }
+        ]
+    }
+]

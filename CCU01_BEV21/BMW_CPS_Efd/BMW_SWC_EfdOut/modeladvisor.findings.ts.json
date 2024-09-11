@@ -1,0 +1,27 @@
+[
+    {
+        "path": "SVN_BMW_SWC_EfdOut/Model/LIB_BMW_MOD_EfdOut_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method nearest necassary for accurate result</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EfdOut_100ms/BMW_MOD_EfdOut_100ms/NotAutomated/Subsystem/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method nearest necassary for accurate result</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EfdOut_100ms/BMW_MOD_EfdOut_100ms/NotAutomated/Subsystem/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

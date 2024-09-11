@@ -1,0 +1,237 @@
+[
+    {
+        "path": "SVN_BMW_SWC_Abk_Tqc/Model/LIB_BMW_MOD_AbkTqcEcoTip_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWosd_pct_SftyAccrPlau has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1 in ADD but is used within a variant condition BMW_SP2018_SC_EQU_1 in process blockBMW_MOD_AbkTqcEcoTip_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive - bertrag aus vorheriger Whitelist (nicht erneut geprft)</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal Eda_po_pwr_drv has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1 in ADD but is used within a variant condition BMW_SP2018_SC_EQU_1 in process blockBMW_MOD_AbkTqcEcoTip_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive - bertrag aus vorheriger Whitelist (nicht erneut geprft)</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The output signal BMWosd_b_eda_eco_pwg has the variant condition BMW_SP2018_SC_EQU_1 in ADD but is used within a variant condition not_BMW_SP2018_SC_EQU_1 in process blockBMW_MOD_AbkTqcEcoTip_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive - bertrag aus vorheriger Whitelist (nicht erneut geprft)</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The parameter K_EDA_EcoTipp_Lowpass_IV has the variant condition BMW_SP2018_SC_EQU_1 in ADD and is used in a nested subsystem pattern in the process block BMW_MOD_AbkTqcEcoTip_10ms. This condition cannot be checked automatically and must be done manually. <br/> <mark><em>[Whitelisted] false positive - bertrag aus vorheriger Whitelist (nicht erneut geprft)</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The parameter K_EDA_EcoTipp_Lowpass_K has the variant condition BMW_SP2018_SC_EQU_1 in ADD and is used in a nested subsystem pattern in the process block BMW_MOD_AbkTqcEcoTip_10ms. This condition cannot be checked automatically and must be done manually. <br/> <mark><em>[Whitelisted] false positive - bertrag aus vorheriger Whitelist (nicht erneut geprft)</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The parameter S_EDA_ECOIN has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_AND_BMW_SP2018_SC_EQU_1 in ADD and is used in a nested subsystem pattern in the process block BMW_MOD_AbkTqcEcoTip_10ms. This condition cannot be checked automatically and must be done manually. <br/> <mark><em>[Whitelisted] false positive - bertrag aus vorheriger Whitelist (nicht erneut geprft)</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_Abk_Tqc/Model/LIB_BMW_MOD_AbkTqcPmAvail_20ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion is not recommended. <br/> <mark><em>[Whitelisted] Bentigt fr Bearbeitung Signal (Vergleich mit uin16 und nicht mit uint8).</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms/PM_Avail/Koordination_eDrive_VM_Notlauf/Notlauf/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWosd_fac_TqEngLimdEmi has the variant condition BMW_PT_TOP_EL_SC_EQU_0_AND_SY_DDE_EQU_0 in ADD but is used within a variant condition Var_Abk_Tqc_Otto in process blockBMW_MOD_AbkTqcPmAvail_20ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWosd_opm_Cth has the variant condition BMW_PT_TOP_EL_SC_EQU_0_AND_SY_DDE_EQU_0 in ADD but is used within a variant condition Var_Abk_Tqc_Otto in process blockBMW_MOD_AbkTqcPmAvail_20ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWosd_n_EmiMaxMdl has the variant condition BMW_PT_TOP_EL_SC_EQU_0_AND_SY_DDE_EQU_0 in ADD but is used within a variant condition Var_Abk_Tqc_Otto in process blockBMW_MOD_AbkTqcPmAvail_20ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWosd_st_EngStrtPrevnLsu has the variant condition BMW_PT_TOP_EL_SC_EQU_0_AND_SY_DDE_EQU_0 in ADD but is used within a variant condition Var_Abk_Tqc_Otto in process blockBMW_MOD_AbkTqcPmAvail_20ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The parameter BMWosd_n_EmiMaxMdlRef has the variant condition BMW_PT_TOP_EL_SC_EQU_0_AND_SY_DDE_EQU_0 in ADD but is used within a variant condition Var_Abk_Tqc_Otto in process blockBMW_MOD_AbkTqcPmAvail_20ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The parameter S_OSD1481_Sprint2139 has the variant condition BMW_PT_TOP_EL_SC_EQU_0_AND_SY_DDE_EQU_0 in ADD but is used within a variant condition Var_Abk_Tqc_Otto in process blockBMW_MOD_AbkTqcPmAvail_20ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The parameter S_OSD1540_Sprint2147 has the variant condition BMW_PT_TOP_EL_SC_EQU_0_AND_SY_DDE_EQU_0 in ADD but is used within a variant condition Var_Abk_Tqc_Otto in process blockBMW_MOD_AbkTqcPmAvail_20ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_Abk_Tqc/Model/LIB_BMW_MOD_AbkTqcPmDisp_20ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Fr korrekte Berechnung bentigt</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmDisp_20ms/BMW_MOD_AbkTqcPmDisp_20ms/PM_Disp/Signalaufbereitung_fuer_Kombi/Product", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Fr korrekte Berechnung bentigt</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmDisp_20ms/BMW_MOD_AbkTqcPmDisp_20ms/PM_Disp/Signalaufbereitung_fuer_Kombi/Product3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Fr korrekte Berechnung bentigt</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmDisp_20ms/BMW_MOD_AbkTqcPmDisp_20ms/PM_Disp/Signalaufbereitung_fuer_Kombi/Product1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Fr korrekte Berechnung bentigt</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmDisp_20ms/BMW_MOD_AbkTqcPmDisp_20ms/PM_Disp/Signalaufbereitung_fuer_Kombi/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The local signal F_effanz_skal_alt_NoFullHy has the variant condition BMW_PT_TOP_FULLHY_SC_EQU_0 in ADD but is used within a variant condition not_BMW_PT_TOP_FULLHY_SC_EQU_1 in process blockBMW_MOD_AbkTqcPmDisp_20ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmDisp_20ms/BMW_MOD_AbkTqcPmDisp_20ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWosd_b_MaxEfftSp has the variant condition BMW_PT_TOP_FULLHY_SC_NEQ_1 in ADD but is used within a variant condition not_BMW_PT_TOP_FULLHY_SC_EQU_1 in process blockBMW_MOD_AbkTqcPmDisp_20ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmDisp_20ms/BMW_MOD_AbkTqcPmDisp_20ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWosd_fac_BndMaxEfftReal has the variant condition BMW_PT_TOP_FULLHY_SC_NEQ_1 in ADD but is used within a variant condition not_BMW_PT_TOP_FULLHY_SC_EQU_1 in process blockBMW_MOD_AbkTqcPmDisp_20ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmDisp_20ms/BMW_MOD_AbkTqcPmDisp_20ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The parameter S_OSD2307_Sprint2231 has the variant condition BMW_PT_TOP_FULLHY_SC_NEQ_1 in ADD but is used within a variant condition Var_Abk_Tqc_BEV, not_BMW_PT_TOP_FULLHY_SC_EQU_1 in process blockBMW_MOD_AbkTqcPmDisp_20ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmDisp_20ms/BMW_MOD_AbkTqcPmDisp_20ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

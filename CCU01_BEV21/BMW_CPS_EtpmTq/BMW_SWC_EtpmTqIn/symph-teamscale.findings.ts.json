@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_EtpmTqIn/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "664509ad89a1e4adde3638a5442688100b4ac2c0a785c17abeb86f2e2b73b9a7"
+                }, 
+                "message": "Physical Unit (kilowatt_hour) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=3600000.0], [numeratorOfFactor:  this=2.7777777777777776E-7, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "af4d3e574c4b3c621277f951dbb8f9de590f88427838e5ff6325c094847e07a9"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWetpmt_s_EnaSwiSigpEMsEM?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }
+        ]
+    }
+]

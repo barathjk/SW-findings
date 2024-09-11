@@ -1,0 +1,74 @@
+[
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMWsfdgrdi_st_SftyDrvgRdy_rc_BMWsfdgrdi_st_SftVC5BUJ", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_st_SftyDrvgRdy_rc_BMW_st_SftyDrvgRdy_rc", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvIn_ppBMWsfdgrdi_st_DrvgRdyPt_BMWsfdgrdi_st_DrvgRdyPt", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvIn_ppBMWsfdgrdi_st_SftyDrvgRdy_rc_BMWsfdgrdi_st_SftyDrvgRdy_rc", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvIn_BMWsfdgrdi_id_nr_VerChgIn", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvIn/BMW_MOD_SfStDrvgRdiDrvIn_10ms", 
+        "assessment": {
+            "YELLOW": "82"
+        }, 
+        "count": "82"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvIn/BMW_SWC_SfStDrvgRdiDrvIn_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvIn/BMWsfdgrdi_swi_DrvgRdyPt_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvIn/BMWsfdgrdi_st_DrvgRdyPt_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }
+]

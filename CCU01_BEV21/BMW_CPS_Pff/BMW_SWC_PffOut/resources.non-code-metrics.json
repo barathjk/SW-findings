@@ -1,0 +1,210 @@
+[
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_rc_ChaDest_rc_BMW_rc_ChaDest_rc", 
+        "assessment": {
+            "YELLOW": "5"
+        }, 
+        "count": "5"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_req_NoiseEmiLim_rc_BMW_req_NoiseEmiLim_rc", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_st_AvlTm_rc_BMW_st_AvlTm_rc", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_PffOut_rpBMW_PT_TOP_48V_C_BMW_PT_TOP_48V_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_PffOut_rpBMW_PT_TOP_FULLHY_C_BMW_PT_TOP_FULLHY_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_mod_RecuSp_BMW_mod_RecuSp", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_rc_ChaDest_rc_BMW_rc_ChaDest_rc", 
+        "assessment": {
+            "YELLOW": "5"
+        }, 
+        "count": "5"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_req_EmLossLim_BMW_req_EmLossLim", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_req_HvsHtrLim_BMW_req_HvsHtrLim", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_st_RlsPrdnCoHvs_BMW_st_RlsPrdnCoHvs", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMWosc_tqw_TarCnctRecu_sw_BMWosc_tqw_TarCnctRecu_sw", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMWosd_st_DispCoaRecuAssc_BMWosd_st_DispCoaRecuAssc", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_req_NoiseEmiLim_rc_BMW_req_NoiseEmiLim_rc", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_st_AvlTm_rc_BMW_st_AvlTm_rc", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_st_CatgPrdnCoHvsStrs_BMW_st_CatgPrdnCoHvsStrs", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_st_CcmAdpRecuBliCam_BMW_st_CcmAdpRecuBliCam", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_st_CcmAdpRecuBliSnsrClst_BMW_st_CcmAdpRecuBliSnsrClst", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_st_CcmAdpRecuSnsrFlr_BMW_st_CcmAdpRecuSnsrFlr", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_st_ChaDCBom_BMW_st_ChaDCBom", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PffOut_ppBMW_st_PrdnReqDgraOff_BMW_st_PrdnReqDgraOff", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_PffOut/BMW_MOD_PffOutPlug_swini", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_PffOut/BMW_MOD_PffOutRename_100ms", 
+        "assessment": {
+            "YELLOW": "72"
+        }, 
+        "count": "72"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_PffOut/BMW_MOD_PffOutRename_10ms", 
+        "assessment": {
+            "YELLOW": "74"
+        }, 
+        "count": "74"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_PffOut/BMW_MOD_PffOut_100ms", 
+        "assessment": {
+            "YELLOW": "144"
+        }, 
+        "count": "144"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_PffOut/BMW_SWC_PffOut_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_PffOut/BMW_SWC_PffOut_B", 
+        "assessment": {
+            "YELLOW": "11"
+        }, 
+        "count": "11"
+    }
+]

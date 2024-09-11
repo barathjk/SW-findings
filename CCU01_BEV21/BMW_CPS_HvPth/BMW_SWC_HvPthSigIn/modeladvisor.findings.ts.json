@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvPthSigIn/Model/LIB_BMW_SWC_HvPthSigIn.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] NumericType Def_q1_o48__uint8 uses a slope-and-bias fixed point data type with a bias unequal to 0. <br/> <mark><em>[Whitelisted] Conversion of the Interface is defined by Architecture (EAARCH-17453). Internally mapped to a float signal, which can take the range and conversion. Code review done -> Conversion seems to be correct</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_HvPthSigIn/BMW_SWC_HvPthSigIn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0053"
+            }
+        ]
+    }
+]

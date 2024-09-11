@@ -1,0 +1,97 @@
+[
+    {
+        "path": "SVN_BMW_SWC_CifIn/Model/LIB_BMW_MOD_CifIn_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] expected behavior</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifIn_10ms/BMW_MOD_CifIn_10ms/DC charging generic/RoundingMethod/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] expected behavior</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifIn_10ms/BMW_MOD_CifIn_10ms/DC charging generic/RoundingMethod/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion2 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] expected behavior</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifIn_10ms/BMW_MOD_CifIn_10ms/DC charging generic/RoundingMethod/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] expected behavior</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifIn_10ms/BMW_MOD_CifIn_10ms/DC charging generic/RoundingMethod1/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] expected behavior</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifIn_10ms/BMW_MOD_CifIn_10ms/DC charging generic/RoundingMethod1/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion2 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] expected behavior</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifIn_10ms/BMW_MOD_CifIn_10ms/DC charging generic/RoundingMethod1/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWcif_st_StGbxGearAct_ub seems to be wrongly connected to the outport BMWsfsbw_st_ActDrpNv_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifIn_10ms/BMW_MOD_CifIn_10ms/Generic/External factors for locking/VariantBEVandPHEVGearStatus/BMWcif_st_StGbxGearAct_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of Out and the signal BMWcif_rc_Cj1MsgCCP_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] Signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifIn_10ms/BMW_MOD_CifIn_10ms/ChaoJ1/Manipulation Swtich/Out", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of Out and the signal BMWcif_rc_Cj1MsgCDO_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] Signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifIn_10ms/BMW_MOD_CifIn_10ms/ChaoJ1/Manipulation Swtich1/Out", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

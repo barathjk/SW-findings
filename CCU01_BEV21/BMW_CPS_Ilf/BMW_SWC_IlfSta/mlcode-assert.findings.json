@@ -1,0 +1,71 @@
+[
+    {
+        "path": "SVN_BMW_SWC_IlfSta/Model/LIB_BMW_MOD_IlfSta_StaMa_200ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_IlfSta/BMW_MOD_IlfSta_StaMa_200ms/BMW_MOD_IlfSta_StaMa_200ms/Berechnung des Luefterzustandautomates/Aktiv/Compare To Constant/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfSta_StaMa_200ms/BMW_MOD_IlfSta_StaMa_200ms/Berechnung des Luefterzustandautomates/Aktiv/Compare To Constant/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_IlfSta/BMW_MOD_IlfSta_StaMa_200ms/BMW_MOD_IlfSta_StaMa_200ms/Berechnung des Luefterzustandautomates/AuswertungRelaisAbschalten/st_CtlFanNorm_stubbed_TRUE_by_eTMC/Compare To Constant/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfSta_StaMa_200ms/BMW_MOD_IlfSta_StaMa_200ms/Berechnung des Luefterzustandautomates/AuswertungRelaisAbschalten/st_CtlFanNorm_stubbed_TRUE_by_eTMC/Compare To Constant/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_IlfSta/BMW_MOD_IlfSta_StaMa_200ms/BMW_MOD_IlfSta_StaMa_200ms/Berechnung des Luefterzustandautomates/Load-Supply-Disabled/Compare To Constant/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfSta_StaMa_200ms/BMW_MOD_IlfSta_StaMa_200ms/Berechnung des Luefterzustandautomates/Load-Supply-Disabled/Compare To Constant/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_IlfSta/BMW_MOD_IlfSta_StaMa_200ms/BMW_MOD_IlfSta_StaMa_200ms/Berechnung des Luefterzustandautomates/Stand-By/Compare To Constant/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfSta_StaMa_200ms/BMW_MOD_IlfSta_StaMa_200ms/Berechnung des Luefterzustandautomates/Stand-By/Compare To Constant/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

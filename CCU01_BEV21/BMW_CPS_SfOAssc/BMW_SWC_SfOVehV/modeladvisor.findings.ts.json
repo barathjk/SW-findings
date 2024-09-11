@@ -1,0 +1,37 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfOVehV/Model/LIB_BMW_MOD_SfOVehV_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Output signal BMWsfoassc_a_SftyVehVad_rc of process block BMW_MOD_SfOVehV_10ms also resolves to a signal object at Outport BMWsfoassc_a_SftyVehVad_rc, which is not allowed. <br/> <mark><em>[Whitelisted] i.O</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOVehV_10ms/BMW_MOD_SfOVehV_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0108"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWsfoassc_fac_SftySlAxlPri_qi and the signal BMW_st_SftyStSig_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOVehV_10ms/BMW_MOD_SfOVehV_10ms/Schlupferkennung/BMWsfoassc_fac_SftySlAxlPri_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWsfoassc_fac_SftySlAxlSec_qi and the signal BMW_st_SftyStSig_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOVehV_10ms/BMW_MOD_SfOVehV_10ms/Schlupferkennung/BMWsfoassc_fac_SftySlAxlSec_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

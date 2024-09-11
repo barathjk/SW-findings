@@ -1,0 +1,82 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SbwDiag/Model/LIB_BMW_MOD_SbwDiagEnvCdn_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion block is needed in this case. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwDiagEnvCdn_10ms/BMW_MOD_SbwDiagEnvCdn_10ms/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SbwDiag/Model/LIB_AutomatischeParksperre_WriteData.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The callback CopyFcn of Outport BMWsbw_st_DiagAutDrppDeac should be bace.blockset.maskfunctions.fcnUpdateOutportAnnotation(gcbh); but is empty. <br/> <mark><em>[Whitelisted] The callback is OK. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_AutomatischeParksperre_WriteData/AutomatischeParksperre_WriteData/BMWsbw_st_DiagAutDrppDeac", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0104"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The callback PreSaveFcn of Outport BMWsbw_st_DiagAutDrppDeac should be bace.blockset.maskfunctions.fcnUpdateOutportAnnotation(gcbh); but is empty. <br/> <mark><em>[Whitelisted] The callback is OK. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_AutomatischeParksperre_WriteData/AutomatischeParksperre_WriteData/BMWsbw_st_DiagAutDrppDeac", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0104"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The callback CopyFcn of Outport ErrorCode should be bace.blockset.maskfunctions.fcnUpdateOutportAnnotation(gcbh); but is empty. <br/> <mark><em>[Whitelisted] The callback is OK. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_AutomatischeParksperre_WriteData/AutomatischeParksperre_WriteData/ErrorCode", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0104"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The callback PreSaveFcn of Outport ErrorCode should be bace.blockset.maskfunctions.fcnUpdateOutportAnnotation(gcbh); but is empty. <br/> <mark><em>[Whitelisted] The callback is OK. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_AutomatischeParksperre_WriteData/AutomatischeParksperre_WriteData/ErrorCode", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0104"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The callback CopyFcn of Outport AutomatischeParksperreWrite_ERR should be bace.blockset.maskfunctions.fcnUpdateOutportAnnotation(gcbh); but is empty. <br/> <mark><em>[Whitelisted] The callback is OK. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_AutomatischeParksperre_WriteData/AutomatischeParksperre_WriteData/AutomatischeParksperreWrite_ERR", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0104"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The callback PreSaveFcn of Outport AutomatischeParksperreWrite_ERR should be bace.blockset.maskfunctions.fcnUpdateOutportAnnotation(gcbh); but is empty. <br/> <mark><em>[Whitelisted] The callback is OK. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_AutomatischeParksperre_WriteData/AutomatischeParksperre_WriteData/AutomatischeParksperreWrite_ERR", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0104"
+            }
+        ]
+    }
+]

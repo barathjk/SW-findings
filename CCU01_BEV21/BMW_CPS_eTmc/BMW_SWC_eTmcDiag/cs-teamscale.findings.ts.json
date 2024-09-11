@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_eTmcDiag/CCU01BEV21BMW/BMW_SWC_eTmcDiag.c", 
+        "findings": [
+            {
+                "startLine": "5318", 
+                "whitelisted": "duplicate_uniqueID", 
+                "findingProperties": {
+                    "uniqueId": "90c3efbb2b635b2ea35d058682fc684845fbfa4ceb84b334c38cb2614c8f0e8b"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][5318] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }
+        ]
+    }
+]

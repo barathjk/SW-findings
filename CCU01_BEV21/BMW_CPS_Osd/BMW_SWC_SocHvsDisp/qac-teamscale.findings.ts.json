@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_SocHvsDisp/CCU01BEV21BMW/BMW_SWC_SocHvsDisp.c", 
+        "findings": [
+            {
+                "startLine": "163", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[163:12] 'rtb_Merge1_m' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "901", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3a58d604dd06e6ee68fad3bf2b4481f7a7b87189f8ec25365a3161eeaed2bd00"
+                }, 
+                "justification": "", 
+                "message": "[901:19] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }
+        ]
+    }
+]

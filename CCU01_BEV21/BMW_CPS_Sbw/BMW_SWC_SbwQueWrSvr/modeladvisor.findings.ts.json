@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SbwQueWrSvr/Model/LIB_BMW_MOD_SbwQueWrSvr.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The process block BMW_MOD_SbwQueWrSvr is not a function-called subsystem. <br/> <mark><em>[Whitelisted] Colour change not possible for queued communication</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwQueWrSvr/BMW_MOD_SbwQueWrSvr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0001"
+            }
+        ]
+    }
+]

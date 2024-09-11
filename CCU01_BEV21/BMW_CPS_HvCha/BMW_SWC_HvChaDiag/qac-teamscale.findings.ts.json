@@ -1,0 +1,228 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/BMW_SWC_HvChaDiag.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/BMW_SWC_HvChaDiag_data.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/DcDischargeStatus_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/DcDischarge_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/HvpmLastStateCall_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenAbkAbfahrtszeit_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenAbkAbfahrtszeit_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenAbkAkustikbegrenzung_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenAbkAkustikbegrenzung_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenAbkBatterieschonung_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenAbkBatterieschonung_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenAbkLadeanzeigen_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenAbkLadestrombegrenzungAc_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenAbkLadestrombegrenzungAc_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenAbkLadeziel_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenAbkLadeziel_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenHistorieInitialisierungshistorie_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenHistorieLadehistorie_ReadData.c", 
+        "findings": [
+            {
+                "startLine": "405", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[405:9] 'tmp_0' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "417", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bfda7b28ec809d8a49112ecffc3a826c78e0051f26fb8e3de55f5206604f020b"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[417:10] Variable 'tmp_0' previously seen here. (Specimen value: '127').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "425", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fc779849917b7c5e02fd921b83b581825c0a66c290e2fb29d3d18eaf8836649c"
+                }, 
+                "justification": "", 
+                "message": "[425:17] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenHistorieLeistungshistorie_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenHistorieSteckhistorie_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenZaehlerHistogramme1Loeschen_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenZaehlerHistogramme1_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenZaehlerHistogramme2Loeschen_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/LadenZaehlerHistogramme2_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_1969.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_1971.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_1983.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_1985.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_1996.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2003.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2007.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2009.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2011.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2026.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2036.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2040.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2044.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2052.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2056.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2161.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2258.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2259.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/rt_sys_BMW_SWC_HvChaDiag_2262.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/WerksladeModusBeenden_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/WerksladeModus_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/WerksladeModus_WriteData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/WerksmodusHvsEntladeschutzKlima_ReadData.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/WerksmodusHvsEntladeschutzKlima_WriteData.c", 
+        "findings": []
+    }
+]

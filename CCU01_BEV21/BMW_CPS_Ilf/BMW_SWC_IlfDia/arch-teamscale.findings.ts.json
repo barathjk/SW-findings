@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_IlfDia/CCU01BEV21BMW/BMW_SWC_IlfDia_component.arxml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a90fdee1123a403559e70f11f8ac904a43cbe75e7df87e50656847017aedfd7f"
+                }, 
+                "message": "Found no GetFunctionPermission implementation for diag element FidBmwQlysnsr5vspl which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }
+        ]
+    }
+]

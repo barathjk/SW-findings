@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_SocHvsDisp/CCU01BEV21BMW/BMW_SWC_SocHvsDisp.c", 
+        "findings": [
+            {
+                "startLine": "301", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "11b5fed70edd4f0fb4d146036348db5ec98c5c959bc2630d85aa6bcf9434004e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][301] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "304", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "08464c9b8c967dd27174f2d304c943831b6fbbfad23a76870cd6b1de5fbfa7a9"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][304] Unreachable Data Flow", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "314", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "16ecf371de6a92eeaa49f55afcd79a15040559e3cd398a7677952d5c78f3fbd0"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][314] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }
+        ]
+    }
+]

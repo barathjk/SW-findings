@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_IlfUio/Model/LIB_BMW_MOD_IlfUio_xEVOut_200ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] tolerated as rounding method was chosen to receive the correct value</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfUio_xEVOut_200ms/BMW_MOD_IlfUio_xEVOut_200ms/Topologieabhaengige_Ausgaenge/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

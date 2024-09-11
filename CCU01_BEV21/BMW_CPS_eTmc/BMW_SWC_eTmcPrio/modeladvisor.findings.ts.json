@@ -1,0 +1,82 @@
+[
+    {
+        "path": "SVN_BMW_SWC_eTmcPrio/Model/LIB_BMW_MOD_eTmcPrioRg.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The parameter States when execution is resumed of the Action Port block Action Port is set to reset. This option is not allowed. <br/> <mark><em>[Whitelisted] Verhalten wie erwnscht; rcksetzung der Hysteresen</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcPrioRg/BMW_MOD_eTmcPrioRg/Bit-Setzung/HTEXSpreadTCell_HtPmpEmHvs/Action Port", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0173"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The parameter States when execution is resumed of the Action Port block Action Port is set to reset. This option is not allowed. <br/> <mark><em>[Whitelisted] Verhalten wie erwnscht; rcksetzung der Hysteresen</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcPrioRg/BMW_MOD_eTmcPrioRg/Bit-Setzung/RadrInHigherHTEXANDHigherEnv_HtPmpEmHvs/Action Port", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0173"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_eTmcPrio/Model/LIB_BMW_MOD_eTmcPrioAut.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWetmc_b_opm_Dft seems to be wrongly connected to the inport BMWetmc_b_opm_Dft1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcPrioAut/BMW_MOD_eTmcPrioAut/BMWetmc_b_opm_Dft", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWetmc_b_opm_RlsRadrCo seems to be wrongly connected to the inport BMWetmc_b_opm_RlsRadrCo1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcPrioAut/BMW_MOD_eTmcPrioAut/BMWetmc_b_opm_RlsRadrCo", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWetmc_b_opm_RlsHtPmp seems to be wrongly connected to the inport BMWetmc_b_opm_RlsHtPmp1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcPrioAut/BMW_MOD_eTmcPrioAut/BMWetmc_b_opm_RlsHtPmp", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWetmc_b_opm_RlsChiCo seems to be wrongly connected to the inport BMWetmc_b_opm_RlsChiCo1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcPrioAut/BMW_MOD_eTmcPrioAut/BMWetmc_b_opm_RlsChiCo", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWetmc_b_opm_RlsHtHvs seems to be wrongly connected to the inport BMWetmc_b_opm_RlsHtHvs1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcPrioAut/BMW_MOD_eTmcPrioAut/BMWetmc_b_opm_RlsHtHvs", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0089"
+            }
+        ]
+    }
+]

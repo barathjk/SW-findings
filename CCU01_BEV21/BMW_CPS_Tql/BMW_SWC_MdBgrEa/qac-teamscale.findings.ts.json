@@ -1,0 +1,429 @@
+[
+    {
+        "path": "ART_BMW_SWC_MdBgrEa/CCU01BEV21BMW/BMW_SWC_MdBgrEa.c", 
+        "findings": [
+            {
+                "startLine": "1175", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "25ebb72362de2390863a9672e6e98b3d9493a7c30be57f97a852c87dad4f6e03"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1175:24] Variable 'rtb_MinMax1_g' previously seen here. (Specimen value: '7').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1176", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "25ebb72362de2390863a9672e6e98b3d9493a7c30be57f97a852c87dad4f6e03"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1176:20] Variable 'rtb_MinMax1_g' previously seen here. (Specimen value: '7').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1184", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "48e045cb1497c082e74264b944f16483df288197b207d8b3c44923c569102a0d"
+                }, 
+                "justification": "", 
+                "message": "[1184:62] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "1391", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6874e0857760cca8ebb3709ff0845708f82db14b47f582ceab178a4591c8e2a9"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1391:24] Variable 'rtb_MinMax1_a' previously seen here. (Specimen value: '7').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1392", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6874e0857760cca8ebb3709ff0845708f82db14b47f582ceab178a4591c8e2a9"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1392:20] Variable 'rtb_MinMax1_a' previously seen here. (Specimen value: '7').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1400", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "079bc4a46be133d6ce067fe98b82c6d2041d562803b2479422b6345b0ded7e20"
+                }, 
+                "justification": "", 
+                "message": "[1400:61] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "1636", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "27f240b3001482d42ddd541d1bb853ef3f8ee312ca300216f3c80b1ba7b7ed56"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1636:18] Variable 'rtb_MinMax1_d' previously seen here. (Specimen value: '2').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1642", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "89250ce80deb7deac9e19be8c47afd8e74c7dc9f82587ce75e00639fe2d249b6"
+                }, 
+                "justification": "", 
+                "message": "[1642:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "1650", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9b08d1bd2f1207d28801cbb338ee196e03f7c3e41c25875a346ba7c5e202952e"
+                }, 
+                "justification": "", 
+                "message": "[1650:61] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "1856", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "29ba087c8d81e66686b0e6e653d1beed9fc92c7d97a1903cdbfe49724951c2dc"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1856:18] Variable 'rtb_MinMax1_h' previously seen here. (Specimen value: '2').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1862", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "23a7131ed836bf1492cc2dc33f4ee82dd8e5ce181d10c646fc6914bd330f9aa0"
+                }, 
+                "justification": "", 
+                "message": "[1862:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "1870", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6df4651a6f6ea078e96d111e183e8eb223bb6fce46a6c121a63a602801ac0bad"
+                }, 
+                "justification": "", 
+                "message": "[1870:61] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "2076", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6417d6e74625a56f06d099ca04ce01562b457cbac4157501f39f5a604c3504f4"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2076:16] Variable 'rtb_MinMax1' previously seen here. (Specimen value: '2').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2082", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8fae7f9e90f76c116d9d9d5098044a6e792ffc651c95b41a69998119793f058e"
+                }, 
+                "justification": "", 
+                "message": "[2082:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "2090", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "42a8251d0e6ca1f4002ecdb4d330ef2ec5a62295496e341095ba39cd8e6ed8e5"
+                }, 
+                "justification": "", 
+                "message": "[2090:57] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "2257", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0a914cc0b504cb38f29d825c57b31127d894cd064436a913180f87c3e862e71d"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2257:12] 'rtb_setbit_a' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "2781", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "48da792485b03f6815190f803ca6f586a611d6a9fe1faa5136097028c7e09bf1"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2781:19] Variable 'rtb_MinMax1_fi' previously seen here. (Specimen value: '2').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2787", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "72d17ab2e75a46ecb9bb3286cb3dd55c991e03e8ba4a6cc2bc9c0f309aaccc8e"
+                }, 
+                "justification": "", 
+                "message": "[2787:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "2795", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d637f96cf2e052360b645a0ede81de73461e9d963742554e2a0febf008c1e15c"
+                }, 
+                "justification": "", 
+                "message": "[2795:62] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "2992", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3580317624b59bf0431520e604eede472176595c431de5bb5b3c870462428a5d"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2992:18] Variable 'rtb_MinMax1_f' previously seen here. (Specimen value: '3').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2998", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "beb539fcb5816c54edfc2e7ed29e109ec83059e92c8c99e17289bffaffe4a9ca"
+                }, 
+                "justification": "", 
+                "message": "[2998:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3006", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e9df855bc484fa2f8c5bd1ea44c075e1cd0958396a9b7543e4039ebed0bd1e75"
+                }, 
+                "justification": "", 
+                "message": "[3006:17] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "3006", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "193b62f4fcd98e4c3a11b410e37bd1c82e948c4c368c9e952fc3e54da8330407"
+                }, 
+                "justification": "", 
+                "message": "[3006:61] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "3196", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8b07e0d27ae9362686f4d177f10b410d4db20936ea197b9d1c06081ad9f06b45"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3196:18] Variable 'rtb_MinMax1_o' previously seen here. (Specimen value: '2').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3202", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a23bed2a30baa561c9be23300aa8c2d9cb20aaa9c56596f09b0056117360eeae"
+                }, 
+                "justification": "", 
+                "message": "[3202:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3210", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1c243c95288306f6439322cda6cddd07d58a6be547250a2f1d75c9e88e3b7c11"
+                }, 
+                "justification": "", 
+                "message": "[3210:61] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "3407", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c658d788a23ce3849d1e4f6ff59abdc112e0517cf1443852d78d6d2fcb7793be"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3407:18] Variable 'rtb_MinMax1_n' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3413", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ef1614a8108f67d4fe4b07c41bf92220d98099c8a8eace588667a4a56c09e058"
+                }, 
+                "justification": "", 
+                "message": "[3413:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3421", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6cd33bf3dc4c91163569cd69f025973cb93ebb95c1b5ec9c1f0d95c70c23088a"
+                }, 
+                "justification": "", 
+                "message": "[3421:61] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "3595", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f877f940808146c915474c46284cbf330e1e9e61bf65a71b8ffdc857265ea124"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3595:19] Variable 'rtb_MinMax1_hq' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3601", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0eaadbc5965e0965dfdac3742b7ccfb68c0bfcc5b063eb7915e15b01072edd4b"
+                }, 
+                "justification": "", 
+                "message": "[3601:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3609", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "62b62f8f26d07ac0b939b038eca689bd2ae20dbacfa8624a320d26fba2cdbee9"
+                }, 
+                "justification": "", 
+                "message": "[3609:63] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "3783", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "31f6283cc80f3e724ded8fa6e915d83615b45056d627233d0ffe924f078096c0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3783:18] Variable 'rtb_MinMax1_e' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3789", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8b5f3c50b693c2ab91f060f5bf30a71baed362ecc3801538929d1ce67342dc3e"
+                }, 
+                "justification": "", 
+                "message": "[3789:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3797", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1262524428bdf3bfce0c5853f415067c85ffdea2ec1c12e661539178af152666"
+                }, 
+                "justification": "", 
+                "message": "[3797:61] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "959", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9281827f48da214aff637aef57e196283617d9557f8b5bb67fcccea0894763f8"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[959:25] Variable 'rtb_MinMax1_dq' previously seen here. (Specimen value: '7').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "960", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9281827f48da214aff637aef57e196283617d9557f8b5bb67fcccea0894763f8"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[960:21] Variable 'rtb_MinMax1_dq' previously seen here. (Specimen value: '7').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "968", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "135e32ceaff9bb7b034940b3d46f5c3d163a22753e0c1bee770eec2862b9222b"
+                }, 
+                "justification": "", 
+                "message": "[968:62] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_MdBgrEa/CCU01BEV21BMW/BMW_SWC_MdBgrEa_data.c", 
+        "findings": []
+    }
+]

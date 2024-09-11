@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_IlfUii/CCU01BEV21BMW/BMW_SWC_IlfUii.c", 
+        "findings": [
+            {
+                "startLine": "380", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fe2b93442b0ff313aef12937de82496f05686742b579f650db629c38a49d34bf"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[380:25] Variable 'rtb_Saturation' previously seen here. (Specimen value: '15').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "381", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fe2b93442b0ff313aef12937de82496f05686742b579f650db629c38a49d34bf"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[381:21] Variable 'rtb_Saturation' previously seen here. (Specimen value: '15').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "518", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "196058ed80d64400e3e134d01d15611b2eb6a950361a1219ad6954e4c45297ad"
+                }, 
+                "justification": "", 
+                "message": "[518:75] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }
+        ]
+    }
+]

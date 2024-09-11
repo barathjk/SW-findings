@@ -1,0 +1,126 @@
+[
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_MOD_MafwMdMax_10ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_MOD_MafwMdMin_10ms.c", 
+        "findings": [
+            {
+                "startLine": "3323", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2dd9d035784b6f3edb7719fb723a35d33fba6ed81f38f4313b2c0408edaf8543"
+                }, 
+                "justification": "", 
+                "message": "[3323:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_MOD_MafwPedal_10ms.c", 
+        "findings": [
+            {
+                "startLine": "1048", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "617a4503718e26fce4b5ab34f2a99af9e5b7ffb34cb5fbdfe4b97ba09ea0c0cc"
+                }, 
+                "justification": "", 
+                "message": "[1048:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "1073", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "048ce1f1d782fd7f76b6a32761340027821c56edb49d2adfccc6e668d2a1aa0a"
+                }, 
+                "justification": "", 
+                "message": "[1073:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_MOD_MafwPreCond_10ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_MOD_MafwRueck_10ms.c", 
+        "findings": [
+            {
+                "startLine": "1690", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d011e7b023c44ce4d03acd7cc701bb861bc54a3f4b2ce848061bbe7c88cee4e1"
+                }, 
+                "justification": "", 
+                "message": "[1690:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "1731", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "35b65678c05146991926e6470dbdbc5ae3aed35203af9caffb501ff347ea3ccb"
+                }, 
+                "justification": "", 
+                "message": "[1731:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "2545", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "650fba663e4e2cdddf757e2602444298e9e45242290fa6ba3908fe2178e0652c"
+                }, 
+                "justification": "", 
+                "message": "[2545:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "2818", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f6fdbf81de44a7190298249d278d9fd7c2c695be284385baaa68b6c810a076b5"
+                }, 
+                "justification": "", 
+                "message": "[2818:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_MOD_MafwSchlepp_10ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_MOD_MafwWunsch_10ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_MOD_MafwZkaFak_10ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_SWC_MAFW.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_SWC_MAFW_data.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/rt_sys_BMW_SWC_MAFW_216.c", 
+        "findings": []
+    }
+]

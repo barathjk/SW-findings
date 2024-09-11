@@ -1,0 +1,51 @@
+[
+    {
+        "path": "ART_BMW_SWC_SrvDiagSfACPD/CCU01BEV21BMW/BMW_SWC_SrvDiagSfACPD.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "966a213521d5a96cde9332e716036d42aadbd74b9901435d5915d6be7b0494ce"
+                }, 
+                "message": "No implementation for diagnostic service Iupw2_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e82642b0d6eea047f94782820719a60309a98148a254b1e4a1516afbbd3f1588"
+                }, 
+                "message": "No implementation for diagnostic service BusFahrpedalwert_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b6985625782f09871247017bfe62462618af15104ce2da3b36ee6c2cd8baea49"
+                }, 
+                "message": "No implementation for diagnostic service Ifpwg_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "db2dab673b711b0e5ad24475cc4556994fbbf317e45285c027ca53f8aca1a9e2"
+                }, 
+                "message": "No implementation for diagnostic service Iupw1_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }
+]

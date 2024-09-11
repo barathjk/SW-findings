@@ -1,0 +1,402 @@
+[
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_C_arr_15_Def_q0p01_nounit_0to2Dot55_0", 
+        "assessment": {
+            "YELLOW": "15"
+        }, 
+        "count": "15"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_C_arr_15_Def_q1_newton_meter_Minus32768to32767_0", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_C_arr_3_Def_q0p001_nounit_0to65Dot535_0", 
+        "assessment": {
+            "YELLOW": "6"
+        }, 
+        "count": "6"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_C_arr_15_Def_sw_b64_meter_per_second_squared_Minus64to63Dot8HCUUN_0", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMWosa_tqw_PotPtMax_Ca_BMWosa_tqw_PotPtMax_Ca", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMWosa_v_VehRefPoi_Ca_BMWosa_v_VehRefPoi_Ca", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_OsaMinDyn_rpBMWosa_cw_SpdWhlMinDynAxlOff_C_BMWosa_cw_SpdWhlMinDynAxlOff_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_OsaMinDyn_rpBMWosa_cw_SpdWhlMinDynAxlOn_C_BMWosa_cw_SpdWhlMinDynAxlOn_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_OsaMinDyn_rpBMWosa_cw_TqWhlMinDynAxlOff_C_BMWosa_cw_TqWhlMinDynAxlOff_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_OsaMinDyn_rpBMWosa_cw_TqWhlMinDynAxlOn_C_BMWosa_cw_TqWhlMinDynAxlOn_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_OsaMinDyn_rpBMWosa_b_SngAxlDt_C_BMWosa_b_SngAxlDt_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_OsaMinDyn_rpBMWosa_swi_StatDataClc_C_BMWosa_swi_StatDataClc_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_OsaMinDyn_rpBMWosa_swi_StatDataTrigClc_C_BMWosa_swi_StatDataTrigClc_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_OsaMinDyn_rpBMWosa_tqw_PotPtMax_Ca_BMWosa_tqw_PotPtMax_Ca", 
+        "assessment": {
+            "YELLOW": "10"
+        }, 
+        "count": "10"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_OsaMinDyn_rpBMWosa_v_VehRefPoi_Ca_BMWosa_v_VehRefPoi_Ca", 
+        "assessment": {
+            "YELLOW": "10"
+        }, 
+        "count": "10"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_ppBMWosa_b_MinDynLvl1_BMWosa_b_MinDynLvl1", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_ppBMWosa_b_MinDynLvl3_BMWosa_b_MinDynLvl3", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_ppBMWosa_b_MinDynLvl4_BMWosa_b_MinDynLvl4", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_ppBMWosa_b_MinDynLvl5_BMWosa_b_MinDynLvl5", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_ppBMWosa_b_MinDynLvl2_BMWosa_b_MinDynLvl2", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_ppBMWosa_fac_AvlPotPtMaxAry_BMWosa_fac_AvlPotPtMaxAry", 
+        "assessment": {
+            "YELLOW": "15"
+        }, 
+        "count": "15"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_ppBMWosa_tq_WhlPotPtAry_BMWosa_tq_WhlPotPtAry", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_Irv_BMW_SWC_OsaMinDyn_BMWosa_a_VehPotAry", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_Irv_BMW_SWC_OsaMinDyn_BMWosa_tq_WhlPotAxl1Ary", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_Irv_BMW_SWC_OsaMinDyn_BMWosa_tq_WhlPotAxl2Ary", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_BMWosa_tq_PotTemX1OutAry", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_BMWosa_tq_PotTemX2OutAry", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_BMWosa_b_MinDynLvl1Ary", 
+        "assessment": {
+            "YELLOW": "15"
+        }, 
+        "count": "15"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_BMWosa_b_MinDynLvl2Ary", 
+        "assessment": {
+            "YELLOW": "15"
+        }, 
+        "count": "15"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_BMWosa_b_MinDynLvl3Ary", 
+        "assessment": {
+            "YELLOW": "15"
+        }, 
+        "count": "15"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_BMWosa_b_MinDynLvl4Ary", 
+        "assessment": {
+            "YELLOW": "15"
+        }, 
+        "count": "15"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_OsaMinDyn_BMWosa_b_MinDynLvl5Ary", 
+        "assessment": {
+            "YELLOW": "15"
+        }, 
+        "count": "15"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMW_MOD_OsaMinDynAxl1_100ms", 
+        "assessment": {
+            "YELLOW": "950"
+        }, 
+        "count": "950"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMW_MOD_OsaMinDynAxl2_100ms", 
+        "assessment": {
+            "YELLOW": "978"
+        }, 
+        "count": "978"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMW_MOD_OsaMinDynEva_100ms", 
+        "assessment": {
+            "YELLOW": "796"
+        }, 
+        "count": "796"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMW_MOD_OsaMinDynPt_100ms", 
+        "assessment": {
+            "YELLOW": "1584"
+        }, 
+        "count": "1584"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMW_SWC_OsaMinDyn_Init", 
+        "assessment": {
+            "YELLOW": "18"
+        }, 
+        "count": "18"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMWosa_cw_TqWhlMinDynEvaOn_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMWosa_cw_SpdWhlMinDynEvaOn_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMWosa_b_CalMinDynEvaAcvn_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMWosa_fac_TqWhlPotPtMaxLvl1_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMWosa_fac_TqWhlPotPtMaxLvl2_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMWosa_fac_TqWhlPotPtMaxLvl3_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMWosa_a_VehPotMaxLvl4_Ca", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMWosa_a_VehPotMaxLvl5_Ca", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMWosa_pwr_EdSysDcha_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMWosa_eff_Pt_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMWosa_fac_AvlPotPtMaxAry_Ca", 
+        "assessment": {
+            "YELLOW": "15"
+        }, 
+        "count": "15"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMW_SWC_OsaMinDyn_DW", 
+        "assessment": {
+            "YELLOW": "6"
+        }, 
+        "count": "6"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_OsaMinDyn/BMW_SWC_OsaMinDyn_B", 
+        "assessment": {
+            "YELLOW": "382"
+        }, 
+        "count": "382"
+    }
+]

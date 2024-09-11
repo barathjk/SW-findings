@@ -1,0 +1,47 @@
+[
+    {
+        "path": "SVN_BMW_SWC_TqcOut/Model/LIB_BMW_MOD_TqcOut_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtqc_tq_EmPriWish has the variant condition BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqcOut_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Code variants not used in Out-SWCs</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqcOut_10ms/BMW_MOD_TqcOut_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtqc_EmPriWish_qi has the variant condition BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqcOut_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Code variants not used in Out-SWCs</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqcOut_10ms/BMW_MOD_TqcOut_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtqc_tq_EmSecWish has the variant condition BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqcOut_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Code variants not used in Out-SWCs</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqcOut_10ms/BMW_MOD_TqcOut_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtqc_EmSecWish_qi has the variant condition BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqcOut_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Code variants not used in Out-SWCs</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqcOut_10ms/BMW_MOD_TqcOut_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

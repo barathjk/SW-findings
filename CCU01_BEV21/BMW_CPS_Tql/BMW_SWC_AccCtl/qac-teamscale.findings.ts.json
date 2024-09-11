@@ -1,0 +1,33 @@
+[
+    {
+        "path": "ART_BMW_SWC_AccCtl/CCU01BEV21BMW/BMW_MOD_AccCtlTqTol_10ms.c", 
+        "findings": [
+            {
+                "startLine": "3077", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "09fd6728d111eb376387f3bf6e5e327b4bc8cc01bb8bfe30ce39a72af8475d43"
+                }, 
+                "justification": "", 
+                "message": "[3077:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3174", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0e87b237015ec8456474f1faf8ecd1e35286660f45d50a1511cd62f9ba061774"
+                }, 
+                "justification": "", 
+                "message": "[3174:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_AccCtl/CCU01BEV21BMW/BMW_SWC_AccCtl.c", 
+        "findings": []
+    }
+]

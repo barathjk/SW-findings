@@ -1,0 +1,27 @@
+[
+    {
+        "path": "SVN_BMW_SWC_AsIn/Model/LIB_BMW_MOD_AsInHvSystem_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion2 is not recommended. <br/> <mark><em>[Whitelisted] inaccuracy is ok, no specific values needed</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AsInHvSystem_10ms/BMW_MOD_AsInHvSystem_10ms/BN_HV_BEV_FULLHYB/Batterietemperatur/GradientLimiter_new/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The parameter BMWosc_swi_ElCatHtrAuxCnrAdd_C has the variant condition SY_DDE_EQU_1 in ADD and is used in a nested subsystem pattern in the process block BMW_MOD_AsInHvSystem_10ms. This condition cannot be checked automatically and must be done manually. <br/> <mark><em>[Whitelisted] manually checked, condition is ok</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AsInHvSystem_10ms/BMW_MOD_AsInHvSystem_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "path": "SVN_BMW_SWC_RngCalc/Model/LIB_BMW_MOD_RngCalcRout_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 1275] of the source data type fixdt(0,8,5,0) fits into the range [0, 6553.5] of the target data type fixdt(0,16,0.1,0) for block Data Type Conversion1. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Quality measure to ensure finer resolution computation at filter output</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_RngCalcRout_100ms/BMW_MOD_RngCalcRout_100ms/Prognose_Reichweite_Leistung_Routenvorgabe/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_RngCalc/Model/LIB_BMW_MOD_RngCalcVm_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The output signal BMWrng_dst_RngVm has the variant condition BMW_PT_TOP_EL_SC_EQU_0 in ADD but is used outside of a Variant in the process block BMW_MOD_RngCalcVm_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False-Positive - convertion block used after CV subsystem</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_RngCalcVm_100ms/BMW_MOD_RngCalcVm_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_RngCalc/Model/LIB_BMW_MOD_RngCalcVmCns_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The output signal BMWrng_cns_AvgCnsVm has the variant condition BMW_PT_TOP_EL_SC_EQU_0 in ADD but is used outside of a Variant in the process block BMW_MOD_RngCalcVmCns_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False-Positive - convertion block used after CV subsystem</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_RngCalcVmCns_100ms/BMW_MOD_RngCalcVmCns_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_RngCalc/Model/LIB_BMW_MOD_RngCalcEdCns_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both single. <br/> <mark><em>[Whitelisted] Convert Block need for Functionality.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_RngCalcEdCns_100ms/BMW_MOD_RngCalcEdCns_100ms/el_Verbrauchsmittel_berechnen/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_RngCalc/Model/LIB_BMW_MOD_RngCalcAcoCns_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion1 is not recommended. <br/> <mark><em>[Whitelisted] Convert Block need for Functionality.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_RngCalcAcoCns_100ms/BMW_MOD_RngCalcAcoCns_100ms/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }
+        ]
+    }
+]

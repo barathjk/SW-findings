@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_PrpNvBlock/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8167c34c613e5259d949a6278d9359f5038ed87ac3f7ad1a6645f436ac8c0347"
+                }, 
+                "message": "Missing mandatory feature(s) [type] for object com.bmw.symphony.sym10.impl.TagImpl@68722de3 (ident: null, versionInfo: null, trace: []) (name: NVM_SERVICE_PORT).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }
+        ]
+    }
+]

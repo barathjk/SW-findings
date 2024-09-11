@@ -1,0 +1,95 @@
+[
+    {
+        "path": "ART_BMW_SWC_PrenHvs/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8454ffe51561c9a68bb62ab3d9034d3cd499c0389bd724deeb32020ae6c03e95"
+                }, 
+                "message": "Physical Unit (hour) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=3600.0], [numeratorOfFactor:  this=2.777777777777778E-4, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2fd70d2cbbb070274c2b8d0bb6ea6dd2f7ee6c35fd785f7b9a14308f208b5a81"
+                }, 
+                "message": "Physical Unit (kilometer) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=1000.0], [numeratorOfFactor:  this=0.001, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "664509ad89a1e4adde3638a5442688100b4ac2c0a785c17abeb86f2e2b73b9a7"
+                }, 
+                "message": "Physical Unit (kilowatt_hour) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=3600000.0], [numeratorOfFactor:  this=2.7777777777777776E-7, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2e2288f947cb01e094a6e042a3db98632c71f3077ac7946fb540badf4ed87d44"
+                }, 
+                "message": "Physical Unit (kilowatt) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=1000.0], [numeratorOfFactor:  this=0.001, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ff25c63e6492c0495ce345f9e344afd0fc2e90bc9c93a33dc22e528e776b7e7c"
+                }, 
+                "message": "Physical Unit (kilometer_per_hour) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=1000.0], [numeratorOfFactor:  this=3.6, reference=3600.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "49228bdbb9955b939eb8caa3b0da461e32c697ab1110bd1862896b7f514fc358"
+                }, 
+                "message": "Physical Unit (minute) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=60.0], [numeratorOfFactor:  this=0.016666666666666666, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f57673efa86263b806251193d5cc78fd5bea7cddd7e7eb49e14c9c739372af90"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWpff_st_RlsPrdnCoHvs?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }
+        ]
+    }
+]

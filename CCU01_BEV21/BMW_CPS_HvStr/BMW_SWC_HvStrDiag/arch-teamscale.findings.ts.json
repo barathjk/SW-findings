@@ -1,0 +1,45 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvStrDiag/CCU01BEV21BMW/BMW_SWC_HvStrDiag_component.arxml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "393de429a028504dd6c80dbd560fccd46a6574b15c1708d3cbdc6cf9f0c6f2d5"
+                }, 
+                "message": "Found no SetEventStatus implementation for diag element FisHvStrBBtlsopmnotavlUw which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvStrDiag/CCU01BEV21BMW/BMW_SWC_HvStrDiag.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "43f22745ddd45ee0fca5c1397c6fb42c01f2d3a88928472525bd64d8ff0c5c1c"
+                }, 
+                "message": "No implementation for diagnostic service IsolationswiderstandAktuell_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "826ce83173309be394271961987ffeb8b3e14f0f38a1c0e50f694f74ed055ee6"
+                }, 
+                "message": "No implementation for diagnostic service HvpmHvsystem_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }
+]

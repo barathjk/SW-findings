@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_IlfUii/CCU01BEV21BMW/BMW_SWC_IlfUii_component.arxml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c6df518052be67b3e783e0724d9c5b6910b963d0d1eb7f1d608eaf1c927def88"
+                }, 
+                "message": "Runnable 'BMW_MOD_IlfUii_xEVIn_200ms' can't be found in Scheduling-Group. Please add definition to Scheduling-Group or remove runnable/event definition in ADD and extension file", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "swcsched.runnotinschedgrp"
+            }
+        ]
+    }
+]

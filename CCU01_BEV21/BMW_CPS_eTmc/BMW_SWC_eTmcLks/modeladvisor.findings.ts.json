@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_eTmcLks/Model/LIB_BMW_MOD_eTmcLksAnf.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWetmc_v_ActVeh and the signal resolved to it do not match. <br/> <mark><em>[Whitelisted] All signal connections have the same variable name BMWetmc_v_ActVeh. The singal is also connected to other subsystems with same input port names, which don-t lead to a warning. Even a signal conversion (as described in the help) doesn't help</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcLksAnf/BMW_MOD_eTmcLksAnf/Freischaltung_Ausrollen/BMWetmc_v_ActVeh", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

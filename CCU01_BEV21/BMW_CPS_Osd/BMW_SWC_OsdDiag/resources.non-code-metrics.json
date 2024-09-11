@@ -1,0 +1,34 @@
+[
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Call_BMW_SWC_OsdDiag_FisOsptTmCritDgra_SetEventStatus", 
+        "assessment": {
+            "YELLOW": "6"
+        }, 
+        "count": "6"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Call_BMW_SWC_OsdDiag_FisOsptTmHvbatsocLow_SetEventStatus", 
+        "assessment": {
+            "YELLOW": "6"
+        }, 
+        "count": "6"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_OsdDiag/BMW_MOD_OsdDiag_100ms", 
+        "assessment": {
+            "YELLOW": "58"
+        }, 
+        "count": "58"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_OsdDiag/BMW_SWC_OsdDiag_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }
+]

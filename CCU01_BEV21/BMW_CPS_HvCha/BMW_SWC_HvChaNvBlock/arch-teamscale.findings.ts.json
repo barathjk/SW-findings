@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvChaNvBlock/CCU01BEV21BMW/BMW_SWC_HvChaNvBlock.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bd5abc4277313bac4ee28ea874385f8d2e98a51a136ee8395e07cc01b3ba2aee"
+                }, 
+                "message": "No block definition found in extension file J:\\BCI_WS\\1C083123\\Sources\\BMW_SWC_HvChaNvBlock.extension. \n\tFor FR Blocks a block definition in the extension file is necessary. Please add extension file with block definition.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.missingfrblockdef"
+            }
+        ]
+    }
+]

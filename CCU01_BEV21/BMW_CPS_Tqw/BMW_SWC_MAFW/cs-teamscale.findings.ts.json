@@ -1,0 +1,110 @@
+[
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_MOD_MafwRueck_10ms.c", 
+        "findings": [
+            {
+                "startLine": "1145", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "62c89ba0c8fb33cfa30615cd5eb2c9edb65b1d5c417ee4498655b4a33b1b0cd3"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1145] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_MOD_MafwMdMin_10ms.c", 
+        "findings": [
+            {
+                "startLine": "1012", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5726871c4dae61ec5d14af60545c23b1acacd40e7807b6cdd668074ca4b41db8"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1012] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/rt_sys_BMW_SWC_MAFW_216.c", 
+        "findings": [
+            {
+                "startLine": "230", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "03b40ef85f6f1993ae62e8c6d451a893f57d036f688d758831ba4b790deb0a5d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][230] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_MAFW/CCU01BEV21BMW/BMW_MOD_MafwWunsch_10ms.c", 
+        "findings": [
+            {
+                "startLine": "587", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b7258a3dfbc707c73355e3c00779c6beefd6ff5d981ffa18a4ccc8827bd4fca1"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][587] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "569", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b7258a3dfbc707c73355e3c00779c6beefd6ff5d981ffa18a4ccc8827bd4fca1"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][569] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "973", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "00af4f88d31ccd1e32ba5c4858fea08881fe6ca5d15e5f2d3189ed32494474ea"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][973] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "955", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "00af4f88d31ccd1e32ba5c4858fea08881fe6ca5d15e5f2d3189ed32494474ea"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][955] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "3596", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f2492162af1d088023852e18b5d71fff68ae472dd929c025c035ea1d1e6dedd3"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Reliability][3596] Ignored Return Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.FUNCS.IRV"
+            }
+        ]
+    }
+]

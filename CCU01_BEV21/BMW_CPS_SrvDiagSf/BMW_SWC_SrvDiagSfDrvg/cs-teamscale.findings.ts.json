@@ -1,0 +1,51 @@
+[
+    {
+        "path": "ART_BMW_SWC_SrvDiagSfDrvg/CCU01BEV21BMW/BMW_SWC_SrvDiagSfDrvg.c", 
+        "findings": [
+            {
+                "startLine": "2368", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e603510e9ccb13aa139853d8ddb278aa21ee2419dffed867fce62f05686971ba"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][2368] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "2465", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "817a520c616d40af494ca0b297b4cec355eea380d8047280fa6af5c8e755e2d7"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][2465] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "2808", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ba0d4e1332e7680c1e492bb1ba41e2f74c84a06d3acdbcf2c17e5051ac6d709f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][2808] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "2817", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2ed717b6d113656e42e0e492c0ddfa36665f5fcc84638a0998f4cfb584581b4d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][2817] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }
+        ]
+    }
+]

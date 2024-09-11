@@ -1,0 +1,178 @@
+[
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMWsfdgrdi_stb_SftyErrEngStr_rc_BMWsfdgrdi_stbJDIDOT", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMWsfdgrdi_st_SftyDrvgRdy_rc_BMWsfdgrdi_st_SftVC5BUJ", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvProc_ppBMWsfdgrdi_st_SftyEngStrRlsPlau_BMWsfdgrdi_st_SftyEngStrRlsPlau", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvProc_ppBMWsfdgrdi_stb_SftyErrEngStr_rc_BMWsfdgrdi_stb_SftyErrEngStr_rc", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvProc_BMWsfdgrdi_st_DrvgRdyPtInt", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvProc_BMWsfdgrdi_st_EngRlsPlauOut", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvProc_BMWsfdgrdi_st_SftyEngStrRls", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvProc_BMWsfdgrdi_st_SftyErrEngStr", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvProc_BMWsfdgrdi_b_EngRlsPlauSet1", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvProc_BMWsfdgrdi_b_EngRlsPlauSet2", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvProc_BMWsfdgrdi_b_EngRlsPlauSet3", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvProc_BMWsfdgrdi_b_EngRlsPlauVld", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfStDrvgRdiDrvProc_BMWsfdgrdi_id_nr_VerChg", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvProc/BMW_MOD_SfStDrvgRdiDrvProc_10ms", 
+        "assessment": {
+            "YELLOW": "436"
+        }, 
+        "count": "436"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvProc/BMW_SWC_SfStDrvgRdiDrvProc_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvProc/BMWsfdgrdi_st_DrvgRdyPtThdErr_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvProc/BMWsfdgrdi_swi_DrvgRdyPtRaw_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvProc/BMWsfdgrdi_st_DrvgRdyPtSubVal_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvProc/BMWsfdgrdi_st_SftyEngStrRls_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvProc/BMWsfdgrdi_b_EngRlsPlau_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvProc/BMWsfdgrdi_s_SftyEngStrPlau_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_SfStDrvgRdiDrvProc/BMW_SWC_SfStDrvgRdiDrvProc_B", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }
+]

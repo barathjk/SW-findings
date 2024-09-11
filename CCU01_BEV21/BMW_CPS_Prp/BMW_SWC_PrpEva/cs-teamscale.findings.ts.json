@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_PrpEva/CCU01BEV21BMW/BMW_SWC_PrpEva.c", 
+        "findings": [
+            {
+                "startLine": "7377", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3484ee34f144145bfc9d91ecf53a5a183daf6d366d8dfe56efd60964d58a8f22"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][7377] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }
+        ]
+    }
+]

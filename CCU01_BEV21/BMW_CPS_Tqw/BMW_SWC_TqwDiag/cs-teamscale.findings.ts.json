@@ -1,0 +1,62 @@
+[
+    {
+        "path": "ART_BMW_SWC_TqwDiag/CCU01BEV21BMW/HvEmInvVerbauort_ReadData.c", 
+        "findings": [
+            {
+                "startLine": "84", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "014f9a7dbaa654b33a26102d555c4e034527f93ce8a54828a2351b3ea7cea1c7"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][84] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "95", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dc9906d042f8a7808301ba2e882d15acd2607e8c1dba565dd0441e9a07ef931e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][95] Unreachable Computation", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "105", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dc9906d042f8a7808301ba2e882d15acd2607e8c1dba565dd0441e9a07ef931e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][105] Unreachable Computation", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "115", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dc9906d042f8a7808301ba2e882d15acd2607e8c1dba565dd0441e9a07ef931e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][115] Unreachable Computation", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "125", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dc9906d042f8a7808301ba2e882d15acd2607e8c1dba565dd0441e9a07ef931e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][125] Unreachable Computation", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }
+        ]
+    }
+]

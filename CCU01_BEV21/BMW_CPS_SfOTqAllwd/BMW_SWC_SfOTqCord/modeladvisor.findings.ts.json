@@ -1,0 +1,52 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfOTqCord/Model/LIB_UpDownFilter.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_tqw_SftyTarPtSumStabn seems to be wrongly connected to the inport U. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_UpDownFilter/UpdownFilter/BMW_tqw_SftyTarPtSumStabn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_tqw_SftyTarPtSumStabn seems to be wrongly connected to the inport ReIntialize Value . Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_UpDownFilter/UpdownFilter/BMW_tqw_SftyTarPtSumStabn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SfOTqCord/Model/LIB_BMW_MOD_SfOTqCord_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfotqald_ti_UpFacAcce seems to be wrongly connected to the inport T1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOTqCord_10ms/BMW_MOD_SfOTqCord_10ms/Dashpot/UpDown Filter Acce/BMWsfotqald_ti_UpFacAcce", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfotqald_ti_DownFacAcce seems to be wrongly connected to the inport T2. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOTqCord_10ms/BMW_MOD_SfOTqCord_10ms/Dashpot/UpDown Filter Acce/BMWsfotqald_ti_DownFacAcce", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

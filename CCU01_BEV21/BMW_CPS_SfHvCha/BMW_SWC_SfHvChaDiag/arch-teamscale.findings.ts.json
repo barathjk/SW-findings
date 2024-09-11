@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfHvChaDiag/CCU01BEV21BMW/BMW_SWC_SfHvChaDiag.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e88c6f54c045336ff43ace3a5a7e310f17f64ac993ff0ffe3395d70a8368c576"
+                }, 
+                "message": "No implementation for diagnostic service TemperaturenLadestecker_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }
+]

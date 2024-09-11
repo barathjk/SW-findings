@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_PciIn/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "49228bdbb9955b939eb8caa3b0da461e32c697ab1110bd1862896b7f514fc358"
+                }, 
+                "message": "Physical Unit (minute) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=60.0], [numeratorOfFactor:  this=0.016666666666666666, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }
+        ]
+    }
+]

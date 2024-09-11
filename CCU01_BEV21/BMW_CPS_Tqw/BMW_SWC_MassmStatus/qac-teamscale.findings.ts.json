@@ -1,0 +1,194 @@
+[
+    {
+        "path": "ART_BMW_SWC_MassmStatus/CCU01BEV21BMW/BMW_SWC_MassmStatus.c", 
+        "findings": [
+            {
+                "startLine": "161", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[161:8] 'rtb_Selector1D2' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "365", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b27af97c2d6a0c729fae450d7d018aa65d1837f8b630631d6e61e321a691aaea"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[365:20] Variable 'rtb_Selector1D2' previously seen here. (Specimen value: '96').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "405", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "df3c85379bac4a8719e01600d211b37f46253d81b52687b524b8833084d899de"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[405:14] Variable 'rtb_putbit2' previously seen here. (Specimen value: '96').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "406", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ddb09a64b827984dc327f1cb8de6215957a2062fa288df199b3235b5e737f3dc"
+                }, 
+                "justification": "", 
+                "message": "[406:53] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "409", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fca4b565f59638967903cacce4b5a8a8d93c5f2a18f846947b702fd972a139a3"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[409:18] Variable 'rtb_Selector1D2' previously seen here. (Specimen value: '96').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "410", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3680d259b7ea79850aa64656ac528311800d4470e08a1a63ddbce8cf59e69d50"
+                }, 
+                "justification": "", 
+                "message": "[410:49] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "413", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "eaeb398a4ac2fcdd29ebf4216995121921e7a80f9340458d7758c23c4a6bfc94"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[413:14] Variable 'rtb_putbit2' previously seen here. (Specimen value: '96').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "414", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c87fe5811154015993a98b52050016917c89f20edb1e543475e7a7d661285550"
+                }, 
+                "justification": "", 
+                "message": "[414:47] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "418", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b3e6c5a992aaf2695248abc3a2e79deb2717a38923f5a256d9dd92d15c2cf929"
+                }, 
+                "justification": "", 
+                "message": "[418:49] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "435", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f056e95305e9d976efb88972c6a02f1a9c976df22fdb2102ac8d1d70316c418f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[435:14] Variable 'rtb_putbit2' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "439", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "555702aeaf2523be0bef89ba689c4559f28a238242d995232ce9279f402e1615"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[439:18] Variable 'rtb_Selector1D2' previously seen here. (Specimen value: '3').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "440", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8b80c29de66070eee99a2ac38c8c7c9e9e61b289dc172fc07726936e21ee0f10"
+                }, 
+                "justification": "", 
+                "message": "[440:49] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "443", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dfb6e638db9522b90e89c0569fa485e59cdb9ae0de8fc47af3f3af6a4cfb4fd0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[443:14] Variable 'rtb_putbit2' previously seen here. (Specimen value: '7').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "444", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0d40b7f9e4ffc4f95f1a138d5170d3bab0694bceec329b2add2973ea67e14267"
+                }, 
+                "justification": "", 
+                "message": "[444:47] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "448", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a1a52c5714ffe8ad51c11a5eb25b684ff35fc6989dc8b7dbc97d1c0f39052261"
+                }, 
+                "justification": "", 
+                "message": "[448:53] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "534", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "34cc047d53c212b0a6c387ff4765fbf8a30ff04969be5e04964d86b1e557fab6"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[534:14] Variable 'rtb_putbit2' previously seen here. (Specimen value: '6').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "548", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1a82bf6d72cb605e7809b43f480b69a62a67635389d92ea9374f5193ab1ce3bc"
+                }, 
+                "justification": "", 
+                "message": "[548:47] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }
+        ]
+    }
+]

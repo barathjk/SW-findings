@@ -1,0 +1,42 @@
+[
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_PrcDiag_ppBMWprc_b_FirstStrClr_BMWprc_b_FirstStrClr", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_PrcDiag/BMW_MOD_PrcDiag_10ms", 
+        "assessment": {
+            "YELLOW": "28"
+        }, 
+        "count": "28"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_PrcDiag/BMW_SWC_PrcDiag_Init", 
+        "assessment": {
+            "YELLOW": "20"
+        }, 
+        "count": "20"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_PrcDiag/BMWprc_b_FirstStrClr_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_PrcDiag/BMW_SWC_PrcDiag_B", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }
+]

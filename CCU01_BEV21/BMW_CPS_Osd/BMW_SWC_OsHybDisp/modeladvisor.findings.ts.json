@@ -1,0 +1,157 @@
+[
+    {
+        "path": "SVN_BMW_SWC_OsHybDisp/Model/LIB_BMW_MOD_EgyFlowDisp_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(1,16,0.1,0). <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion3 is not necessary because the input and output data type are both fixdt(1,16,0.0244140625,0). <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion6 is not necessary because the input and output data type are both fixdt(1,16,0.1,0). <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Data Type Conversion6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(1,16,0.0244140625,0). <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Hybrid_Zustandserkennung/Erkennung_ANTR_REKU_BOOST/Erkennung_Boost/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion1 is not necessary because the input and output data type are both fixdt(1,16,0.1,0). <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Hybrid_Zustandserkennung/Erkennung_ANTR_REKU_BOOST/Erkennung_Boost/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion2 is not necessary because the input and output data type are both fixdt(1,16,0.1,0). <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Hybrid_Zustandserkennung/Erkennung_ANTR_REKU_BOOST/Erkennung_Boost/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-3276.8, 3276.7] of the target data type fixdt(1,16,0.1,0) for block Data Type Conversion. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-800, 799.9756] of the source data type fixdt(1,16,0.0244140625,0) fits into the range [-800, 799.9756] of the target data type fixdt(1,16,0.0244140625,0) for block Data Type Conversion3. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-3276.8, 3276.7] of the target data type fixdt(1,16,0.1,0) for block Data Type Conversion6. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Data Type Conversion6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-800, 799.9756] of the source data type fixdt(1,16,0.0244140625,0) fits into the range [-800, 799.9756] of the target data type fixdt(1,16,0.0244140625,0) for block Data Type Conversion. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Hybrid_Zustandserkennung/Erkennung_ANTR_REKU_BOOST/Erkennung_Boost/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-3276.8, 3276.7] of the target data type fixdt(1,16,0.1,0) for block Data Type Conversion1. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Hybrid_Zustandserkennung/Erkennung_ANTR_REKU_BOOST/Erkennung_Boost/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-3276.8, 3276.7] of the target data type fixdt(1,16,0.1,0) for block Data Type Conversion2. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] false positive - Convert Block is necessary in this case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms/HYB_or_BEV/Hybrid_Zustandserkennung/Erkennung_ANTR_REKU_BOOST/Erkennung_Boost/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWosd_i_MeasHvsActPlau has the variant condition BMW_SP2018_SC_EQU_1_AND_BMW_PT_TOP_EL_SC_EQU_0 in ADD but is used within a variant condition Var_OsHyb_SP18HYB in process blockBMW_MOD_EgyFlowDisp_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWosd_b_MsaEngStrReq has the variant condition BMW_SP2018_SC_EQU_1_AND_BMW_PT_TOP_EL_SC_EQU_0 in ADD but is used within a variant condition Var_OsHyb_SP18HYB in process blockBMW_MOD_EgyFlowDisp_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWosd_st_CoaFctPlau has the variant condition BMW_SP2018_SC_EQU_1_AND_BMW_PT_TOP_EL_SC_EQU_0 in ADD but is used within a variant condition Var_OsHyb_SP18HYB in process blockBMW_MOD_EgyFlowDisp_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EgyFlowDisp_100ms/BMW_MOD_EgyFlowDisp_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

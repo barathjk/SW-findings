@@ -1,0 +1,147 @@
+[
+    {
+        "path": "SVN_BMW_SWC_FanStc/Model/LIB_BMW_MOD_FanStc_Save_200ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Assignment block Assignment using Initial Value: The input port Y0 is not necessary because the output of the block is written by the For Iterator For Iterator. <br/> <mark><em>[Whitelisted] tolerated as done on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_Save_200ms/BMW_MOD_FanStc_Save_200ms/Speicherung und Reset der Statistikdaten/Statistik speichern/For Iterator Save Matrix 1/Assignment using Initial Value", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0109"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Assignment block Assignment using Initial Value: The input port Y0 is not necessary because the output of the block is written by the For Iterator For Iterator. <br/> <mark><em>[Whitelisted] tolerated as done on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_Save_200ms/BMW_MOD_FanStc_Save_200ms/Speicherung und Reset der Statistikdaten/Statistik speichern/For Iterator Save Matrix 2/Assignment using Initial Value", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0109"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment using Initial Value was found in subsystem For Iterator Save Matrix 1. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] tolerated as index values cannot exceed array index by implementation</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_Save_200ms/BMW_MOD_FanStc_Save_200ms/Speicherung und Reset der Statistikdaten/Statistik speichern/For Iterator Save Matrix 1/Assignment using Initial Value", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment using Initial Value was found in subsystem For Iterator Save Matrix 2. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] tolerated as index values cannot exceed array index by implementation</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_Save_200ms/BMW_MOD_FanStc_Save_200ms/Speicherung und Reset der Statistikdaten/Statistik speichern/For Iterator Save Matrix 2/Assignment using Initial Value", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_FanStc/Model/LIB_BMW_MOD_FanStc_TmpMatr_1000ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The parameter States when execution is resumed of the Action Port block Action Port is set to reset. This option is not allowed. <br/> <mark><em>[Whitelisted] Mit Absicht so gemacht- muss whitegelistet werden</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_TmpMatr_1000ms/BMW_MOD_FanStc_TmpMatr_1000ms/Berechnung und Zuruecksetzung temporaeren Matrizen/Berechnung temporaeren Matrizen/Action Port", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0173"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The parameter States when execution is resumed of the Action Port block Action Port is set to reset. This option is not allowed. <br/> <mark><em>[Whitelisted] Mit Absicht so gemacht- muss whitegelistet werden</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_TmpMatr_1000ms/BMW_MOD_FanStc_TmpMatr_1000ms/Berechnung und Zuruecksetzung temporaeren Matrizen/Zuruecksetzung temporaeren Matrizen/Action Port", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0173"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The property InitializeStates of the block Action Port is set to a value other than the default value held. In this case the string % should be added as a block annotation. <br/> <mark><em>[Whitelisted] Mit Absicht so gemacht- muss whitegelistet werden</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_TmpMatr_1000ms/BMW_MOD_FanStc_TmpMatr_1000ms/Berechnung und Zuruecksetzung temporaeren Matrizen/Berechnung temporaeren Matrizen/Action Port", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0174"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The property InitializeStates of the block Action Port is set to a value other than the default value held. In this case the string % should be added as a block annotation. <br/> <mark><em>[Whitelisted] Mit Absicht so gemacht- muss whitegelistet werden</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_TmpMatr_1000ms/BMW_MOD_FanStc_TmpMatr_1000ms/Berechnung und Zuruecksetzung temporaeren Matrizen/Zuruecksetzung temporaeren Matrizen/Action Port", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0174"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment using Initial Value3 connected to Constant(s) in subsystem Anzahl Relaisschaltzyklen hochzaehlen. <br/> <mark><em>[Whitelisted] tolerated as other index values are written in another subsystem</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_TmpMatr_1000ms/BMW_MOD_FanStc_TmpMatr_1000ms/Berechnung und Zuruecksetzung temporaeren Matrizen/Anzahl Relaisschaltzyklen hochzaehlen/Assignment using Initial Value3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment using Initial Value2 was found in subsystem Anzahl Nachlaufen hochzaehlen. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] tolerated as index value -1 is only used to ensure that only valid data is written to the array</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_TmpMatr_1000ms/BMW_MOD_FanStc_TmpMatr_1000ms/Berechnung und Zuruecksetzung temporaeren Matrizen/Berechnung temporaeren Matrizen/Anzahl Nachlaufen hochzaehlen/Assignment using Initial Value2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment using Initial Value3 was found in subsystem Zaehlen Ansteuerdauer. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] tolerated as index value -1 is only used to ensure that only valid data is written to the array</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_TmpMatr_1000ms/BMW_MOD_FanStc_TmpMatr_1000ms/Berechnung und Zuruecksetzung temporaeren Matrizen/Berechnung temporaeren Matrizen/Zaehlen Ansteuerdauer/Assignment using Initial Value3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_FanStc/Model/LIB_BMW_MOD_FanStc_Cord_200ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The parameter States when execution is resumed of the Action Port block Action Port is set to reset. This option is not allowed. <br/> <mark><em>[Whitelisted] Mit Absicht so gemacht- muss whitegelistet werden</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_Cord_200ms/BMW_MOD_FanStc_Cord_200ms/Statistic Coordinator/Freigabe_Statistikmatrizen/Einzelne Freigaben/Action Port", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0173"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The property InitializeStates of the block Action Port is set to a value other than the default value held. In this case the string % should be added as a block annotation. <br/> <mark><em>[Whitelisted] Mit Absicht so gemacht- muss whitegelistet werden</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_Cord_200ms/BMW_MOD_FanStc_Cord_200ms/Statistic Coordinator/Freigabe_Statistikmatrizen/Einzelne Freigaben/Action Port", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0174"
+            }
+        ]
+    }
+]

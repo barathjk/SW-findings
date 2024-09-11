@@ -1,0 +1,34 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvChaPostStc/CCU01BEV21BMW/BMW_SWC_HvChaPostStc_component.arxml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c6df518052be67b3e783e0724d9c5b6910b963d0d1eb7f1d608eaf1c927def88"
+                }, 
+                "message": "Runnable 'BMW_SWC_HvChaPostStc_Init' can't be found in Scheduling-Group. Please add definition to Scheduling-Group or remove runnable/event definition in ADD and extension file", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "swcsched.runnotinschedgrp"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaPostStc/CCU01BEV21BMW/SCHDGRP_BMW_SWC_HvChaPostStc.xml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4be4313afd2db1bf0bada33c4a90b6d2ae668dd2c13558c53af45776ac5df0b6"
+                }, 
+                "message": "FUNCTION-CALL 'BMW_HvChaPostStc_Init' can't be found in ARXML file or is a runnable which shall not be considered in scheduling xml. Please add definition of Runnable/Event in ADD and extension file or remove FUNCTION-CALL from Scheduling-Group.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "swcsched.eventnotinarxml"
+            }
+        ]
+    }
+]

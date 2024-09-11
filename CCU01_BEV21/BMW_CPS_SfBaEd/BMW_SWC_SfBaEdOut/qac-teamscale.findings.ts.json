@@ -1,0 +1,95 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfBaEdOut/CCU01BEV21BMW/BMW_SWC_SfBaEdOut.c", 
+        "findings": [
+            {
+                "startLine": "110", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[110:27] 'Switch7' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "110", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[110:27] 'Switch7' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "111", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[111:27] 'Switch8' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "111", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[111:27] 'Switch8' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "162", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d03b07734a1e0913d23b7a77562f8c6762250c56390ed657b0e380f166a538ff"
+                }, 
+                "justification": "", 
+                "message": "[162:36] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "164", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d03b07734a1e0913d23b7a77562f8c6762250c56390ed657b0e380f166a538ff"
+                }, 
+                "justification": "", 
+                "message": "[164:36] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "167", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d03b07734a1e0913d23b7a77562f8c6762250c56390ed657b0e380f166a538ff"
+                }, 
+                "justification": "", 
+                "message": "[167:36] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "169", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d03b07734a1e0913d23b7a77562f8c6762250c56390ed657b0e380f166a538ff"
+                }, 
+                "justification": "", 
+                "message": "[169:36] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }
+        ]
+    }
+]

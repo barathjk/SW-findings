@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_EfdIn/CCU01BEV21BMW/BMW_SWC_EfdIn.c", 
+        "findings": [
+            {
+                "startLine": "581", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7580a3d56a53ca75b5d02e4e049d617351314bb3ff158a829ac3cef79d7c6b94"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][581] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }
+        ]
+    }
+]

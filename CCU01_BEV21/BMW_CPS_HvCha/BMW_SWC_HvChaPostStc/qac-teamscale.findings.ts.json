@@ -1,0 +1,139 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvChaPostStc/CCU01BEV21BMW/BMW_SWC_HvChaPostStc.c", 
+        "findings": [
+            {
+                "startLine": "2455", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5368ef6d262b38acbaa113de97d280540ba2477074b93b6249ff4fc1585296bc"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2455:11] Variable 'i' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2456", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5368ef6d262b38acbaa113de97d280540ba2477074b93b6249ff4fc1585296bc"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2456:13] Variable 'j' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2461", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8a943ea7c0d72de94fd30459a133bb5437abb3a0bb8e0dcfbba8aeaf5c57f70e"
+                }, 
+                "justification": "", 
+                "message": "[2461:12] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "2462", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5368ef6d262b38acbaa113de97d280540ba2477074b93b6249ff4fc1585296bc"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2462:13] Variable 'str' previously seen here. (Specimen value: '2147483647').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "550", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f89d37a0de0fcbfd8f94113c886ef1feb252f215e237b4f1193bb4174e4adb86"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[550:11] Variable 'i' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "551", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f89d37a0de0fcbfd8f94113c886ef1feb252f215e237b4f1193bb4174e4adb86"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[551:13] Variable 'j' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "556", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "db20c7e28ea76095edd43b3105f55dd03f80351ebf9ad3126dd8c74e8443102b"
+                }, 
+                "justification": "", 
+                "message": "[556:45] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "557", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f89d37a0de0fcbfd8f94113c886ef1feb252f215e237b4f1193bb4174e4adb86"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[557:13] Variable 'str' previously seen here. (Specimen value: '2147483647').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "568", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ec86e4d0cc353975b62f415c87c93e790fc2c59f91a8ce81fa25e04eab1184b6"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[568:11] Variable 'i' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "569", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ec86e4d0cc353975b62f415c87c93e790fc2c59f91a8ce81fa25e04eab1184b6"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[569:13] Variable 'j' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "574", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ac00872acb84243380fa6f36db48513b7cfb3a15747caa3e8b4e274b902cc4a6"
+                }, 
+                "justification": "", 
+                "message": "[574:45] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "575", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ec86e4d0cc353975b62f415c87c93e790fc2c59f91a8ce81fa25e04eab1184b6"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[575:13] Variable 'str' previously seen here. (Specimen value: '2147483647').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }
+        ]
+    }
+]

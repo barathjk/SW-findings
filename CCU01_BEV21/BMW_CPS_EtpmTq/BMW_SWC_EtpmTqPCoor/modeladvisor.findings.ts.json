@@ -1,0 +1,487 @@
+[
+    {
+        "path": "SVN_BMW_SWC_EtpmTqPCoor/Model/LIB_BMW_PowerPrioPos_FUMU.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The Stateflow chart Prio_Det has a State-vs.-Transition ratio of 0%, which is below the threshold of 10%. <br/> <mark><em>[Whitelisted] No states in chart is intended. Implementation of Bubble Sort algorithm.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_PowerPrioPos_FUMU/LIB_BMW_PowerPrioPos_FUMU/Prio_Det", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_EtpmTqPCoor/Model/LIB_BMW_MOD_EtpmTqPCoor_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_ResiChaPowDistribution is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/LIB_BMW_ResiChaPowDistribution", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_ResiChaPowDistribution1 is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/LIB_BMW_ResiChaPowDistribution1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block Power_Limitation of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/Power_Limitation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_ResiDchaPowDistribution is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/LIB_BMW_ResiDchaPowDistribution", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_ResiDchaPowDistribution1 is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/LIB_BMW_ResiDchaPowDistribution1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block Power_Limitation of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/Power_Limitation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_MaxChaPowCalc is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/P_Coor_L1_PowerDistribution for Charge/LIB_BMW_MaxChaPowCalc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_MaxChaPowCalc1 is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/P_Coor_L1_PowerDistribution for Charge/LIB_BMW_MaxChaPowCalc1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_PowerPrioPos is not part of libBACE, but was certified by qxo5570 and reviewed by qxs8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/P_Coor_L1_PowerDistribution for Charge/LIB_BMW_PowerPrioPos", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Level_1_charge is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/P_Coor_L1_PowerDistribution for Charge/LIB_BMW_Power_allocation_Level_1_charge", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Level_1_charge1 is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/P_Coor_L1_PowerDistribution for Charge/LIB_BMW_Power_allocation_Level_1_charge1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Level_1_charge2 is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/P_Coor_L1_PowerDistribution for Charge/LIB_BMW_Power_allocation_Level_1_charge2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Level_1_charge3 is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/P_Coor_L1_PowerDistribution for Charge/LIB_BMW_Power_allocation_Level_1_charge3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_MaxDchaPowCalc is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/P_Coor_L1_PowerDistribution for Discharge/LIB_BMW_MaxDchaPowCalc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_MaxDchaPowCalc1 is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/P_Coor_L1_PowerDistribution for Discharge/LIB_BMW_MaxDchaPowCalc1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_PowerPrioPos is not part of libBACE, but was certified by qxo5570 and reviewed by qxs8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/P_Coor_L1_PowerDistribution for Discharge/LIB_BMW_PowerPrioPos", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Level_1_discharge is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/P_Coor_L1_PowerDistribution for Discharge/LIB_BMW_Power_allocation_Level_1_discharge", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Level_1_discharge1 is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/P_Coor_L1_PowerDistribution for Discharge/LIB_BMW_Power_allocation_Level_1_discharge1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Level_1_discharge2 is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/P_Coor_L1_PowerDistribution for Discharge/LIB_BMW_Power_allocation_Level_1_discharge2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Level_1_discharge3 is not part of libBACE, but was certified by qxs8784 and reviewed by qxo5570. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/P_Coor_L1_PowerDistribution for Discharge/LIB_BMW_Power_allocation_Level_1_discharge3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_PowerPrioPos_FUMU is not part of libBACE, but was certified by QXQ4186 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/LIB_BMW_ResiChaPowDistribution/ResiChaPowDistribution_FUMU/LIB_BMW_PowerPrioPos_FUMU", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Residual_charge is not part of libBACE, but was certified by QXN4231 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/LIB_BMW_ResiChaPowDistribution/ResiChaPowDistribution_FUMU/LIB_BMW_Power_allocation_Residual_charge", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Residual_charge1 is not part of libBACE, but was certified by QXN4231 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/LIB_BMW_ResiChaPowDistribution/ResiChaPowDistribution_FUMU/LIB_BMW_Power_allocation_Residual_charge1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_PowerPrioPos_FUMU is not part of libBACE, but was certified by QXQ4186 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/LIB_BMW_ResiChaPowDistribution1/ResiChaPowDistribution_FUMU/LIB_BMW_PowerPrioPos_FUMU", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Residual_charge is not part of libBACE, but was certified by QXN4231 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/LIB_BMW_ResiChaPowDistribution1/ResiChaPowDistribution_FUMU/LIB_BMW_Power_allocation_Residual_charge", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Residual_charge1 is not part of libBACE, but was certified by QXN4231 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/LIB_BMW_ResiChaPowDistribution1/ResiChaPowDistribution_FUMU/LIB_BMW_Power_allocation_Residual_charge1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_PowerPrioPos_FUMU is not part of libBACE, but was certified by QXQ4186 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/LIB_BMW_ResiDchaPowDistribution/ResiDchaPowDistribution_FUMU/LIB_BMW_PowerPrioPos_FUMU", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Residual_discharge is not part of libBACE, but was certified by QXN4231 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/LIB_BMW_ResiDchaPowDistribution/ResiDchaPowDistribution_FUMU/LIB_BMW_Power_allocation_Residual_discharge", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Residual_discharge1 is not part of libBACE, but was certified by QXN4231 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/LIB_BMW_ResiDchaPowDistribution/ResiDchaPowDistribution_FUMU/LIB_BMW_Power_allocation_Residual_discharge1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_PowerPrioPos_FUMU is not part of libBACE, but was certified by QXQ4186 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/LIB_BMW_ResiDchaPowDistribution1/ResiDchaPowDistribution_FUMU/LIB_BMW_PowerPrioPos_FUMU", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Residual_discharge is not part of libBACE, but was certified by QXN4231 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/LIB_BMW_ResiDchaPowDistribution1/ResiDchaPowDistribution_FUMU/LIB_BMW_Power_allocation_Residual_discharge", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_allocation_Residual_discharge1 is not part of libBACE, but was certified by QXN4231 and reviewed by QXS8784. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/LIB_BMW_ResiDchaPowDistribution1/ResiDchaPowDistribution_FUMU/LIB_BMW_Power_allocation_Residual_discharge1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_combine is not part of libBACE, but was certified by qxq4186 and reviewed by qxq8621. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Combine/LIB_BMW_Power_combine", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_combine1 is not part of libBACE, but was certified by qxq4186 and reviewed by qxq8621. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Combine/LIB_BMW_Power_combine1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_combine2 is not part of libBACE, but was certified by qxq4186 and reviewed by qxq8621. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Combine/LIB_BMW_Power_combine2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_combine3 is not part of libBACE, but was certified by qxq4186 and reviewed by qxq8621. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Combine/LIB_BMW_Power_combine3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_combine4 is not part of libBACE, but was certified by qxq4186 and reviewed by qxq8621. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Combine/LIB_BMW_Power_combine4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_combine5 is not part of libBACE, but was certified by qxq4186 and reviewed by qxq8621. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Combine/LIB_BMW_Power_combine5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_combine6 is not part of libBACE, but was certified by qxq4186 and reviewed by qxq8621. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Combine/LIB_BMW_Power_combine6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block LIB_BMW_Power_combine7 is not part of libBACE, but was certified by qxq4186 and reviewed by qxq8621. <br/> <mark><em>[Whitelisted] Already certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Combine/LIB_BMW_Power_combine7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWetpmt_b_PwrLimChaSys seems to be wrongly connected to the inport BMWetpmt_b_PwrLimSys.. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed. Connection is correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/BMWetpmt_b_PwrLimChaSys", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWetpmt_b_PwrLimDchaSys seems to be wrongly connected to the inport BMWetpmt_b_PwrLimSys.. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed. Connection is correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/BMWetpmt_b_PwrLimDchaSys", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport Priority_Vector_Charge seems to be wrongly connected to the inport Prio_Vec. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed. Connection is correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Charge_Power_Aollcate/Charge/Priority_Vector_Charge", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport Priority_Vector_Discharge seems to be wrongly connected to the inport Prio_Vec. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed. Connection is correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqPCoor_10ms/BMW_MOD_EtpmTqPCoor_10ms/Discharge_Power_Aollcate/Discharge/Priority_Vector_Discharge", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_EtpmTqPCoor/Model/LIB_BMW_PowerPrioPos.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The Stateflow chart PowFac_det has a State-vs.-Transition ratio of 0%, which is below the threshold of 10%. <br/> <mark><em>[Whitelisted] No states in chart is intended. Implementation of Bubble Sort algorithm.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_PowerPrioPos/LIB_BMW_PowerPrioPos/PowFac_det", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The Stateflow chart Prio_and_Pos_det has a State-vs.-Transition ratio of 0%, which is below the threshold of 10%. <br/> <mark><em>[Whitelisted] No states in chart is intended. Implementation of Bubble Sort algorithm.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_PowerPrioPos/LIB_BMW_PowerPrioPos/Prio_and_Pos_det", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }
+        ]
+    }
+]

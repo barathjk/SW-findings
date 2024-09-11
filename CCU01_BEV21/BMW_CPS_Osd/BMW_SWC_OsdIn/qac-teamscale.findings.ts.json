@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_OsdIn/CCU01BEV21BMW/BMW_SWC_OsdIn.c", 
+        "findings": [
+            {
+                "startLine": "207", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[207:16] 'BMW_SWC_OsdIn_B' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "4829", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fd2ef43e7a8f6d381037725b6782667117d2ebf17419e7330199ff4ebae25251"
+                }, 
+                "justification": "", 
+                "message": "[4829:44] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "4843", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "982985431934318c152c0344e5bb216af24a97983cdfb06975cb8d6bdd0556d9"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4843:44] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }
+        ]
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "path": "SVN_BMW_SWC_EtpmTqIn/Model/LIB_BMW_MOD_EtpmTqIn_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport Switch_pEMsEM seems to be wrongly connected to the outport BMWetpmt_s_EnaSwiSigpEMsEM. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Connection is already correct</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqIn_10ms/BMW_MOD_EtpmTqIn_10ms/Condition to switch Achs- or Inline-Hybrid/Switch_pEMsEM", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport Consider_pEM seems to be wrongly connected to the outport BMWetpmt_s_EnapEM. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Connection is already correct</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqIn_10ms/BMW_MOD_EtpmTqIn_10ms/Condition to switch Achs- or Inline-Hybrid/Consider_pEM", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport Consider_sEM seems to be wrongly connected to the outport BMWetpmt_s_EnasEM. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Connection is already correct</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqIn_10ms/BMW_MOD_EtpmTqIn_10ms/Condition to switch Achs- or Inline-Hybrid/Consider_sEM", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWetpmt_pwr_AuxCnrCnsFildDe  and the signal BMWetpmt_pwr_AuxCnrCnsFildDe resolved to it do not match. <br/> <mark><em>[Whitelisted] Connection is already correct</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqIn_10ms/BMW_MOD_EtpmTqIn_10ms/substitute value of  EtpmTqLimP/Delay/BMWetpmt_pwr_AuxCnrCnsFildDe ", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport Drehzahl_Gefiltert seems to be wrongly connected to the outport Filtered_rotational_speed. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Connection is already correct</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqIn_10ms/BMW_MOD_EtpmTqIn_10ms/substitute value of  EtpmTqLimP/LowPassFilter_pEM/filter_with_gradient/Drehzahl_Gefiltert", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport Drehzahl_Gefiltert seems to be wrongly connected to the outport Filtered_rotational_speed. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Connection is already correct</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqIn_10ms/BMW_MOD_EtpmTqIn_10ms/substitute value of  EtpmTqLimP/LowPassFilter_sEM/filter_with_gradient/Drehzahl_Gefiltert", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWetpmt_pwr_BatActMesFil  and the signal BMWetpmt_pwr_BatActMesFil resolved to it do not match. <br/> <mark><em>[Whitelisted] Connection is already correct</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqIn_10ms/BMW_MOD_EtpmTqIn_10ms/substitute value of  EtpmTqLimP/PT1_Filter_pwr_Bat/BMWetpmt_pwr_BatActMesFil ", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

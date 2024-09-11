@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_StcActrDia/CCU01BEV21BMW/BMW_SWC_StcActrDia.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "92285cd4a2b5d5a8c80aea5495795141c047a0de7be5d04f16490ae93e810a70"
+                }, 
+                "message": "No implementation for diagnostic service EfanStatistics_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8892e88f31bc1397ed136ccf9e2ced4cc9efd88b38559bad27f7ad0dd6b0eeea"
+                }, 
+                "message": "No implementation for diagnostic service WasserpumpeHochvoltspeicherStatistics_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "98482dccda101def6f1d779e36739389f8c5d87ab81b50b42099e89cdbe97570"
+                }, 
+                "message": "No implementation for diagnostic service WasserpumpeLeistungselektronikStatistics_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "path": "SVN_BMW_SWC_TqLimBev/Model/LIB_BMW_MOD_TqLimBevGbx_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide1 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Desired functional behaviour. Implemented with TQL-1897</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqLimBevGbx_10ms/BMW_MOD_TqLimBevGbx_10ms/EmSec/Momentberechnung1/SLIB_MDK2MDG/Divide1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide1 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Desired functional behaviour. Implemented with TQL-1897</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqLimBevGbx_10ms/BMW_MOD_TqLimBevGbx_10ms/EmPri/Momentberechnung_Eachse/SLIB_MDK2MDG/Divide1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide1 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Desired functional behaviour. Implemented with TQL-1897</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqLimBevGbx_10ms/BMW_MOD_TqLimBevGbx_10ms/EmPri/Momentberechnung_Eachse1/SLIB_MDK2MDG/Divide1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide1 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Desired functional behaviour. Implemented with TQL-1898</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqLimBevGbx_10ms/BMW_MOD_TqLimBevGbx_10ms/EmSec/Momentberechnung/SLIB_MDK2MDG/Divide1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

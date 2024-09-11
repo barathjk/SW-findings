@@ -1,0 +1,77 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SrvDiagSfACPD/Model/LIB_BMW_MOD_SrvDiagSfACPD_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion1 is not necessary because the input and output data type are both fixdt(0,16,0). <br/> <mark><em>[Whitelisted] i.O. da fr Fehlerspeicher Eintrge notwendig</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfACPD_10ms/BMW_MOD_SrvDiagSfACPD_10ms/Umweltbedingungen_Fahrpedal/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion2 is not necessary because the input and output data type are both fixdt(0,16,0). <br/> <mark><em>[Whitelisted] i.O. da fr Fehlerspeicher Eintrge notwendig</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfACPD_10ms/BMW_MOD_SrvDiagSfACPD_10ms/Umweltbedingungen_Fahrpedal/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion3 is not necessary because the input and output data type are both fixdt(0,16,0). <br/> <mark><em>[Whitelisted] i.O. da fr Fehlerspeicher Eintrge notwendig</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfACPD_10ms/BMW_MOD_SrvDiagSfACPD_10ms/Umweltbedingungen_Fahrpedal/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion4 is not necessary because the input and output data type are both fixdt(0,16,0). <br/> <mark><em>[Whitelisted] i.O. da fr Fehlerspeicher Eintrge notwendig</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfACPD_10ms/BMW_MOD_SrvDiagSfACPD_10ms/Umweltbedingungen_Fahrpedal/Data Type Conversion4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SrvDiagSfACPD/Model/LIB_Ifpwg_ReadData.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] i.O. da die Umweltdaten sonst falsch abgerundet werden</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_Ifpwg_ReadData/Ifpwg_ReadData/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SrvDiagSfACPD/Model/LIB_BusFahrpedalwert_ReadData.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] i.O. da die Umweltdaten sonst falsch abgerundet werden</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BusFahrpedalwert_ReadData/BusFahrpedalwert_ReadData/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

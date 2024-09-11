@@ -1,0 +1,146 @@
+[
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_IlfCtr_ppBMWilfctr_b_FanRevCrit_BMWilfctr_b_FanRevCrit", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_IlfCtr_ppBMWilfctr_b_StMacRlyRst_BMWilfctr_b_StMacRlyRst", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_IlfCtr_ppBMWilfctr_n_Sp_ub_BMWilfctr_n_Sp_ub", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_IlfCtr_ppBMWilfctr_ti_AutFanCtl_ub_BMWilfctr_ti_AutFanCtl_ub", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_IlfCtr_ppBMWilfctr_b_RlySp_bo_BMWilfctr_b_RlySp_bo", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_IlfCtr_ppBMWilfctr_st_OpmSp_ub_BMWilfctr_st_OpmSp_ub", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMW_SWC_IlfCtr_IfSystem", 
+        "assessment": {
+            "YELLOW": "6"
+        }, 
+        "count": "6"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMW_MOD_IlfCtr_Calc_200ms", 
+        "assessment": {
+            "YELLOW": "460"
+        }, 
+        "count": "460"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMW_SWC_IlfCtr_Init", 
+        "assessment": {
+            "YELLOW": "14"
+        }, 
+        "count": "14"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMWilfctr_n_RlyOffMax_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMWilfctr_i_RlyOffMax_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMWilfctr_swi_WayRlyOff_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMWilfctr_ti_DlyRlyOff_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMWilfctr_ti_StMacRlyReq_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMWilfctr_b_StMacRlyReq_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMWilfctr_n_FanRevCritThd_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMW_SWC_IlfCtr_B", 
+        "assessment": {
+            "YELLOW": "6"
+        }, 
+        "count": "6"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_IlfCtr/BMW_SWC_IlfCtr_DW", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }
+]

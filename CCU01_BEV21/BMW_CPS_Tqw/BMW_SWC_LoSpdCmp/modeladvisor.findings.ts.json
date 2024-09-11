@@ -1,0 +1,27 @@
+[
+    {
+        "path": "SVN_BMW_SWC_LoSpdCmp/Model/LIB_BMW_MOD_LoSpdCmpHld_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion4 is not recommended. <br/> <mark><em>[Whitelisted] Conversion needed to provide a higher resolution needed for acceleration integration.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LoSpdCmpHld_10ms/BMW_MOD_LoSpdCmpHld_10ms/VariantSubsystem_Haltefunktion/Elektro/Haltefunktion/Fahrwiderstandsbeobachter/SlopeObserver/Data Type Conversion4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion1 is not recommended. <br/> <mark><em>[Whitelisted] Conversion needed to provide a higher resolution needed for acceleration integration.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LoSpdCmpHld_10ms/BMW_MOD_LoSpdCmpHld_10ms/VariantSubsystem_Haltefunktion/Elektro/Haltefunktion/Fahrwiderstandsbeobachter/SlopeObserver/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }
+        ]
+    }
+]

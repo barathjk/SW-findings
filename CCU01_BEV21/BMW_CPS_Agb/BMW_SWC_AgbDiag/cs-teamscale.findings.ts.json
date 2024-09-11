@@ -1,0 +1,73 @@
+[
+    {
+        "path": "ART_BMW_SWC_AgbDiag/CCU01BEV21BMW/BMW_SWC_AgbDiag.c", 
+        "findings": [
+            {
+                "startLine": "139", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2b26fe3c6c6c0b33b6012b7d766ec13e180f2dcfa1f76a272c13af1f3a27948b"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][139] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "160", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7a3c95ba5876e08fe0b3da9284932cf27e75df65a85b639969062e3b4e985ace"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][160] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "169", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9023a053f196f0389cfe1f1a09de98a0a6417006f524fd4aa3efd4ab6dd34090"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][169] Unreachable Computation", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "140", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4affe8d53bd951404a1ea76a8b84ee94c3c2d993e566a15f14dd0c64e616b116"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][140] Unreachable Data Flow", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "124", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1d0b9c32251a6fcddda0cc739f5e2df7b8ddda2e7c74ed8a3e7569741442d96e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][124] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "126", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1d0b9c32251a6fcddda0cc739f5e2df7b8ddda2e7c74ed8a3e7569741442d96e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][126] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }
+        ]
+    }
+]

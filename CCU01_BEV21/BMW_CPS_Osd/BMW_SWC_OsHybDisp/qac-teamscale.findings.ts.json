@@ -1,0 +1,194 @@
+[
+    {
+        "path": "ART_BMW_SWC_OsHybDisp/CCU01BEV21BMW/BMW_SWC_OsHybDisp.c", 
+        "findings": [
+            {
+                "startLine": "1259", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1ee17f854b98ebf971e86dae502094815b6ee6940830443c3a22548154109b15"
+                }, 
+                "justification": "", 
+                "message": "[1259:17] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "1350", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0f9d79ace36b1c65be210d71ec721e021ea743d4f50cd13583b3695ad599451c"
+                }, 
+                "justification": "", 
+                "message": "[1350:28] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "2568", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "987f67f8593bf42efffd98ab346233c0ec0be958317a839a476067f50fc40fb3"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2568:19] Variable 'rtb_Merge_cx' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2568", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "987f67f8593bf42efffd98ab346233c0ec0be958317a839a476067f50fc40fb3"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2568:19] Variable 'rtb_Merge_cx' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2581", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f15b8447fca2d28efc5679ddad2a36854e4d6d0b3b591bf8a82cc266ecdb3f85"
+                }, 
+                "justification": "", 
+                "message": "[2581:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "2583", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b58b6487fa8b19425a4c0338450b9c78cfb37d545d8ed5059224549d6292f998"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2583:27] Variable 'BMWosd_st_DispOpmHyb' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2583", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b58b6487fa8b19425a4c0338450b9c78cfb37d545d8ed5059224549d6292f998"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2583:27] Variable 'BMWosd_st_DispOpmHyb' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2597", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3659e4eaacfcb166297e786f5d0bbd8f4884eb22092646fa4812ffbeadf365ba"
+                }, 
+                "justification": "", 
+                "message": "[2597:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "2599", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "67dda4670ba5c9f900cb9ea408e50b60c6aa065ca6b6767bfed4f478c695981f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2599:27] Variable 'rtb_ShiftArithmetic6' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2672", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0c8eca6505d90fe8386e4449539b1111556d5d6f48c3577336542442f34cfd3e"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2672:17] Variable 'rtb_Merge_cx' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2672", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0c8eca6505d90fe8386e4449539b1111556d5d6f48c3577336542442f34cfd3e"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2672:17] Variable 'rtb_Merge_cx' previously seen here. (Specimen value: '32').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2672", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dc443c58ea52e7f5a51fa8dd33b11acd33b32aeae13371b49ad6a417c2e4c551"
+                }, 
+                "justification": "", 
+                "message": "[2672:41] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "2672", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dc443c58ea52e7f5a51fa8dd33b11acd33b32aeae13371b49ad6a417c2e4c551"
+                }, 
+                "justification": "", 
+                "message": "[2672:79] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "2741", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "25141350a9afe33781f28a9a5d9019e8414b4934ea505b6bc84ffef2e1429da7"
+                }, 
+                "justification": "", 
+                "message": "[2741:51] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "2756", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8bcbeaf9dcc578edc96da5b21f61559d683f9140fab53a49feeb5e10e38823cb"
+                }, 
+                "justification": "", 
+                "message": "[2756:51] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "392", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[392:10] 'rtb_Product2' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "393", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[393:11] 'rtb_DataTypeConversion5' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }
+        ]
+    }
+]

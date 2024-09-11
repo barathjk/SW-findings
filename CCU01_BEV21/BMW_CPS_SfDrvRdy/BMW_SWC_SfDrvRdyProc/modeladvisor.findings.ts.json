@@ -1,0 +1,147 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfDrvRdyProc/Model/LIB_BMW_MOD_SfDrvRdyProc_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of SafeHldActPos and the signal BMWsfdvry_b_SafeHldActPos resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Freigabe_Fahrbereitschaft/SafeHldActPos", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of SafeHld_EPB and the signal BMWsfdvry_b_SafeHldElPrkgBrk resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Freigabe_Fahrbereitschaft/SafeHld_EPB", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of SafeHldBrkSumAct and the signal BMWsfdvry_b_SafeHldBrkSumAct resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Freigabe_Fahrbereitschaft/SafeHldBrkSumAct", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of st_DrvrDet and the signal BMWsfdrvy_st_SftyDrvrDetd resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Freigabe_Fahrbereitschaft/st_DrvrDet", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of SafeHldActPos and the signal BMWsfdvry_b_SafeHldActPos resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Freigabe_Sollmoment/SafeHldActPos", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of SafeHld_EPB and the signal BMWsfdvry_b_SafeHldElPrkgBrk resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Freigabe_Sollmoment/SafeHld_EPB", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of SafeHldBrkSumAct and the signal BMWsfdvry_b_SafeHldBrkSumAct resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Freigabe_Sollmoment/SafeHldBrkSumAct", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of st_DrvrDet and the signal BMWsfdrvy_st_SftyDrvrDetd resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Freigabe_Sollmoment/st_DrvrDet", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of SafeHldActPos and the signal BMWsfdvry_b_SafeHldActPos resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Momentenfreigabe/SafeHldActPos", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of SafeHld_EPB and the signal BMWsfdvry_b_SafeHldElPrkgBrk resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Momentenfreigabe/SafeHld_EPB", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of SafeHldBrkSumAct and the signal BMWsfdvry_b_SafeHldBrkSumAct resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Momentenfreigabe/SafeHldBrkSumAct", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of st_DrvrDet and the signal BMWsfdrvy_st_SftyDrvrDetd resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Momentenfreigabe/st_DrvrDet", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of EngStrRlsSet and the signal BMWsfdvry_b_EngStrRlsSet resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Momentenfreigabe/EngStrRlsSet", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of EngStrRlsRst and the signal BMWsfdvry_b_EngStrRlsRst resolved to it do not match. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfDrvRdyProc_10ms/BMW_MOD_SfDrvRdyProc_10ms/Logik_Momentenfreigabe/EngStrRlsRst", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

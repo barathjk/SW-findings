@@ -1,0 +1,51 @@
+[
+    {
+        "path": "ART_BMW_SWC_WtrPmpStc/CCU01BEV21BMW/BMW_SWC_WtrPmpStc.c", 
+        "findings": [
+            {
+                "startLine": "591", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "acea2671f9456d2b39b72224c5ddb2dc7597e22057aa6c3f9e5f096d9a7faa09"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][591] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "765", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ba197837111c2beab08980dd1fa1369d2e97e0cd4c2ac1fb9820c060eba50d76"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][765] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "2048", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6b9e9ea8952a88ee056d42d1ae47905c93f29be2bd019f037bc916276f10f831"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][2048] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "2102", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c6491f2b3574f1a2d06450660e6d3d15b748edcd8da7f296c80f4216449b4a3f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][2102] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }
+        ]
+    }
+]

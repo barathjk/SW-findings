@@ -1,0 +1,57 @@
+[
+    {
+        "path": "SVN_BMW_SWC_EtpmPPWshED/Model/LIB_BMW_MOD_EtpmPPWshED_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport Limited_Wish seems to be wrongly connected to the outport BMWetpmp_pwr_pEMDchaWishStat. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmPPWshED_10ms/BMW_MOD_EtpmPPWshED_10ms/EtpmPPWshED_pEM/Output_power_calculation_of_pEM/PreventSignChange_1/Limited_Wish", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport Limited_Wish seems to be wrongly connected to the outport BMWetpmp_pwr_pEMDchaWishDyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmPPWshED_10ms/BMW_MOD_EtpmPPWshED_10ms/EtpmPPWshED_pEM/Output_power_calculation_of_pEM/PreventSignChange_3/Limited_Wish", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport Limited_Wish seems to be wrongly connected to the outport BMWetpmp_pwr_pEMChaWishStat. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmPPWshED_10ms/BMW_MOD_EtpmPPWshED_10ms/EtpmPPWshED_pEM/Output_power_calculation_of_pEM/PreventSignChange_2/Limited_Wish", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport Limited_Wish seems to be wrongly connected to the outport BMWetpmp_pwr_pEMChaWishDyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmPPWshED_10ms/BMW_MOD_EtpmPPWshED_10ms/EtpmPPWshED_pEM/Output_power_calculation_of_pEM/PreventSignChange_4/Limited_Wish", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport OutPowerLimit seems to be wrongly connected to the outport BMWetpmp_pwr_pEMDchaStgcLim. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmPPWshED_10ms/BMW_MOD_EtpmPPWshED_10ms/system limit/Calculate_discharge_power_pEM_sEM/VorgabeMinPowerDchaTQP1_Prim/OutPowerLimit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

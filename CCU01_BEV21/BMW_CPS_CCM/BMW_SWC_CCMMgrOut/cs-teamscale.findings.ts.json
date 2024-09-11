@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_CCMMgrOut/CCU01BEV21BMW/BMW_SWC_CCMMgrOut.c", 
+        "findings": [
+            {
+                "startLine": "83", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "52d9925b5e259e316ce518e1b8df0b5e871a16ab865327605d4742726f9c6fc4"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][83] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "103", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "148cad8ebe256e652b8b6af559a5838f71fdf0389f3e10c40f2cddfac2ca71bf"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][103] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }
+        ]
+    }
+]

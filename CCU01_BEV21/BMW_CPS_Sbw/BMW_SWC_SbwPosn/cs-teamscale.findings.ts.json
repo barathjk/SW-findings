@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_SbwPosn/CCU01BEV21BMW/BMW_SWC_SbwPosn.c", 
+        "findings": [
+            {
+                "startLine": "269", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c559fef1c6df8bd4fc1e9f0594d3cef0083b2ca1614f7be7fcc6180fa8317133"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][269] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }
+        ]
+    }
+]

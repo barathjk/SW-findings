@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_CifOut/CCU01BEV21BMW/BMW_SWC_CifOut.ddx", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWcif_i_InpAvl' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "path": "SVN_BMW_SWC_CcmIn/Model/LIB_BMW_MOD_CcmIn_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMW_st_CcmOsDgraDrvPerf has the variant condition BMW_PT_TOP_EL_SC_NEQ_0 in ADD but is used outside of a Variant in the process block BMW_MOD_CcmIn_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Signals used in Variant subsystem (there is a switch before so this can lead to this error)</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CcmIn_100ms/BMW_MOD_CcmIn_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMW_st_CcmOsDgraDrvPerfCha has the variant condition BMW_PT_TOP_EL_SC_NEQ_0 in ADD but is used outside of a Variant in the process block BMW_MOD_CcmIn_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Signals used in Variant subsystem (there is a switch before so this can lead to this error)</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CcmIn_100ms/BMW_MOD_CcmIn_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "path": "ART_BMW_SWC_PrdnDgra/CCU01BEV21BMW/BMW_SWC_PrdnDgra.c", 
+        "findings": [
+            {
+                "startLine": "177", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4bb488cb4b23c624546c46c7dbf25a8b9d63db6cb3dfbb83ec7e2dfa0c1293d0"
+                }, 
+                "justification": "", 
+                "message": "[177:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "179", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4bb488cb4b23c624546c46c7dbf25a8b9d63db6cb3dfbb83ec7e2dfa0c1293d0"
+                }, 
+                "justification": "", 
+                "message": "[179:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "217", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "aa2a8c5e42b93af41f4edfcaa043d38f7cf5dea0821a5c529b81013f6a5b566e"
+                }, 
+                "justification": "", 
+                "message": "[217:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "223", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "aa2a8c5e42b93af41f4edfcaa043d38f7cf5dea0821a5c529b81013f6a5b566e"
+                }, 
+                "justification": "", 
+                "message": "[223:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }
+]

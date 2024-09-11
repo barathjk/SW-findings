@@ -1,0 +1,62 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfHvChaIn/CCU01BEV21BMW/BMW_SWC_SfHvChaIn.c", 
+        "findings": [
+            {
+                "startLine": "2105", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "55392b81b6d3a61145330a19406ac382051133660ad837e0a9a0d153f3ea7cdd"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2105:4] Variable 'rtb_TmpSignalConversionAtrpBMW_st_OprChaCtlPlug_BMW_st_OprChaCtlPlug_errorOutport1' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2109", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a4b787522e43adf13feae613a02e3c076f76de5b76ca5f71924ae9e3f62d90ef"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2109:22] Variable 'rtb_sigConversion_e' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2121", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "168efeea3ea7b60ced88b3a4eaa173ce7240818d442b07e8db37e86d6837ac7e"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2121:11] Variable 'u1_val' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2122", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "168efeea3ea7b60ced88b3a4eaa173ce7240818d442b07e8db37e86d6837ac7e"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2122:11] Variable 'u2_val' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2123", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "088711afab50ecedefd334ff7c6e686fd1d02b9562536523942dbceadfaaa0e5"
+                }, 
+                "justification": "", 
+                "message": "[2123:45] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }
+        ]
+    }
+]

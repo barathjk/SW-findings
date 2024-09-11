@@ -1,0 +1,42 @@
+[
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_eTmcData_ppBMWetmc_b_SePls_BMWetmc_b_SePls", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/BMW_SWC_eTmcData/BMWetmc_nr_CntSe", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_eTmcData/BMW_MOD_eTmcData", 
+        "assessment": {
+            "YELLOW": "64"
+        }, 
+        "count": "64"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_eTmcData/BMW_SWC_eTmcData_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_eTmcData/BMW_SWC_eTmcData_DW", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }
+]

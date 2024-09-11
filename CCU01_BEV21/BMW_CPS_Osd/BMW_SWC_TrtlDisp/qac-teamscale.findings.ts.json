@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_TrtlDisp/CCU01BEV21BMW/BMW_SWC_TrtlDisp.c", 
+        "findings": [
+            {
+                "startLine": "1265", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d63fa0d7b50b7a9fc24d2870a0bb193dbdd803501db2260dbb6e09ec3cf5385d"
+                }, 
+                "justification": "", 
+                "message": "[1265:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }
+]

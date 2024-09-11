@@ -1,0 +1,34 @@
+[
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Prm_BMW_SWC_TqwDiag_rpBMW_PT_TOP_AXLMOD_C_BMW_PT_TOP_AXLMOD_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_TqwDiag/BMW_SWC_TqwDiag_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/HvEmInvVerbauort_ConditionCheckRead/HvEmInvVerbauort_ConditionCheckRead", 
+        "assessment": {
+            "YELLOW": "8"
+        }, 
+        "count": "8"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/HvEmInvVerbauort_ReadData/HvEmInvVerbauort_ReadData", 
+        "assessment": {
+            "YELLOW": "130"
+        }, 
+        "count": "130"
+    }
+]

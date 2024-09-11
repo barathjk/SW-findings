@@ -1,0 +1,144 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvPthDiag/CCU01BEV21BMW/BMW_SWC_HvPthDiag_component.arxml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "723b23f4fb8ee7b21edbfa7337290dc4b4adec8b0d897f00e7c683ed1a8e5c50"
+                }, 
+                "message": "Found no implementation for DataService LkPIhkaIst which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6cc5387f726523a1ae88ce5bab2b6701e198d509a403abd813022072408798cc"
+                }, 
+                "message": "Found no implementation for DataService LkPHvbMotMax which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9f457196df800ef58e0613dedba2c5f2f014c5124fcf0878acc990a56818d701"
+                }, 
+                "message": "Found no implementation for DataService LkPIhkaMax which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ba256bc8f48acad54d38a90ca54906013a90aaa4485a7fb0b658113a635cc14e"
+                }, 
+                "message": "Found no implementation for DataService LkState which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ed12ebf0973eab7de19e12f72951c2bf55f849cfd6ff0ba3408823637f171dc5"
+                }, 
+                "message": "Found no implementation for DataService LkPHvbGenMax which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvPthDiag/CCU01BEV21BMW/BMW_SWC_HvPthDiag.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3ef40bc31a5b7c1090107ce54bbdef71ab947f560512d63d828e1484fdf97d5e"
+                }, 
+                "message": "No implementation for diagnostic service ElTractnMotBTotalOutEnrg_ReadData was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bfe4f496001f79aebb3df04d92804640cb9c6adb37df722e8ca6c4c6cd3d808b"
+                }, 
+                "message": "No implementation for diagnostic service HvpmDcdcHistogrammLadebetrieb_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ffdbf7e97930f98cc869767c733717aa87bbd1db8d1d3235fcb42364a7baca4c"
+                }, 
+                "message": "No implementation for diagnostic service HvpmDcdc_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "044c64f7036a15c184f6e39a17b46a411c1a2bdcd22c15053e4c7fd1cb5f39e6"
+                }, 
+                "message": "No implementation for diagnostic service ElTractnMotATotalOutEnrg_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "39d3dac7fa390fb1cb986cd79c637f4eaf5c60956d7763afd8418d9be24428be"
+                }, 
+                "message": "No implementation for diagnostic service ElTractnMotATotalOutEnrg_ReadData was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2863fddb1abc09bb7a20fa4c13734438fab28bb17c4f2ef173492f37317d9db4"
+                }, 
+                "message": "No implementation for diagnostic service ElTractnMotBTotalOutEnrg_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e06fc384c8a2a0d3250bedc6000c1c189428006c9450440dec0eb7ec4be76465"
+                }, 
+                "message": "No implementation for diagnostic service HvpmDcdcHistogrammFahrbetrieb_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }
+]

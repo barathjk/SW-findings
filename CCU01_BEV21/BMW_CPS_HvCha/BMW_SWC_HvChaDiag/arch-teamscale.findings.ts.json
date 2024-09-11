@@ -1,0 +1,368 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/BMW_SWC_HvChaDiag.ddx", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcCmpStdnErr_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcCmpVehErr_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcCtcrUnExpOpn_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcPrChrgErr_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcStdnDetdErr_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcStdnNoChgRst_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcStdnSigErr_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/BMW_SWC_HvChaDiag.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8d66fd68166646b1781feeb4e376afa7da0bbef3c63eb3fe9660b9d4551eb0c8"
+                }, 
+                "message": "There is no runnable with name 'HvpmLastStateCall' in extension. ", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.runnablecheckinext"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "056f19abc8ab7d94cb5aaf33e277abd59507ca0e57d210b3e056b52ae2e72051"
+                }, 
+                "message": "There is no runnable with name 'HvpmLastStateCall_ReadData' in model. ", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.runnableinmodel"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/BMW_SWC_HvChaDiag_component.arxml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c1c08aa7819147fbd7fef377cf58cbcdda772eab1b474a4bcbc81aad9ac6dc6b"
+                }, 
+                "message": "Found no SetEventStatus implementation for diag element FisDcChgSftyChaIntpHvOffUnsfSt which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7243773a6c181ef7b2b79c40aaae6bee85e384f758864fef4b811d342dc73f80"
+                }, 
+                "message": "Found no implementation for DataService StatusDcChargingDischarge which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "369e7984860d725598fd3c012c1ef3a5c8cfd94a2b96d2bd3ef02ff4daac97eb"
+                }, 
+                "message": "Found no implementation for DataService DcChargingDischarge which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/BMW_SWC_HvChaDiag.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "35a6aeb0085ca27d6a65e33b0671d4cd2285ed7d272ac24360b7393f4b1f762a"
+                }, 
+                "message": "No implementation for diagnostic service LadenLscGen5_ReadData was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0f12acdca0fb02c12385937ec7a467c39da5455532b050d6e3a0f325b53c385d"
+                }, 
+                "message": "No implementation for diagnostic service LadenAbkAbfahrtszeit_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7e3d3d16420943e0c3452f238433cac9e9d714bba509ed8f8499d3f5ff1bf019"
+                }, 
+                "message": "No implementation for diagnostic service WerksladeModus_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c7e6bd336a6cf14998af396710dbd9d4e55f5d7dac44a40fb16bf712036ef9e4"
+                }, 
+                "message": "No implementation for diagnostic service LadenZaehlerHistogramme2_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cfcf69ebc20a73ec2e52913a2d715226c23f1161a3d9b917295d4cdea2f120a2"
+                }, 
+                "message": "No implementation for diagnostic service LadenAbkLadeziel_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a074223d0f5f21c54d35bce3c353cbdc8ecfcc0c1005380ad43666ca3387072e"
+                }, 
+                "message": "No implementation for diagnostic service LadenHistorieSteckhistorie_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "df080e3b03ae7530343e3251de76ff0dc35c2be700edea9f177e37fe615fb965"
+                }, 
+                "message": "No implementation for diagnostic service DcDischargeStatus_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9f59316c065677ed2eea59d7798fc8c6c3bacfda248712459100231d3958d99d"
+                }, 
+                "message": "No implementation for diagnostic service LadenAbkBatterieschonung_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a8eb0545e9b916ffc40559d0f0d49c3f800592a5bd975250cf46fc2783e408a3"
+                }, 
+                "message": "No implementation for diagnostic service LadenHistorieInitialisierungshistorie_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6c7ccc8c43cd7177d1386d8fbf16a0803dc5333216ce8ae14dc6a27b6768d107"
+                }, 
+                "message": "No implementation for diagnostic service WerksmodusHvsEntladeschutzKlima_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "df70d147e469aec3e01594555f00b058a295f4b087d7074ab2a090d472e65da4"
+                }, 
+                "message": "No implementation for diagnostic service LadenAbkLadestrombegrenzungAc_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "72395b73ef5c4dee3dff6246030f8f0b87a516537a5757630b8d5978d0b5b478"
+                }, 
+                "message": "No implementation for diagnostic service LadenLscGen5_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f6fe3f156a67a2f76b1622b78127c5ad4e4bca0407af99c0472d6f7a7aa95162"
+                }, 
+                "message": "No implementation for diagnostic service LadenZaehlerHistogramme1_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "294209e07e52eaec7d0a20e69d6c338f00560751910fc66fad86d164cc0f291a"
+                }, 
+                "message": "No implementation for diagnostic service LadenHistorieLadehistorie_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c2e834eb88f82666c5ba00f1b30a82bc54c7166c657acfb8539db7dd4c6accd7"
+                }, 
+                "message": "No implementation for diagnostic service LadenAbkLadeanzeigen_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fcec5f2b8fc18c9ea59b6893bc34ca78ce3dd98e2b227d3263130db82e023e9d"
+                }, 
+                "message": "No implementation for diagnostic service LadenAbkAkustikbegrenzung_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e4b4e88aa81ef52b1496d7ff55a01c2bda8c9fe456a09062693fe41842cf234e"
+                }, 
+                "message": "No implementation for diagnostic service LadenHistorieLeistungshistorie_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "582a30444b7d61b6253059997feeee55e4e0ca1528acb59a6b86cd603ba8aac8"
+                }, 
+                "message": "No implementation for diagnostic service HvpmLastStateCall_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaDiag/CCU01BEV21BMW/BMW_SWC_HvChaDiag_component.arxml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "72bf07285fadcb9fbfb81468eb2941379ee0786b12a47681f50f323c00715fd6"
+                }, 
+                "message": "Diagnostic service LadenAcKumuliert_ReadData has no Event, runnable will be removed", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotinzedis"
+            }
+        ]
+    }
+]

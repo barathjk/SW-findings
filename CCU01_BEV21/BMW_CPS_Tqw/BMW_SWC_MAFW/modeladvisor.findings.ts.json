@@ -1,0 +1,202 @@
+[
+    {
+        "path": "SVN_BMW_SWC_MAFW/Model/LIB_BMW_MOD_MafwWunsch_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion is not recommended. <br/> <mark><em>[Whitelisted] The convert block is necessary to obtain a better calculation in this specific case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Rate_limited_signals_for_external_users/Mech_Limitierung/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion1 is not recommended. <br/> <mark><em>[Whitelisted] The convert block is necessary to obtain a better calculation in this specific case.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Rate_limited_signals_for_external_users/Mech_Limitierung/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is necessary for better precision.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Parallelpfad_Wunschmoment_vektorisiert/B_Zug_Anteil/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is necessary for better precision.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Parallelpfad_Wunschmoment_vektorisiert/C_Schub_Anteil/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is necessary for better precision.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Parallelpfad_Wunschmoment_vektorisiert/fading_manager/Fading_gradient/activation_of_fading_gradient/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is necessary for better precision.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Parallelpfad_Wunschmoment_vektorisiert/fading_manager/Fading_gradient/activation_of_fading_gradient/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion3 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Ceiling is necessary for better precision.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Parallelpfad_Wunschmoment_vektorisiert/fading_manager/Fading_gradient/activation_of_fading_gradient/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion4 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is necessary for better precision.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Parallelpfad_Wunschmoment_vektorisiert/fading_manager/Fading_gradient/activation_of_fading_gradient/Data Type Conversion4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion5 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is necessary for better precision.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Parallelpfad_Wunschmoment_vektorisiert/fading_manager/Fading_gradient/activation_of_fading_gradient/Data Type Conversion5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product3 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Round method simplest leads to very inaccurate/incorrect results.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Rate_limited_signals_for_external_users/Mech_Limitierung/Product3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product4 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Round method simplest leads to very inaccurate/incorrect results.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Rate_limited_signals_for_external_users/Mech_Limitierung/Product4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product5 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Round method simplest leads to very inaccurate/incorrect results.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Rate_limited_signals_for_external_users/Mech_Limitierung/Product5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product6 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Round method simplest leads to very inaccurate/incorrect results.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwWunsch_10ms/BMW_MOD_MafwWunsch_10ms/Rate_limited_signals_for_external_users/Mech_Limitierung/Product6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_MAFW/Model/LIB_BMW_MOD_MafwSchlepp_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion is not recommended. <br/> <mark><em>[Whitelisted] The existing maps must be used currently with the newer signals that have different data types. When the old signals can be deleted, the the data type of the map can be changed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwSchlepp_10ms/BMW_MOD_MafwSchlepp_10ms/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion1 is not recommended. <br/> <mark><em>[Whitelisted] The existing maps must be used currently with the newer signals that have different data types. When the old signals can be deleted, the the data type of the map can be changed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwSchlepp_10ms/BMW_MOD_MafwSchlepp_10ms/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_MAFW/Model/LIB_BMW_MOD_MafwPedal_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion is not recommended. <br/> <mark><em>[Whitelisted] The existing maps must be used currently with the newer signals that have different data types. When the old signals can be deleted, the the data type of the map can be changed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwPedal_10ms/BMW_MOD_MafwPedal_10ms/Berechnung_Faktor_B_und_D/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion is not recommended. <br/> <mark><em>[Whitelisted] The existing maps must be used currently with the newer signals that have different data types. When the old signals can be deleted, the the data type of the map can be changed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwPedal_10ms/BMW_MOD_MafwPedal_10ms/Parallelpfad_Pedal_Vektorisiert/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_MAFW/Model/LIB_BMW_MOD_MafwPreCond_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion is not recommended. <br/> <mark><em>[Whitelisted] The existing maps must be used currently with the newer signals that have different data types. When the old signals can be deleted, the the data type of the map can be changed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MafwPreCond_10ms/BMW_MOD_MafwPreCond_10ms/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }
+        ]
+    }
+]

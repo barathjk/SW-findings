@@ -1,0 +1,50 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvStr/CCU01BEV21BMW/BMW_MOD_HvStrErrDet_10ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvStr/CCU01BEV21BMW/BMW_MOD_HvStrErrMgmt_10ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvStr/CCU01BEV21BMW/BMW_MOD_HvStrPostProc_10ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvStr/CCU01BEV21BMW/BMW_MOD_HvStrReqEval_10ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvStr/CCU01BEV21BMW/BMW_MOD_HvStrStateMachine_10ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvStr/CCU01BEV21BMW/BMW_MOD_HvStrStatusEval_10ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvStr/CCU01BEV21BMW/BMW_MOD_HvStrTrigGen_10ms.c", 
+        "findings": [
+            {
+                "startLine": "467", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "67c9a7a4dfd578980843478aa615b21d55b2a0556efd08aa97dca70a36c6da92"
+                }, 
+                "justification": "", 
+                "message": "[467:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvStr/CCU01BEV21BMW/BMW_SWC_HvStr.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvStr/CCU01BEV21BMW/rt_sys_BMW_SWC_HvStr_1.c", 
+        "findings": []
+    }
+]

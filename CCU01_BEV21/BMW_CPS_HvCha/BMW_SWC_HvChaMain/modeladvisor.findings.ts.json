@@ -1,0 +1,967 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvChaMain/Model/LIB_BMW_MOD_HvChaMainMthdIndu_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdIndu_10ms/BMW_MOD_HvChaMainMthdIndu_10ms/convertToTick/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdIndu_10ms/BMW_MOD_HvChaMainMthdIndu_10ms/convertToTick1/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdIndu_10ms/BMW_MOD_HvChaMainMthdIndu_10ms/convertToTick2/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdIndu_10ms/BMW_MOD_HvChaMainMthdIndu_10ms/convertToTick3/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdIndu_10ms/BMW_MOD_HvChaMainMthdIndu_10ms/convertToTick4/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdIndu_10ms/BMW_MOD_HvChaMainMthdIndu_10ms/convertToTick5/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdIndu_10ms/BMW_MOD_HvChaMainMthdIndu_10ms/convertToTick6/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The Stateflow chart InductiveChargingStateMachine has a State-vs.-Transition ratio of 7.767%, which is below the threshold of 10%. <br/> <mark><em>[Whitelisted] This check was introduced late in the project. To solve this finding a thoroughly analysis of all affected statemachines is needed as start to rework them. This has a high possibility to break functionality and is therefore not recommend at the moment.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdIndu_10ms/BMW_MOD_HvChaMainMthdIndu_10ms/InductiveChargingStateMachine", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaMain/Model/LIB_BMW_MOD_HvChaMainMthdAC_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] transition [ Reset || (after(Timeout , tick)) ] located in Timer uses an argument which is not uint. <br/> <mark><em>[Whitelisted] The data type of the first argument must be uint32, but this parameter has a different data type. This error happens from the begining of Gen5, the datatype have never been changed, there is no known issues in the code generation to date and changing all this parameters will be a lot of effort. They will be updated if there is a technical reason. Also the change from uint16 to uint32 will take more memory.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/ChargeReadinessExt/Timer", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0021"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/convertToTick/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/convertToTick1/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/convertToTick10/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/convertToTick2/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/convertToTick3/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/convertToTick4/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/convertToTick5/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/convertToTick6/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/convertToTick7/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/convertToTick8/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/convertToTick9/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The Stateflow chart Timer has a State-vs.-Transition ratio of 66.6667%, which is greater than or equal to the threshold of 10%. <br/> <mark><em>[Whitelisted] This check was introduced late in the project. To solve this finding a thoroughly analysis of all affected statemachines is needed as start to rework them. This has a high possibility to break functionality and is therefore not recommend at the moment.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/ChargeReadinessExt/Timer", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The Stateflow chart ACChargingStateMachine has a State-vs.-Transition ratio of 10.3627%, which is greater than or equal to the threshold of 10%. <br/> <mark><em>[Whitelisted] not recommended to change for Gen5</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdAC_10ms/BMW_MOD_HvChaMainMthdAC_10ms/ACChargingStateMachine", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaMain/Model/LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The Stateflow chart ChaoJi1StMac has a State-vs.-Transition ratio of 44.5161%, which is greater than or equal to the threshold of 10%. <br/> <mark><em>[Whitelisted] not recommended to change for Gen5</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms/BMW_MOD_HvChaMainMthdDcCj1_10ms/ChaoJi1StateControl/ChaoJi1StMac", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWhvcha_st_VehCtcrC6VCO_ub  seems to be wrongly connected to the outport BMWhvcha_st_VehCtcrC6VCO_ub. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Spliting variable leads to this error. Needs to be fixed by reducing output variables an additional Ticket</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms/BMW_MOD_HvChaMainMthdDcCj1_10ms/ChaoJi1StateControl/BMWhvcha_st_VehCtcrC6VCO_ub ", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWhvcha_b_Cj1ChaRdyReq seems to be wrongly connected to the outport BMWhvcha_b_Cj1ChaRdyInt. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Spliting variable leads to this error. Needs to be fixed by reducing output variables an additional Ticket</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms/BMW_MOD_HvChaMainMthdDcCj1_10ms/ChaoJi1StateControl/ChaoJi1StMac/BMWhvcha_b_Cj1ChaRdyReq", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWhvcha_b_Cj1ChaAcv seems to be wrongly connected to the outport BMWhvcha_b_Cj1ChaPrdnPsbl. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Spliting variable leads to this error. Needs to be fixed by reducing output variables an additional Ticket</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms/BMW_MOD_HvChaMainMthdDcCj1_10ms/ChaoJi1StateControl/ChaoJi1StMac/BMWhvcha_b_Cj1ChaAcv", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_CtlChaoJiSwiSv_Cj1 and the signal BMWhvcha_st_CtlChaoJiSwiSv resolved to it do not match. <br/> <mark><em>[Whitelisted] Connection is valid to realize MUX switching functionality</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms/BMW_MOD_HvChaMainMthdDcCj1_10ms/SelectTypeOfPilotCircuitControl/BMWhvcha_st_CtlChaoJiSwiSv_Cj1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_CtlChaoJiSwiS2_Cj1 and the signal BMWhvcha_st_CtlChaoJiSwiS2 resolved to it do not match. <br/> <mark><em>[Whitelisted] Connection is valid to realize MUX switching functionality</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms/BMW_MOD_HvChaMainMthdDcCj1_10ms/SelectTypeOfPilotCircuitControl/BMWhvcha_st_CtlChaoJiSwiS2_Cj1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_CtlChaoJiSwiS2a_Cj1 and the signal BMWhvcha_st_CtlChaoJiSwiS2a resolved to it do not match. <br/> <mark><em>[Whitelisted] Connection is valid to realize MUX switching functionality</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms/BMW_MOD_HvChaMainMthdDcCj1_10ms/SelectTypeOfPilotCircuitControl/BMWhvcha_st_CtlChaoJiSwiS2a_Cj1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_nr_ChgrSuspTypCEN seems to be wrongly connected to the inport BMWhvcha_nr_ChgrEndTypCEN. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Naming End/Susp will be changed in additional Ticket</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms/BMW_MOD_HvChaMainMthdDcCj1_10ms/ChaoJi1StateControl/BMWhvcha_nr_ChgrSuspTypCEN", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_nr_ChgrSuspReasCEN seems to be wrongly connected to the inport BMWhvcha_nr_ChgrEndReasCEN. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Naming End/Susp will be changed in additional Ticket</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms/BMW_MOD_HvChaMainMthdDcCj1_10ms/ChaoJi1StateControl/BMWhvcha_nr_ChgrSuspReasCEN", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWhvcha_nr_VehEndTypVEN_ub seems to be wrongly connected to the outport BMWhvcha_nr_VehSuspTypVEN_ub. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Naming End/Susp will be changed in additional Ticket</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms/BMW_MOD_HvChaMainMthdDcCj1_10ms/ChaoJi1StateControl/ChaoJi1StMac/BMWhvcha_nr_VehEndTypVEN_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWhvcha_nr_VehEndReasVEN_ub seems to be wrongly connected to the outport BMWhvcha_nr_VehSuspReasVEN_ub. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Naming End/Susp will be changed in additional Ticket</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcCj1_10ms/BMW_MOD_HvChaMainMthdDcCj1_10ms/ChaoJi1StateControl/ChaoJi1StMac/BMWhvcha_nr_VehEndReasVEN_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaMain/Model/LIB_BMW_SWC_HvChaMain.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] No Events are used in the model. <br/> <mark><em>[Whitelisted] The data type of the first argument must be uint32, but this parameter has a different data type. This error happens from the begining of Gen5, the datatype have never been changed, there is no known issues in the code generation to date and changing all this parameters will be a lot of effort. They will be updated if there is a technical reason. Also the change from uint16 to uint32 will take more memory.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_HvChaMain/BMW_SWC_HvChaMain", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0021"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaMain/Model/LIB_BMW_MOD_HvChaMainMthdDcComb_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick1/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick10/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick11/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick12/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick13/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick14/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick15/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick16/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick17/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick18/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick2/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick3/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick4/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick5/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick6/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick7/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick8/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick9/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick19/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick21/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/convertToTick22/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The Stateflow chart DCCombChargingStateMachine has a State-vs.-Transition ratio of 23.8095%, which is greater than or equal to the threshold of 10%. <br/> <mark><em>[Whitelisted] not recommended to change for Gen5</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcComb_10ms/BMW_MOD_HvChaMainMthdDcComb_10ms/DCCombChargingStateMachine", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaMain/Model/LIB_BMW_MOD_HvChaMainMthdDcChd_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick1/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick10/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick11/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick12/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick13/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick14/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick15/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick16/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick17/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick18/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick19/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick2/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick3/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick4/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick5/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick6/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick7/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick8/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick9/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/convertToTick20/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The Stateflow chart DCChdChargingStateMachine has a State-vs.-Transition ratio of 19.2982%, which is greater than or equal to the threshold of 10%. <br/> <mark><em>[Whitelisted] not recommended to change for Gen5</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChd_10ms/BMW_MOD_HvChaMainMthdDcChd_10ms/DCChdChargingStateMachine", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaMain/Model/LIB_BMW_MOD_HvChaMainMthdDcChn_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick1/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick10/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick11/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick12/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick13/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick2/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick3/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick4/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick5/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick6/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick7/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick8/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick9/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Intended rounding method is intended, tested and reviewed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/convertToTick14/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The Stateflow chart DCChnChargingStateMachine has a State-vs.-Transition ratio of 19.0476%, which is greater than or equal to the threshold of 10%. <br/> <mark><em>[Whitelisted] not recommended to change for Gen5</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaMainMthdDcChn_10ms/BMW_MOD_HvChaMainMthdDcChn_10ms/DCChnChargingStateMachine", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }
+        ]
+    }
+]

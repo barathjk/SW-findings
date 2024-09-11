@@ -1,0 +1,67 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfOGbxFxSec/Model/LIB_BMW_MOD_SfOGbxFxSecRotl_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfogbx_rat_SftyTrsmSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Standard Qi-Auswertung Block</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOGbxFxSecRotl_10ms/BMW_MOD_SfOGbxFxSecRotl_10ms/BMWsfogbx_rat_SftyTrsmSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfogbx_tq_SftyEmSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Standard Qi-Auswertung Block</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOGbxFxSecRotl_10ms/BMW_MOD_SfOGbxFxSecRotl_10ms/BMWsfogbx_tq_SftyEmSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfogbx_tq_SftyRotEmSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Standard Qi-Auswertung Block</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOGbxFxSecRotl_10ms/BMW_MOD_SfOGbxFxSecRotl_10ms/BMWsfogbx_tq_SftyRotEmSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfogbx_aga_SftyEmSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Standard Qi-Auswertung Block</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOGbxFxSecRotl_10ms/BMW_MOD_SfOGbxFxSecRotl_10ms/BMWsfogbx_aga_SftyEmSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfogbx_agv_SftyAbsEmSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Standard Qi-Auswertung Block</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOGbxFxSecRotl_10ms/BMW_MOD_SfOGbxFxSecRotl_10ms/BMWsfogbx_agv_SftyAbsEmSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfogbx_j_SftyRotEmSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Standard Qi-Auswertung Block</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOGbxFxSecRotl_10ms/BMW_MOD_SfOGbxFxSecRotl_10ms/BMWsfogbx_j_SftyRotEmSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

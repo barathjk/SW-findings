@@ -1,0 +1,202 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SbwAllwd/Model/LIB_BMW_MOD_SbwAllwdGlb_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsbw_posn_Prdn seems to be wrongly connected to the inport BMWsbw_posn_ActPrdn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdGlb_10ms/BMW_MOD_SbwAllwdGlb_10ms/BMWsbw_posn_Prdn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsbw_posn_Prdn seems to be wrongly connected to the inport BMWsbw_posn_ActPrdn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdGlb_10ms/BMW_MOD_SbwAllwdGlb_10ms/BMWsbw_posn_Prdn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsbw_posn_Prdn seems to be wrongly connected to the inport BMWsbw_posn_ActPrdn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdGlb_10ms/BMW_MOD_SbwAllwdGlb_10ms/BMWsbw_posn_Prdn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsbw_posn_Prdn seems to be wrongly connected to the inport BMWsbw_posn_ActPrdn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdGlb_10ms/BMW_MOD_SbwAllwdGlb_10ms/BMWsbw_posn_Prdn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdGlb_10ms/BMW_MOD_SbwAllwdGlb_10ms/ActuatorReliablity/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out2. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdGlb_10ms/BMW_MOD_SbwAllwdGlb_10ms/ActuatorReliablity/Sbw_Map_Position1/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdGlb_10ms/BMW_MOD_SbwAllwdGlb_10ms/AllowDrvrAvl/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdGlb_10ms/BMW_MOD_SbwAllwdGlb_10ms/AllowDrvrChgPlug/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdGlb_10ms/BMW_MOD_SbwAllwdGlb_10ms/AllowDrvrCodSfSbw/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdGlb_10ms/BMW_MOD_SbwAllwdGlb_10ms/DynoMode/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdGlb_10ms/BMW_MOD_SbwAllwdGlb_10ms/FlashMode/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SbwAllwd/Model/LIB_BMW_MOD_SbwAllwdMsc_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport Out2 seems to be wrongly connected to the outport BMWsbw_posn_AllwdBrkVld. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdMsc_10ms/BMW_MOD_SbwAllwdMsc_10ms/AllowBrake/Out2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdMsc_10ms/BMW_MOD_SbwAllwdMsc_10ms/AllowAccrPe/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out2. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdMsc_10ms/BMW_MOD_SbwAllwdMsc_10ms/AllowBrake/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out2. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdMsc_10ms/BMW_MOD_SbwAllwdMsc_10ms/AllowBrakeHill/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdMsc_10ms/BMW_MOD_SbwAllwdMsc_10ms/AllowPWFDrive/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdMsc_10ms/BMW_MOD_SbwAllwdMsc_10ms/AllowSpeedDriverAssistenceSystem/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out2. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdMsc_10ms/BMW_MOD_SbwAllwdMsc_10ms/ShiftLockInDorRVehicleSecuredByDSC/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport posn seems to be wrongly connected to the outport Out1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection is OK </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwAllwdMsc_10ms/BMW_MOD_SbwAllwdMsc_10ms/StopDrivingReadiness/Sbw_Map_Position/posn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

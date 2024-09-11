@@ -1,0 +1,71 @@
+[
+    {
+        "path": "SVN_BMW_SWC_eTmcEwp/Model/LIB_BMW_MOD_eTmcEwp1Anf.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: The input of the Signal Conversion block 'BMW_SWC_eTmcEwp/BMW_MOD_eTmcEwp1Anf/BMW_MOD_eTmcEwp1Anf/Anforderungen/MapsSt1/Copy_BMWetmc_pct_Ewp1HomHtPmpOpm3/Copy_Out1' is a virtual bus. This block is configured to create a contiguous vector.  Before R2011b, a bus-to-vector conversion was automatically performed at the input port of this block.  In R2011b and later, a \"Signal copy\" option replaces the \"Contiguous copy\" option. To eliminate this warning, consider inserting a Bus To Vector block at the input port of this Signal Conversion block, to convert the virtual bus input to a vector.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcEwp1Anf/BMW_MOD_eTmcEwp1Anf/Anforderungen/MapsSt1/Copy_BMWetmc_pct_Ewp1HomHtPmpOpm3/Copy_Out1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: The input of the Signal Conversion block 'BMW_SWC_eTmcEwp/BMW_MOD_eTmcEwp1Anf/BMW_MOD_eTmcEwp1Anf/Anforderungen/MapsSt2/Copy_BMWetmc_pct_Ewp1HomHtPmpOpm3/Copy_Out1' is a virtual bus. This block is configured to create a contiguous vector.  Before R2011b, a bus-to-vector conversion was automatically performed at the input port of this block.  In R2011b and later, a \"Signal copy\" option replaces the \"Contiguous copy\" option. To eliminate this warning, consider inserting a Bus To Vector block at the input port of this Signal Conversion block, to convert the virtual bus input to a vector.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcEwp1Anf/BMW_MOD_eTmcEwp1Anf/Anforderungen/MapsSt2/Copy_BMWetmc_pct_Ewp1HomHtPmpOpm3/Copy_Out1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: The input of the Signal Conversion block 'BMW_SWC_eTmcEwp/BMW_MOD_eTmcEwp1Anf/BMW_MOD_eTmcEwp1Anf/Anforderungen/MapsSt3/Copy_BMWetmc_pct_Ewp1HomHtPmpOpm3/Copy_Out1' is a virtual bus. This block is configured to create a contiguous vector.  Before R2011b, a bus-to-vector conversion was automatically performed at the input port of this block.  In R2011b and later, a \"Signal copy\" option replaces the \"Contiguous copy\" option. To eliminate this warning, consider inserting a Bus To Vector block at the input port of this Signal Conversion block, to convert the virtual bus input to a vector.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcEwp1Anf/BMW_MOD_eTmcEwp1Anf/Anforderungen/MapsSt3/Copy_BMWetmc_pct_Ewp1HomHtPmpOpm3/Copy_Out1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: The input of the Signal Conversion block 'BMW_SWC_eTmcEwp/BMW_MOD_eTmcEwp1Anf/BMW_MOD_eTmcEwp1Anf/Anforderungen/MapsSt4/Copy_BMWetmc_pct_Ewp1HomHtPmpOpm3/Copy_Out1' is a virtual bus. This block is configured to create a contiguous vector.  Before R2011b, a bus-to-vector conversion was automatically performed at the input port of this block.  In R2011b and later, a \"Signal copy\" option replaces the \"Contiguous copy\" option. To eliminate this warning, consider inserting a Bus To Vector block at the input port of this Signal Conversion block, to convert the virtual bus input to a vector.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcEwp1Anf/BMW_MOD_eTmcEwp1Anf/Anforderungen/MapsSt4/Copy_BMWetmc_pct_Ewp1HomHtPmpOpm3/Copy_Out1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

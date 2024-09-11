@@ -1,0 +1,62 @@
+[
+    {
+        "path": "ART_BMW_SWC_LdkNvBlock/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1c90382abda64db1f4ae08d42902dfff052194967b2258a89b86c9354197a939"
+                }, 
+                "message": "Physical Unit (watt_hour) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=3600.0], [numeratorOfFactor:  this=3600.0, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "46ebdddc5e33f95bc8236ced56b9a7a98d794190ffbded187cb5035feaded4d4"
+                }, 
+                "message": "Physical Unit (hour) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=3600.0], [numeratorOfFactor:  this=3600.0, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a8d964df47daa3127ce5711aa9d86a5c018152481fc3f308f57adb4099b23145"
+                }, 
+                "message": "Missing mandatory feature(s) [type] for object com.bmw.symphony.sym10.impl.TagImpl@5df7ae0a (ident: null, versionInfo: null, trace: []) (name: NVM_SERVICE_PORT).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0bd15ddbb49736118ff5cbed3456b1c08d282234eeaf29757f0febadb6842bd6"
+                }, 
+                "message": "Missing mandatory feature(s) [type] for object com.bmw.symphony.sym10.impl.TagImpl@2faae7f6 (ident: null, versionInfo: null, trace: []) (name: NVM_SERVICE_PORT).", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_MISSING_MANDATORY_FEATURES"
+            }
+        ]
+    }
+]

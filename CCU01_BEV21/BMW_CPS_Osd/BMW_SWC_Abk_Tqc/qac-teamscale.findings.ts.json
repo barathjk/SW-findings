@@ -1,0 +1,515 @@
+[
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcEcoTip_10ms.c", 
+        "findings": [
+            {
+                "startLine": "103", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[103:4] 'rtb_TmpSignalConversionAtrpBMWosd_mod_DispSp_BMWosd_mod_DispSp_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "105", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[105:4] 'rtb_TmpSignalConversionAtrpBMWosd_v_VehMcPlau_BMWosd_v_VehMcPlau_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "107", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[107:4] 'rtb_TmpSignalConversionAtrpBMWosd_b_fahrbereit_BMWosd_b_fahrbereit_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "113", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "03793671fdd7784bb90082ed4ef576472dade63d976da1b8042f7745c66af00e"
+                }, 
+                "justification": "", 
+                "message": "[113:4] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "120", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fe1e3c9d71094738085abb839d90b0b06d248c18e58e56ed520656705958db15"
+                }, 
+                "justification": "", 
+                "message": "[120:80] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "126", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c0c523192805655fd9b5c51a2cd2a0a374c11db391229b2567dc59b34b777926"
+                }, 
+                "justification": "", 
+                "message": "[126:78] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcEmiCCM_20ms.c", 
+        "findings": [
+            {
+                "startLine": "110", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[110:4] 'rtb_TmpSignalConversionAtrpBMWosd_Md_rad_wunsch_fas_BMWosd_Md_rad_wunsch_fas_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "112", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[112:4] 'rtb_TmpSignalConversionAtrpF_effanz_degrad_antr_F_effanz_degrad_antr_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "113", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[113:9] 'rtb_TmpSignalConversionAtrpF_effanz_raw_F_effanz_raw_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "115", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[115:4] 'rtb_TmpSignalConversionAtrpBMWosd_st_DtActPlau_BMWosd_st_DtActPlau_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "117", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[117:4] 'rtb_TmpSignalConversionAtrpBMWosd_b_EngRuniAcvDisp_BMWosd_b_EngRuniAcvDisp_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "119", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[119:4] 'rtb_TmpSignalConversionAtrpBMWosd_b_fahrbereit_BMWosd_b_fahrbereit_readOutport1_a' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "121", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[121:4] 'rtb_TmpSignalConversionAtrpBMWosd_st_EngStrtPrevnLsu_BMWosd_st_EngStrtPrevnLsu_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "127", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "852369d9eb07f5fb9c889832f499a0445c5d58095b439a8c6f03ab9e7a1a34fd"
+                }, 
+                "justification": "", 
+                "message": "[127:4] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "135", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6bf78083cc8a0575fe7e3af20a48e2aef241a28c9b9c1e65d80e3c1aea433587"
+                }, 
+                "justification": "", 
+                "message": "[135:4] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "143", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7eef2fdde350a8cb15ee438238bf08c1183667b5d22876bf9283e49de93f6931"
+                }, 
+                "justification": "", 
+                "message": "[143:4] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "269", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "75a148516dfa3538d9d7ca3f728b3d411c1e4721618cf75c60e8713672513f40"
+                }, 
+                "justification": "", 
+                "message": "[269:68] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "276", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bbadfc34c4d976f77dc6a4258e9c8f297b491fe1681b5f8bc66dd8eeb8d5a0f6"
+                }, 
+                "justification": "", 
+                "message": "[276:4] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "284", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "52066990eab68c23589471952a5019d68509fb095f61f5432fef5fc9b5ea6e9f"
+                }, 
+                "justification": "", 
+                "message": "[284:4] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "292", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2900bd27612c0fe5c32e848a6e37c0bbb04b602487de800b2b2acdb608cbc6ae"
+                }, 
+                "justification": "", 
+                "message": "[292:4] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcPmAvail_20ms.c", 
+        "findings": [
+            {
+                "startLine": "203", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[203:4] 'rtb_TmpSignalConversionAtrpBMWosd_st_EngStrtPrevnLsu_BMWosd_st_EngStrtPrevnLsu_readOutport1_h' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "318", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "150cefafd83b601abf03f9417d19eafbf6bfa809e4db87509f75a18a3fe83da5"
+                }, 
+                "justification": "", 
+                "message": "[318:4] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "3202", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "094980288e87674bf34258dadf45ecf88fb20a49448a29829841efad1a83236c"
+                }, 
+                "justification": "", 
+                "message": "[3202:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcPmCalc_20ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcPmDisp_20ms.c", 
+        "findings": [
+            {
+                "startLine": "125", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[125:4] 'rtb_TmpSignalConversionAtrpBMWosd_b_EngRunPM_BMWosd_b_EngRunPM_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "1329", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e4538962da5151d520af0d6395ff3e916bc2c4f25c6fb1844c101df16445d12d"
+                }, 
+                "justification": "", 
+                "message": "[1329:40] Possible: Division by zero. [MISRA C: 5.4]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2834"
+            }, 
+            {
+                "startLine": "1592", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d2b0a1bce675629f7205ba835b1c6abe85014a7e0d1460811e5d08334cb48989"
+                }, 
+                "justification": "", 
+                "message": "[1592:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "679", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "de6a3d354b26ab53f098881e69de5e464624c81439e802bdfab4e4affc480502"
+                }, 
+                "justification": "", 
+                "message": "[679:78] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcPmMPHEV_20ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcPmSig_20ms.c", 
+        "findings": [
+            {
+                "startLine": "74", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[74:4] 'rtb_TmpSignalConversionAtrpBMWosd_b_ElecAcv_BMWosd_b_ElecAcv_readOutport1_i1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "95", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0f99647b90eb35cb97ccb3366cbb99247907a3b249612ba578a8436090267590"
+                }, 
+                "justification": "", 
+                "message": "[95:79] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcPmState_20ms.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcPmZSG_20ms.c", 
+        "findings": [
+            {
+                "startLine": "101", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[101:4] 'rtb_TmpSignalConversionAtrpBMWosd_b_SSKAcv_BMWosd_b_SSKAcv_readOutport1_m3x' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "106", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9bac451f602c523f8d9025f01c49baa6e2665f76c953dc203a07f67e8c3634f4"
+                }, 
+                "justification": "", 
+                "message": "[106:80] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "113", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7ef75280c693a0efced51f6f0cc473b79aba041556daba89c4a55b81a5b8b5fb"
+                }, 
+                "justification": "", 
+                "message": "[113:4] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "120", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c7a3d4033de3c9b1dcd72fa58a4c68b7b1ca5061700d291bcf83027838c28dff"
+                }, 
+                "justification": "", 
+                "message": "[120:80] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "126", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "464f9922fb6e5503bfce177f3ebd1a66f352888155faf17f66456476614aeb22"
+                }, 
+                "justification": "", 
+                "message": "[126:80] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "133", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "342d7261e82e9b4416b3ffc8c9871f38b5a770a933d974856e1ea3c5cc50b93d"
+                }, 
+                "justification": "", 
+                "message": "[133:4] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "140", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ace54cec5ea7c13c6c2fe301d2ae36c3d572edb69f452d7229a5276cb9a940ef"
+                }, 
+                "justification": "", 
+                "message": "[140:78] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "91", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[91:4] 'rtb_TmpSignalConversionAtrpMd_effanz_max_ref_Md_effanz_max_ref_readOutport1_o' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "93", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[93:4] 'rtb_TmpSignalConversionAtrpF_effanz_degrad_antr_F_effanz_degrad_antr_readOutport1_ov' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "95", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[95:4] 'rtb_TmpSignalConversionAtrpBMWosd_st_UcElDrvgPlau_BMWosd_st_UcElDrvgPlau_readOutport1_b' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "97", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[97:4] 'rtb_TmpSignalConversionAtrpBMWosd_b_ElecAcv_BMWosd_b_ElecAcv_readOutport1_i1r' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "99", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[99:4] 'rtb_TmpSignalConversionAtrpBMWosd_b_EngRunPM_BMWosd_b_EngRunPM_readOutport1_p' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_SWC_Abk_Tqc.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/rt_sys_BMW_SWC_Abk_Tqc_156.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/rt_sys_BMW_SWC_Abk_Tqc_4.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/rt_sys_BMW_SWC_Abk_Tqc_48.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/rt_sys_BMW_SWC_Abk_Tqc_66.c", 
+        "findings": []
+    }
+]

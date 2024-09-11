@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_FcrDiag/CCU01BEV21BMW/BMW_SWC_FcrDiag_component.arxml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "464ae3cee27cdab5118b7f8f7107b91c136993c552487bc35d1138c701667ec1"
+                }, 
+                "message": "Found no SetEventStatus implementation for diag element FisFzdFctPwrModNotAvl which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_AsLim/CCU01BEV21BMW/BMW_SWC_AsLim.c", 
+        "findings": [
+            {
+                "startLine": "3450", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2083cf3a9cde9cb203978e9720dc75f80b377e8e512759ec85f23c4244037ea1"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Reliability][3450] Ignored Return Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.FUNCS.IRV"
+            }, 
+            {
+                "startLine": "3219", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ccb6d93efd029caf15a75f6a1fcd583fb9eb022688052633846ed8ca635a45d4"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Reliability][3219] Ignored Return Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.FUNCS.IRV"
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_PrcOut/CCU01BEV21BMW/BMW_SWC_PrcOut.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8d66fd68166646b1781feeb4e376afa7da0bbef3c63eb3fe9660b9d4551eb0c8"
+                }, 
+                "message": "There is no runnable with name 'BMW_MOD_PrcOutPlug_swini' in extension. ", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.runnablecheckinext"
+            }
+        ]
+    }
+]

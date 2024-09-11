@@ -1,0 +1,67 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvStr/CCU01BEV21BMW/BMW_MOD_HvStrPostProc_10ms.c", 
+        "findings": [
+            {
+                "startLine": "130", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "23f7b723bf762059907f29ceccec3c559e4322feaf1086451bbd0e2cb7430add"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][130] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvStr/CCU01BEV21BMW/BMW_MOD_HvStrStateMachine_10ms.c", 
+        "findings": [
+            {
+                "startLine": "159", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1d29eccf98cc4bef5bc38d49be31014597d36283dd90781b6f561e4bbdd47f93"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][159] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "164", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1d29eccf98cc4bef5bc38d49be31014597d36283dd90781b6f561e4bbdd47f93"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][164] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "166", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1cf4afc4ff192236877c4d65bfbf7ea6f9dd938866d6d62726e65d5537ae31d9"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][166] Unreachable Conditional", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "160", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1cf4afc4ff192236877c4d65bfbf7ea6f9dd938866d6d62726e65d5537ae31d9"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][160] Unreachable Conditional", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }
+        ]
+    }
+]

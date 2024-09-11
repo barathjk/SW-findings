@@ -1,0 +1,84 @@
+[
+    {
+        "path": "ART_BMW_SWC_eTmcLks/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "065fb78e19014d2591d4e5d8641a611d03d89059b791f26734d8904cb0d1b7c7"
+                }, 
+                "message": "Physical Unit (degree) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=3.14159265358979], [numeratorOfFactor:  this=57.29577951308238, reference=180.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ff25c63e6492c0495ce345f9e344afd0fc2e90bc9c93a33dc22e528e776b7e7c"
+                }, 
+                "message": "Physical Unit (kilometer_per_hour) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=1000.0], [numeratorOfFactor:  this=3.6, reference=3600.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6aa4d872206eed2f25dabb3d0edb4113928e3f17ad8a56774fc68dfa3057801f"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWetmc_posn_AirFlpFrzPron?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ce0b45f6fc7e15f53f019f1ac77b775693a8e1bb1973e93265df0b7fbea419ed"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWetmc_posn_AirFlpVehDrvg?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7c9b477d29811d0fbc89e69e3c9bbfef27c96d6869e2a5cba8dd56b9d76a6802"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWetmc_posn_ClcdAirFlpAco?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3c40df8fa382b6fb09c6e1fab0e5e5521f02a1e4b4bcbfffb757f37b3a305809"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWetmc_posn_RqrtAirFlpBrk?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_DtEmSecIn/CCU01BEV21BMW/BMW_SWC_DtEmSecIn.c", 
+        "findings": [
+            {
+                "startLine": "131", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[131:12] 'rtb_getbit1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "1465", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a1e50013b2bc59f99b19afee96f9e90abd48f86a5c7f58144aec5ede7d1b0aa8"
+                }, 
+                "justification": "", 
+                "message": "[1465:20] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "1497", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "11bb0bcae4b0fef3feb908866cb887ab1ce4d9e960fb7fccdcf5645fdeee7b86"
+                }, 
+                "justification": "", 
+                "message": "[1497:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }
+]

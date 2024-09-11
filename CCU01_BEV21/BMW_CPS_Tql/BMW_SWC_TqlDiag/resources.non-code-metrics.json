@@ -1,0 +1,34 @@
+[
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_TqlDiag_rpBMWtql_v_VehMax_BMWtql_v_VehMax", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_TqlDiag/BMW_SWC_TqlDiag_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Maximalgeschwindigkeit_ConditionCheckRead/Maximalgeschwindigkeit_ConditionCheckRead", 
+        "assessment": {
+            "YELLOW": "8"
+        }, 
+        "count": "8"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Maximalgeschwindigkeit_ReadData/Maximalgeschwindigkeit_ReadData", 
+        "assessment": {
+            "YELLOW": "44"
+        }, 
+        "count": "44"
+    }
+]

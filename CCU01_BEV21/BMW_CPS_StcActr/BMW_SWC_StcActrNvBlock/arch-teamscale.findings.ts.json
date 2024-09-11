@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_StcActrNvBlock/CCU01BEV21BMW/BMW_SWC_StcActrNvBlock.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "283ffa2b051cca3e640bbff3206e856b86d83d5fd4dd2214f662a6ed8f2ef138"
+                }, 
+                "message": "No block definition found in extension file J:\\BCI_WS\\D6A92C9B\\Sources\\BMW_SWC_StcActrNvBlock.extension. \n\tFor FR Blocks a block definition in the extension file is necessary. Please add extension file with block definition.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.missingfrblockdef"
+            }
+        ]
+    }
+]

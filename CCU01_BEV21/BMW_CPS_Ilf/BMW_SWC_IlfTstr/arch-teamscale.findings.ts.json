@@ -1,0 +1,155 @@
+[
+    {
+        "path": "ART_BMW_SWC_IlfTstr/CCU01BEV21BMW/BMW_SWC_IlfTstr_component.arxml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7719a228f4e4948a29da30af6aef545fee66d51f0a34c79a30603416642f8b81"
+                }, 
+                "message": "Found no implementation for DataService EluefterLinSollAp which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1c88765e4db408d46d9574248a3cbd7840230c8de3fa3b29a6f1e20256a0fc82"
+                }, 
+                "message": "Found no implementation for DataService EluefterLinIstDrehzahl which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "60fa3d6674428e1c205ba0c47c7685b598f3be527d9a1726fb4ee7b0bbd1afb3"
+                }, 
+                "message": "Found no implementation for DataService EluefterLinTemp which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b001dca7eeb89a07131ed4c0d5e4a7066fafb7d8ae167c637a9fd3237b66b359"
+                }, 
+                "message": "Found no implementation for DataService EluefterLinStrom which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ddd3ad9db5bb243e854cff29cfacf09eaae0ba9d640cc0c1bf287dd4e42d7523"
+                }, 
+                "message": "Found no implementation for DataService EluefterLinSpg which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "83836f9ab2e55dc27008fef0fd0e23c6722fcf6f9cf8dedfea5a67acef43b900"
+                }, 
+                "message": "Found no implementation for DataService EluefterBetriebsmode which is specified in ZEDIS as FreezeFrame or SenderReceiver implementation", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.freezeframenotimplemented"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_IlfTstr/CCU01BEV21BMW/BMW_SWC_IlfTstr.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "573fe563f1c56056800fde5874ab8fdb1314d2886ee82a11e5f39a486c2edcc1"
+                }, 
+                "message": "No implementation for diagnostic service AnsteuerungEluefterRelais_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ca793b4f945248f6faedcc59d2ad91dc4b7c05b3c107d4c207085641a39b2ad0"
+                }, 
+                "message": "No implementation for diagnostic service EluefterLinBetrmodTester_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "78bd35cae90372fa70296bb6fb44f31ba228736e4d195937e636285bdedd6e7a"
+                }, 
+                "message": "No implementation for diagnostic service EluefterLinRelais_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "49eed8f975aa4944821b5cea7d527031c805f82965861dd525a095d264d3e3d9"
+                }, 
+                "message": "No implementation for diagnostic service ElueLinMeta_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "88af37b2e43e81b97df7c0371eb3a370e50efb1509342897e3eef32a5e155bb0"
+                }, 
+                "message": "No implementation for diagnostic service EluefterMesswerte_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e50192a6e3bdb506e717d2bf803c45c9ec04fe8eba428393eb6e8e9fa475b863"
+                }, 
+                "message": "No implementation for diagnostic service EluefterLinDrehTester_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cb5fbd04279a9728c14b06f9fadad56a24f8185b4e22c2393e8e9c765549e3a5"
+                }, 
+                "message": "No implementation for diagnostic service AnsteuerungEluefter_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }
+]

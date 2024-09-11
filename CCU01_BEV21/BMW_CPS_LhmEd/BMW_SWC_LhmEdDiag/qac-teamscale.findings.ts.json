@@ -1,0 +1,110 @@
+[
+    {
+        "path": "ART_BMW_SWC_LhmEdDiag/CCU01BEV21BMW/BMW_SWC_LhmEdDiag.c", 
+        "findings": [
+            {
+                "startLine": "3645", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "96d68543ef0a9eb654112122c8ceb52add1ed154d429661c833f68dddce19d9f"
+                }, 
+                "justification": "", 
+                "message": "[3645:27] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "3653", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f701c2cfd37fe2e51979bf5e3362b5a3af4c49f59c9846685600ef6102ac07aa"
+                }, 
+                "justification": "", 
+                "message": "[3653:27] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "3665", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "00da589a57fc582aa787bbb50fdaa474e2b382f1eb382208f634779d2bfcbc7b"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3665:27] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }, 
+            {
+                "startLine": "3974", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3974:11] 'rtb_Switch' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "3974", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3974:11] 'rtb_Switch' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "4629", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c376d5b4d8e40f4871d2b093e587eb51a99115d29c67e42c99810ee4b19fd666"
+                }, 
+                "justification": "", 
+                "message": "[4629:15] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "4635", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2688b5bb7969c46910a1a5153224609d76fbafb6c4ef2a799625f88adb44cc48"
+                }, 
+                "justification": "", 
+                "message": "[4635:15] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "639", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[639:10] 'rtb_EnvironmentSwitch_ae' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "640", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[640:10] 'rtb_EnvironmentSwitch_ft' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_LhmEdDiag/CCU01BEV21BMW/CcmWhy_ReadData.c", 
+        "findings": []
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfSsaGbxOut/CCU01BEV21BMW/BMW_SWC_SfSsaGbxOut.c", 
+        "findings": [
+            {
+                "startLine": "105", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bc6f799237f73ceca18f6cd67bd6e6afd3ea3769078e3247aa671ff346e79d5e"
+                }, 
+                "justification": "", 
+                "message": "[105:52] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "107", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bc6f799237f73ceca18f6cd67bd6e6afd3ea3769078e3247aa671ff346e79d5e"
+                }, 
+                "justification": "", 
+                "message": "[107:52] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "82", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[82:27] 'BMW_st_SftyDrpDrvAct_rc' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "82", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[82:27] 'BMW_st_SftyDrpDrvAct_rc' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }
+        ]
+    }
+]

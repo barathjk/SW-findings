@@ -1,0 +1,387 @@
+[
+    {
+        "path": "SVN_BMW_SWC_FstCos/Model/LIB_BMW_MOD_IntfCos_20ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Sink state Standby in chart Vorverarbeitung_roh_Daten is not recommended. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0022"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {n&equals;BMWosp_n_Elementmax;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {BMWosp_dst_prdpsn[9]&equals;BMWosp_n_Elementmax+1; BMWosp_dst_prdpsn_bit[9]&equals;0; B_data_out_fg &equals;1; n&equals;BMWosp_n_Elementmax;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {BMWosp_dst_prdpsn_bit&equals;BMWosp_dst_prdpsn_bit_temp} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition [n&gt;1&amp;&amp;... B_sort_fg] {B_data_out_fg &equals;0; BMWosp_dst_prdpsn[0] &equals; 0; BMWosp_dst_prdpsn[1] &equals; 1; BMWosp_dst_prdpsn[2] &equals; 2; BMWosp_dst_prdpsn[3] &equals; 3; BMWosp_dst_prdpsn[4] &equals; 4; BMWosp_dst_prdpsn[5] &equals; 5; BMWosp_dst_prdpsn[6] &equals; 6; BMWosp_dst_prdpsn[7] &equals; 7; BMWosp_dst_prdpsn[8] &equals; 8; BMWosp_dst_prdpsn[9] &equals; 9; BMWosp_dst_prdpsn[10] &equals; 10; BMWosp_dst_prdpsn[11] &equals; 11; BMWosp_dst_prdpsn[12] &equals; 12; BMWosp_dst_prdpsn[13] &equals; 13; BMWosp_dst_prdpsn[14] &equals; 14; BMWosp_dst_prdpsn[15] &equals; 15; BMWosp_dst_prdpsn[16] &equals; 16;BMWosp_dst_prdpsn[17] &equals; 17;BMWosp_dst_prdpsn[18] &equals; 18;BMWosp_dst_prdpsn[19] &equals; 19; B_le_ms_offset&equals;0; z&equals;0; j&equals;0;g&equals;0;e&equals;0;h&equals;0;Le_ms_offset&equals;0;w&equals;0;r&equals;0;zp&equals;0; wo&equals;0; BMWosp_dst_prdpsn_bit_temp &equals; BMWosp_dst_prdpsn_bit_init; BMWosp_dst_prdpsn_bit &equals; BMWosp_dst_prdpsn_bit_init; BMWosp_dst_prdpsn_temp&equals;BMWosp_dst_prdpsn;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition %Bit Setzen [BMWosp_dst_prdpsn[r]&equals;&equals;0||... BMWosp_dst_prdpsn[r] &equals;&equals; 2||... BMWosp_dst_prdpsn[r] &equals;&equals; 3||... BMWosp_dst_prdpsn[r] &equals;&equals; 5||... BMWosp_dst_prdpsn[r] &equals;&equals; 7||... BMWosp_dst_prdpsn[r] &equals;&equals; 9||... BMWosp_dst_prdpsn[r] &equals;&equals; 11||... BMWosp_dst_prdpsn[r] &equals;&equals; 13||... BMWosp_dst_prdpsn[r] &equals;&equals; 15||... BMWosp_dst_prdpsn[r] &equals;&equals; 17] {BMWosp_dst_prdpsn_bit_temp[w] &equals; BMWosp_dst_prdpsn_bit_temp[wo]; BMWosp_dst_prdpsn_bit_temp[w] |&equals; BMWOSP_BIT_PRDPSN[BMWosp_dst_prdpsn[r]];} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition %Position halten bei gleicher Topologie entfernung [BMWosp_dst_prd[BMWosp_dst_prdpsn[r]]&equals;&equals;BMWosp_dst_prd[BMWosp_dst_prdpsn[r-1]]&amp;&amp;... BMWosp_dst_prdpsn[r]!&equals;BMWosp_dst_prdpsn[r-1]] {wo&equals;w;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition %Position inkrementieren %bei unterschiedlichen %Entfernungen {w++; wo&equals;w-1;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition %Bit Rcksetzen {BMWosp_dst_prdpsn_bit_temp[w] &equals; BMWosp_dst_prdpsn_bit_temp[wo]; BMWosp_dst_prdpsn_bit_temp[w] &amp;&equals; BMWOSP_BIT_PRDPSN[BMWosp_dst_prdpsn[r]];} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition [r&lt;&equals;9] {r++;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition [BMWosp_dst_prdpsn[0]&equals;&equals;19] {BMWosp_dst_prdpsn_bit_temp &equals; BMWosp_dst_prdpsn_bit_init;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {i&equals;0; BMWosp_dst_prdpsn&equals;BMWosp_dst_prdpsn_temp;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition %Bestimmung der Segmentlnge [z&lt;BMWosp_n_Elementmax-1-Le_ms_offset&amp;&amp;zp&lt;BMWosp_n_Elementmax-1-Le_ms_offset] {d&equals; BMWosp_dst_prd[BMWosp_dst_prdpsn[j+Le_ms_offset]]-a; BMWosp_dst_prdpsn_temp[zp] &equals; BMWosp_dst_prdpsn[k];} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {p&equals;0;i&equals;1;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {f&equals;BMWosp_dst_prd[y]; j++; k++; a&equals;0;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition [i&lt;n-1] {i++;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition %Bestimmung Vergleichspaar {x&equals;i-1; a &equals; BMWosp_dst_prdpsn[x];b &equals; BMWosp_dst_prdpsn[i];} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition [BMWosp_dst_prd[y]&gt;252+a &amp;&amp; BMWosp_dst_prd[y]&lt;BMWosp_dst_prdmax] {BMWosp_dst_prdpsn_temp[zp]&equals;BMWosp_dst_prdpsn[k-1];} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {f&equals;252; d&equals;252;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {a&equals;min(a+f,65535);} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition %Sortieren: Wenn L[a] &gt; L[b] [BMWosp_dst_prd[a]&gt;BMWosp_dst_prd[b]] {TempL &equals; BMWosp_dst_prdpsn[i]; TempR&equals;BMWosp_dst_prdpsn[x]; BMWosp_dst_prdpsn[x]&equals;TempL;BMWosp_dst_prdpsn[i]&equals;TempR; p&equals;i;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition %abbruch bedingung am Segmentende [BMWosp_dst_prd[BMWosp_dst_prdpsn[j+Le_ms_offset-1]]&gt;... BMWosp_dst_prdmax] {d&equals;BMWosp_dst_abrt; BMWosp_dst_prdpsn[j+Le_ms_offset-1]&equals;... BMWosp_n_Elementmax;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {zp++;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {y&equals;BMWosp_n_Elementmax-1;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {y &equals; BMWosp_dst_prdpsn[j+Le_ms_offset];} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {n&equals;p;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition [BMWosp_dst_prd[BMWosp_dst_prdpsn[Le_ms_offset]]&equals;&equals;0] {BMWosp_dst_prdpsn_temp[Le_ms_offset] &equals; BMWosp_dst_prdpsn[i]; Le_ms_offset++; i++;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {B_le_ms_offset&equals;0;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition [n&lt;&equals;1&amp;&amp;... BMWosp_dst_prd[BMWosp_dst_prdpsn[0]]!&equals;0] {B_le_ms_offset&equals;1;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition [B_le_ms_offset&equals;&equals;0] {i &equals; 0;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition %Beschreiben des Lngen vektors {BMWosp_le_prd_delta[z]&equals;d; z++;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {zp &equals; Le_ms_offset; j&equals;0; k&equals;Le_ms_offset; a&equals;0;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {j&equals;0;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition [BMWosp_dst_prd[BMWosp_dst_prdpsn[0]]&lt;&equals;252] {a&equals; BMWosp_dst_prd[BMWosp_dst_prdpsn[0]]; BMWosp_dst_prdpsn_temp[0]&equals;BMWosp_n_Elementmax; BMWosp_dst_prdpsn_temp[1]&equals;BMWosp_dst_prdpsn[0]; BMWosp_le_prd_delta[0]&equals;BMWosp_dst_prd[BMWosp_dst_prdpsn[0]]; Le_ms_offset &equals; 1; zp &equals; 2; k&equals;1; z &equals; 1;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {BMWosp_le_prd_delta[g]&equals;252; h&equals;h+252; e &equals; BMWosp_dst_prd[BMWosp_dst_prdpsn[0]] - h; BMWosp_dst_prdpsn_temp[g]&equals;BMWosp_n_Elementmax; g++;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition {a&equals; BMWosp_dst_prd[BMWosp_dst_prdpsn[0]]; BMWosp_le_prd_delta[g]&equals;BMWosp_dst_prd[BMWosp_dst_prdpsn[0]] - h; BMWosp_dst_prdpsn_temp[g]&equals;BMWosp_n_Elementmax; Le_ms_offset &equals; g; zp &equals; g+1; k&equals;0; z &equals; g+1;} %Pfad wenn das este Segment ger als 252m ist of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Transition %Nachschieben der Set/Reset-Bits [zp&lt;BMWosp_n_Elementmax &amp;&amp; k&lt;g] {BMWosp_dst_prdpsn_temp[zp]&equals;BMWosp_dst_prdpsn[k]; zp++; k++;} of chart Vorverarbeitung_roh_Daten has a label, which is not conform to the general transition label rules. Check whether the label contains curly brackets, events or condition actions. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0024"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The Stateflow chart Vorverarbeitung_roh_Daten has a State-vs.-Transition ratio of 2.0408%, which is below the threshold of 10%. <br/> <mark><em>[Whitelisted] Whitelist verloren gegangen nach Update auf BACE 15.17.0 / MAC 015.005.0 und Klammerung.\nbernahme der vorherigen Explanation: \nNicht ohne erhebliche Ummodellierung lsbar.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IntfCos_20ms/BMW_MOD_IntfCos_20ms/Variant_Subsystem/NOT_EL/COSADAS2D/Sortieren_Entfernungen/Vorverarbeitung_roh_Daten", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }
+        ]
+    }
+]

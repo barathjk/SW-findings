@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_MAWF/CCU01BEV21BMW/BMW_SWC_MAWF.c", 
+        "findings": [
+            {
+                "startLine": "4671", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a1d093c4a9f6460853c1137742e53cf80db61e68b90a2c2567bb2892240e328e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Reliability][4671] Ignored Return Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.FUNCS.IRV"
+            }, 
+            {
+                "startLine": "7575", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4ca72ad6f80956a8471701b709219aa26de52a85ce086d30e4bc44b4bac2f229"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Reliability][7575] Ignored Return Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.FUNCS.IRV"
+            }
+        ]
+    }
+]

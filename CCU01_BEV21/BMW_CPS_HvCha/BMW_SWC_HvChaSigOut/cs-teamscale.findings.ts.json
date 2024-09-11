@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvChaSigOut/CCU01BEV21BMW/BMW_SWC_HvChaSigOut.c", 
+        "findings": [
+            {
+                "startLine": "6377", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ae3afa58a33688c55c5f995e7b88a3f53d61e0b7030aabace2d8a92dd3321a97"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6377] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "6387", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "14a14f2db09673f7c2b382364ac6c6b923f1ac0d5154139e59c5d99428a6199a"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][6387] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }
+        ]
+    }
+]

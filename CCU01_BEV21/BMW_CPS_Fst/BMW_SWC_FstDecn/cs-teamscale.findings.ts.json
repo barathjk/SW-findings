@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_FstDecn/CCU01BEV21BMW/BMW_SWC_FstDecn.c", 
+        "findings": [
+            {
+                "startLine": "666", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "522e172a567aecf3d994fc976092a220dc013a621ec06e13743f072781b9b5d5"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][666] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "687", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "522e172a567aecf3d994fc976092a220dc013a621ec06e13743f072781b9b5d5"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][687] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }
+        ]
+    }
+]

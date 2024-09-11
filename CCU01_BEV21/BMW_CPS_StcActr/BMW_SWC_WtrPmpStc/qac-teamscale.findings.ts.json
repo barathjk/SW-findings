@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_WtrPmpStc/CCU01BEV21BMW/BMW_SWC_WtrPmpStc.c", 
+        "findings": [
+            {
+                "startLine": "2161", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b0e774342c4517593f38757d8d8951faa97ef0c3b21c473f5bd2658573122632"
+                }, 
+                "justification": "", 
+                "message": "[2161:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "2176", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "452e039cd305b628611995cbf4e4f82cfd8d69786c6658982e72c27d652e77a8"
+                }, 
+                "justification": "", 
+                "message": "[2176:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }
+]

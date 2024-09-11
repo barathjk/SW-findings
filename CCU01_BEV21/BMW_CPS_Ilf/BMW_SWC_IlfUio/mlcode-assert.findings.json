@@ -1,0 +1,44 @@
+[
+    {
+        "path": "SVN_BMW_SWC_IlfUio/Model/LIB_BMW_MOD_IlfUio_AftRn_200ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Gain' of 'BMW_SWC_IlfUio/BMW_MOD_IlfUio_AftRn_200ms/BMW_MOD_IlfUio_AftRn_200ms/Subsystem/Gain'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfUio_AftRn_200ms/BMW_MOD_IlfUio_AftRn_200ms/Subsystem/Gain", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_IlfUio/Model/LIB_BMW_MOD_IlfUio_CtrOut_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_IlfUio/BMW_MOD_IlfUio_CtrOut_10ms/BMW_MOD_IlfUio_CtrOut_10ms/Ansteuerungsgroessen_und_Beschreibung_von_Layergroessen/Constant3'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfUio_CtrOut_10ms/BMW_MOD_IlfUio_CtrOut_10ms/Ansteuerungsgroessen_und_Beschreibung_von_Layergroessen/Constant3", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

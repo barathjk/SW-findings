@@ -1,0 +1,1594 @@
+[
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_HvPthDiag_DcdcBaTarget_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_HvPthDiag_DcdcDeratingStatus_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_HvPthDiag_DcdcIstBetriebsart_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_HvPthDiag_DcdcIstSpannungLv_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_HvPthDiag_DcdcIstStromLv_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_HvPthDiag_DcdcPHvMax_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_HvPthDiag_DcdcTemperatur_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_HvPthDiag_DcdcUHvMinTarget_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_HvPthDiag_DcdcULvTarget_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_i_Dcdc12vHvInt_sw_BMWhvpth_i_Dcdc12vHvInt_sw", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_i_Dcdc12vLvInt_sw_BMWhvpth_i_Dcdc12vLvInt_sw", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_i_Dcdc12vLvMaxInt_sw_BMWhvpth_i_Dcdc12vLvMaxInt_sw", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_pct_Dcdc12vLoadInt_uw_BMWhvpth_pct_Dcdc12vLoadInt_uw", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_pwr_Dcdc12vHv_sw_BMWhvpth_pwr_Dcdc12vHv_sw", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_pwr_Dcdc12vLvInt_sw_BMWhvpth_pwr_Dcdc12vLvInt_sw", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_pwr_Dcdc12vMax_BMWhvpth_pwr_Dcdc12vMax", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_st_Dcdc12vErrInt_uw_BMWhvpth_st_Dcdc12vErrInt_uw", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_st_Dcdc12vOpmInt_ub_BMWhvpth_st_Dcdc12vOpmInt_ub", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_st_Dcdc12vOpmReq_ub_BMWhvpth_st_Dcdc12vOpmReq_ub", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_st_Dcdc12vPwrSpl_ub_BMWhvpth_st_Dcdc12vPwrSpl_ub", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I0ChaVal_BMWhvpth_ti_Volt0I0ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I0Drvg_BMWhvpth_ti_Volt0I0Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I10Drvg_BMWhvpth_ti_Volt0I10Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I11Drvg_BMWhvpth_ti_Volt0I11Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I12Drvg_BMWhvpth_ti_Volt0I12Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I13Drvg_BMWhvpth_ti_Volt0I13Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I14Drvg_BMWhvpth_ti_Volt0I14Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I1ChaVal_BMWhvpth_ti_Volt0I1ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I1Drvg_BMWhvpth_ti_Volt0I1Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I2ChaVal_BMWhvpth_ti_Volt0I2ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I2Drvg_BMWhvpth_ti_Volt0I2Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I3ChaVal_BMWhvpth_ti_Volt0I3ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I3Drvg_BMWhvpth_ti_Volt0I3Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I4ChaVal_BMWhvpth_ti_Volt0I4ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I4Drvg_BMWhvpth_ti_Volt0I4Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I5Drvg_BMWhvpth_ti_Volt0I5Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I6Drvg_BMWhvpth_ti_Volt0I6Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I7Drvg_BMWhvpth_ti_Volt0I7Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I8Drvg_BMWhvpth_ti_Volt0I8Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt0I9Drvg_BMWhvpth_ti_Volt0I9Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I0ChaVal_BMWhvpth_ti_Volt1I0ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I0Drvg_BMWhvpth_ti_Volt1I0Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I10Drvg_BMWhvpth_ti_Volt1I10Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I11Drvg_BMWhvpth_ti_Volt1I11Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I12Drvg_BMWhvpth_ti_Volt1I12Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I13Drvg_BMWhvpth_ti_Volt1I13Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I14Drvg_BMWhvpth_ti_Volt1I14Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I1ChaVal_BMWhvpth_ti_Volt1I1ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I1Drvg_BMWhvpth_ti_Volt1I1Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I2ChaVal_BMWhvpth_ti_Volt1I2ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I2Drvg_BMWhvpth_ti_Volt1I2Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I3ChaVal_BMWhvpth_ti_Volt1I3ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I3Drvg_BMWhvpth_ti_Volt1I3Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I4ChaVal_BMWhvpth_ti_Volt1I4ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I4Drvg_BMWhvpth_ti_Volt1I4Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I5Drvg_BMWhvpth_ti_Volt1I5Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I6Drvg_BMWhvpth_ti_Volt1I6Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I7Drvg_BMWhvpth_ti_Volt1I7Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I8Drvg_BMWhvpth_ti_Volt1I8Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt1I9Drvg_BMWhvpth_ti_Volt1I9Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I0ChaVal_BMWhvpth_ti_Volt2I0ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I0Drvg_BMWhvpth_ti_Volt2I0Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I10Drvg_BMWhvpth_ti_Volt2I10Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I11Drvg_BMWhvpth_ti_Volt2I11Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I12Drvg_BMWhvpth_ti_Volt2I12Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I13Drvg_BMWhvpth_ti_Volt2I13Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I14Drvg_BMWhvpth_ti_Volt2I14Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I1ChaVal_BMWhvpth_ti_Volt2I1ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I1Drvg_BMWhvpth_ti_Volt2I1Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I2ChaVal_BMWhvpth_ti_Volt2I2ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I2Drvg_BMWhvpth_ti_Volt2I2Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I3ChaVal_BMWhvpth_ti_Volt2I3ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I3Drvg_BMWhvpth_ti_Volt2I3Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I4ChaVal_BMWhvpth_ti_Volt2I4ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I4Drvg_BMWhvpth_ti_Volt2I4Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I5Drvg_BMWhvpth_ti_Volt2I5Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I6Drvg_BMWhvpth_ti_Volt2I6Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I7Drvg_BMWhvpth_ti_Volt2I7Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I8Drvg_BMWhvpth_ti_Volt2I8Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt2I9Drvg_BMWhvpth_ti_Volt2I9Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I0ChaVal_BMWhvpth_ti_Volt3I0ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I0Drvg_BMWhvpth_ti_Volt3I0Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I10Drvg_BMWhvpth_ti_Volt3I10Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I11Drvg_BMWhvpth_ti_Volt3I11Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I12Drvg_BMWhvpth_ti_Volt3I12Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I13Drvg_BMWhvpth_ti_Volt3I13Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I14Drvg_BMWhvpth_ti_Volt3I14Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I1ChaVal_BMWhvpth_ti_Volt3I1ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I1Drvg_BMWhvpth_ti_Volt3I1Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I2ChaVal_BMWhvpth_ti_Volt3I2ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I2Drvg_BMWhvpth_ti_Volt3I2Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I3ChaVal_BMWhvpth_ti_Volt3I3ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I3Drvg_BMWhvpth_ti_Volt3I3Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I4ChaVal_BMWhvpth_ti_Volt3I4ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I4Drvg_BMWhvpth_ti_Volt3I4Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I5Drvg_BMWhvpth_ti_Volt3I5Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I6Drvg_BMWhvpth_ti_Volt3I6Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I7Drvg_BMWhvpth_ti_Volt3I7Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I8Drvg_BMWhvpth_ti_Volt3I8Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt3I9Drvg_BMWhvpth_ti_Volt3I9Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I0ChaVal_BMWhvpth_ti_Volt4I0ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I0Drvg_BMWhvpth_ti_Volt4I0Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I10Drvg_BMWhvpth_ti_Volt4I10Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I11Drvg_BMWhvpth_ti_Volt4I11Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I12Drvg_BMWhvpth_ti_Volt4I12Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I13Drvg_BMWhvpth_ti_Volt4I13Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I14Drvg_BMWhvpth_ti_Volt4I14Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I1ChaVal_BMWhvpth_ti_Volt4I1ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I1Drvg_BMWhvpth_ti_Volt4I1Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I2ChaVal_BMWhvpth_ti_Volt4I2ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I2Drvg_BMWhvpth_ti_Volt4I2Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I3ChaVal_BMWhvpth_ti_Volt4I3ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I3Drvg_BMWhvpth_ti_Volt4I3Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I4ChaVal_BMWhvpth_ti_Volt4I4ChaVal", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I4Drvg_BMWhvpth_ti_Volt4I4Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I5Drvg_BMWhvpth_ti_Volt4I5Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I6Drvg_BMWhvpth_ti_Volt4I6Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I7Drvg_BMWhvpth_ti_Volt4I7Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I8Drvg_BMWhvpth_ti_Volt4I8Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt4I9Drvg_BMWhvpth_ti_Volt4I9Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I0Drvg_BMWhvpth_ti_Volt5I0Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I10Drvg_BMWhvpth_ti_Volt5I10Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I11Drvg_BMWhvpth_ti_Volt5I11Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I12Drvg_BMWhvpth_ti_Volt5I12Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I13Drvg_BMWhvpth_ti_Volt5I13Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I14Drvg_BMWhvpth_ti_Volt5I14Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I1Drvg_BMWhvpth_ti_Volt5I1Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I2Drvg_BMWhvpth_ti_Volt5I2Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I3Drvg_BMWhvpth_ti_Volt5I3Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I4Drvg_BMWhvpth_ti_Volt5I4Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I5Drvg_BMWhvpth_ti_Volt5I5Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I6Drvg_BMWhvpth_ti_Volt5I6Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I7Drvg_BMWhvpth_ti_Volt5I7Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I8Drvg_BMWhvpth_ti_Volt5I8Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_ti_Volt5I9Drvg_BMWhvpth_ti_Volt5I9Drvg", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_u_Dcdc12vHvInt_uw_BMWhvpth_u_Dcdc12vHvInt_uw", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_u_Dcdc12vHvMin_uw_BMWhvpth_u_Dcdc12vHvMin_uw", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_u_Dcdc12vLvInt_uw_BMWhvpth_u_Dcdc12vLvInt_uw", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_HvPthDiag_rpBMWhvpth_u_Dcdc12vTar_uw_BMWhvpth_u_Dcdc12vTar_uw", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Call_BMW_SWC_HvPthDiag_FisHvPwrDerDcdc_SetEventStatus", 
+        "assessment": {
+            "YELLOW": "6"
+        }, 
+        "count": "6"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Call_BMW_SWC_HvPthDiag_FisSevDcdcDgra_SetEventStatus", 
+        "assessment": {
+            "YELLOW": "6"
+        }, 
+        "count": "6"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_IrvRead_BMW_SWC_HvPthDiag_BMW_MOD_HvPthFaultMemory_10ms_BMWhvpth_pwr_DiagDcdc12vReqByp", 
+        "assessment": {
+            "YELLOW": "10"
+        }, 
+        "count": "10"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_IrvRead_BMW_SWC_HvPthDiag_BMW_MOD_HvPthFaultMemory_10ms_BMWhvpth_st_DiagDcdc12vOpmByp", 
+        "assessment": {
+            "YELLOW": "10"
+        }, 
+        "count": "10"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_IrvRead_BMW_SWC_HvPthDiag_BMW_MOD_HvPthFaultMemory_10ms_BMWhvpth_st_DiagDcdc12vReqByp", 
+        "assessment": {
+            "YELLOW": "10"
+        }, 
+        "count": "10"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_IrvRead_BMW_SWC_HvPthDiag_BMW_MOD_HvPthFaultMemory_10ms_BMWhvpth_u_DiagDcdc12vHvMinByp", 
+        "assessment": {
+            "YELLOW": "10"
+        }, 
+        "count": "10"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_IrvRead_BMW_SWC_HvPthDiag_BMW_MOD_HvPthFaultMemory_10ms_BMWhvpth_u_DiagDcdc12vTarByp", 
+        "assessment": {
+            "YELLOW": "10"
+        }, 
+        "count": "10"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_IrvWrite_BMW_SWC_HvPthDiag_HvpmControlDcdc_WriteData_BMWhvpth_pwr_DiagDcdc12vReqByp", 
+        "assessment": {
+            "YELLOW": "12"
+        }, 
+        "count": "12"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_IrvWrite_BMW_SWC_HvPthDiag_HvpmControlDcdc_WriteData_BMWhvpth_st_DiagDcdc12vOpmByp", 
+        "assessment": {
+            "YELLOW": "12"
+        }, 
+        "count": "12"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_IrvWrite_BMW_SWC_HvPthDiag_HvpmControlDcdc_WriteData_BMWhvpth_st_DiagDcdc12vReqByp", 
+        "assessment": {
+            "YELLOW": "12"
+        }, 
+        "count": "12"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_IrvWrite_BMW_SWC_HvPthDiag_HvpmControlDcdc_WriteData_BMWhvpth_u_DiagDcdc12vHvMinByp", 
+        "assessment": {
+            "YELLOW": "12"
+        }, 
+        "count": "12"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_IrvWrite_BMW_SWC_HvPthDiag_HvpmControlDcdc_WriteData_BMWhvpth_u_DiagDcdc12vTarByp", 
+        "assessment": {
+            "YELLOW": "12"
+        }, 
+        "count": "12"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_HvPthDiag_ppBMWhvpth_st_DiagDcdc12vOpmNv_BMWhvpth_st_DiagDcdc12vOpmNv", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_HvPthDiag_ppBMWhvpth_st_DiagDcdc12vReqNv_BMWhvpth_st_DiagDcdc12vReqNv", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_HvPthDiag_ppBMWhvpth_u_DiagDcdc12vHvMinNv_BMWhvpth_u_DiagDcdc12vHvMinNv", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_HvPthDiag_ppBMWhvpth_u_DiagDcdc12vTarNv_BMWhvpth_u_DiagDcdc12vTarNv", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_HvPthDiag_ppBMWhvpth_pwr_DiagDcdc12vReq_sw_BMWhvpth_pwr_DiagDcdc12vReq_sw", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_HvPthDiag_ppBMWhvpth_st_DiagDcdc12vOpm_ub_BMWhvpth_st_DiagDcdc12vOpm_ub", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_HvPthDiag_ppBMWhvpth_st_DiagDcdc12vReq_ub_BMWhvpth_st_DiagDcdc12vReq_ub", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_HvPthDiag_ppBMWhvpth_u_DiagDcdc12vTar_uw_BMWhvpth_u_DiagDcdc12vTar_uw", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_HvPthDiag_ppBMWhvpth_u_DiagDcdc12vHvMin_uw_BMWhvpth_u_DiagDcdc12vHvMin_uw", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_Irv_BMW_SWC_HvPthDiag_BMWhvpth_pwr_DiagDcdc12vReqByp", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_Irv_BMW_SWC_HvPthDiag_BMWhvpth_st_DiagDcdc12vOpmByp", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_Irv_BMW_SWC_HvPthDiag_BMWhvpth_st_DiagDcdc12vReqByp", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_Irv_BMW_SWC_HvPthDiag_BMWhvpth_u_DiagDcdc12vHvMinByp", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_Irv_BMW_SWC_HvPthDiag_BMWhvpth_u_DiagDcdc12vTarByp", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_HvPthDiag_ppBMWhvpth_pwr_DiagDcdc12vReqNv_BMWhvpth_pwr_DiagDcdc12vReqNv", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_HvPthDiag_BMWhvpth_st_DiagDcdcDer", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMW_SWC_HvPthDiag_IfSystem", 
+        "assessment": {
+            "YELLOW": "6"
+        }, 
+        "count": "6"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMW_MOD_HvPthFaultMemory_10ms", 
+        "assessment": {
+            "YELLOW": "956"
+        }, 
+        "count": "956"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMW_SWC_HvPthDiag_Init", 
+        "assessment": {
+            "YELLOW": "12"
+        }, 
+        "count": "12"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_ti_DiagDcdcDerOn_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_st_DiagDcdcDer_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_mask_DiagDcdcDer_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_ti_DiagDcdcDerOff_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_dst_MilgSafeNvMax_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_n_ScaDiagI_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_n_ScaDiagVolt_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_n_ScaDiagT_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_pwr_DiagDcdc12vReq_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_u_DiagDcdc12vHvMin_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_u_DiagDcdc12vTar_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_st_DiagDcdc12vOpm_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_st_DiagDcdc12vReq_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_b_pwr_DiagDcdc12vReq_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_b_st_DiagDcdc12vOpm_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_b_st_DiagDcdc12vReq_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_b_u_DiagDcdc12vHvMin_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMWhvpth_b_u_DiagDcdc12vTar_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMW_SWC_HvPthDiag_DW", 
+        "assessment": {
+            "YELLOW": "14"
+        }, 
+        "count": "14"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_HvPthDiag/BMW_SWC_HvPthDiag_B", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/HvpmControlDcdc_WriteData/HvpmControlDcdc_WriteData", 
+        "assessment": {
+            "YELLOW": "202"
+        }, 
+        "count": "202"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/HvpmDcdcHistogrammFahrbetrieb_ReadData/HvpmDcdcHistogrammFahrbetrieb_ReadData", 
+        "assessment": {
+            "YELLOW": "2930"
+        }, 
+        "count": "2930"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/HvpmDcdcHistogrammLadebetrieb_ReadData/HvpmDcdcHistogrammLadebetrieb_ReadData", 
+        "assessment": {
+            "YELLOW": "848"
+        }, 
+        "count": "848"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/HvpmDcdc_ReadData/BMW_SWC_HvPthDiag_ConvSTAT_BETRIEBSART_DCDC_IST", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/HvpmDcdc_ReadData/BMW_SWC_HvPthDiag_ConvSTAT_LEISTUNG_DCDC_12V_IST_WERT", 
+        "assessment": {
+            "YELLOW": "40"
+        }, 
+        "count": "40"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/HvpmDcdc_ReadData/BMW_SWC_HvPthDiag_ConvSTAT_SPANNUNG_DCDC_12V_WERT", 
+        "assessment": {
+            "YELLOW": "10"
+        }, 
+        "count": "10"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/HvpmDcdc_ReadData/BMW_SWC_HvPthDiag_ConvSTAT_STROM_DCDC_12V_MAX_WERT", 
+        "assessment": {
+            "YELLOW": "40"
+        }, 
+        "count": "40"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/HvpmDcdc_ReadData/HvpmDcdc_ReadData", 
+        "assessment": {
+            "YELLOW": "426"
+        }, 
+        "count": "426"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/rt_sys_BMW_SWC_HvPthDiag_140/BMW_SWC_HvPthDiag_ConvSTAT_DCDC_ZEIT_SPANNUNG1_STROM10_WERT", 
+        "assessment": {
+            "YELLOW": "24"
+        }, 
+        "count": "24"
+    }
+]

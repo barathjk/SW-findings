@@ -1,0 +1,1777 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvChaSigOutServer/Model/LIB_BMW_MOD_HvChaSigOutServerInitHist.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateTiSe and the signal BMW_ti_InitChaHisStrSec resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerInitHist/BMW_MOD_HvChaSigOutServerInitHist/InitHistoryOutput/BMWhvcha_ti_DateTiSe", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateTiMin and the signal BMW_ti_InitChaHisStrMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerInitHist/BMW_MOD_HvChaSigOutServerInitHist/InitHistoryOutput/BMWhvcha_ti_DateTiMin", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateTiHr and the signal BMW_ti_InitChaHisStrHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerInitHist/BMW_MOD_HvChaSigOutServerInitHist/InitHistoryOutput/BMWhvcha_ti_DateTiHr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateTiDay and the signal BMW_ti_InitChaHisStrDay resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerInitHist/BMW_MOD_HvChaSigOutServerInitHist/InitHistoryOutput/BMWhvcha_ti_DateTiDay", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateTiMth and the signal BMW_ti_InitChaHisStrMth resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerInitHist/BMW_MOD_HvChaSigOutServerInitHist/InitHistoryOutput/BMWhvcha_ti_DateTiMth", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateTiYr and the signal BMW_ti_InitChaHisStrYr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerInitHist/BMW_MOD_HvChaSigOutServerInitHist/InitHistoryOutput/BMWhvcha_ti_DateTiYr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_InitRes and the signal BMW_st_InitChaHisRes resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerInitHist/BMW_MOD_HvChaSigOutServerInitHist/InitHistoryOutput/BMWhvcha_nr_InitRes", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugSegId and the signal BMW_nr_InitChaHisPlugSegAllId resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerInitHist/BMW_MOD_HvChaSigOutServerInitHist/InitHistoryOutput/BMWhvcha_nr_PlugSegId", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_InitSegId and the signal BMW_nr_InitChaHisSegAllId resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerInitHist/BMW_MOD_HvChaSigOutServerInitHist/InitHistoryOutput/BMWhvcha_nr_InitSegId", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_rc_InitChaHis_qi and the signal BMW_rc_InitChaHis_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerInitHist/BMW_MOD_HvChaSigOutServerInitHist/InitHistoryOutput/BMWhvcha_rc_InitChaHis_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaSigOutServer/Model/LIB_BMW_MOD_HvChaSigOutServerChaHist.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_CoRadrOutAvg and the signal BMW_t_ChaAvgCoT resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_CoRadrOutAvg", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_PortAcMax0 and the signal BMW_t_AcPinTMins0 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_PortAcMax0", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_PortAcMax60 and the signal BMW_t_AcPinTHr1 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_PortAcMax60", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_PortDcMax0 and the signal BMW_t_DcPinTMins0 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_PortDcMax0", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_PortDcMax10 and the signal BMW_t_DcPinTMins10 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_PortDcMax10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_PortDcMax20 and the signal BMW_t_DcPinTMins20 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_PortDcMax20", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_PortDcMax30 and the signal BMW_t_DcPinTMins30 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_PortDcMax30", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_ChaHisTPin_qi and the signal BMW_t_ChaHisTPin_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_ChaHisTPin_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaSe and the signal BMW_ti_UTCStrSe resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaSe", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaMins and the signal BMW_ti_UTCStrMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaMins", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaHr and the signal BMW_ti_UTCStrHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaHr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaDay and the signal BMW_ti_UTCStrDay resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaDay", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaMth and the signal BMW_ti_UTCStrMth resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaMth", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaYr and the signal BMW_ti_UTCStrYr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaYr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaSe2 and the signal BMW_ti_UTCEndSe resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaSe2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaMins2 and the signal BMW_ti_UTCEndMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaMins2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaHr2 and the signal BMW_ti_UTCEndHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaHr2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaDay2 and the signal BMW_ti_UTCEndDay resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaDay2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaMth2 and the signal BMW_ti_UTCEndMth resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaMth2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaYr2 and the signal BMW_ti_UTCEndYr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaYr2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DispSeAct and the signal BMW_ti_LclTiStrSe resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DispSeAct", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DispMinsAct and the signal BMW_ti_LclTiStrMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DispMinsAct", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DispHrAct and the signal BMW_ti_LclTiStrHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DispHrAct", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateDay and the signal BMW_ti_LclTiStrDay resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DateDay", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DispDayAct and the signal BMW_ti_LclTiStrWday resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DispDayAct", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateMth and the signal BMW_ti_LclTiStrMth resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DateMth", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateYr and the signal BMW_ti_LclTiStrYr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DateYr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_LclTiModStr and the signal BMW_ti_LclTiModStr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_LclTiModStr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DispSeAct2 and the signal BMW_ti_LclTiEndSe resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DispSeAct2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DispMinsAct2 and the signal BMW_ti_LclTiEndMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DispMinsAct2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DispHrAct2 and the signal BMW_ti_LclTiEndHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DispHrAct2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateDay2 and the signal BMW_ti_LclTiEndDay resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DateDay2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DispDayAct2 and the signal BMW_ti_LclTiEndWday resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DispDayAct2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateMth2 and the signal BMW_ti_LclTiEndMth resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DateMth2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateYr2 and the signal BMW_ti_LclTiEndYr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DateYr2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_LclTiModEnd and the signal BMW_ti_LclTiModEnd resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_LclTiModEnd", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_rc_ChaHisTiInfo_qi and the signal BMW_rc_ChaHisTiInfo_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_rc_ChaHisTiInfo_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_pct_SoeChaTar and the signal BMW_soc_CusTar resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_pct_SoeChaTar", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_pct_SoeChaTar2 and the signal BMW_soc_CusTarChg resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_pct_SoeChaTar2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DispSeActChg and the signal BMW_ti_CusTarChgTiSe resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DispSeActChg", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DispMinsChg and the signal BMW_ti_CusTarChgTiMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DispMinsChg", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DispHrActChg and the signal BMW_ti_CusTarChgTiHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DispHrActChg", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateDayChg and the signal BMW_ti_CusTarChgTiDay resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DateDayChg", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateMthChg and the signal BMW_ti_CusTarChgTiMth resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DateMthChg", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DateYrChg and the signal BMW_ti_CusTarChgTiYr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_DateYrChg", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_soc_ChaDrvHvs and the signal BMW_soc_CusStr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_soc_ChaDrvHvs", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_soc_ChaDrvHvs2 and the signal BMW_soc_CusEnd resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_soc_ChaDrvHvs2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_soc_ChaHvsAct and the signal BMW_soc_RealStr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_soc_ChaHvsAct", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_soc_ChaHvsAct2 and the signal BMW_soc_RealEnd resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_soc_ChaHvsAct2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_rc_ChaHisSocInfo_qi and the signal BMW_rc_ChaHisSocInfo_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_rc_ChaHisSocInfo_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_e_AcoCmprCns and the signal BMW_e_CumuEgyPcgPassAcoCold resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_e_AcoCmprCns", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_e_AcoHtrCns and the signal BMW_e_CumuEgyPcgPassAcoHot resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_e_AcoHtrCns", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_e_HvsHtrAct and the signal BMW_e_CumuEgyHvbChaCns resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_e_HvsHtrAct", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_e_DchaPretEstd and the signal BMW_e_CumuEgyPcgHvb resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_e_DchaPretEstd", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_u_DispCha and the signal BMW_u_ChaMaxMeasVolt resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_u_DispCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_i_ChaMaxMeasI and the signal BMW_i_ChaMaxMeasI resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_i_ChaMaxMeasI", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_CoRadrOut and the signal BMW_t_ChaMaxMeasCoT resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_CoRadrOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_pct_ChaPwr and the signal BMW_i_ChaMaxPinPwr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_pct_ChaPwr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_CoRadrOutMin and the signal BMW_t_BMW_t_ChaMinMeasCoT resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_CoRadrOutMin", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ct_ChaNetAbo and the signal BMW_ct_FailGrid resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ct_ChaNetAbo", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ct_ComNetReq and the signal BMW_ct_VehWku resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ct_ComNetReq", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_mod_SeldChgeMod and the signal BMW_st_NrElPha resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_mod_SeldChgeMod", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_opm_ChgrAcDcAvl and the signal BMW_st_NrChgrMd resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_opm_ChgrAcDcAvl", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_pct_ChaPwr2 and the signal BMW_pct_ChaPwrAvg resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_pct_ChaPwr2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_pct_ChaDerTi and the signal BMW_pct_ChaDurDer resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_pct_ChaDerTi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_pct_ChaHvsTi and the signal BMW_pct_ChaDurPcgHvb resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_pct_ChaHvsTi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_err_DerCatgErr and the signal BMW_st_ChaDerReas resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_err_DerCatgErr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_i_ChaAvgI and the signal BMW_i_ChaAvgI resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_i_ChaAvgI", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_u_ChaAvgU and the signal BMW_u_ChaAvgVolt resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_u_ChaAvgU", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugIdAll and the signal BMW_nr_PlugChaSegIdAll2 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_PlugIdAll", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_rc_ChaHisMscInfo_qi and the signal BMW_rc_ChaHisMscInfo_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_rc_ChaHisMscInfo_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaSegIdAll and the signal BMW_nr_ChaSegIdAll resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaSegIdAll", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaSegId and the signal BMW_nr_ChaSegId resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaSegId", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_SegId and the signal BMW_nr_PlugChaSegIdAll resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_SegId", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_ChaSegId_qi and the signal BMW_nr_ChaSegId_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_nr_ChaSegId_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_Env and the signal BMW_t_EnvTStr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_Env", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_Env2 and the signal BMW_t_EnvTEnd resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_Env2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_t_Hvs and the signal BMW_t_HvbTStr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_t_Hvs", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_HvsChaDur and the signal BMW_ti_SocTiTarLvl resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ti_HvsChaDur", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_ChaChaIfPiw and the signal BMW_st_PiwSt resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_st_ChaChaIfPiw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_ChaChaEndTyp and the signal BMW_st_ChaEndReas resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_st_ChaChaEndTyp", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_e_ChaGridAct and the signal BMW_e_CumuEgyGrid resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_e_ChaGridAct", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_e_Dcdc12vHv and the signal BMW_e_CumuEgyDcdc resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_e_Dcdc12vHv", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_rc_ChaHisEgyInfo_qi and the signal BMW_rc_ChaHisEgyInfo_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_rc_ChaHisEgyInfo_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_fac_SohPinAc1 and the signal BMW_st_HlthAcPin1 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_fac_SohPinAc1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_fac_SohPinAc2 and the signal BMW_st_HlthAcPin2 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_fac_SohPinAc2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_fac_SohPinAc3 and the signal BMW_st_HlthAcPin3 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_fac_SohPinAc3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ct_SohAc and the signal BMW_ct_HlthAcPin resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ct_SohAc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_fac_SohPinDc1 and the signal BMW_st_HlthDcPin1 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_fac_SohPinDc1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_fac_SohPinDc2 and the signal BMW_st_HlthDcPin2 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_fac_SohPinDc2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ct_SohDc and the signal BMW_ct_HlthDcPin resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_ct_SohDc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_rc_ChaHisHlthPin_qi and the signal BMW_rc_ChaHisHlthPin_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_rc_ChaHisHlthPin_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_pwr_DispPwrCha and the signal BMW_pwr_ChaMaxMeasPwr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerChaHist/BMW_MOD_HvChaSigOutServerChaHist/ChargeHistoryOutput/BMWhvcha_pwr_DispPwrCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaSigOutServer/Model/LIB_BMW_MOD_HvChaSigOutServerPlugHist.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugHisId_qi and the signal BMW_nr_PlugHisId_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugHisId_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugSegId1 and the signal BMW_nr_PlugSegId resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugSegId1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugSegIdAll and the signal BMW_nr_PlugSegIdAll resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugSegIdAll", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugDstOut and the signal BMW_milg_PlugHis1 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugDstOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_mod_PlugChgeModOut and the signal BMW_ct_AvlChaElPha resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_mod_PlugChgeModOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ct_PlugHis1PinWay and the signal BMW_ct_PlugHis1PinWay resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ct_PlugHis1PinWay", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ct_PlugLockRtyOut and the signal BMW_ct_LockAtmpt resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ct_PlugLockRtyOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_ChaTypActOut and the signal BMW_mod_PlugHis1TypCha resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_st_ChaTypActOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_ChaElModAckOut and the signal BMW_mod_PlugHis1TypCnct resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_st_ChaElModAckOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_ChaIfPiwOut and the signal BMW_st_CnctAftPlgd resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_st_ChaIfPiwOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_ChaIfPiwOut2 and the signal BMW_st_CnctBefUplgd resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_st_ChaIfPiwOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_IfCblPlgdInOut and the signal BMW_st_UplgdInSlpSt resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_st_IfCblPlgdInOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_soc_DrvHvbDispOut and the signal BMW_soc_CusPlgd resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_soc_DrvHvbDispOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_soc_DrvHvbDispOut2 and the signal BMW_soc_CusUplgd resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_soc_DrvHvbDispOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ct_ChaAcvCycPron and the signal BMW_ct_ChaEvtWoSho resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ct_ChaAcvCycPron", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ct_ChaAcvCyc and the signal BMW_ct_ChaEvtWiSho resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ct_ChaAcvCyc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_rc_PlugHisMscInfo_qi and the signal BMW_rc_PlugHisMscInfo_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_rc_PlugHisMscInfo_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_i_ChgILimMod2Out and the signal BMW_i_PlgdHisPwrLim resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_i_ChgILimMod2Out", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_StgyDftTypOut and the signal BMW_st_PlgdHisChaMod resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_st_StgyDftTypOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_UsrSeldOut and the signal BMW_st_PlgdHisChaFct resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_st_UsrSeldOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_StChaVolLimOut and the signal BMW_st_ChaIdccFctAcv resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_st_StChaVolLimOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DptMinsIntOut and the signal BMW_ti_PlugHisNextDptMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_DptMinsIntOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_DptHrIntOut and the signal BMW_ti_PlugHisNextDptHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_DptHrIntOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_DptDayIntOut and the signal BMW_ti_PlugHisNextDptWday resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_st_DptDayIntOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PerBgMinsIntOut and the signal BMW_ti_ChaCostWindStrMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PerBgMinsIntOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PerBgHrIntOut and the signal BMW_ti_ChaCostWindStrHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PerBgHrIntOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_EndMinsIntOut and the signal BMW_ti_ChaCostWindEndMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_EndMinsIntOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_EndHrIntOut and the signal BMW_ti_ChaCostWindEndHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_EndHrIntOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_st_ChaTiLongDptOut and the signal BMW_st_TroRem resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_st_ChaTiLongDptOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugVehRelOut and the signal BMW_ti_SysTiPlgd resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugVehRelOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugSegIdAllOut2 and the signal BMW_nr_PlugSegIdAll2 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugSegIdAllOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_rc_PlugHisSet_qi and the signal BMW_rc_PlugHisSet_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_rc_PlugHisSet_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugSeOut and the signal BMW_ti_PlgdUTCSe resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugSeOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugMinsOut and the signal BMW_ti_PlgdUTCStrMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugMinsOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugHrOut and the signal BMW_ti_PlgdUTCHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugHrOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugDayOut and the signal BMW_ti_PlgdUTCDay resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugDayOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugMthOut and the signal BMW_ti_PlgdUTCMth resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugMthOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugYrOut and the signal BMW_ti_PlgdUTCYr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugYrOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugSeOut2 and the signal BMW_ti_UplgdUTCSe resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugSeOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugMinOut2 and the signal BMW_ti_UplgdUTCMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugMinOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugHrOut2 and the signal BMW_ti_UplgdUTCHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugHrOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugDayOut2 and the signal BMW_ti_UplgdUTCDay resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugDayOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugMthOut2 and the signal BMW_ti_UplgdUTCMth resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugMthOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_nr_PlugYrOut2 and the signal BMW_ti_UplgdUTCYr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_nr_PlugYrOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDispSeOut and the signal BMW_ti_PlgdLclSe resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDispSeOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDispMinsOut and the signal BMW_ti_PlgdLclMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDispMinsOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDispHrOut and the signal BMW_ti_PlgdLclHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDispHrOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDateDayOut and the signal BMW_ti_PlgdLclDay resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDateDayOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDispDayOut and the signal BMW_ti_PlgdLclWday resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDispDayOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDateMthOut and the signal BMW_ti_PlgdLclMth resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDateMthOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDateYrOut and the signal BMW_ti_PlgdLclYr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDateYrOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlgdLclTiModStr and the signal BMW_ti_PlgdLclTiModStr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlgdLclTiModStr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDispSeOut2 and the signal BMW_ti_UplgdLclSe resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDispSeOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDispMinOut2 and the signal BMW_ti_UplgdLclMins resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDispMinOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDispHrOut2 and the signal BMW_ti_UplgdLclHr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDispHrOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDateDayOut2 and the signal BMW_ti_UplgdLclDay resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDateDayOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDispDayOut2 and the signal BMW_ti_UplgdLclWday resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDispDayOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDateMthOut2 and the signal BMW_ti_UplgdLclMth resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDateMthOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_PlugDateYrOut2 and the signal BMW_ti_UplgdLclYr resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_PlugDateYrOut2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_ti_UpIgdLclTiModEnd and the signal BMW_ti_UplgdLclTiModEnd resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_ti_UpIgdLclTiModEnd", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_UplgdLclTiModEnd seems to be wrongly connected to the inport BMWhvcha_ti_UpIgdLclTiModEnd. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/BMWhvcha_ti_UplgdLclTiModEnd", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_rc_PlugHisTiInfo_qi and the signal BMW_rc_PlugHisTiInfo_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_rc_PlugHisTiInfo_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_id_FisChaEvt1 and the signal BMW_id_FisChaEvt1 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_id_FisChaEvt1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_id_FisChaEvt2 and the signal BMW_id_FisChaEvt2 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_id_FisChaEvt2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_id_FisChaEvt3 and the signal BMW_id_FisChaEvt3 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_id_FisChaEvt3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_id_FisChaEvt4 and the signal BMW_id_FisChaEvt4 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_id_FisChaEvt4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_id_FisChaEvt5 and the signal BMW_id_FisChaEvt5 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_id_FisChaEvt5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_id_FisChaEvt6 and the signal BMW_id_FisChaEvt6 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_id_FisChaEvt6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_id_FisChaEvt7 and the signal BMW_id_FisChaEvt7 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_id_FisChaEvt7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_id_FisChaEvt8 and the signal BMW_id_FisChaEvt8 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_id_FisChaEvt8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_id_FisChaEvt9 and the signal BMW_id_FisChaEvt9 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_id_FisChaEvt9", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_id_FisChaEvt10 and the signal BMW_id_FisChaEvt10 resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_id_FisChaEvt10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWhvcha_rc_PlugHisFis_qi and the signal BMW_rc_PlugHisFis_qi resolved to it do not match. <br/> <mark><em>[Whitelisted] The signal names cannot match due to the direct connection to a record signal, where the signal names from an ARCH-perspektive are already fixed and pre-configured to stay so. </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigOutServerPlugHist/BMW_MOD_HvChaSigOutServerPlugHist/PlugHistoryOutout/BMWhvcha_rc_PlugHisFis_qi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

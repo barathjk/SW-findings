@@ -1,0 +1,1342 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvChaSigIn/Model/LIB_BMW_MOD_HvChaSigIn_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue2 is not part of libBACE, but was certified by q277342 and reviewed by . <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/BoolSubstValue2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue4 is not part of libBACE, but was certified by q277342 and reviewed by . <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/BoolSubstValue4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue5 is not part of libBACE, but was certified by q277342 and reviewed by . <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/BoolSubstValue5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue6 is not part of libBACE, but was certified by q277342 and reviewed by . <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/BoolSubstValue6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue7 is not part of libBACE, but was certified by q277342 and reviewed by . <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/BoolSubstValue7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue13 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue13", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue136 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue136", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue137 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue137", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue138 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue138", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue14 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue14", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue140 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue140", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue141 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue141", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue142 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue142", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue143 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue143", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue144 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue144", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue145 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue145", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue146 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue146", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue149 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue149", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue15 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue15", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue150 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue150", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue18 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue18", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue2 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue20 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue20", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue21 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue21", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue22 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue22", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue23 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue23", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue24 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue24", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue27 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue27", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue28 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue28", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue29 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue29", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue30 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue30", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue31 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue31", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue34 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue34", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue36 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue36", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue37 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue37", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue4 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue41 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue41", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue42 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue42", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue43 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue43", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue48 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue48", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue5 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue55 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue55", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue56 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue56", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue58 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue58", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue61 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue61", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue62 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue62", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue63 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue63", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue72 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue72", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue8 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue85 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue85", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue86 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue86", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue9 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/SubstValue9", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue49 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/Hmi/SubstValue49", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue50 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/Hmi/SubstValue50", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue51 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/Hmi/SubstValue51", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue52 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/Hmi/SubstValue52", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue53 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/Hmi/SubstValue53", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue54 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/Hmi/SubstValue54", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/LIM-C/EvaluateQualifier1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/Hvs/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] will be fixed the next time</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/NumberToArray/Divide", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide1 is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] will be fixed the next time</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/NumberToArray/Divide1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide2 is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] will be fixed the next time</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/NumberToArray/Divide2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide3 is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] will be fixed the next time</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/NumberToArray/Divide3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide4 is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] will be fixed the next time</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/NumberToArray/Divide4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide5 is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] will be fixed the next time</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/NumberToArray/Divide5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide6 is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] will be fixed the next time</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/NumberToArray/Divide6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide7 is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] will be fixed the next time</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/NumberToArray/Divide7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide8 is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] will be fixed the next time</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/NumberToArray/Divide8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_OprSChaSet_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/BMW_st_OprSChaSet_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_OprSChaSetRem_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/BMW_st_OprSChaSetRem_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_ChaStgyInssSeldReqOldRem_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_10ms/BMW_MOD_HvChaSigIn_10ms/Hmi/BMW_st_ChaStgyInssSeldReqOldRem_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaSigIn/Model/LIB_BMW_MOD_HvChaSigIn_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue1 is not part of libBACE, but was certified by q277342 and reviewed by . <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BoolSubstValue1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue10 is not part of libBACE, but was certified by q277342 and reviewed by . <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BoolSubstValue10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue3 is not part of libBACE, but was certified by q277342 and reviewed by . <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BoolSubstValue3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue9 is not part of libBACE, but was certified by q277342 and reviewed by . <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BoolSubstValue9", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block LimTo15_22 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/LimTo15_22", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue10 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue11 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue11", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue12 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue12", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue16 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue16", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue17 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue17", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue19 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue19", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue2 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue25 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue25", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue26 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue26", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue3 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue32 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue32", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue33 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue33", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue4 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue44 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue44", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue45 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue45", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue46 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue46", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue47 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue47", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue57 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue57", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue59 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue59", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue60 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue60", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue64 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue64", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue65 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue65", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue66 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue66", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue67 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue67", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue68 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue68", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue69 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue69", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue7 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue70 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue70", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue71 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue71", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue73 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue73", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue74 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue74", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue80 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue80", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue82 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue82", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue83 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SubstValue83", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block LimTo15 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMWhvcha_b_12bChaReqHv_qu/LimTo15", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block LimTo15 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMWhvcha_pct_OprSoeChaTar_qu1/LimTo15", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block LimTo15 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMWhvcha_pwr_AcoPcgReq_qu1/LimTo15", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block LimTo15 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMWhvcha_pwr_HvbCoReq_qu/LimTo15", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block LimTo15 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMWhvcha_pwr_HvbUrCoReq_qu/LimTo15", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_ChaStgyDftRemTyp_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_st_ChaStgyDftRemTyp_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_ChaStgyDftTyp_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_st_ChaStgyDftTyp_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_ChaStgyInssSeldReq_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_st_ChaStgyInssSeldReq_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_ChaStgyInssSeldReqRem_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_st_ChaStgyInssSeldReqRem_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_CtlChaAcuLim_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_st_CtlChaAcuLim_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_OprAcILim_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_st_OprAcILim_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_OprChaCtlRem_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_st_OprChaCtlRem_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_StAcILimRem_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_st_StAcILimRem_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_TypLimnAcuRadrRem_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_st_TypLimnAcuRadrRem_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_i_OprChaLimMod2Rem_rc_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_i_OprChaLimMod2Rem_rc_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_pct_StSoeChaTarRem_rc_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Warning is checked and whitelisted.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_pct_StSoeChaTarRem_rc_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_st_StRxChaPrm_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] is ok, Queed Interfaces Error Port is used as a qualifier</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SmartCharging/BMW_st_StRxChaPrm_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_id_SeldChaScdId_rc_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] is ok, Queed Interfaces Error Port is used as a qualifier</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SmartCharging/PDU_SmartChargingPlan/BMW_id_SeldChaScdId_rc_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_rc_ProfIntgCha_rc_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] is ok, Queed Interfaces Error Port is used as a qualifier</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SmartCharging/PDU_SmartChargingProfile/BMW_rc_ProfIntgCha_rc_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_rc_IntgChaSoc_rc_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] is ok, Queed Interfaces Error Port is used as a qualifier</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/SmartCharging/PDU_StateOfCharge/BMW_rc_IntgChaSoc_rc_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMW_rc_OprSoeChaTarElRou_rc_error seems to be wrongly connected to the inport Qlyn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] is ok, Queed Interfaces Error Port is used as a qualifier</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaSigIn_100ms/BMW_MOD_HvChaSigIn_100ms/BMW_rc_OprSoeChaTarElRou_rc_error", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

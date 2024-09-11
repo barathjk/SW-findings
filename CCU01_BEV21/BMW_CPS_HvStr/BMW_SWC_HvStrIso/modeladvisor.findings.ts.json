@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvStrIso/Model/LIB_BMW_MOD_HvStrIso_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport GBTChargeActiv seems to be wrongly connected to the outport BMWhvstr_b_ChnChaAcv. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] It is wright connection. It is just labeled differently for better understanding.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvStrIso_100ms/BMW_MOD_HvStrIso_100ms/UniversalIsoCalculation/GBTChargeActiv", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

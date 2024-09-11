@@ -1,0 +1,87 @@
+[
+    {
+        "path": "SVN_BMW_SWC_IlfDia/Model/LIB_BMW_MOD_IlfDia_ObdWrd_200ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_IlfDia/BMW_MOD_IlfDia_ObdWrd_200ms/BMW_MOD_IlfDia_ObdWrd_200ms/Berechnung Luefter OBD Umfaenge/Berechnung Freigabe OBD Denominator/Compare To Constant1/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfDia_ObdWrd_200ms/BMW_MOD_IlfDia_ObdWrd_200ms/Berechnung Luefter OBD Umfaenge/Berechnung Freigabe OBD Denominator/Compare To Constant1/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_IlfDia/BMW_MOD_IlfDia_ObdWrd_200ms/BMW_MOD_IlfDia_ObdWrd_200ms/Berechnung Luefter OBD Umfaenge/Functional Test/1 Drehzahlgeregelt/Compare To Constant2/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfDia_ObdWrd_200ms/BMW_MOD_IlfDia_ObdWrd_200ms/Berechnung Luefter OBD Umfaenge/Functional Test/1 Drehzahlgeregelt/Compare To Constant2/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_IlfDia/BMW_MOD_IlfDia_ObdWrd_200ms/BMW_MOD_IlfDia_ObdWrd_200ms/Berechnung Luefter OBD Umfaenge/Functional Test/4 Softstart/Compare To Constant2/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfDia_ObdWrd_200ms/BMW_MOD_IlfDia_ObdWrd_200ms/Berechnung Luefter OBD Umfaenge/Functional Test/4 Softstart/Compare To Constant2/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_IlfDia/BMW_MOD_IlfDia_ObdWrd_200ms/BMW_MOD_IlfDia_ObdWrd_200ms/Berechnung Luefter OBD Umfaenge/Test - Spannungssensor/Rationality Test Spannungssensor/Rationality Test Spannungssensor/BACE_Lowpass_constIV/BACE_Lowpass_IV_ext/0 <= K <= 1/max_val'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfDia_ObdWrd_200ms/BMW_MOD_IlfDia_ObdWrd_200ms/Berechnung Luefter OBD Umfaenge/Test - Spannungssensor/Rationality Test Spannungssensor/Rationality Test Spannungssensor/BACE_Lowpass_constIV/BACE_Lowpass_IV_ext/0 <= K <= 1/max_val", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_IlfDia/BMW_MOD_IlfDia_ObdWrd_200ms/BMW_MOD_IlfDia_ObdWrd_200ms/Berechnung Luefter OBD Umfaenge/Test - Spannungssensor/Rationality Test Spannungssensor/Rationality Test Spannungssensor/BACE_Lowpass_constIV1/BACE_Lowpass_IV_ext/0 <= K <= 1/max_val'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfDia_ObdWrd_200ms/BMW_MOD_IlfDia_ObdWrd_200ms/Berechnung Luefter OBD Umfaenge/Test - Spannungssensor/Rationality Test Spannungssensor/Rationality Test Spannungssensor/BACE_Lowpass_constIV1/BACE_Lowpass_IV_ext/0 <= K <= 1/max_val", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfSbwI/Model/LIB_BMW_MOD_SfSbwInSpd_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfSbwI/BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/BlockingWheelsDetection/AccelerationCalculation/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/BlockingWheelsDetection/AccelerationCalculation/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfSbwI/BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/SpeedCalculation/SpeedCalculationEmachine/BACE_Lowpass_IV/BACE_Lowpass_IV_ext/0 <= K <= 1/max_val'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/SpeedCalculation/SpeedCalculationEmachine/BACE_Lowpass_IV/BACE_Lowpass_IV_ext/0 <= K <= 1/max_val", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfSbwI/BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/SpeedCalculation/SpeedCalculationEmachine/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/SpeedCalculation/SpeedCalculationEmachine/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfSbwI/BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/SpeedCalculation/SpeedCalculationEmachine/Constant1'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/SpeedCalculation/SpeedCalculationEmachine/Constant1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfSbwI/BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/SpeedCalculation/SpeedCalculationWheel/Constant1'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/SpeedCalculation/SpeedCalculationWheel/Constant1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_SfSbwI/BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/SpeedCalculation/SpeedCalculationWheel/Constant2'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfSbwInSpd_10ms/BMW_MOD_SfSbwInSpd_10ms/SpeedCalculation/SpeedCalculationWheel/Constant2", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_eTmcExtKomp/CCU01BEV21BMW/BMW_SWC_eTmcExtKomp.c", 
+        "findings": [
+            {
+                "startLine": "397", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "992604ae5c3ef0d58589e202da456a3ed81febddaa8db9cdc4b6573e7d6755b6"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][397] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }
+        ]
+    }
+]

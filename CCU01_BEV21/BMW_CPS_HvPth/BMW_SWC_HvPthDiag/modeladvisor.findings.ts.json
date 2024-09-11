@@ -1,0 +1,67 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvPthDiag/Model/LIB_BMW_MOD_HvPthFaultMemory_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion8 is not necessary because the input and output data type are both single. <br/> <mark><em>[Whitelisted] The output of this block is not defined in ADD, and the data type is not single hence the conversion block is needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthFaultMemory_10ms/BMW_MOD_HvPthFaultMemory_10ms/Data Type Conversion8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose to assure accuracy</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthFaultMemory_10ms/BMW_MOD_HvPthFaultMemory_10ms/Product", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose to assure accuracy</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthFaultMemory_10ms/BMW_MOD_HvPthFaultMemory_10ms/Product1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion10 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose to assure accuracy</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthFaultMemory_10ms/BMW_MOD_HvPthFaultMemory_10ms/Data Type Conversion10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion11 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose to assure accuracy</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthFaultMemory_10ms/BMW_MOD_HvPthFaultMemory_10ms/Data Type Conversion11", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion9 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose to assure accuracy</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthFaultMemory_10ms/BMW_MOD_HvPthFaultMemory_10ms/Data Type Conversion9", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

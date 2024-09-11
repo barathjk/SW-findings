@@ -1,0 +1,42 @@
+[
+    {
+        "path": "SVN_BMW_SWC_EdAbkOut/Model/LIB_BMW_SWC_EdAbkOut.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] NumericType Def_q1_o40__uint8 uses a slope-and-bias fixed point data type with a bias unequal to 0. <br/> <mark><em>[Whitelisted] Conversion of the Interface is defined by Architecture (APP-111027). Internally mapped to a float signal, which can take the range and conversion. Code review done. -> Conversion seems to be correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_EdAbkOut/BMW_SWC_EdAbkOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0053"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_EdAbkOut/Model/LIB_BMW_MOD_EdAbkOut_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Data Type Conversion uses a slope-and-bias fixed point data type ufix8_Bn40 with a bias unequal to 0 at port number 1. <br/> <mark><em>[Whitelisted] Conversion of the Interface is defined by Architecture (APP-111027). Internally mapped to a float signal, which can take the range and conversion. Code review done. -> Conversion seems to be correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EdAbkOut_10ms/BMW_MOD_EdAbkOut_10ms/substitute value of EdAbk eDrv/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0053"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] substitute value of EdAbk eDrv uses a slope-and-bias fixed point data type ufix8_Bn40 with a bias unequal to 0 at port BMW_t_EmDisp. <br/> <mark><em>[Whitelisted] Conversion of the Interface is defined by Architecture (APP-111027). Internally mapped to a float signal, which can take the range and conversion. Code review done. -> Conversion seems to be correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EdAbkOut_10ms/BMW_MOD_EdAbkOut_10ms/substitute value of EdAbk eDrv", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0053"
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_CifMain/CCU01BEV21BMW/BMW_SWC_CifMain.c", 
+        "findings": [
+            {
+                "startLine": "18587", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "24717e6c0b9430ddfdf973fc03aa8b1e193d337a5848e3416230114583b1f762"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][18587] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }
+        ]
+    }
+]

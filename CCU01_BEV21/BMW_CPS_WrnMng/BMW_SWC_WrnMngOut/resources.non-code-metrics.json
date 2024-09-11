@@ -1,0 +1,50 @@
+[
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Call_BMW_SWC_WrnMngOut_rpInterface_ACTION_WrnMng_TriggerWriteQueue_ACTION_WrnMng_TriggerWriteQueue", 
+        "assessment": {
+            "YELLOW": "6"
+        }, 
+        "count": "6"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_WrnMngOut_ppBMW_st_PassPronHvBat_BMW_st_PassPronHvBat", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_WrnMngOut_ppBMW_st_TherEvtHvs_BMW_st_TherEvtHvs", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_WrnMngOut/BMW_MOD_WrnMngOutQueueClient_10ms", 
+        "assessment": {
+            "YELLOW": "96"
+        }, 
+        "count": "96"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_WrnMngOut/BMW_MOD_WrnMngOutRename_10ms", 
+        "assessment": {
+            "YELLOW": "34"
+        }, 
+        "count": "34"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_WrnMngOut/BMW_SWC_WrnMngOut_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }
+]

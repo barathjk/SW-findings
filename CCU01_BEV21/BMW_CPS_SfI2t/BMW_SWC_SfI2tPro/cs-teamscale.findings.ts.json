@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfI2tPro/CCU01BEV21BMW/BMW_SWC_SfI2tPro_HEAT_SensCon.c", 
+        "findings": [
+            {
+                "startLine": "238", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4151f370f149fa603d0c8bdb821e071b3d95d2858706d0b532aabf50b1ba8c56"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][238] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "259", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "89a977bb83c3c5ad82629da5786994bbeae56d65c8306f191d6aa51bf6a30be1"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][259] Unreachable Conditional", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_RngOut/CCU01BEV21BMW/BMW_SWC_RngOut.c", 
+        "findings": [
+            {
+                "startLine": "330", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cf1dfc3c5cf8b820cbd9577cddf38d401334f0eefb4240183cccef89c75f44fe"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][330] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "302", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d3a76b0d50959185cf98d843aeb7d65d98548a66518603c0f9865f406f4c9edf"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][302] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }
+        ]
+    }
+]

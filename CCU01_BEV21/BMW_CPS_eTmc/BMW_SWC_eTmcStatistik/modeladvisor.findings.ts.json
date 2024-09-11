@@ -1,0 +1,77 @@
+[
+    {
+        "path": "SVN_BMW_SWC_eTmcStatistik/Model/LIB_BMW_MOD_eTmcStatistik.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment_Tn_stat was found in subsystem IncrementEnabled. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcStatistik/BMW_MOD_eTmcStatistik/Austrittstemperatur HT-Kuehler/Increment5Intervals/IncrementEnabled/Assignment_Tn_stat", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment_Tn_stat was found in subsystem IncrementEnabled. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcStatistik/BMW_MOD_eTmcStatistik/Therm. Auslastung HEAT Hinterachse/Increment5Intervals/IncrementEnabled/Assignment_Tn_stat", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment_Tn_stat was found in subsystem IncrementEnabled. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcStatistik/BMW_MOD_eTmcStatistik/Therm. Auslastung HEAT Vorderachse/Increment5Intervals/IncrementEnabled/Assignment_Tn_stat", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment_Tn_stat was found in subsystem IncrementEnabled. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcStatistik/BMW_MOD_eTmcStatistik/Therm. Auslastung HVS/Increment5Intervals/IncrementEnabled/Assignment_Tn_stat", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment_Tn_stat was found in subsystem IncrementEnabled. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcStatistik/BMW_MOD_eTmcStatistik/Therm. Auslastung xPad/Increment5Intervals/IncrementEnabled/Assignment_Tn_stat", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment_Tn_stat was found in subsystem IncrementEnabled. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcStatistik/BMW_MOD_eTmcStatistik/Umgebungstemperatur/Increment5Intervals/IncrementEnabled/Assignment_Tn_stat", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment_Tn_stat was found in subsystem IncrementEnabled. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_eTmcStatistik/BMW_MOD_eTmcStatistik/Vorlauftemperatur HVS/Increment5Intervals/IncrementEnabled/Assignment_Tn_stat", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }
+        ]
+    }
+]

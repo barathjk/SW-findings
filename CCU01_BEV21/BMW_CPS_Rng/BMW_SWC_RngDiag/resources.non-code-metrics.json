@@ -1,0 +1,98 @@
+[
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_RngDiag_ppBMWrng_b_RstRngCns_BMWrng_b_RstRngCns", 
+        "assessment": {
+            "YELLOW": "14"
+        }, 
+        "count": "14"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_RngDiag_rpBMWrng_b_RstRngCns_BMWrng_b_RstRngCns", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_RngDiag_rpBMWrng_cns_AvgEdrRng_BMWrng_cns_AvgEdrRng", 
+        "assessment": {
+            "YELLOW": "16"
+        }, 
+        "count": "16"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_RngDiag_ppBMWrng_b_RstRngCns_BMWrng_b_RstRngCns", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_RngDiag/BMW_MOD_RngDiag_100ms", 
+        "assessment": {
+            "YELLOW": "176"
+        }, 
+        "count": "176"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_RngDiag/BMW_SWC_RngDiag_Init", 
+        "assessment": {
+            "YELLOW": "14"
+        }, 
+        "count": "14"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_RngDiag/BMWrng_ti_RstRngCnsDly_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_RngDiag/S_RNG693_Sprint2113", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_RngDiag/BMW_SWC_RngDiag_DW", 
+        "assessment": {
+            "YELLOW": "5"
+        }, 
+        "count": "5"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/ReichweiteVerbrauchEAntrieb_ConditionCheckRead/ReichweiteVerbrauchEAntrieb_ConditionCheckRead", 
+        "assessment": {
+            "YELLOW": "8"
+        }, 
+        "count": "8"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/ReichweiteVerbrauchEAntrieb_ReadData/ReichweiteVerbrauchEAntrieb_ReadData", 
+        "assessment": {
+            "YELLOW": "132"
+        }, 
+        "count": "132"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/ResetReichweiteVerbrauch_Start/ResetReichweiteVerbrauch_Start", 
+        "assessment": {
+            "YELLOW": "58"
+        }, 
+        "count": "58"
+    }
+]

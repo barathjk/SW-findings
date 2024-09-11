@@ -1,0 +1,62 @@
+[
+    {
+        "path": "SVN_BMW_SWC_EffTrDisp/Model/LIB_BMW_MOD_EffTrAddRng_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Gain1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-306 requirements </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrAddRng_100ms/BMW_MOD_EffTrAddRng_100ms/Bonusrange/Bonusreichweite_Manoevertyp/efd_consumption/Consumption_Calculation/electric_consumption/Gain1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result  EFD-307</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrAddRng_100ms/BMW_MOD_EffTrAddRng_100ms/Bonusrange/Bonusreichweite_Manoevertyp/efd_consumption/Consumption_Calculation/fac_consumption_old/Single_to_Mean/Product", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result  EFD-307</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrAddRng_100ms/BMW_MOD_EffTrAddRng_100ms/Bonusrange/Bonusreichweite_Manoevertyp/efd_consumption/Consumption_Calculation/fac_consumption_old/Single_to_Mean/Product1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result  EFD-307</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrAddRng_100ms/BMW_MOD_EffTrAddRng_100ms/Bonusrange/Bonusreichweite_Manoevertyp/efd_consumption/Consumption_Calculation/fac_consumption_new/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_EffTrDisp/Model/LIB_BMW_MOD_EffTrDisp_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Round ist erforderlich, um die Genauigkeit zu bekommen</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrDisp_100ms/BMW_MOD_EffTrDisp_100ms/EffTr_Display_Reasons/Target_Distance_and_Predictive_Actual_Speed_Limit/Divide", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

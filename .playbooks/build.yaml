@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Run Bazel build
+      command: bazel build //:main # Adjust the Bazel command as needed
+      args:
+        chdir: "{{ zuul.project.src_dir }}"
+
+    - name: Run Bazel SW-findings
+      command: bazel run //:main # Adjust the Bazel command as needed
+      args:
+        chdir: "{{ zuul.project.src_dir }}"

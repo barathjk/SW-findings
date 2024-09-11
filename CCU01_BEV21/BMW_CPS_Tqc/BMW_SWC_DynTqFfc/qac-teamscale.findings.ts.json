@@ -1,0 +1,183 @@
+[
+    {
+        "path": "ART_BMW_SWC_DynTqFfc/CCU01BEV21BMW/BMW_SWC_DynTqFfc.c", 
+        "findings": [
+            {
+                "startLine": "1317", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ee714d29b6678645b6d438bce6d3bc818f2a874a96f7c91c2d61614060dccca7"
+                }, 
+                "justification": "", 
+                "message": "[1317:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "1815", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4745d89e739384351313c006906e07fe99ce2919a210bdb836f5ed1d52238558"
+                }, 
+                "justification": "", 
+                "message": "[1815:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "2236", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d3073383d22d00db457f8492f05bb8db060b7f994648883ae8eabeebcaa66fe6"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2236:22] Variable 'rtb_KL_output_h' previously seen here. (Specimen value: '31').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2237", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d3073383d22d00db457f8492f05bb8db060b7f994648883ae8eabeebcaa66fe6"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2237:17] Variable 'rtb_MinMax_h' previously seen here. (Specimen value: '31').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2239", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d3073383d22d00db457f8492f05bb8db060b7f994648883ae8eabeebcaa66fe6"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2239:17] Variable 'rtb_MinMax_h' previously seen here. (Specimen value: '31').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2247", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2e28367906969c037b8742985d0402b3ab77994aeecde712a51af3e2bb877e47"
+                }, 
+                "justification": "", 
+                "message": "[2247:60] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "2744", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3e6a2a322f0151f374f8e23b2d0ad64f0e4acdd630d86b5073f339bb47d5d189"
+                }, 
+                "justification": "", 
+                "message": "[2744:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3208", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f78dda63cbc5703458453f81f7c0eea410624ba96254fef80070be099cb1f1f1"
+                }, 
+                "justification": "", 
+                "message": "[3208:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3218", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f78dda63cbc5703458453f81f7c0eea410624ba96254fef80070be099cb1f1f1"
+                }, 
+                "justification": "", 
+                "message": "[3218:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3544", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7f0924b4a04ca18d1651172f18bd908bfd1ca3ce46019b0d1c6016c95fe161ec"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3544:22] Variable 'rtb_KL_output_c' previously seen here. (Specimen value: '31').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3545", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7f0924b4a04ca18d1651172f18bd908bfd1ca3ce46019b0d1c6016c95fe161ec"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3545:12] Variable 'rtb_Sat' previously seen here. (Specimen value: '31').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3547", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7f0924b4a04ca18d1651172f18bd908bfd1ca3ce46019b0d1c6016c95fe161ec"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3547:12] Variable 'rtb_Sat' previously seen here. (Specimen value: '31').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3555", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e032efdb88b9f18afd531e4e1054f36895cc9e9aeff49229c5e50dde17077eb9"
+                }, 
+                "justification": "", 
+                "message": "[3555:53] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "3920", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b5620cf432c60f3e816bb69d53dfbf5dcab35dec669dc11262a239ca10fb13cd"
+                }, 
+                "justification": "", 
+                "message": "[3920:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "948", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ac1a969b51f2478c31276468b2790230dc9e7a302d258bfbd9ae7132317f2f79"
+                }, 
+                "justification": "", 
+                "message": "[948:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "958", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ac1a969b51f2478c31276468b2790230dc9e7a302d258bfbd9ae7132317f2f79"
+                }, 
+                "justification": "", 
+                "message": "[958:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }
+]

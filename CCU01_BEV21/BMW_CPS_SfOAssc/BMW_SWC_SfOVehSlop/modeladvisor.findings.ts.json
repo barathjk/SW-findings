@@ -1,0 +1,52 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfOVehSlop/Model/LIB_UpDownFilter.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Check Switch blocks The following Switch blocks might cause floating point inequality comparisons in generated code. MDL_BMW_SWC_SfOVehSlop/BMW_SWC_SfOVehSlop/BMW_SWC_SfOVehSlop/BMW_MOD_SfOVehSlop_10ms/UpDownFilter/BACE_Lowpass_IV/Switch1 <br/> <mark><em>[Whitelisted] I.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_UpDownFilter/UpDownFilter/BACE_Lowpass_IV/Switch1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.iec61508.SignalRoutingBlockUsage"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Check Switch blocks The following Switch blocks might cause floating point inequality comparisons in generated code. MDL_BMW_SWC_SfOVehSlop/BMW_SWC_SfOVehSlop/BMW_SWC_SfOVehSlop/BMW_MOD_SfOVehSlop_10ms/UpDownFilter/BACE_Lowpass_IV/Switch2 <br/> <mark><em>[Whitelisted] I.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_UpDownFilter/UpDownFilter/BACE_Lowpass_IV/Switch2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.iec61508.SignalRoutingBlockUsage"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SfOVehSlop/Model/LIB_BMW_MOD_SfOVehSlop_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Check Switch blocks The following Switch blocks might cause floating point inequality comparisons in generated code. MDL_BMW_SWC_SfOVehSlop/BMW_SWC_SfOVehSlop/BMW_SWC_SfOVehSlop/BMW_MOD_SfOVehSlop_10ms/UpDownFilter1/BACE_Lowpass_IV/Switch1 <br/> <mark><em>[Whitelisted] I.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOVehSlop_10ms/BMW_MOD_SfOVehSlop_10ms/UpDownFilter1/BACE_Lowpass_IV/Switch1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.iec61508.SignalRoutingBlockUsage"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Check Switch blocks The following Switch blocks might cause floating point inequality comparisons in generated code. MDL_BMW_SWC_SfOVehSlop/BMW_SWC_SfOVehSlop/BMW_SWC_SfOVehSlop/BMW_MOD_SfOVehSlop_10ms/UpDownFilter1/BACE_Lowpass_IV/Switch2 <br/> <mark><em>[Whitelisted] I.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOVehSlop_10ms/BMW_MOD_SfOVehSlop_10ms/UpDownFilter1/BACE_Lowpass_IV/Switch2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.iec61508.SignalRoutingBlockUsage"
+            }
+        ]
+    }
+]

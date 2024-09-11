@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfPeEvaAcpd/CCU01BEV21BMW/BMW_SWC_SfPeEvaAcpd.c", 
+        "findings": [
+            {
+                "startLine": "1099", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "5b7f2d88207a6306e35bb69a1da69ac961762cbcc6baac981dd6afc252d12be4"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1099] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }
+        ]
+    }
+]

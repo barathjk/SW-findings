@@ -1,0 +1,117 @@
+[
+    {
+        "path": "ART_BMW_SWC_MXK/CCU01BEV21BMW/BMW_SWC_MXK.c", 
+        "findings": [
+            {
+                "startLine": "1940", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "44d28784ab58ef2ec9be23f5d9a909709e970c20bc35f0eadc94806ee6203824"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1940] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "1384", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "e3cb336c7f797f0267fa76f55905d8d8ce89a9ce3b32eb15ebd399694cd4d45c"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1384] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "5772", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "c71e8ddc26bf41dc8b4f77bbe279dfe4007b8c7ac1c417529e5c784502ff445a"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][5772] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "5218", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "3d2da60289f50a35a32b6463b9e7c575c81979ab2972be1b3aa2f8b29047d7a8"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][5218] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "7179", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "795b725d84443b7a12ad30fe879483470dac6617d74487cc8a7dd58610e1ba55"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][7179] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "7725", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "87f5a340790c8a115fd197e45a72a41f2061d89bb4611a124ef24fd50bb092d5"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][7725] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "9316", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "85a5912776127e0d4c79d4e3df728e552b800b42b74be6ec259fd733d1820931"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][9316] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "9319", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "82e812a92c765dca391ec42fad3228015117ad29477a7513280ee060bbe2a668"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][9319] Unreachable Call", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "9991", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "d1187bd30694d804c69fb30456652a13cf88e2a4440fa399bed8dc5739e4619a"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][9991] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "9998", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "64ee0219c78f7571cf0e2b8891beba6fc3324840c604949671f1be988ba3c181"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][9998] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }
+        ]
+    }
+]

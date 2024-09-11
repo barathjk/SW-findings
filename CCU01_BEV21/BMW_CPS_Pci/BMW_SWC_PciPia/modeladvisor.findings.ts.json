@@ -1,0 +1,27 @@
+[
+    {
+        "path": "SVN_BMW_SWC_PciPia/Model/LIB_BMW_MOD_PciPia_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block PIA_MakePersistent has characteristics of a known BACE block but is not linked to it. <br/> <mark><em>[Whitelisted] Needs to be done because of BCI issue</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_PciPia_100ms/BMW_MOD_PciPia_100ms/Pia_UpateValue_Cmn/PIA_MakePersistent", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0123"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block Invoke has characteristics of a known BACE block but is not linked to it. <br/> <mark><em>[Whitelisted] Needs to be done because of BCI issue</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_PciPia_100ms/BMW_MOD_PciPia_100ms/Pia_UpateValue_Cmn/PIA_MakePersistent/Enabled/Invoke", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0123"
+            }
+        ]
+    }
+]

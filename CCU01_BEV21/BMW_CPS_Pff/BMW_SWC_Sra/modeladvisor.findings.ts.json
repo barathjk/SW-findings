@@ -1,0 +1,52 @@
+[
+    {
+        "path": "SVN_BMW_SWC_Sra/Model/LIB_BMW_MOD_MstCoaRecu_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The local signal BMWpff_b_BatDgraRecu_bo has the variant condition BMW_PT_TOP_FULLHY_SC_EQU_1_OR_BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_MstCoaRecu_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_MstCoaRecu_10ms/BMW_MOD_MstCoaRecu_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_Sra/Model/LIB_BMW_MOD_ConRecu_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWpff_tqw_WishRekuSra has the variant condition BMW_SP2018_SC_NEQ_1 in ADD but is used within a variant condition not_BMW_SP2018_SC_EQU_1 in process blockBMW_MOD_ConRecu_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] false positive</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_ConRecu_10ms/BMW_MOD_ConRecu_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem Adaption_Tabelle. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive (saturation-block before assignment block in order to prevent out-of-bound access)</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_ConRecu_10ms/BMW_MOD_ConRecu_10ms/Adaption_Vorderfahrzeug/Adaption_Sollabstand/Adaption_Tabelle/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment1 was found in subsystem Adaption_Tabelle. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] false positive (saturation-block before assignment block in order to prevent out-of-bound access)</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_ConRecu_10ms/BMW_MOD_ConRecu_10ms/Adaption_Vorderfahrzeug/Adaption_Sollabstand/Adaption_Tabelle/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Print hostname
+      command: hostname
+
+    - name: Update apt package index
+      apt:
+        update_cache: yes
+        force_apt_get: yes
+
+    - name: Install necessary packages
+      apt:
+        name:
+          - apt-transport-https
+          - curl
+          - gnupg
+          - python3-pip
+        state: present
+        force_apt_get: yes
+
+    - name: Download Bazel's GPG key
+      command: curl -fsSL https://bazel.build/bazel-release.pub.gpg -o /tmp/bazel-release.pub.gpg
+
+    - name: Convert the GPG key to GPG format
+      command: gpg --dearmor -o /tmp/bazel-archive-keyring.gpg /tmp/bazel-release.pub.gpg
+
+    - name: Move the GPG key to the keyrings directory
+      command: mv /tmp/bazel-archive-keyring.gpg /usr/share/keyrings/
+
+    - name: Add Bazel's repository to the sources list
+      apt_repository:
+        repo: "deb [signed-by=/usr/share/keyrings/bazel-archive-keyring.gpg] https://storage.googleapis.com/bazel-apt stable jdk1.8"
+        filename: "bazel"
+
+    - name: Update apt package index after adding Bazel repository
+      apt:
+        update_cache: yes
+        force_apt_get: yes
+
+    - name: Ensure Bazel is installed
+      apt:
+        name: bazel
+        state: present
+        force_apt_get: yes
+
+    - name: Install pandas to python3
+      command: python3 -m pip install pandas
+
+    - name: Install openpyxl to python3
+      command: python3 -m pip install openpyxl
+
+    - name: Install logging to python3
+      command: python3 -m pip install xlsxwriter

@@ -1,0 +1,197 @@
+[
+    {
+        "path": "SVN_BMW_SWC_EffTrCalc/Model/LIB_BMW_MOD_EffTrCalcPwr_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Option Require all data port inputs to have the same data type of MinMax7 is not activated. <br/> <mark><em>[Whitelisted] Inputs need to have different datatypes</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/MinMax7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0074"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Option Require all data port inputs to have the same data type of MinMax8 is not activated. <br/> <mark><em>[Whitelisted] Inputs need to have different datatypes</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/MinMax8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0074"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide4 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest ist erforderlich, um die Genauigkeit zu bekommen</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Calculation_Slope_Acceleration_Constant/Divide4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-306 requirements </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Power_Recommendation_Gradient_Limitation_Incl_Degradation/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-306 requirements </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Power_Recommendation_Gradient_Limitation_Incl_Degradation/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Add3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-306 requirements </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/Add3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Add4 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-306 requirements </em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/Add4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-372 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/ObereLastempfehlungBeschleunigung/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion3 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Ceiling needed for a more accurate result see EFD-372 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/ObereLastempfehlungBeschleunigung/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-372 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/ObereLastempfehlungKonstantfahrt/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion3 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Ceiling needed for a more accurate result see EFD-372 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/ObereLastempfehlungKonstantfahrt/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion4 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-386 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/ObereLastempfehlungBeschleunigung/Data Type Conversion4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-386 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/ObereLastempfehlungBeschleunigung/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product4 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-386 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/ObereLastempfehlungBeschleunigung/Product4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion4 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-386 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/ObereLastempfehlungKonstantfahrt/Data Type Conversion4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product12 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-386 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/ObereLastempfehlungKonstantfahrt/Product12", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product13 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-386 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/ObereLastempfehlungKonstantfahrt/Product13", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block MinMax7 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-434 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/MinMax7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block MinMax8 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest needed for a more accurate result see EFD-434 requirements</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EffTrCalcPwr_100ms/BMW_MOD_EffTrCalcPwr_100ms/Top_Bot_Limit_Power_Recommendation_Act_Maneuver/Top_Limit_Power_Recommendation_Acceleration_Constant/MinMax8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

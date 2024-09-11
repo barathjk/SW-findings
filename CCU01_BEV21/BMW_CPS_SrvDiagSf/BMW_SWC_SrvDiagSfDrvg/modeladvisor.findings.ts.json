@@ -1,0 +1,217 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SrvDiagSfDrvg/Model/LIB_BMW_MOD_SrvDiagSfDrvg_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion10 is not necessary because the input and output data type are both fixdt(1,16,0). <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion14. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion14", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion15. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion15", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion16. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion16", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion17. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion17", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-32.768, 32.767] of the source data type fixdt(1,16,0.001,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion2. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion20. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion20", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion21. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion21", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion22. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion22", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion24. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion24", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The range [0, 4294967295] of the source data type fixdt(0,32,0) does not fit into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion26. Saturate on integer overflow must be activated, but is deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion26", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The range [0, 4294967295] of the source data type fixdt(0,32,0) does not fit into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion27. Saturate on integer overflow must be activated, but is deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion27", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-3276.8, 3276.7] of the source data type fixdt(1,16,0.1,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion28. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion28", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-32.768, 32.767] of the source data type fixdt(1,16,0.001,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion3. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-32.768, 32.767] of the source data type fixdt(1,16,0.001,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion4. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-32.768, 32.767] of the source data type fixdt(1,16,0.001,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion5. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-32.768, 32.767] of the source data type fixdt(1,16,0.001,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion6. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-32.768, 32.767] of the source data type fixdt(1,16,0.001,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion7. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-32.768, 32.767] of the source data type fixdt(1,16,0.001,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion8. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [-32.768, 32.767] of the source data type fixdt(1,16,0.001,0) fits into the range [-32768, 32767] of the target data type fixdt(1,16,0) for block Data Type Conversion46. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Umweltbedingungen Zedis/Data Type Conversion46", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWsrvdgsf_st_SftyErrEmSec and the signal BMWsrvdgsf_st_SftyErrAxlSec resolved to it do not match. <br/> <mark><em>[Whitelisted] Messgre wurde bereits definiert, manuelle Prfung ok.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SrvDiagSfDrvg_10ms/BMW_MOD_SrvDiagSfDrvg_10ms/Berechnung_Gesamt_Verfuegbarkeit/Verfuegbarkeit_Achse_Sekundaer/BMWsrvdgsf_st_SftyErrEmSec", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

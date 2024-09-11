@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_LhmEdProc/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "65cea2f0a760e1231e9e0ac372ceb10d5e9e75ab700bec3b408541420b77e853"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWlhmed_st_ErrEdGel?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a00c16d92969cb992062b298b509480ecea6f58f2f97e0fecf0770c2995995f5"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWlhmed_st_ErrEdGelInt?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }
+        ]
+    }
+]

@@ -1,0 +1,133 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvChaMain/CCU01BEV21BMW/BMW_SWC_HvChaMain.ddx", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcCmpStdnErr_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcCmpVehErr_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcCtcrUnExpOpn_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcPrChrgErr_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcStdnDetdErr_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcStdnNoChgRst_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "765ca53ccdb67d5083f0b0772497ca9550914d3d31dc4919e47c7be5b672602f"
+                }, 
+                "message": "Found CLEARED section for 'BMWhvcha_b_FisDcStdnSigErr_bo' with an init value", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.clearedinitval"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_HvChaMain/CCU01BEV21BMW/BMW_SWC_HvChaMain.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "df77002c7cd796361f8643c20657ec5f99ef6c33399de80670339e68c39ae644"
+                }, 
+                "message": "No implementation for diagnostic service HighVolatgeBattChargingRateData_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6a0e4ac9b89f2117aef70d084a96809ff9b0507c98e71c6f9a04e1d8c80874e3"
+                }, 
+                "message": "No implementation for diagnostic service TotalGridEnrgFrmOffbrdAcChrg_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "26353d83921b4109e0e8666798f4805fdf4896adf74704ae46fcc394867c5ece"
+                }, 
+                "message": "No implementation for diagnostic service HighVolatgeBattChargingRateData_ReadData was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "09186835ad8a3f4adf06b2950e737b477737ba1e42b5ae6cc40a79fb550250c0"
+                }, 
+                "message": "No implementation for diagnostic service TotalGridEnrgFrmOffbrdAcChrg_ReadData was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }
+]

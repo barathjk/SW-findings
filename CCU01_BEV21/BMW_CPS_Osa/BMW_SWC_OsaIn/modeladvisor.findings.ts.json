@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_OsaIn/Model/LIB_BMW_MOD_OsaIn_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide6 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Round as rounding type for this use case convenient</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_OsaIn_100ms/BMW_MOD_OsaIn_100ms/Divide6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

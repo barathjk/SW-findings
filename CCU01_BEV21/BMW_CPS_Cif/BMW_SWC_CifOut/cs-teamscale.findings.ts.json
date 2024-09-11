@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_CifOut/CCU01BEV21BMW/BMW_SWC_CifOut.c", 
+        "findings": [
+            {
+                "startLine": "3357", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "efed27babea6eb569e2c28d4472ca3d2c1b9c54b9d302a8dbafca5d64785737c"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][3357] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }
+        ]
+    }
+]

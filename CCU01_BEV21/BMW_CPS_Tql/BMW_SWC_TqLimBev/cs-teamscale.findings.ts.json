@@ -1,0 +1,62 @@
+[
+    {
+        "path": "ART_BMW_SWC_TqLimBev/CCU01BEV21BMW/BMW_SWC_TqLimBev.c", 
+        "findings": [
+            {
+                "startLine": "473", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dfd01ffe0d6ce1b95133623b95a6d0f5393497f9eeab326dd958853383c07323"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][473] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "449", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dcefd54485edd729b502bc2f7eb839971cffc31079d46cf77f9da1d5e302e461"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][449] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "478", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dfd01ffe0d6ce1b95133623b95a6d0f5393497f9eeab326dd958853383c07323"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][478] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "446", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ca0976c7906d63e8aed3ffe203474eb17baf5e402f40516e6ee46d5c66370e05"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][446] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "447", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c43ddd79126ba88f89cdf3bada337db4dd0f28d1ee9cfed410c34682fccb2b8c"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][447] Unreachable Data Flow", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }
+        ]
+    }
+]

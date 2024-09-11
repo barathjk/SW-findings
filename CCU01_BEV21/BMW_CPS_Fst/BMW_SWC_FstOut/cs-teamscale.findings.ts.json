@@ -1,0 +1,128 @@
+[
+    {
+        "path": "ART_BMW_SWC_FstOut/CCU01BEV21BMW/BMW_SWC_FstOut.c", 
+        "findings": [
+            {
+                "startLine": "261", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c13c110ebfe0e99edcd0c021267bbec915a579c84ddc2b21f928e67ff4947887"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][261] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "263", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c13c110ebfe0e99edcd0c021267bbec915a579c84ddc2b21f928e67ff4947887"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][263] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "265", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c13c110ebfe0e99edcd0c021267bbec915a579c84ddc2b21f928e67ff4947887"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][265] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "267", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c13c110ebfe0e99edcd0c021267bbec915a579c84ddc2b21f928e67ff4947887"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][267] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "269", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c13c110ebfe0e99edcd0c021267bbec915a579c84ddc2b21f928e67ff4947887"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][269] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "271", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c13c110ebfe0e99edcd0c021267bbec915a579c84ddc2b21f928e67ff4947887"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][271] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "273", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c13c110ebfe0e99edcd0c021267bbec915a579c84ddc2b21f928e67ff4947887"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][273] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "289", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4031dc161c3f996cc36192c4d7218dae5f84f6ea20d00f0d486d685d4774314c"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][289] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "291", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4031dc161c3f996cc36192c4d7218dae5f84f6ea20d00f0d486d685d4774314c"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][291] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "293", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4031dc161c3f996cc36192c4d7218dae5f84f6ea20d00f0d486d685d4774314c"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][293] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }, 
+            {
+                "startLine": "295", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4031dc161c3f996cc36192c4d7218dae5f84f6ea20d00f0d486d685d4774314c"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][295] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }
+        ]
+    }
+]

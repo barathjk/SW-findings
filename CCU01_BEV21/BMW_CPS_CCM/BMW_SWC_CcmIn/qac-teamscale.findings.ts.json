@@ -1,0 +1,139 @@
+[
+    {
+        "path": "ART_BMW_SWC_CcmIn/CCU01BEV21BMW/BMW_SWC_CcmIn.c", 
+        "findings": [
+            {
+                "startLine": "2450", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d17bd879bdc0b299378e854834e5a08a5acb446258f821529a4f9396637958e0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2450:22] Variable 'rtb_sigConversion' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2459", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d17bd879bdc0b299378e854834e5a08a5acb446258f821529a4f9396637958e0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2459:22] Variable 'rtb_sigConversion' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2475", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fdfe54a74e587bdb4cf686ac0e4b06b471b050dd229e17328fb9164810cfda73"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2475:11] Variable 'u1_val' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2476", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fdfe54a74e587bdb4cf686ac0e4b06b471b050dd229e17328fb9164810cfda73"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2476:11] Variable 'u2_val' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2477", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5b8eb19af734a155794a4ee1a93a38cf89b9875338a10532c51814ae8c8b63c0"
+                }, 
+                "justification": "", 
+                "message": "[2477:34] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "2537", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "069868fa1f9d2875e4bf9a05a934ca693172af8147f94589442b90e81258d6fc"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2537:22] Variable 'rtb_sigConversion' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2555", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "069868fa1f9d2875e4bf9a05a934ca693172af8147f94589442b90e81258d6fc"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2555:22] Variable 'rtb_sigConversion' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2571", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bb23c0df496cc795de2ae7ea4ba1af8fc0ed3191655211db6df0a5d5cd2c03af"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2571:11] Variable 'u1_val' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2572", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bb23c0df496cc795de2ae7ea4ba1af8fc0ed3191655211db6df0a5d5cd2c03af"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2572:11] Variable 'u2_val' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2573", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e1d760ec0165ee52215dadb7ccb84c1a83ffa518dd8b47b591fb6a0f1efecdb3"
+                }, 
+                "justification": "", 
+                "message": "[2573:34] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "761", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "43483f48aa22ac41a9e5c5c76a55281bedb95448f87873f998b88caae5100789"
+                }, 
+                "justification": "", 
+                "message": "[761:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "799", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f89fc94c7adfad0b55eebca5c133e834e5e655e72e01ebf47a80a85c2d65dac2"
+                }, 
+                "justification": "", 
+                "message": "[799:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }
+]

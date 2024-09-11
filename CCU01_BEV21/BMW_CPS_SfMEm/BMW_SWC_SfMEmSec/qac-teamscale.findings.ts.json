@@ -1,0 +1,51 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfMEmSec/CCU01BEV21BMW/BMW_SWC_SfMEmSec.c", 
+        "findings": [
+            {
+                "startLine": "129", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[129:30] 'Switch3' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "129", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[129:30] 'Switch3' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "612", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "afd6cc8cecb008a9a42f8cbbbe1913feef48ced2743ac64c0cde51fda96cf57a"
+                }, 
+                "justification": "", 
+                "message": "[612:39] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "616", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "afd6cc8cecb008a9a42f8cbbbe1913feef48ced2743ac64c0cde51fda96cf57a"
+                }, 
+                "justification": "", 
+                "message": "[616:39] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }
+        ]
+    }
+]

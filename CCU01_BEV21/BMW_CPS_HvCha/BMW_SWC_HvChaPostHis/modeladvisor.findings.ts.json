@@ -1,0 +1,2752 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvChaPostHis/Model/LIB_BMW_MOD_HvChaPostPlugHis_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/AcPhases/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChaTyp/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargeCurrent/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargeMode/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ConnectionTyp/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/CountCharge/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/CountChargeProt/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateEnd/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateEnd/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateEnd/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateEnd/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateEnd/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateEnd/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateStart/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateStart/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateStart/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateStart/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateStart/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DateStart/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DepartNotFinished/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DepartTime/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DepartTime/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DepartTime/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DepartWindow/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DepartWindow/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DepartWindow/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/DepartWindow/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/Dst/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/LockRty/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/Pause/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/PilotEnd/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/PilotStart/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/PinWay/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/PlugSegmentID/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/PlugSegmentIDAll/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/SOCEnd/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/SOCStart/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/SystemTime/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/UserSettings/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/iDCC/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateEnd/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateEnd/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateEnd/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateEnd/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateEnd/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateEnd/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist6 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateEnd/BufferPlugHist6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateStart/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateStart/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateStart/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateStart/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateStart/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateStart/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist6 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/localDateStart/BufferPlugHist6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist10 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist11 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist11", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist12 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist12", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist13 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist13", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist14 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist14", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist15 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist15", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist16 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist16", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist17 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist17", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist18 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist18", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist19 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist19", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist20 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist20", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist21 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist21", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist22 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist22", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist23 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist23", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist24 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist24", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist25 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist25", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist26 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist26", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist27 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist27", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist28 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist28", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist29 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist29", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist30 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist30", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist31 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist31", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist33 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist33", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist34 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist34", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist35 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist35", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist36 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist36", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist37 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist37", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist6 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist7 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist8 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist9 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/AC/BufferPlugHist9", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist10 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist11 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist11", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist12 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist12", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist13 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist13", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist14 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist14", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist15 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist15", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist16 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist16", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist17 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist17", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist18 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist18", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist19 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist19", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist20 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist20", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist21 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist21", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist22 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist22", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist23 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist23", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist24 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist24", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist25 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist25", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist26 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist26", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist27 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist27", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist28 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist28", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist29 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist29", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist30 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist30", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist31 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist31", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist33 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist33", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist34 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist34", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist35 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist35", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist36 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist36", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist37 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist37", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist6 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist7 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist8 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist9 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/ChargingStationID/DC/BufferPlugHist9", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport PlugHistStart seems to be wrongly connected to the outport BMWhvcha_b_PlugHistStr_bo. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] connection is right</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/StartEnd/PlugHistStart", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport PlugHistEnd seems to be wrongly connected to the outport BMWhvcha_b_PlugHistEnd_bo. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] portname ok</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPlugHis_100ms/BMW_MOD_HvChaPostPlugHis_100ms/PlugHistory/StartEnd/PlugHistEnd", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaPostHis/Model/LIB_BMW_MOD_HvChaPostInitHis_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block CircularBufferInit of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCDay/CircularBufferInit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block CircularBufferInit of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCHr/CircularBufferInit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block CircularBufferInit of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMin/CircularBufferInit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block CircularBufferInit of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMonth/CircularBufferInit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block CircularBufferInit of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCSec/CircularBufferInit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block CircularBufferInit of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCYear/CircularBufferInit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block CircularBufferInit of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/InitResult/CircularBufferInit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block CircularBufferInit of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/InitSegmentID/CircularBufferInit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block CircularBufferInit of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/PlugSegmentID/CircularBufferInit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiDayVectMem_uw_in seems to be wrongly connected to the inport NvInput. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCDay/BMWhvcha_ti_DateTiDayVectMem_uw_in", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport InitStart seems to be wrongly connected to the inport SaveNewValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCDay/InitStart", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiHrInt_ub seems to be wrongly connected to the inport inputValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCHr/BMWhvcha_ti_DateTiHrInt_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiHrVectMem_ub_in seems to be wrongly connected to the inport NvInput. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCHr/BMWhvcha_ti_DateTiHrVectMem_ub_in", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport InitStart seems to be wrongly connected to the inport SaveNewValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCHr/InitStart", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiMinInt_ub seems to be wrongly connected to the inport inputValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMin/BMWhvcha_ti_DateTiMinInt_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiMinVectMem_ub_in seems to be wrongly connected to the inport NvInput. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMin/BMWhvcha_ti_DateTiMinVectMem_ub_in", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport InitStart seems to be wrongly connected to the inport SaveNewValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMin/InitStart", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiMth_ub seems to be wrongly connected to the inport inputValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMonth/BMWhvcha_ti_DateTiMth_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiMthVectMem_ub_in seems to be wrongly connected to the inport NvInput. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMonth/BMWhvcha_ti_DateTiMthVectMem_ub_in", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport InitStart seems to be wrongly connected to the inport SaveNewValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMonth/InitStart", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiSeInt_ub seems to be wrongly connected to the inport inputValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCSec/BMWhvcha_ti_DateTiSeInt_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiSeVectMem_ub_in seems to be wrongly connected to the inport NvInput. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCSec/BMWhvcha_ti_DateTiSeVectMem_ub_in", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport InitStart seems to be wrongly connected to the inport SaveNewValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCSec/InitStart", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiYr_ub seems to be wrongly connected to the inport inputValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCYear/BMWhvcha_ti_DateTiYr_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiYrVectMem_ub_in seems to be wrongly connected to the inport NvInput. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCYear/BMWhvcha_ti_DateTiYrVectMem_ub_in", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport InitStart seems to be wrongly connected to the inport SaveNewValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCYear/InitStart", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_st_HvChaStMac_uw seems to be wrongly connected to the inport inputValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/InitResult/BMWhvcha_st_HvChaStMac_uw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_nr_InitResVectMem_uw_in seems to be wrongly connected to the inport NvInput. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/InitResult/BMWhvcha_nr_InitResVectMem_uw_in", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport InitEnd seems to be wrongly connected to the inport SaveNewValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/InitResult/InitEnd", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_nr_InitSegIdVectMem_uw_in seems to be wrongly connected to the inport NvInput. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/InitSegmentID/BMWhvcha_nr_InitSegIdVectMem_uw_in", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport InitStart seems to be wrongly connected to the inport SaveNewValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/InitSegmentID/InitStart", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_nr_PlugSegIdVectMem_uw_in seems to be wrongly connected to the inport NvInput. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/PlugSegmentID/BMWhvcha_nr_PlugSegIdVectMem_uw_in", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport outVector seems to be wrongly connected to the outport BMWhvcha_ti_DateTiDayVect_uw. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCDay/CircularBufferInit/outVector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport NvOutput seems to be wrongly connected to the outport BMWhvcha_ti_DateTiDayVectMem_uw_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCDay/CircularBufferInit/NvOutput", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport outVector seems to be wrongly connected to the outport BMWhvcha_ti_DateTiHrVect_ub. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCHr/CircularBufferInit/outVector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport NvOutput seems to be wrongly connected to the outport BMWhvcha_ti_DateTiHrVectMem_ub_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCHr/CircularBufferInit/NvOutput", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport outVector seems to be wrongly connected to the outport BMWhvcha_ti_DateTiMinVect_ub. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMin/CircularBufferInit/outVector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport NvOutput seems to be wrongly connected to the outport BMWhvcha_ti_DateTiMinVectMem_ub_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMin/CircularBufferInit/NvOutput", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport outVector seems to be wrongly connected to the outport BMWhvcha_ti_DateTiMthVect_ub. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMonth/CircularBufferInit/outVector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport NvOutput seems to be wrongly connected to the outport BMWhvcha_ti_DateTiMthVectMem_ub_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCMonth/CircularBufferInit/NvOutput", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport outVector seems to be wrongly connected to the outport BMWhvcha_ti_DateTiSeVect_ub. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCSec/CircularBufferInit/outVector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport NvOutput seems to be wrongly connected to the outport BMWhvcha_ti_DateTiSeVectMem_ub_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCSec/CircularBufferInit/NvOutput", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport outVector seems to be wrongly connected to the outport BMWhvcha_ti_DateTiYrVect_ub. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCYear/CircularBufferInit/outVector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport NvOutput seems to be wrongly connected to the outport BMWhvcha_ti_DateTiYrVectMem_ub_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCYear/CircularBufferInit/NvOutput", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport outVector seems to be wrongly connected to the outport BMWhvcha_nr_InitResVect_uw. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/InitResult/CircularBufferInit/outVector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport NvOutput seems to be wrongly connected to the outport BMWhvcha_nr_InitResVectMem_uw_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/InitResult/CircularBufferInit/NvOutput", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport outVector seems to be wrongly connected to the outport BMWhvcha_nr_InitSegIdVect_uw. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/InitSegmentID/CircularBufferInit/outVector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport NvOutput seems to be wrongly connected to the outport BMWhvcha_nr_InitSegIdVectMem_uw_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/InitSegmentID/CircularBufferInit/NvOutput", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport outVector seems to be wrongly connected to the outport BMWhvcha_nr_PlugSegIdVect_uw. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/PlugSegmentID/CircularBufferInit/outVector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport NvOutput seems to be wrongly connected to the outport BMWhvcha_nr_PlugSegIdVectMem_uw_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/PlugSegmentID/CircularBufferInit/NvOutput", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_ti_DateTiDayInt seems to be wrongly connected to the inport inputValue. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] usage of library elements leads to different port names</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostInitHis_100ms/BMW_MOD_HvChaPostInitHis_100ms/InitialisationHistory/DateUTCDay/BMWhvcha_ti_DateTiDayInt", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaPostHis/Model/LIB_BMW_MOD_HvChaPostChaHis_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/AcPhases/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/ChaAllSegmentID/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/ChaEndReason/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/ChaSegmentID/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/ChargeDuration/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/ChargingModules/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateEnd/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateEnd/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateEnd/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateEnd/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateEnd/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateEnd/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateStart/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateStart/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateStart/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateStart/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateStart/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DateStart/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DeratingTime/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateChange/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateChange/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateChange/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateChange/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateChange/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateChange/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateEnd/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateEnd/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateEnd/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateEnd/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateEnd/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateEnd/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist6 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateEnd/BufferPlugHist6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateStart/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateStart/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateStart/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateStart/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateStart/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateStart/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist6 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/DispDateStart/BufferPlugHist6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/EntryTemp/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/EntryTemp/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/EntryTemp/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/EntryTemp/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist4 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/EntryTemp/BufferPlugHist4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/EntryTemp/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/HvsTemp/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/HvsTime/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MeanChargingCurrent/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block CumulativeMovingAverage is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MeanChargingCurrent/CumulativeMovingAverage", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MeanChargingPower/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block CumulativeMovingAverage is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MeanChargingPower/CumulativeMovingAverage", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MeanChargingTemp/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block CumulativeMovingAverage is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MeanChargingTemp/CumulativeMovingAverage", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MeanChargingVoltage/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block CumulativeMovingAverage is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MeanChargingVoltage/CumulativeMovingAverage", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/OutsideTempEnd/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/OutsideTempStart/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SOCEnd/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SOCHvEnd/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SOCHvStart/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SOCStart/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SOEEnd/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SOEStart/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist1 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/BufferPlugHist1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist2 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/BufferPlugHist2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist3 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/BufferPlugHist3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist5 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/BufferPlugHist5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist6 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/BufferPlugHist6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist7 is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/BufferPlugHist7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist is not part of libBACE, but was certified by qxu8546 and reviewed by q423763. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/StatusPilot/BufferPlugHist", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/ComNetRequest/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/Derating/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MaxCoolingTemp/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MaxCurrent/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MaxPower/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MaxPowerAll/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MaxVoltageAll/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MinCoolingTemp/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BufferPlugHist_ContUpdate is not part of libBACE, but was certified by QXV5821 and reviewed by QXU8546. <br/> <mark><em>[Whitelisted] Block used often and hence part of library</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/NetAbort/BufferPlugHist_ContUpdate", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block Standard Deviation has characteristics of a known BACE block but is not linked to it. <br/> <mark><em>[Whitelisted] Block not available in BACE</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/MeanCalc/Standard Deviation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0123"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block Standard Deviation has characteristics of a known BACE block but is not linked to it. <br/> <mark><em>[Whitelisted] Block not available in BACE</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/MeanCalc1/Standard Deviation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0123"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block Standard Deviation has characteristics of a known BACE block but is not linked to it. <br/> <mark><em>[Whitelisted] Block not available in BACE</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/MeanCalc2/Standard Deviation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0123"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block Standard Deviation has characteristics of a known BACE block but is not linked to it. <br/> <mark><em>[Whitelisted] Block not available in BACE</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/MeanCalc4/Standard Deviation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0123"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block Standard Deviation has characteristics of a known BACE block but is not linked to it. <br/> <mark><em>[Whitelisted] Block not available in BACE</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/SoHPins/MeanCalc5/Standard Deviation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0123"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaPostHis/Model/LIB_BMW_MOD_HvChaPostPwrHis_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of Reset and the signal BMWhvcha_b_PwrHistRst_bo resolved to it do not match. <br/> <mark><em>[Whitelisted] portname ok</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPwrHis_100ms/BMW_MOD_HvChaPostPwrHis_100ms/PowerHistory/Trigger/Reset", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment1 was found in subsystem DateUTCDay. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] The indices are limited in accordance to the vector dimensions before they are used within the assignment block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPwrHis_100ms/BMW_MOD_HvChaPostPwrHis_100ms/PowerHistory/DateUTCDay/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem DateUTCHr. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] The indices are limited in accordance to the vector dimensions before they are used within the assignment block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPwrHis_100ms/BMW_MOD_HvChaPostPwrHis_100ms/PowerHistory/DateUTCHr/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem DateUTCMin. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] The indices are limited in accordance to the vector dimensions before they are used within the assignment block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPwrHis_100ms/BMW_MOD_HvChaPostPwrHis_100ms/PowerHistory/DateUTCMin/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem DateUTCSec. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] The indices are limited in accordance to the vector dimensions before they are used within the assignment block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPwrHis_100ms/BMW_MOD_HvChaPostPwrHis_100ms/PowerHistory/DateUTCSec/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem DchaStdnEstd. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] The indices are limited in accordance to the vector dimensions before they are used within the assignment block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPwrHis_100ms/BMW_MOD_HvChaPostPwrHis_100ms/PowerHistory/DchaStdnEstd/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem PowerGrid. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] The indices are limited in accordance to the vector dimensions before they are used within the assignment block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPwrHis_100ms/BMW_MOD_HvChaPostPwrHis_100ms/PowerHistory/PowerGrid/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }
+]

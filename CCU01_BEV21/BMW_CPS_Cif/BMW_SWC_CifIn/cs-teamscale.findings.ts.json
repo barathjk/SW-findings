@@ -1,0 +1,84 @@
+[
+    {
+        "path": "ART_BMW_SWC_CifIn/CCU01BEV21BMW/BMW_SWC_CifIn.c", 
+        "findings": [
+            {
+                "startLine": "1386", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "95602a7e90647cb911bebf6406b1d4caf1a76102776d03383126eeaed48dbd8d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1386] Shift Amount Exceeds Bit Width", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.ARITH.BIGSHIFT"
+            }, 
+            {
+                "startLine": "1455", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "2d5d65b319ec06937737fdee263b637f0ea5398611432b61c5a5e0b673303124"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1455] Shift Amount Exceeds Bit Width", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.ARITH.BIGSHIFT"
+            }, 
+            {
+                "startLine": "965", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "17e3b4e0fe2840caf953ddc4031db1fbbe37aa9c667873858449826e501a058e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][965] Shift Amount Exceeds Bit Width", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.ARITH.BIGSHIFT"
+            }, 
+            {
+                "startLine": "1047", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "28b62d15ba069f480d4749e98882b3b0d2576b2f806a63fef6e8c28de7028467"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1047] Shift Amount Exceeds Bit Width", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.ARITH.BIGSHIFT"
+            }, 
+            {
+                "startLine": "1162", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "6d0f295902328c22367ba31c59812afdefe23d3074e67d9580335af37955cc1b"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][1162] Shift Amount Exceeds Bit Width", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.ARITH.BIGSHIFT"
+            }, 
+            {
+                "startLine": "2918", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "cd22252f498b4f88ff23f5a6c3d552ec041403eb6bd173c7686885874f702d31"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][2918] Shift Amount Exceeds Bit Width", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.ARITH.BIGSHIFT"
+            }, 
+            {
+                "startLine": "10810", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "106bda67092fa3e7cf48da5c631eb6121f76aa2b3391bd2b2e62c10f897793f6"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][10810] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }
+        ]
+    }
+]

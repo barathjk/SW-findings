@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_WrnMngOut/CCU01BEV21BMW/BMW_SWC_WrnMngOut.c", 
+        "findings": [
+            {
+                "startLine": "103", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c6b6306e120abfd669124e3e47cfe250bd104e9e852ddc5042d45843ec3616e1"
+                }, 
+                "justification": "", 
+                "message": "[103:37] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "65", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[65:10] 'rtb_InvokeAUTOSARServerOperation' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }
+        ]
+    }
+]

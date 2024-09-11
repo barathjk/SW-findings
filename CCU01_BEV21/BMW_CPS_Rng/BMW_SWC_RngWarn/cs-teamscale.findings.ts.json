@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_RngWarn/CCU01BEV21BMW/BMW_SWC_RngWarn.c", 
+        "findings": [
+            {
+                "startLine": "297", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "211e8a571c3b14bdd4076a4a296cbbda72bf1a64734ab2c3dd9092fa5c1e51a6"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][297] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }
+        ]
+    }
+]

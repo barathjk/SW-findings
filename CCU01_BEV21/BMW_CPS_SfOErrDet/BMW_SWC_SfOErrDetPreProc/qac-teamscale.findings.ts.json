@@ -1,0 +1,22 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfOErrDetPreProc/CCU01BEV21BMW/BMW_SWC_SfOErrDetPreProc.c", 
+        "findings": [
+            {
+                "startLine": "1043", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e5a313cc43b209928e347642059ec038bb40a2b939bb46f08cf39511a85ac0bc"
+                }, 
+                "justification": "", 
+                "message": "[1043:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_SfOErrDetPreProc/CCU01BEV21BMW/BMW_SWC_SfOErrDetPreProc_data.c", 
+        "findings": []
+    }
+]

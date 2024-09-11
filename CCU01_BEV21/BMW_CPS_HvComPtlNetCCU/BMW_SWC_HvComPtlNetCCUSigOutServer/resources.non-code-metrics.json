@@ -1,0 +1,42 @@
+[
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Send_BMW_SWC_HvComPtlNetCCUSigOutServer_ppBMW_ad_DiagTxr_BMW_ad_DiagTxr", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Send_BMW_SWC_HvComPtlNetCCUSigOutServer_ppBMW_st_CatgSpclFct_BMW_st_CatgSpclFct", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Send_BMW_SWC_HvComPtlNetCCUSigOutServer_ppBMW_st_TranExch_BMW_st_TranExch", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_MOD_HvComPtlNetCCUSigOutServer/BMW_MOD_HvComPtlNetCCUSigOutServer", 
+        "assessment": {
+            "YELLOW": "46"
+        }, 
+        "count": "46"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_HvComPtlNetCCUSigOutServer/BMW_SWC_HvComPtlNetCCUSigOutServer_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }
+]

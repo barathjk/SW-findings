@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_LdkNvBlock/CCU01BEV21BMW/BMW_SWC_LdkNvBlock.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d2e6e6966f50c68736d93a109b72fa8e709069392dc36a0a11ae145b4b83bd26"
+                }, 
+                "message": "No block definition found in extension file J:\\BCI_WS\\567F2C4C\\Sources\\BMW_SWC_LdkNvBlock.extension. \n\tFor FR Blocks a block definition in the extension file is necessary. Please add extension file with block definition.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.missingfrblockdef"
+            }
+        ]
+    }
+]

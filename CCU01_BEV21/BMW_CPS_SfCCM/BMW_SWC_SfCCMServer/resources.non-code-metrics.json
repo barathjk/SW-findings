@@ -1,0 +1,34 @@
+[
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Send_BMW_SWC_SfCCMServer_ppBMW_st_DispCcmEdSfty_rc_BMW_st_DispCcmEdSfty_rc", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_MOD_SfCCMServer/BMW_MOD_SfCCMServer", 
+        "assessment": {
+            "YELLOW": "48"
+        }, 
+        "count": "48"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_SfCCMServer/BMW_SWC_SfCCMServer_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_SfCCMServer/BMW_SWC_SfCCMServer_B", 
+        "assessment": {
+            "YELLOW": "6"
+        }, 
+        "count": "6"
+    }
+]

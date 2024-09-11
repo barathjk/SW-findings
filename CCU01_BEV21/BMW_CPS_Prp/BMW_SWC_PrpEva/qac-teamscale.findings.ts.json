@@ -1,0 +1,1569 @@
+[
+    {
+        "path": "ART_BMW_SWC_PrpEva/CCU01BEV21BMW/BMW_SWC_PrpEva.c", 
+        "findings": [
+            {
+                "startLine": "1388", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9e9839fa94182a43092c67f905f4c33b90e31df5ec9e38060ae30b0cdb93f000"
+                }, 
+                "justification": "", 
+                "message": "[1388:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "1417", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f78f29ca6f4c6cdd91b9da479149279d7070fa7732bfe17c0293420f5ddea4b7"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1417:4] Last unreachable statement.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1573.whitelisted"
+            }, 
+            {
+                "startLine": "1449", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "323bc988ce95cc0b3e4b1779e8c47c1c6fe788dc6da7af3a55575bfc611fb1d7"
+                }, 
+                "justification": "", 
+                "message": "[1449:20] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "1457", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e2c8d38cbfee5f6e4839fd6a143735d0b622728d5a67b1b52362a51614a58da0"
+                }, 
+                "justification": "", 
+                "message": "[1457:20] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "1491", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f2f48498354b7f2b41c6132717598fb688a8bc50f3600f1917535bb61b7dbeab"
+                }, 
+                "justification": "", 
+                "message": "[1491:18] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "1511", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "164538327b7820cfc91aa06d3ab9318bb8b7e9e515e3aa7f69aaf1cec896a359"
+                }, 
+                "justification": "", 
+                "message": "[1511:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "1575", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c3de0a7e7a3aa0807c2f6b486fa93dd752e4216e4da9bd4a8ae2fa78216d902d"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1575:20] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }, 
+            {
+                "startLine": "1575", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c3de0a7e7a3aa0807c2f6b486fa93dd752e4216e4da9bd4a8ae2fa78216d902d"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1575:20] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }, 
+            {
+                "startLine": "1575", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c3de0a7e7a3aa0807c2f6b486fa93dd752e4216e4da9bd4a8ae2fa78216d902d"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1575:20] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }, 
+            {
+                "startLine": "3066", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "62a574a43b15c043da485f97cd894dea176a91f073d47e518058a3558bac83c4"
+                }, 
+                "justification": "", 
+                "message": "[3066:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3068", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b15edc7feddc4df3c9f085d2e870facf1770a5ce43679ec7df9b644060403dd2"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3068:19] Variable 'rtb_Switch_dcy' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3089", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cca7db47026efe3d14f96fd4ef8deaec5a3ee9f74ad70b72d84dfb34520afce6"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3089:25] Variable 'rtb_ShiftArithmetic1_e' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3141", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "01aeb0949ad6a55f9867824db98239ea3c8e730b7c3d4d659bbea92d7dd7dadf"
+                }, 
+                "justification": "", 
+                "message": "[3141:44] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "3179", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "00efa766a94a4d47c9575cc62a34c358ac461c5fe86ad74765a00864db26ae8d"
+                }, 
+                "justification": "", 
+                "message": "[3179:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3788", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3f0540e7b6398fae9cb48b3ebd41c34ca5735b204157ca7183e3528e1ba78e55"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3788:18] Variable 'rtb_Switch_bb' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3788", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3f0540e7b6398fae9cb48b3ebd41c34ca5735b204157ca7183e3528e1ba78e55"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3788:18] Variable 'rtb_Switch_bb' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3788", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3f0540e7b6398fae9cb48b3ebd41c34ca5735b204157ca7183e3528e1ba78e55"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3788:18] Variable 'rtb_Switch_bb' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3788", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3f0540e7b6398fae9cb48b3ebd41c34ca5735b204157ca7183e3528e1ba78e55"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3788:18] Variable 'rtb_Switch_bb' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3788", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3f0540e7b6398fae9cb48b3ebd41c34ca5735b204157ca7183e3528e1ba78e55"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3788:18] Variable 'rtb_Switch_bb' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3810", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "951fd0b6102213e726f0c42f40a44baa1dda0ebf3a1f104ecba9bfc8b5814a27"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3810:8] Variable 'tmp' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3810", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "951fd0b6102213e726f0c42f40a44baa1dda0ebf3a1f104ecba9bfc8b5814a27"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3810:8] Variable 'tmp' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3810", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "951fd0b6102213e726f0c42f40a44baa1dda0ebf3a1f104ecba9bfc8b5814a27"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3810:8] Variable 'tmp' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3810", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "951fd0b6102213e726f0c42f40a44baa1dda0ebf3a1f104ecba9bfc8b5814a27"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3810:8] Variable 'tmp' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3810", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "951fd0b6102213e726f0c42f40a44baa1dda0ebf3a1f104ecba9bfc8b5814a27"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3810:8] Variable 'tmp' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3825", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "af84adce946e706b6a3309f0c49e7122b7ee8f363659a86f46bd882d3967a058"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3825:19] Variable 'rtb_Compare_h3' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3825", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "af84adce946e706b6a3309f0c49e7122b7ee8f363659a86f46bd882d3967a058"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3825:19] Variable 'rtb_Compare_h3' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3825", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "af84adce946e706b6a3309f0c49e7122b7ee8f363659a86f46bd882d3967a058"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3825:19] Variable 'rtb_Compare_h3' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3825", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "af84adce946e706b6a3309f0c49e7122b7ee8f363659a86f46bd882d3967a058"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3825:19] Variable 'rtb_Compare_h3' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3825", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "af84adce946e706b6a3309f0c49e7122b7ee8f363659a86f46bd882d3967a058"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3825:19] Variable 'rtb_Compare_h3' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3862", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3f0540e7b6398fae9cb48b3ebd41c34ca5735b204157ca7183e3528e1ba78e55"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3862:10] Variable 'tmp_0' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3862", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3f0540e7b6398fae9cb48b3ebd41c34ca5735b204157ca7183e3528e1ba78e55"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3862:10] Variable 'tmp_0' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3862", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3f0540e7b6398fae9cb48b3ebd41c34ca5735b204157ca7183e3528e1ba78e55"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3862:10] Variable 'tmp_0' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3862", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3f0540e7b6398fae9cb48b3ebd41c34ca5735b204157ca7183e3528e1ba78e55"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3862:10] Variable 'tmp_0' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3862", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3f0540e7b6398fae9cb48b3ebd41c34ca5735b204157ca7183e3528e1ba78e55"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3862:10] Variable 'tmp_0' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3883", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "00d4556f2035fcd9b520e78c38c9456c002f17c7cee809dcd453fdbd46b3423f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3883:10] Variable 'tmp_1' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3883", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "00d4556f2035fcd9b520e78c38c9456c002f17c7cee809dcd453fdbd46b3423f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3883:10] Variable 'tmp_1' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3883", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "00d4556f2035fcd9b520e78c38c9456c002f17c7cee809dcd453fdbd46b3423f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3883:10] Variable 'tmp_1' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3883", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "00d4556f2035fcd9b520e78c38c9456c002f17c7cee809dcd453fdbd46b3423f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3883:10] Variable 'tmp_1' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3883", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "00d4556f2035fcd9b520e78c38c9456c002f17c7cee809dcd453fdbd46b3423f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3883:10] Variable 'tmp_1' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3898", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b48affce672a40a6f757683e81934b8fa2e8f93fc8e38b9eb4baf463627ef1b4"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3898:21] Variable 'rtb_Compare_c1_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3898", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b48affce672a40a6f757683e81934b8fa2e8f93fc8e38b9eb4baf463627ef1b4"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3898:21] Variable 'rtb_Compare_c1_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3898", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b48affce672a40a6f757683e81934b8fa2e8f93fc8e38b9eb4baf463627ef1b4"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3898:21] Variable 'rtb_Compare_c1_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3898", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b48affce672a40a6f757683e81934b8fa2e8f93fc8e38b9eb4baf463627ef1b4"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3898:21] Variable 'rtb_Compare_c1_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3898", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b48affce672a40a6f757683e81934b8fa2e8f93fc8e38b9eb4baf463627ef1b4"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3898:21] Variable 'rtb_Compare_c1_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3911", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "77fe52660f0063ff1119b593deeb8b121bbfe998de105a52f2497c1e47782922"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3911:10] Variable 'tmp_2' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3911", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "77fe52660f0063ff1119b593deeb8b121bbfe998de105a52f2497c1e47782922"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3911:10] Variable 'tmp_2' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3911", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "77fe52660f0063ff1119b593deeb8b121bbfe998de105a52f2497c1e47782922"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3911:10] Variable 'tmp_2' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3911", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "77fe52660f0063ff1119b593deeb8b121bbfe998de105a52f2497c1e47782922"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3911:10] Variable 'tmp_2' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3911", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "77fe52660f0063ff1119b593deeb8b121bbfe998de105a52f2497c1e47782922"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3911:10] Variable 'tmp_2' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3930", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1499e1a3a1b28534d937db98d3ef7bb64d1b8b1abb772a0d9be5e0ff9fb2d092"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3930:10] Variable 'tmp_3' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3930", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1499e1a3a1b28534d937db98d3ef7bb64d1b8b1abb772a0d9be5e0ff9fb2d092"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3930:10] Variable 'tmp_3' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3930", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1499e1a3a1b28534d937db98d3ef7bb64d1b8b1abb772a0d9be5e0ff9fb2d092"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3930:10] Variable 'tmp_3' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3930", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1499e1a3a1b28534d937db98d3ef7bb64d1b8b1abb772a0d9be5e0ff9fb2d092"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3930:10] Variable 'tmp_3' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3930", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1499e1a3a1b28534d937db98d3ef7bb64d1b8b1abb772a0d9be5e0ff9fb2d092"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3930:10] Variable 'tmp_3' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3949", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d11d8abc42319b4d13892c0993d4ababe717d25366b4244cff9f12f50ad98b77"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3949:10] Variable 'tmp_4' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3949", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d11d8abc42319b4d13892c0993d4ababe717d25366b4244cff9f12f50ad98b77"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3949:10] Variable 'tmp_4' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3949", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d11d8abc42319b4d13892c0993d4ababe717d25366b4244cff9f12f50ad98b77"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3949:10] Variable 'tmp_4' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3949", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d11d8abc42319b4d13892c0993d4ababe717d25366b4244cff9f12f50ad98b77"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3949:10] Variable 'tmp_4' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3949", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d11d8abc42319b4d13892c0993d4ababe717d25366b4244cff9f12f50ad98b77"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3949:10] Variable 'tmp_4' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3962", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d70562243831764627395585fd49f78babc061c81d12e465aeddbc33f4033bb5"
+                }, 
+                "justification": "", 
+                "message": "[3962:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3964", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d7734db76d579d24447de28c586e39e639cbd32dcaea26e51d0f1c687c52b7fa"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3964:10] Variable 'tmp_5' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3964", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d7734db76d579d24447de28c586e39e639cbd32dcaea26e51d0f1c687c52b7fa"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3964:10] Variable 'tmp_5' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3964", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d7734db76d579d24447de28c586e39e639cbd32dcaea26e51d0f1c687c52b7fa"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3964:10] Variable 'tmp_5' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3964", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d7734db76d579d24447de28c586e39e639cbd32dcaea26e51d0f1c687c52b7fa"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3964:10] Variable 'tmp_5' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3964", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d7734db76d579d24447de28c586e39e639cbd32dcaea26e51d0f1c687c52b7fa"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3964:10] Variable 'tmp_5' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3980", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0d47b98ef6e3c9d5f79007480201a8b5434c941609818ae11c44108f80414ae9"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3980:10] Variable 'tmp_6' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3980", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0d47b98ef6e3c9d5f79007480201a8b5434c941609818ae11c44108f80414ae9"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3980:10] Variable 'tmp_6' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3980", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0d47b98ef6e3c9d5f79007480201a8b5434c941609818ae11c44108f80414ae9"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3980:10] Variable 'tmp_6' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "3980", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0d47b98ef6e3c9d5f79007480201a8b5434c941609818ae11c44108f80414ae9"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[3980:10] Variable 'tmp_6' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4001", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "658f5dc9ec4f5a5c8da4e0910b6eae99343960ade8749123771ed2b4d19ee41e"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4001:10] Variable 'tmp_7' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4001", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "658f5dc9ec4f5a5c8da4e0910b6eae99343960ade8749123771ed2b4d19ee41e"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4001:10] Variable 'tmp_7' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4001", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "658f5dc9ec4f5a5c8da4e0910b6eae99343960ade8749123771ed2b4d19ee41e"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4001:10] Variable 'tmp_7' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4001", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "658f5dc9ec4f5a5c8da4e0910b6eae99343960ade8749123771ed2b4d19ee41e"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4001:10] Variable 'tmp_7' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4016", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6ca65c7f103a4eea5a39c7a490a22c3bcf30798110ed4d83ec613263560dd413"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4016:28] Variable 'rtb_LogicalOperator7_ns' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4016", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6ca65c7f103a4eea5a39c7a490a22c3bcf30798110ed4d83ec613263560dd413"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4016:28] Variable 'rtb_LogicalOperator7_ns' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4016", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6ca65c7f103a4eea5a39c7a490a22c3bcf30798110ed4d83ec613263560dd413"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4016:28] Variable 'rtb_LogicalOperator7_ns' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4016", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6ca65c7f103a4eea5a39c7a490a22c3bcf30798110ed4d83ec613263560dd413"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4016:28] Variable 'rtb_LogicalOperator7_ns' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4030", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fa0dc910216c507f756d1cdba97de5afb2bd6c65b9d63ee0e1b777676e5b8e52"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4030:18] Variable 'rtb_Switch_cu' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4030", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fa0dc910216c507f756d1cdba97de5afb2bd6c65b9d63ee0e1b777676e5b8e52"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4030:18] Variable 'rtb_Switch_cu' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4030", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fa0dc910216c507f756d1cdba97de5afb2bd6c65b9d63ee0e1b777676e5b8e52"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4030:18] Variable 'rtb_Switch_cu' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4030", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fa0dc910216c507f756d1cdba97de5afb2bd6c65b9d63ee0e1b777676e5b8e52"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4030:18] Variable 'rtb_Switch_cu' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4047", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9187aafb7b0fc20049c197542749110cfb081ec8a17cd495e74817ebc9c6af3a"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4047:21] Variable 'rtb_Compare_er_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4047", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9187aafb7b0fc20049c197542749110cfb081ec8a17cd495e74817ebc9c6af3a"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4047:21] Variable 'rtb_Compare_er_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4047", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9187aafb7b0fc20049c197542749110cfb081ec8a17cd495e74817ebc9c6af3a"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4047:21] Variable 'rtb_Compare_er_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4047", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9187aafb7b0fc20049c197542749110cfb081ec8a17cd495e74817ebc9c6af3a"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4047:21] Variable 'rtb_Compare_er_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4065", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "62582f580c935b217b17f83bf6abe11dcb035b9ea34be306c7d0a896db91f89f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4065:10] Variable 'tmp_8' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4065", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "62582f580c935b217b17f83bf6abe11dcb035b9ea34be306c7d0a896db91f89f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4065:10] Variable 'tmp_8' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4065", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "62582f580c935b217b17f83bf6abe11dcb035b9ea34be306c7d0a896db91f89f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4065:10] Variable 'tmp_8' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4065", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "62582f580c935b217b17f83bf6abe11dcb035b9ea34be306c7d0a896db91f89f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4065:10] Variable 'tmp_8' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4084", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3807572a607a5a2ffe40e5df2e37f953edad7b9bc0c18772436c77cdf3632d7d"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4084:10] Variable 'tmp_9' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4084", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3807572a607a5a2ffe40e5df2e37f953edad7b9bc0c18772436c77cdf3632d7d"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4084:10] Variable 'tmp_9' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4084", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3807572a607a5a2ffe40e5df2e37f953edad7b9bc0c18772436c77cdf3632d7d"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4084:10] Variable 'tmp_9' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4084", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3807572a607a5a2ffe40e5df2e37f953edad7b9bc0c18772436c77cdf3632d7d"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4084:10] Variable 'tmp_9' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4100", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4d2876b5cd9c7ec26e553d4b6e178b14c59c0cab679b6a911fd224a1837bc5c9"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4100:10] Variable 'tmp_a' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4100", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4d2876b5cd9c7ec26e553d4b6e178b14c59c0cab679b6a911fd224a1837bc5c9"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4100:10] Variable 'tmp_a' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4100", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4d2876b5cd9c7ec26e553d4b6e178b14c59c0cab679b6a911fd224a1837bc5c9"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4100:10] Variable 'tmp_a' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4100", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4d2876b5cd9c7ec26e553d4b6e178b14c59c0cab679b6a911fd224a1837bc5c9"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4100:10] Variable 'tmp_a' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4115", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ad97f1c8d59d0b633b7dd277ffd035919c25e1b50a52a150a912943636484845"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4115:29] Variable 'rtb_RelationalOperator_d' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4115", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ad97f1c8d59d0b633b7dd277ffd035919c25e1b50a52a150a912943636484845"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4115:29] Variable 'rtb_RelationalOperator_d' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4115", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ad97f1c8d59d0b633b7dd277ffd035919c25e1b50a52a150a912943636484845"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4115:29] Variable 'rtb_RelationalOperator_d' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4115", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ad97f1c8d59d0b633b7dd277ffd035919c25e1b50a52a150a912943636484845"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4115:29] Variable 'rtb_RelationalOperator_d' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4134", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6d235115ed0cb314a61d8e7d2916fb93b7a8ebe663b17fee864959ef655928e1"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4134:20] Variable 'rtb_Switch2_d_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4134", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6d235115ed0cb314a61d8e7d2916fb93b7a8ebe663b17fee864959ef655928e1"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4134:20] Variable 'rtb_Switch2_d_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4134", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6d235115ed0cb314a61d8e7d2916fb93b7a8ebe663b17fee864959ef655928e1"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4134:20] Variable 'rtb_Switch2_d_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4134", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6d235115ed0cb314a61d8e7d2916fb93b7a8ebe663b17fee864959ef655928e1"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4134:20] Variable 'rtb_Switch2_d_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4147", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "33da910227101e6a0048c477301f5e1ff1ec0928c4481b64e617cad67e1c455f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4147:20] Variable 'rtb_Compare_b_0' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4147", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "33da910227101e6a0048c477301f5e1ff1ec0928c4481b64e617cad67e1c455f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4147:20] Variable 'rtb_Compare_b_0' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4147", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "33da910227101e6a0048c477301f5e1ff1ec0928c4481b64e617cad67e1c455f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4147:20] Variable 'rtb_Compare_b_0' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4147", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "33da910227101e6a0048c477301f5e1ff1ec0928c4481b64e617cad67e1c455f"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4147:20] Variable 'rtb_Compare_b_0' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4162", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a6e19a118c0e211aafa655dae72cfdfaa59a5c099b4ffdfb1feddc340e40b4d4"
+                }, 
+                "justification": "", 
+                "message": "[4162:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "4164", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7b1621c62170a9e0d798d408cf1a53f3ce34687834ee6ffad1fe81ec33625d30"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4164:10] Variable 'tmp_b' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4164", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7b1621c62170a9e0d798d408cf1a53f3ce34687834ee6ffad1fe81ec33625d30"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4164:10] Variable 'tmp_b' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4164", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7b1621c62170a9e0d798d408cf1a53f3ce34687834ee6ffad1fe81ec33625d30"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4164:10] Variable 'tmp_b' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4164", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7b1621c62170a9e0d798d408cf1a53f3ce34687834ee6ffad1fe81ec33625d30"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4164:10] Variable 'tmp_b' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4177", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7d0778865af272c921e518511f9ec49fe2f8279b2be69de6665ab57c24e0b8e8"
+                }, 
+                "justification": "", 
+                "message": "[4177:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "4179", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "77216572c5459beade5474e1df3d511c79b24985f6ecda88a15bb6c55b136935"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4179:10] Variable 'tmp_c' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4179", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "77216572c5459beade5474e1df3d511c79b24985f6ecda88a15bb6c55b136935"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4179:10] Variable 'tmp_c' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4179", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "77216572c5459beade5474e1df3d511c79b24985f6ecda88a15bb6c55b136935"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4179:10] Variable 'tmp_c' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4192", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9faca2c81dfaa003dbffccebf9cba0aad52dcb8a762cbbd6766f4ee1bad5bd6a"
+                }, 
+                "justification": "", 
+                "message": "[4192:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "4194", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "98ab7dd1e6e410f440c6fc75788c0c5496f1f687abfb0e23b9d169dd0c44a1f4"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4194:10] Variable 'tmp_d' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4194", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "98ab7dd1e6e410f440c6fc75788c0c5496f1f687abfb0e23b9d169dd0c44a1f4"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4194:10] Variable 'tmp_d' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4207", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "952a2786b84b854508c022331fc9d6d38042112f07919b0c419c92a05cf6e38f"
+                }, 
+                "justification": "", 
+                "message": "[4207:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "4209", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b3bcf415c16618218a5217d98605998c59afe29f47e6eab251440274367b1a45"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4209:10] Variable 'tmp_e' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "4291", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "055cb7ba4d1c64a3017b8fbdc25fd88045e23b45feba1581c65db0abea448265"
+                }, 
+                "justification": "", 
+                "message": "[4291:29] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "4296", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "055cb7ba4d1c64a3017b8fbdc25fd88045e23b45feba1581c65db0abea448265"
+                }, 
+                "justification": "", 
+                "message": "[4296:26] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "4296", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "055cb7ba4d1c64a3017b8fbdc25fd88045e23b45feba1581c65db0abea448265"
+                }, 
+                "justification": "", 
+                "message": "[4296:50] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "4296", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "055cb7ba4d1c64a3017b8fbdc25fd88045e23b45feba1581c65db0abea448265"
+                }, 
+                "justification": "", 
+                "message": "[4296:74] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "4297", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "055cb7ba4d1c64a3017b8fbdc25fd88045e23b45feba1581c65db0abea448265"
+                }, 
+                "justification": "", 
+                "message": "[4297:26] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "6149", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e1b3eeab8198f4eb1510ecb9f458d9ad437d0df069472341a322aac392fef848"
+                }, 
+                "justification": "", 
+                "message": "[6149:19] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "695", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[695:12] 'rtb_getbit19' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "732", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[732:12] 'rtb_Merge1_il' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "732", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[732:12] 'rtb_Merge1_il' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "732", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[732:12] 'rtb_Merge1_il' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "736", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[736:11] 'rtb_Switch_bb' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "736", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[736:11] 'rtb_Switch_bb' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "736", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[736:11] 'rtb_Switch_bb' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "736", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[736:11] 'rtb_Switch_bb' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "736", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[736:11] 'rtb_Switch_bb' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "777", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[777:10] 'rtb_Compare_b_0' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "777", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[777:10] 'rtb_Compare_b_0' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "777", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[777:10] 'rtb_Compare_b_0' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "777", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[777:10] 'rtb_Compare_b_0' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }
+        ]
+    }
+]

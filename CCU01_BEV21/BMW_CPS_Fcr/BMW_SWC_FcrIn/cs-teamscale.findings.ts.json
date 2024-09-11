@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_FcrIn/CCU01BEV21BMW/BMW_SWC_FcrIn.c", 
+        "findings": [
+            {
+                "startLine": "142", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "be56f4221517a5e42e9dec5dd77a5264ee2ca8919c9371530a42bfc6c5f1f822"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][142] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "143", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "48461b41e4cdce938596fb9a12fe639b8925500a93efd55e72dc90422e6fb5a6"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][143] Unreachable Data Flow", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfOErrDetVeh/CCU01BEV21BMW/BMW_SWC_SfOErrDetVeh.c", 
+        "findings": [
+            {
+                "startLine": "9481", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0ae31b7a3c6f9bf2a40d853a5a56b70e4eb847051c7d53c5afd4a158cd1ad886"
+                }, 
+                "justification": "", 
+                "message": "[9481:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }
+]

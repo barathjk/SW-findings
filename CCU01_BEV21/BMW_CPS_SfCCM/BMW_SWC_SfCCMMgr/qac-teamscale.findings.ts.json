@@ -1,0 +1,198 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfCCMMgr/CCU01BEV21BMW/BMW_SWC_SfCCMMgr.c", 
+        "findings": [
+            {
+                "startLine": "2167", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "468957d0afe6629cc93c82bd54959a38fafb35b81f09c513aa7de3c5e36a9a6c"
+                }, 
+                "justification": "", 
+                "message": "[2167:45] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "2168", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "468957d0afe6629cc93c82bd54959a38fafb35b81f09c513aa7de3c5e36a9a6c"
+                }, 
+                "justification": "", 
+                "message": "[2168:44] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "2169", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "468957d0afe6629cc93c82bd54959a38fafb35b81f09c513aa7de3c5e36a9a6c"
+                }, 
+                "justification": "", 
+                "message": "[2169:41] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "2170", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "468957d0afe6629cc93c82bd54959a38fafb35b81f09c513aa7de3c5e36a9a6c"
+                }, 
+                "justification": "", 
+                "message": "[2170:50] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "2174", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "468957d0afe6629cc93c82bd54959a38fafb35b81f09c513aa7de3c5e36a9a6c"
+                }, 
+                "justification": "", 
+                "message": "[2174:45] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "2175", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "468957d0afe6629cc93c82bd54959a38fafb35b81f09c513aa7de3c5e36a9a6c"
+                }, 
+                "justification": "", 
+                "message": "[2175:44] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "2176", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "468957d0afe6629cc93c82bd54959a38fafb35b81f09c513aa7de3c5e36a9a6c"
+                }, 
+                "justification": "", 
+                "message": "[2176:41] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "2177", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "468957d0afe6629cc93c82bd54959a38fafb35b81f09c513aa7de3c5e36a9a6c"
+                }, 
+                "justification": "", 
+                "message": "[2177:50] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "552", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c11143f6cc1bfca0df3cc515e3e67d27e945e39fa0687427b32465dd31221667"
+                }, 
+                "justification": "", 
+                "message": "[552:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "783", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[783:27] 'BMW_st_SfCcmCcmOut_rc' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "783", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[783:27] 'BMW_st_SfCcmCcmOut_rc' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "783", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[783:27] 'BMW_st_SfCcmCcmOut_rc' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "783", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[783:27] 'BMW_st_SfCcmCcmOut_rc' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "783", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[783:27] 'BMW_st_SfCcmCcmOut_rc' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "783", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[783:27] 'BMW_st_SfCcmCcmOut_rc' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "783", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[783:27] 'BMW_st_SfCcmCcmOut_rc' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "783", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[783:27] 'BMW_st_SfCcmCcmOut_rc' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_SfCCMMgr/CCU01BEV21BMW/BMW_SWC_SfCCMMgr_data.c", 
+        "findings": []
+    }
+]

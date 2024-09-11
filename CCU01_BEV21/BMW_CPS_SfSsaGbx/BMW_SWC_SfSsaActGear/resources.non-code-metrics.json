@@ -1,0 +1,50 @@
+[
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMWsfssagbx_st_DrpDrvAct_rc_BMWsfssagbx_st_DrpGR7547", 
+        "assessment": {
+            "YELLOW": "3"
+        }, 
+        "count": "3"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfSsaActGear_ppBMWsfssagbx_st_DrpDrvAct_rc_BMWsfssagbx_st_DrpDrvAct_rc", 
+        "assessment": {
+            "YELLOW": "3"
+        }, 
+        "count": "3"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfSsaActGear_BMWsfssagbx_id_nr_VerChgAct", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_SfSsaActGear/BMW_MOD_SfSsaActGear_10ms", 
+        "assessment": {
+            "YELLOW": "62"
+        }, 
+        "count": "62"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_SfSsaActGear/BMW_SWC_SfSsaActGear_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/BMW_SWC_SfSsaActGear/BMW_SWC_SfSsaActGear_B", 
+        "assessment": {
+            "YELLOW": "3"
+        }, 
+        "count": "3"
+    }
+]

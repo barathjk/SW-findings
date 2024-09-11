@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_IlfDia/Model/LIB_BMW_MOD_IlfDia_ObdWrd_200ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] tolerated as rounding method simplest leads to wrong results</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfDia_ObdWrd_200ms/BMW_MOD_IlfDia_ObdWrd_200ms/Berechnung Luefter OBD Umfaenge/Berechnung Freigabe OBD Denominator/Product", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

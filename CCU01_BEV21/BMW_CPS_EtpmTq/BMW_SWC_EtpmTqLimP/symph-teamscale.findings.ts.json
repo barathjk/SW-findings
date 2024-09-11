@@ -1,0 +1,62 @@
+[
+    {
+        "path": "ART_BMW_SWC_EtpmTqLimP/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "49228bdbb9955b939eb8caa3b0da461e32c697ab1110bd1862896b7f514fc358"
+                }, 
+                "message": "Physical Unit (minute) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=60.0], [numeratorOfFactor:  this=0.016666666666666666, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8d8ff60297a3279a0a0f7ff0e5c3cd80698071b88f2097bb050b3befb8b052b4"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWetpmt_pwr_DrvAct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "14cb7e6664041c49e5bbabc0ffefdd47dc5a378ff69d23d34e23747edd8e6cc6"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWetpmt_pwr_MdlRefAct?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c7704ca421f58629e238c246366921e078106ccf5d27686f448f2b5a90b2ccde"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWetpmt_ti_EstdDly?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }
+        ]
+    }
+]

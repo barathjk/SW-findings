@@ -1,0 +1,252 @@
+[
+    {
+        "path": "SVN_BMW_SWC_CcmSbw/Model/LIB_BMW_MOD_CcmSbw_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWccm_acvn_Sbw has the variant condition BMW_PT_TOP_EL_SC_NEQ_0 in ADD but is used outside of a Variant in the process block BMW_MOD_CcmSbw_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Modul wird nur eingabut, wenn BMW_PT_TOP_EL_SC_NEQ_0 erfllt ist.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CcmSbw_100ms/BMW_MOD_CcmSbw_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The output signal BMWccm_tri_Sbw has the variant condition BMW_PT_TOP_EL_SC_NEQ_0 in ADD but is used outside of a Variant in the process block BMW_MOD_CcmSbw_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Modul wird nur eingabut, wenn BMW_PT_TOP_EL_SC_NEQ_0 erfllt ist.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CcmSbw_100ms/BMW_MOD_CcmSbw_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The output signal BMWccm_st_SbwPrio has the variant condition BMW_PT_TOP_EL_SC_NEQ_0 in ADD but is used outside of a Variant in the process block BMW_MOD_CcmSbw_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Modul wird nur eingabut, wenn BMW_PT_TOP_EL_SC_NEQ_0 erfllt ist.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CcmSbw_100ms/BMW_MOD_CcmSbw_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The output signal BMWccm_st_SbwRec_rc has the variant condition BMW_PT_TOP_EL_SC_NEQ_0 in ADD but is used outside of a Variant in the process block BMW_MOD_CcmSbw_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Modul wird nur eingabut, wenn BMW_PT_TOP_EL_SC_NEQ_0 erfllt ist.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CcmSbw_100ms/BMW_MOD_CcmSbw_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The output signal BMWccm_idx_Sbw has the variant condition BMW_PT_TOP_EL_SC_NEQ_0 in ADD but is used outside of a Variant in the process block BMW_MOD_CcmSbw_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Modul wird nur eingabut, wenn BMW_PT_TOP_EL_SC_NEQ_0 erfllt ist.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CcmSbw_100ms/BMW_MOD_CcmSbw_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem  CCM_Priorisierung. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CcmSbw_100ms/BMW_MOD_CcmSbw_100ms/ CCM_Priorisierung/Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CcmSbw/Model/LIB_BMW_SWC_CcmSbw.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId174_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId174_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId244_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId244_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId250_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId250_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId252_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId252_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId565_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId565_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId790_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId790_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId825_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId825_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmIdSbwManu_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmIdSbwManu_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_SbwCcmId2008_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_SbwCcmId2008_rc is empty. <br/> <mark><em>[Whitelisted] Parameter used as record</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmSbw/BMW_SWC_CcmSbw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }
+        ]
+    }
+]

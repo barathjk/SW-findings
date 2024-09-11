@@ -1,0 +1,128 @@
+[
+    {
+        "path": "ART_BMW_SWC_Dea/CCU01BEV21BMW/BMW_SWC_Dea.c", 
+        "findings": [
+            {
+                "startLine": "1172", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ed395458ba3227faa7ed23fabcc1a30d2a7cabd803938b250e3470c5124c9e54"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1172:32] Variable 'rtb_BMWpff_b_AcvDasWhlDea' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1184", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6c5f2bc4b5b84e31213938018991562b9f2e66a651d23a485d8ef6ee9dd967c0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1184:47] Variable 'rtb_VariantMergeForOutportHinweis_Segeln' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1189", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "72ce3ff7ce7798351e8fcb61c47bf4a7f38d6f143e879b1daccba2c8cf7e38aa"
+                }, 
+                "justification": "", 
+                "message": "[1189:52] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "1410", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2099bd3f81dc13b59b13ae14552b26a205c2dbb60abb642fa9f93a5602440ae0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1410:30] Variable 'rtb_LogicalOperator4_ja' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1451", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "db1cfa90ae51c66367e69235cb2daceba6c3483add9ed618df8dcd89de48a6da"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1451:24] Variable 'rtb_LookupTablenD' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1480", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4e302de6b6e72234a1f960b8c810fb0c3b6d9f0712dde901e2c9b54654d01c85"
+                }, 
+                "justification": "", 
+                "message": "[1480:55] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "327", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[327:12] 'rtb_VariantMergeForOutportMindestAnzeigeDauer' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "769", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f7dae8ce863916797eb617e33f302856cd42b93e27927bb90c0d4b879bf5f1e8"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[769:17] Variable 'rtb_getbit' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "807", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "72614c3e75175a2ed4184e02705ab584cf8e8ac9fcbad8d78aff73a13b5a2b01"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[807:29] Variable 'rtb_BMWpff_b_AcvDrrDea' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "813", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e9df9a2cccc68ff0d9ab6e569dc80bf62310e75a0d3c2e15cb0b33c33b267323"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[813:26] Variable 'rtb_BMWpff_b_AcvDea' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "934", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "212dad479fbcb54285c0e8ede08b3c136ef655a804d0233dad43e9ce9f4057a1"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[934:26] Variable 'rtb_Ist_SegelnAktiv' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }
+        ]
+    }
+]

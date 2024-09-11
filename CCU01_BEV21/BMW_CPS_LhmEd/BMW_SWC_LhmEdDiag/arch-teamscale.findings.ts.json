@@ -1,0 +1,138 @@
+[
+    {
+        "path": "ART_BMW_SWC_LhmEdDiag/CCU01BEV21BMW/BMW_SWC_LhmEdDiag_component.arxml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b3f1a7c84814a0eede979dcd26a5893222bdb0856ef5409ff1775b71fcb8c9f2"
+                }, 
+                "message": "Found no GetFunctionPermission implementation for diag element FidChaErrDetByInfr which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4212a9707003b0d02c2ca4c67d07ebe3d3754eadaa661fda931c347624cf72e2"
+                }, 
+                "message": "Found no GetFunctionPermission implementation for diag element FidChaErrDetInCustPby which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d03be9e74dc38658a8248df9c3958e3edb948b60be3d3fb3b4a8a656c25f1fec"
+                }, 
+                "message": "Found no GetFunctionPermission implementation for diag element FidChaErrDetInInfrCbl which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a62214dcdaf2e87ee82e8a47f337063756affbf1c59bd43338ff945f93a2c26c"
+                }, 
+                "message": "Found no GetFunctionPermission implementation for diag element FidServReqCcuRv which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d4a8f04a0266576b2ff0fe898b3e5263d27ddb5d6cb95271c10a4af7342ff366"
+                }, 
+                "message": "Found no GetFunctionPermission implementation for diag element FidChaErrDetInCust which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9f24304fbafce2cf5ec8b74cf937517995611f56f1a1b744552edacb3f281e6c"
+                }, 
+                "message": "Found no GetFunctionPermission implementation for diag element FidChaErrDetInVehPby which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9eac5135bd1da53573b22843ed0b1e3665cc2d30317c99d216f76dcfed79379c"
+                }, 
+                "message": "Found no GetFunctionPermission implementation for diag element FidChaErrDetInUndef which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fb6c1b2b5329e2ce82976ab0fa05672390df82b53b9b6acf3957a2b398887770"
+                }, 
+                "message": "Found no GetFunctionPermission implementation for diag element FidChaErrDetInVeh which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "52821f7ecb5fa4be91ec2820d43558a852b0113c0ecb30a4e2bcfba1d29d3b9d"
+                }, 
+                "message": "Found no GetFunctionPermission implementation for diag element FidHvEneStopCcuReqRv which is specified in ZEDIS", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.diagnotimplemented"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_LhmEdDiag/CCU01BEV21BMW/BMW_SWC_LhmEdDiag.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d8508accc332563464762fa1a81da6f69ff21fa6a9b2fde826f658c529f3f143"
+                }, 
+                "message": "No implementation for diagnostic service CcmWhy_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_LhmEdDiag/CCU01BEV21BMW/BMW_SWC_LhmEdDiag_component.arxml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d11bca02f9854e29a9bc9053ad0febf61e3a8fb5b2a715f9c3641da6da27603b"
+                }, 
+                "message": "FisFzdFctChaNotAvlExtReas SetEventStatus will be called with 'PASSED/FAILED', but debounce algorithm is configured for DEM", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.debouncealgorithm"
+            }
+        ]
+    }
+]

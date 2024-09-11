@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_eTmcEdh/CCU01BEV21BMW/BMW_SWC_eTmcEdh.c", 
+        "findings": [
+            {
+                "startLine": "3040", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "0a56e672b002473cb0f0db1825da6703ae581609074f25c904da2b79b30a236d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][3040] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }
+        ]
+    }
+]

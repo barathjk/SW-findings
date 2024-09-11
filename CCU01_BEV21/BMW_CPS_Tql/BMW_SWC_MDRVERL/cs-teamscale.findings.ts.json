@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_MDRVERL/CCU01BEV21BMW/BMW_SWC_MDRVERL.c", 
+        "findings": [
+            {
+                "startLine": "714", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "291e081b14a84a4ee513e7134e18d8d2201356349970df3f12ef3f8023812d00"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][714] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "707", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "291e081b14a84a4ee513e7134e18d8d2201356349970df3f12ef3f8023812d00"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][707] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }
+        ]
+    }
+]

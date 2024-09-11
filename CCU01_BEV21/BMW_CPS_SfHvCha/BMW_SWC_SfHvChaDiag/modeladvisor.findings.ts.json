@@ -1,0 +1,47 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfHvChaDiag/Model/LIB_BMW_MOD_SfHvChaCifDiag_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfHvChaCifDiag_100ms/BMW_MOD_SfHvChaCifDiag_100ms/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion1 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfHvChaCifDiag_100ms/BMW_MOD_SfHvChaCifDiag_100ms/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfHvChaCifDiag_100ms/BMW_MOD_SfHvChaCifDiag_100ms/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion1. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfHvChaCifDiag_100ms/BMW_MOD_SfHvChaCifDiag_100ms/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }
+        ]
+    }
+]

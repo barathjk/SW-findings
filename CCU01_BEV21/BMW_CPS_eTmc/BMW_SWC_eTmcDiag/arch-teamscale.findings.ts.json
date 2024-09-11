@@ -1,0 +1,67 @@
+[
+    {
+        "path": "ART_BMW_SWC_eTmcDiag/CCU01BEV21BMW/BMW_SWC_eTmcDiag.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "715e7b1084f8fb32e43609dc262dcdd6092f68b504e4c3a050e763bf009dc2ee"
+                }, 
+                "message": "There is a mismatch in period for runnable 'BMW_MOD_eTmcDiagOut_10ms'. ", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.periodmismatch"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "57e4e6f6f4699b647987e14027ca75100bb285cfd11f8f8f631ec5a2953ae886"
+                }, 
+                "message": "There is a mismatch in period for runnable 'BMW_MOD_eTmcDiagOut_10ms' ", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.periodmismatch"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_eTmcDiag/CCU01BEV21BMW/BMW_SWC_eTmcDiag.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3c1354601dda3b1e529ed02ba2eee763d45be1fb379fbd16882b941d2685abeb"
+                }, 
+                "message": "No implementation for diagnostic service BusEdhHvs_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "db27a620f498ec23ee45829aeaf51c207ce04a6979d28765206537be66befa01"
+                }, 
+                "message": "No implementation for diagnostic service EdhHvs_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "78f4f41d6b3eb34bb1dff4fbb021900a3ea22f62fc8ba6625412f9fc2c15825f"
+                }, 
+                "message": "No implementation for diagnostic service KuehlsystemEntlueftungDauer_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }
+]

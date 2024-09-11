@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_Rec2DCtrlA/CCU01BEV21BMW/BMW_SWC_Rec2DCtrlA.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "056f19abc8ab7d94cb5aaf33e277abd59507ca0e57d210b3e056b52ae2e72051"
+                }, 
+                "message": "There is no runnable with name 'BMW_MOD_Rec2DCtrlA_10ms' in model. ", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "arch.runnableinmodel"
+            }
+        ]
+    }
+]

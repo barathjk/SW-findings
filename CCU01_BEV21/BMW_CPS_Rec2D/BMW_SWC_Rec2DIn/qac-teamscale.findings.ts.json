@@ -1,0 +1,161 @@
+[
+    {
+        "path": "ART_BMW_SWC_Rec2DIn/CCU01BEV21BMW/runBMW_MOD_Rec2DIn_10ms.c", 
+        "findings": [
+            {
+                "startLine": "118", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7258ad1f071303c0d17eee7a0e117dccacb92963965ec7f7bd0a76c760021232"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[118:79] Variable 'tmp_navgraph.BMW_rd_NavSeg' previously seen here. (Specimen value: '-1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "118", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7258ad1f071303c0d17eee7a0e117dccacb92963965ec7f7bd0a76c760021232"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[118:79] Variable 'tmp_navgraph.BMW_rd_NavSeg' previously seen here. (Specimen value: '-1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "118", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7258ad1f071303c0d17eee7a0e117dccacb92963965ec7f7bd0a76c760021232"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[118:79] Variable 'tmp_navgraph.BMW_rd_NavSeg' previously seen here. (Specimen value: '1023').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "120", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7258ad1f071303c0d17eee7a0e117dccacb92963965ec7f7bd0a76c760021232"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[120:12] Variable 'tmp_navgraph.BMW_rd_NavSeg' previously seen here. (Specimen value: '1023').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "120", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d94d74a6ce78754ccf22413cb24192b419a5e6b4fd3b2bf663725b6aa7ec56ac"
+                }, 
+                "justification": "", 
+                "message": "[120:12] The result of this logical operation is always 'false'. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2996"
+            }, 
+            {
+                "startLine": "120", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d94d74a6ce78754ccf22413cb24192b419a5e6b4fd3b2bf663725b6aa7ec56ac"
+                }, 
+                "justification": "", 
+                "message": "[120:12] The result of this logical operation is always 'false'. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2996"
+            }, 
+            {
+                "startLine": "122", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7258ad1f071303c0d17eee7a0e117dccacb92963965ec7f7bd0a76c760021232"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[122:81] Variable 'tmp_navgraph.BMW_rd_NavSeg' previously seen here. (Specimen value: '-1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "124", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7258ad1f071303c0d17eee7a0e117dccacb92963965ec7f7bd0a76c760021232"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[124:12] Variable 'tmp_navgraph.BMW_rd_NavSeg' previously seen here. (Specimen value: '-1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "124", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d94d74a6ce78754ccf22413cb24192b419a5e6b4fd3b2bf663725b6aa7ec56ac"
+                }, 
+                "justification": "", 
+                "message": "[124:12] The result of this logical operation is always 'false'. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2996"
+            }, 
+            {
+                "startLine": "124", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d94d74a6ce78754ccf22413cb24192b419a5e6b4fd3b2bf663725b6aa7ec56ac"
+                }, 
+                "justification": "", 
+                "message": "[124:12] The result of this logical operation is always 'false'. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2996"
+            }, 
+            {
+                "startLine": "75", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[75:27] 'tmp_navgraph.BMW_rd_NavSeg' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "75", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[75:27] 'tmp_navgraph.BMW_rd_NavSeg' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "75", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[75:27] 'tmp_navgraph.BMW_rd_NavSeg' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "75", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[75:27] 'tmp_navgraph.BMW_rd_NavSeg' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }
+        ]
+    }
+]

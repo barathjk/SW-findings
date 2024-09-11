@@ -1,0 +1,23 @@
+[
+    {
+        "path": "SVN_BMW_SWC_IlfUii/Model/LIB_BMW_MOD_IlfUii_CarIns_200ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Reducing expression 'BMWilfuii_ti_RelTiVehMan_C*60' in parameter field 'ReplacementValue1' of 'BMW_SWC_IlfUii/BMW_MOD_IlfUii_CarIns_200ms/BMW_MOD_IlfUii_CarIns_200ms/Einlesen_Fahrzeuggroessen/SignalProcessingIn6' to its numerical equivalent because tunable parameters are only supported in double-precision expressions. This expression resolves to tunable variables (BMWilfuii_ti_RelTiVehMan_C (base workspace)). You will be unable to tune this expression during model execution\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfUii_CarIns_200ms/BMW_MOD_IlfUii_CarIns_200ms/Einlesen_Fahrzeuggroessen/SignalProcessingIn6", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

@@ -1,0 +1,642 @@
+[
+    {
+        "path": "SVN_BMW_SWC_CifMain/Model/Lib_BMW_MOD_CifACCharging_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_ct_ChaRdyPiwTrig03 seems to be wrongly connected to the inport BMWcif_ct_ShortTermAdjTrig. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifACCharging_10ms/BMW_MOD_CifACCharging_10ms/BMWcif_ct_ChaRdyPiwTrig03", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_ct_ChaRdyPiwTrig00 seems to be wrongly connected to the inport BMWcif_ct_ReturnCtrlToEcuTrig. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifACCharging_10ms/BMW_MOD_CifACCharging_10ms/BMWcif_ct_ChaRdyPiwTrig00", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport FifoMin seems to be wrongly connected to the outport BMWcif_i_ChaIfGridMax_si. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifACCharging_10ms/BMW_MOD_CifACCharging_10ms/GridMaximumCurrent/MaxGridCurrentDebounce/FifoMinCalculation/FifoMin", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem MaxGridCurrentDebounce. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] It is not critical, cannot go out of range</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifACCharging_10ms/BMW_MOD_CifACCharging_10ms/GridMaximumCurrent/MaxGridCurrentDebounce/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifMain/Model/LIB_BMW_MOD_CifDCChademo_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_i_DcChaTar_si seems to be wrongly connected to the inport BMWcif_i_DcChaTar. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCChademo_10ms/BMW_MOD_CifDCChademo_10ms/BMWcif_i_DcChaTar_si", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_ChdChaSeqSig1_ub seems to be wrongly connected to the inport BMWcif_st_ChdChaSeqSig1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCChademo_10ms/BMW_MOD_CifDCChademo_10ms/ChademoDcCanActivation/BMWcif_st_ChdChaSeqSig1_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMW_i_ChdVehChaIReq seems to be wrongly connected to the outport BMWcif_i_ChdVehChaReq_ub. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCChademo_10ms/BMW_MOD_CifDCChademo_10ms/TargetCurrentTransmission/BMW_i_ChdVehChaIReq", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMW_i_ChdVehChaIReqExt seems to be wrongly connected to the outport BMWcif_i_ChdVehChaReqExt. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCChademo_10ms/BMW_MOD_CifDCChademo_10ms/TargetCurrentTransmission/BMW_i_ChdVehChaIReqExt", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifMain/Model/LIB_BMW_MOD_CifDCCombo_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcodcif_st_VehChgrTypACInt seems to be wrongly connected to the inport BMWcodcif_st_VehChgrTypAC. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCCombo_10ms/BMW_MOD_CifDCCombo_10ms/PLC Status Chart/BMWcodcif_st_VehChgrTypACInt", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifMain/Model/Lib_BMW_MOD_CifCrossFunctions_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding method nearest is intended and necessary.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/FlexChargerPilotDiagnostic/CalculateK/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_ChaIfPiw seems to be wrongly connected to the inport BMWcif_st_ChaIfPiw_ub. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/BMWcif_st_ChaIfPiw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_ChaTypSeld_ub seems to be wrongly connected to the inport chargetype_int. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ActualChargeType/BMWcif_st_ChaTypSeld_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_ChaIfCblPlgdIn_ub seems to be wrongly connected to the inport BMWcif_st_ChaIfCblPlgdIn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingFlapsLocking/BMWcif_st_ChaIfCblPlgdIn_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_DcChnCblPlgd seems to be wrongly connected to the inport BMWcif_st_ChnCblPlgd. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingFlapsLocking/BMWcif_st_DcChnCblPlgd", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_ChdCblPlgd_ub seems to be wrongly connected to the inport BMWcif_st_ChdCblPlgd. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingFlapsLocking/BMWcif_st_ChdCblPlgd_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_ct_ChaLiAcCcsTrig03 seems to be wrongly connected to the inport BMWcif_ct_ShortTermAdjTrig. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingIllumination/BMWcif_ct_ChaLiAcCcsTrig03", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_ct_ChaLiAcCcsTrig00 seems to be wrongly connected to the inport BMWcif_ct_ReturnCtrlToEcuTrig. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingIllumination/BMWcif_ct_ChaLiAcCcsTrig00", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_ct_ChaLiDcTrig03 seems to be wrongly connected to the inport BMWcif_ct_ShortTermAdjTrig. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingIllumination/BMWcif_ct_ChaLiDcTrig03", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_ct_ChaLiDcTrig00 seems to be wrongly connected to the inport BMWcif_ct_ReturnCtrlToEcuTrig. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingIllumination/BMWcif_ct_ChaLiDcTrig00", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_ChaFlpPosnAcCcs seems to be wrongly connected to the inport In1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingFlapsLocking/FlapPositionPlausibilisation/BMWcif_st_ChaFlpPosnAcCcs", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_ChaFlpPosnDc seems to be wrongly connected to the inport In1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingFlapsLocking/FlapPositionPlausibilisation/BMWcif_st_ChaFlpPosnDc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_CtlChaPlugLockVehShrd seems to be wrongly connected to the inport CarSharingModule. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingPlugLock/PlugTypeTargetLockingStateMachine/BMWcif_st_CtlChaPlugLockVehShrd", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_HospFct seems to be wrongly connected to the inport Hospitality_Active. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingPlugLock/PlugTypeTargetLockingStateMachine/BMWcif_st_HospFct", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_b_AbkUnlockReq seems to be wrongly connected to the inport ABK. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingPlugLock/PlugTypeTargetLockingStateMachine/BMWcif_b_AbkUnlockReq", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_ChaAcvForPlugLock seems to be wrongly connected to the inport Charging_Active. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingPlugLock/PlugTypeTargetLockingStateMachine/BMWcif_st_ChaAcvForPlugLock", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWcif_b_ChaAc1 seems to be wrongly connected to the outport BMWcif_b_ChaAc1_bo. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/VehicleChargingType/BMWcif_b_ChaAc1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWcif_b_ChaAc2 seems to be wrongly connected to the outport BMWcif_b_ChaAc2_bo. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/VehicleChargingType/BMWcif_b_ChaAc2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWcif_b_ChaAcChn seems to be wrongly connected to the outport BMWcif_b_ChaAcChn_bo. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/VehicleChargingType/BMWcif_b_ChaAcChn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWcif_b_ChaDcChd seems to be wrongly connected to the outport BMWcif_b_ChaDcChd_bo. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/VehicleChargingType/BMWcif_b_ChaDcChd", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWcif_b_ChaDcChn seems to be wrongly connected to the outport BMWcif_b_ChaDcChn_bo. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/VehicleChargingType/BMWcif_b_ChaDcChn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWcodcif_st_VehChgrTypACNv seems to be wrongly connected to the outport BMWcodcif_st_VehChgrTypACInt. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/AcCodingNvHandling/BMWcodcif_st_VehChgrTypACNv", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWcif_st_StChaCtlFlp seems to be wrongly connected to the outport BMW_st_OprChaCtlFlpNv_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingFlapsLocking/PermanentFlapUnlock/BMWcif_st_StChaCtlFlp", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWcif_st_ChaFlpLock seems to be wrongly connected to the outport BMWcif_st_ChaFlpLockMeas3Id19. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingFlapsLocking/FlapLockActuatorCombinedStatus/BMWcif_st_ChaFlpLock", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWcif_st_ChaTypSeld_ub seems to be wrongly connected to the outport BMWcif_st_ChaTypSeldNv_out. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingTypeSelection/Chart/BMWcif_st_ChaTypSeld_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport EnableSepSearchIllum seems to be wrongly connected to the outport SeperateSearchIllum. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingIllumination/ProfileCalculation/SearchIllumProfileCalc/EnableSepSearchIllum", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport BMWcodcif_st_ChaAboPuBuNv_out seems to be wrongly connected to the outport BMWcodcif_st_ChaAboPuBuInt. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_CifCrossFunctions_10ms/BMW_MOD_CifCrossFunctions_10ms/ChargingPlugLock/BMWcodcif_st_ChaAboPuBuNv_out", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifMain/Model/LIB_BMW_MOD_CifDCChina_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_b_ChaDcChaoJi seems to be wrongly connected to the inport  BMWcif_b_ChaDcChaoJi. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCChina_10ms/BMW_MOD_CifDCChina_10ms/BMWcif_b_ChaDcChaoJi", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_st_AMnsDcChnChgr seems to be wrongly connected to the inport  BMWcif_st_AMnsDcChnChgr. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCChina_10ms/BMW_MOD_CifDCChina_10ms/BMWcif_st_AMnsDcChnChgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport ChargerStopError seems to be wrongly connected to the outport BMWcif_b_DcChnChaStopErr. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCChina_10ms/BMW_MOD_CifDCChina_10ms/ChargerStopError/ChargerStopError", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport AuxPowAvl seems to be wrongly connected to the outport BMWcif_b_DcChnAuxPowAvl. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCChina_10ms/BMW_MOD_CifDCChina_10ms/CAN activation/AuxPowAvl", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifMain/Model/LIB_BMW_MOD_CifDCMux_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_i_ChdChaAvlOut_ub and the signal BMWcif_i_DcChaChgrMaxAvl_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/ChademoSignals/BMWcif_i_ChdChaAvlOut_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_i_ChdChaPretCha_ub and the signal BMWcif_i_DcChaChgrAct_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/ChademoSignals/BMWcif_i_ChdChaPretCha_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_u_ChdChaAvlOut_ul and the signal BMWcif_u_DcChaChgrMaxAvl_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/ChademoSignals/BMWcif_u_ChdChaAvlOut_ul", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_u_ChdChaPretOut_ul and the signal BMWcif_u_DcChaChgrAct_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/ChademoSignals/BMWcif_u_ChdChaPretOut_ul", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_st_ChdCblPlgd_ub and the signal BMWcif_st_DcChaCblPlgd_ub resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/ChademoSignals/BMWcif_st_ChdCblPlgd_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_st_CtlDcChd and the signal BMWcif_st_CtlDcCha_ub resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/ChademoSignals/BMWcif_st_CtlDcChd", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_acvn_ChdProxDet_ub and the signal BMWcif_acvn_DcChnChdProxDet resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/ChademoSignals/BMWcif_acvn_ChdProxDet_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_i_MaxOutIChgr and the signal BMWcif_i_DcChaChgrMaxAvl_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcChinaSignals/BMWcif_i_MaxOutIChgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_i_OutIChgr and the signal BMWcif_i_DcChaChgrAct_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcChinaSignals/BMWcif_i_OutIChgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_u_MaxOutVoltChgr and the signal BMWcif_u_DcChaChgrMaxAvl_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcChinaSignals/BMWcif_u_MaxOutVoltChgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_u_OutVoltChgr and the signal BMWcif_u_DcChaChgrAct_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcChinaSignals/BMWcif_u_OutVoltChgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_st_DcChnCblPlgd and the signal BMWcif_st_DcChaCblPlgd_ub resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcChinaSignals/BMWcif_st_DcChnCblPlgd", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_i_MinOutIChgr and the signal BMWcif_i_DcChaChgrMinAvl resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcChinaSignals/BMWcif_i_MinOutIChgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_u_MinOutVoltChgr and the signal BMWcif_u_DcChaChgrMinAvl resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcChinaSignals/BMWcif_u_MinOutVoltChgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_st_CtlDcChn and the signal BMWcif_st_CtlDcCha_ub resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcChinaSignals/BMWcif_st_CtlDcChn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_i_LhChaChgrCcs and the signal BMWcif_i_DcChaChgrMaxAvl_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcComboSignals/BMWcif_i_LhChaChgrCcs", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_i_ActChgrCcs and the signal BMWcif_i_DcChaChgrAct_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcComboSignals/BMWcif_i_ActChgrCcs", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_u_LhChaChgrCcs and the signal BMWcif_u_DcChaChgrMaxAvl_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcComboSignals/BMWcif_u_LhChaChgrCcs", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_u_ActChgrCcs and the signal BMWcif_u_DcChaChgrAct_si resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcComboSignals/BMWcif_u_ActChgrCcs", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_i_LlChaChgrCcs and the signal BMWcif_i_DcChaChgrMinAvl resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcComboSignals/BMWcif_i_LlChaChgrCcs", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_u_LlChaChgrCcs and the signal BMWcif_u_DcChaChgrMinAvl resolved to it do not match. <br/> <mark><em>[Whitelisted] The signals are correctly connected, despite different names.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDCMux_10ms/BMW_MOD_CifDCMux_10ms/GenericDCsignals/DcComboSignals/BMWcif_u_LlChaChgrCcs", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

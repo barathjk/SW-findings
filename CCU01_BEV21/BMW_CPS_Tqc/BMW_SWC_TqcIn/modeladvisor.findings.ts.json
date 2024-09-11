@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_TqcIn/Model/LIB_BMW_MOD_TqcInRename_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtqw_tqw_TarDtSumRecuQly has the variant condition BMW_PT_TOP_PX_SC_EQU_1_OR_BMW_PT_TOP_AXHY_SC_EQU_1_OR_B398E in ADD but is used outside of a Variant in the process block BMW_MOD_TqcInRename_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] No code variants used in In-SWCs</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqcInRename_10ms/BMW_MOD_TqcInRename_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

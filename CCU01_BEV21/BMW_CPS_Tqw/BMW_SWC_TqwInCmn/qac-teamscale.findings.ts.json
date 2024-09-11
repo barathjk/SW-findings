@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_TqwInCmn/CCU01BEV21BMW/BMW_SWC_TqwInCmn.c", 
+        "findings": [
+            {
+                "startLine": "855", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "03fe4a38ca922cea1feaba7c35955264af1609b9f9432ff28275ca09128c254a"
+                }, 
+                "justification": "", 
+                "message": "[855:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }
+]

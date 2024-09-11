@@ -1,0 +1,51 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvChaSigOut2/CCU01BEV21BMW/BMW_SWC_HvChaSigOut2.c", 
+        "findings": [
+            {
+                "startLine": "1322", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1322:10] 'rtb_InvokeAUTOSARServerOperation' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "1323", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1323:10] 'rtb_Invoke_AUTOSAR_Server_Operation' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "3344", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fe10fd0e196957e7116f0c38e81c8ac6628bf24d9c1a444a95533fbe8428ec24"
+                }, 
+                "justification": "", 
+                "message": "[3344:40] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "3699", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e3004c7ab5eb07a62a4ebd77ef9425ef8f1cead00723593f9559058a08620c04"
+                }, 
+                "justification": "", 
+                "message": "[3699:37] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }
+        ]
+    }
+]

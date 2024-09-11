@@ -1,0 +1,562 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvPwr/Model/LIB_BMW_MOD_HvPwrPwrCnsCalc_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrCnsCalc_10ms/BMW_MOD_HvPwrPwrCnsCalc_10ms/AuxiliaryConsumers/ActualConsumedPowersDeviation/Product", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrCnsCalc_10ms/BMW_MOD_HvPwrPwrCnsCalc_10ms/AuxiliaryConsumers/ActualConsumedPowersDeviation/Product1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrCnsCalc_10ms/BMW_MOD_HvPwrPwrCnsCalc_10ms/AuxiliaryConsumers/ActualConsumedPowersDeviation/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrCnsCalc_10ms/BMW_MOD_HvPwrPwrCnsCalc_10ms/AuxiliaryConsumers/ActualConsumedPowersDeviation/Product3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvPwr/Model/LIB_BMW_MOD_HvPwrPwrDist_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block CurrentPowerAllocation of type S-Function was not found in libBACE. <br/> <mark><em>[Whitelisted] Use of custom functions for PowerDistribution algorithm</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerDistribution/CurrentPowerAllocation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block PotentialPowerAllocation of type S-Function was not found in libBACE. <br/> <mark><em>[Whitelisted] Use of custom functions for PowerDistribution algorithm</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerDistribution/PotentialPowerAllocation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block ConsumerIdListGeneration of type S-Function was not found in libBACE. <br/> <mark><em>[Whitelisted] Use of custom functions for PowerDistribution algorithm</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerDistribution/IdListsGeneration/ConsumerIdListGeneration", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block ProducerIdListGeneration of type S-Function was not found in libBACE. <br/> <mark><em>[Whitelisted] Use of custom functions for PowerDistribution algorithm</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerDistribution/IdListsGeneration/ProducerIdListGeneration", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block CurrentDynamicLimitation of type S-Function was not found in libBACE. <br/> <mark><em>[Whitelisted] Use of custom functions for PowerDistribution algorithm</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerDistribution/CurrentDynamicLimitation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block PotentialDynamicLimitation of type S-Function was not found in libBACE. <br/> <mark><em>[Whitelisted] Use of custom functions for PowerDistribution algorithm</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerDistribution/PotentialDynamicLimitation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerDistribution/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerDistribution/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion5 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerDistribution/Data Type Conversion5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product10 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product11 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product11", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product12 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product12", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product3 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product4 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product5 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product6 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product7 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product8 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product9 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/RespondedPowersDeviation/Product9", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvpwr_pwr_RealPotEng seems to be wrongly connected to the inport RealPotEngPowerOut. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/BMWhvpwr_pwr_RealPotEng", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvpwr_pwr_PwrLimVect seems to be wrongly connected to the inport PowerLimits. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/BMWhvpwr_pwr_PwrLimVect", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvpwr_nr_PrioCnrAct_ub seems to be wrongly connected to the inport ConsumerPriorities. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerDistribution/BMWhvpwr_nr_PrioCnrAct_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvpwr_nr_PrioPdrAct_ub seems to be wrongly connected to the inport ProducerPriorities. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerDistribution/BMWhvpwr_nr_PrioPdrAct_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport HvbCoResp_Lim_Out seems to be wrongly connected to the outport BMWhvpwr_pwr_HvbCoResp_sw. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrPwrDist_10ms/BMW_MOD_HvPwrPwrDist_10ms/PowerResponsesVectorExtraction/CurrentPowerResponsesExtraction/HvbCoolingResponseLimitation/HvbCoResp_Lim_Out", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvPwr/Model/LIB_StratDrvPowerLimit.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block StratDrvPowerLimit is not part of libBACE, but was certified by QXR3786 and reviewed by Waldemar Tschumak. <br/> <mark><em>[Whitelisted] Use of custom functions for PowerDistribution algorithm</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_StratDrvPowerLimit/StratDrvPowerLimit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvPwr/Model/LIB_BMW_MOD_HvPwrEgyCnsCnt_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block GenerateQualifier is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] It is not in libBACE but in LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrEgyCnsCnt_10ms/BMW_MOD_HvPwrEgyCnsCnt_10ms/DrivetrainEnergyConsumptions/GenerateQualifier", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block GenerateQualifier1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] It is not in libBACE but in LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrEgyCnsCnt_10ms/BMW_MOD_HvPwrEgyCnsCnt_10ms/DrivetrainEnergyConsumptions/GenerateQualifier1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block Integrator_ASAM_PAR_IV_OV is not part of libBACE, but was certified by q277342 and reviewed by q287751. <br/> <mark><em>[Whitelisted] It is not in libBACE but in LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrEgyCnsCnt_10ms/BMW_MOD_HvPwrEgyCnsCnt_10ms/DrivetrainEnergyConsumptions/Integrator_ASAM_PAR_IV_OV", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block Integrator_ASAM_PAR_IV_OV1 is not part of libBACE, but was certified by q277342 and reviewed by q287751. <br/> <mark><em>[Whitelisted] It is not in libBACE but in LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrEgyCnsCnt_10ms/BMW_MOD_HvPwrEgyCnsCnt_10ms/DrivetrainEnergyConsumptions/Integrator_ASAM_PAR_IV_OV1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block GenerateQualifier is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] It is not in libBACE but in LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrEgyCnsCnt_10ms/BMW_MOD_HvPwrEgyCnsCnt_10ms/HvNetworkEnergyConsumptions/GenerateQualifier", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block GenerateQualifier1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] It is not in libBACE but in LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrEgyCnsCnt_10ms/BMW_MOD_HvPwrEgyCnsCnt_10ms/HvNetworkEnergyConsumptions/GenerateQualifier1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block Integrator_ASAM_PAR_IV_OV is not part of libBACE, but was certified by q277342 and reviewed by q287751. <br/> <mark><em>[Whitelisted] It is not in libBACE but in LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrEgyCnsCnt_10ms/BMW_MOD_HvPwrEgyCnsCnt_10ms/HvNetworkEnergyConsumptions/Integrator_ASAM_PAR_IV_OV", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block Integrator_ASAM_PAR_IV_OV1 is not part of libBACE, but was certified by q277342 and reviewed by q287751. <br/> <mark><em>[Whitelisted] It is not in libBACE but in LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrEgyCnsCnt_10ms/BMW_MOD_HvPwrEgyCnsCnt_10ms/HvNetworkEnergyConsumptions/Integrator_ASAM_PAR_IV_OV1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvPwr/Model/LIB_BMW_MOD_HvPwrOpMode_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The option Saturate on integer overflow in Stateflow chart OperationModeStateMachine is not activated. <br/> <mark><em>[Whitelisted] No arithmetic operations inside the stateflow</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrOpMode_10ms/BMW_MOD_HvPwrOpMode_10ms/OperationModeSelection/OperationModeStateMachine", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0180"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvPwr/Model/LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block AuxPowerAllocation of type S-Function was not found in libBACE. <br/> <mark><em>[Whitelisted] Use of custom functions for PowerDistribution algorithm</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/AuxPowerRequestsLimitation/AuxPowerAllocation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block ConsumerIdListGeneration of type S-Function was not found in libBACE. <br/> <mark><em>[Whitelisted] Use of custom functions for PowerDistribution algorithm</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/AuxPowerRequestsLimitation/IdListsGeneration/ConsumerIdListGeneration", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block ProducerIdListGeneration of type S-Function was not found in libBACE. <br/> <mark><em>[Whitelisted] Use of custom functions for PowerDistribution algorithm</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/AuxPowerRequestsLimitation/IdListsGeneration/ProducerIdListGeneration", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block StratDrvPowerPotLimit is not part of libBACE, but was certified by QXR3786 and reviewed by Waldemar Tschumak. <br/> <mark><em>[Whitelisted] Use of custom functions for PowerDistribution algorithm</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/PowerRequestsLimitation/MaximumLimitation/StratDrvPowerPotLimit", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion11 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/AuxPowerRequestsLimitation/Data Type Conversion11", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvpwr_nr_PrioCnrAct_ub seems to be wrongly connected to the inport ConsumerPriorities. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/AuxPowerRequestsLimitation/BMWhvpwr_nr_PrioCnrAct_ub", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport RealPotEngPowerOut seems to be wrongly connected to the outport BMWhvpwr_pwr_RealPotEng. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/EnginePowerCalculation/RealPotEngPowerOut", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport HvbDynPwrDcha seems to be wrongly connected to the outport BMWhvpwr_pwr_BtlsHvsDynPwrDcha. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BatterylessOperationCompensation/HvbDynPwrDcha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport DrivetrainCurrentPowerRequests seems to be wrongly connected to the outport BMWhvpwr_pwr_DrvPwrReq. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/PowerRequestsVectorCreation/DrivetrainCurrentPowerRequests", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport AuxCurrentPowerRequests seems to be wrongly connected to the outport BMWhvpwr_pwr_AuxPwrReq. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/PowerRequestsVectorCreation/AuxCurrentPowerRequests", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport AuxPotentialPowerRequests seems to be wrongly connected to the outport BMWhvpwr_pwr_AuxPotPwrReq. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/PowerRequestsVectorCreation/AuxPotentialPowerRequests", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport DrivetrainPotentialPowerRequests seems to be wrongly connected to the outport BMWhvpwr_pwr_DrvPotPwrReq. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/PowerRequestsVectorCreation/DrivetrainPotentialPowerRequests", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport PowerLimits seems to be wrongly connected to the outport BMWhvpwr_pwr_PwrLimVect. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Whitelist</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPwrLimPrenAuxCnr_10ms/BMW_MOD_HvPwrLimPrenAuxCnr_10ms/PowerLimitsVectorCreation/PowerLimits", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvPth/Model/LIB_BMW_MOD_HvPthDcdcHist_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment using Initial Value was found in subsystem ChargingModeHistogram. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthDcdcHist_100ms/BMW_MOD_HvPthDcdcHist_100ms/ChargingModeHistogram/Assignment using Initial Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment using Initial Value was found in subsystem DrivingModeHistogram. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthDcdcHist_100ms/BMW_MOD_HvPthDcdcHist_100ms/DrivingModeHistogram/Assignment using Initial Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment using Initial Value was found in subsystem InternalTimeCounter. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthDcdcHist_100ms/BMW_MOD_HvPthDcdcHist_100ms/ChargingModeHistogram/InternalTimeCounter/Assignment using Initial Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment using Initial Value1 was found in subsystem InternalTimeCounter. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthDcdcHist_100ms/BMW_MOD_HvPthDcdcHist_100ms/ChargingModeHistogram/InternalTimeCounter/Assignment using Initial Value1", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment using Initial Value was found in subsystem InternalTimeCounter. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthDcdcHist_100ms/BMW_MOD_HvPthDcdcHist_100ms/DrivingModeHistogram/InternalTimeCounter/Assignment using Initial Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment using Initial Value1 was found in subsystem InternalTimeCounter. Theres a possibility for index out-of-bounds write access.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthDcdcHist_100ms/BMW_MOD_HvPthDcdcHist_100ms/DrivingModeHistogram/InternalTimeCounter/Assignment using Initial Value1", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "modeladvisor.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvPth/Model/LIB_BMW_MOD_HvPthDcdc12vCtrl_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose to improve accuracy of BMWhvpth_pwr_Dcdc12vLvInt_sw</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthDcdc12vCtrl_10ms/BMW_MOD_HvPthDcdc12vCtrl_10ms/LvPowerOutput/Product", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose to improve accuracy of BMWhvpth_pwr_Dcdc12vLvTar</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthDcdc12vCtrl_10ms/BMW_MOD_HvPthDcdc12vCtrl_10ms/HvPowerConsumption/TargetLvPowerCalculation/Product1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Nearest is used on purpose to improve accuracy of BMWhvpth_pwr_Dcdc12vLvTar</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvPthDcdc12vCtrl_10ms/BMW_MOD_HvPthDcdc12vCtrl_10ms/HvPowerConsumption/TargetLvPowerCalculation/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

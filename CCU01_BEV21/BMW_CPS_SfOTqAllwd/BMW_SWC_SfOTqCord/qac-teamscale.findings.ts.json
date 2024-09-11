@@ -1,0 +1,22 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfOTqCord/CCU01BEV21BMW/BMW_SWC_SfOTqCord.c", 
+        "findings": [
+            {
+                "startLine": "853", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "04559e2bcb965e43f4fd4a75aa93809b9c173a449681e99afdee1d8f5dad2912"
+                }, 
+                "justification": "", 
+                "message": "[853:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_SfOTqCord/CCU01BEV21BMW/BMW_SWC_SfOTqCord_data.c", 
+        "findings": []
+    }
+]

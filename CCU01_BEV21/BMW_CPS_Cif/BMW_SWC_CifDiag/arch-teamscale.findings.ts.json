@@ -1,0 +1,260 @@
+[
+    {
+        "path": "ART_BMW_SWC_CifDiag/CCU01BEV21BMW/BMW_SWC_CifDiag.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2371925f4ff9840e1bf8afee8ceb95d4d50ae1d1b80058e30c22c8376c6f2815"
+                }, 
+                "message": "No implementation for diagnostic service LadenAbkDauerhafteSteckerentriegelung_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "101a04af4927f440eac3b0ddab15a15f399177517019e5e2108bff0cb6ad016b"
+                }, 
+                "message": "No implementation for diagnostic service LadeschnittstelleAcCcs_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "eedf32a1fb1c2c4f5cdaea328f022957ae2987f45834ede090cdce30e63afd7f"
+                }, 
+                "message": "No implementation for diagnostic service LadeschnittstelleGbT_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fefa1cd5da11f3ba786eff8332c6c7496acd2c9bb887c291e599a3c1120fc393"
+                }, 
+                "message": "No implementation for diagnostic service EvseKommunicationDcChademo_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a33c89bbcb85a2dd67e82e99e9539a4556fbf986a0cd80210cf1833e72c5450c"
+                }, 
+                "message": "No implementation for diagnostic service LadenAbkDauerhafteKlappenentriegelung_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f456aa9dc4f23fb3e66250f994ae58939a67a9cae80d14cc67d4ad404c34a470"
+                }, 
+                "message": "No implementation for diagnostic service ZvLadeklappeAcCcs_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fa2354c24275def873beb047a90dca3f02e411c4f5e8932b71493c026a270327"
+                }, 
+                "message": "No implementation for diagnostic service ZustandVerriegelungLadeklappe_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f066adf4c0594a256b8ecbbf61ed2f31f7a9f8a3dd91bf3518a6a758947fc606"
+                }, 
+                "message": "No implementation for diagnostic service EvseKommunicationDcGbt_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cd2fea8b607b792eb7013d3dff305e6861b95ab2d3e7cf1139b6d3bc400ecc61"
+                }, 
+                "message": "No implementation for diagnostic service Ladeverfahren_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ad15031bc23f5d1a6a1795b0e1f7e3587713fbd06936f47b427c94c36c3ac3bb"
+                }, 
+                "message": "No implementation for diagnostic service EvseKommunicationCcs_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1b9ffbb9ac14449e2a26147224d38b9ad81cc4e16167be21736bbc96212928b5"
+                }, 
+                "message": "No implementation for diagnostic service PilotSignalValue_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "effe1d7b9677e0b326c4e4fd655aefbef532de85f81446c7cdb0f207d3396536"
+                }, 
+                "message": "No implementation for diagnostic service LadeschnittstelleChademo_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "aebb007fe3548e38c6478ad2b3f3fb38d051edb85c794ae081a2acbf7048c3db"
+                }, 
+                "message": "No implementation for diagnostic service LedLadedoseAcCcs_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "01ea0521bff59ed06c73c2773753ef3805a16b25ffca21fbe3b1f9d59f62a168"
+                }, 
+                "message": "No implementation for diagnostic service LadeklappeAcCcs_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "64cad5d57d0a6ff3ca4e13cd584a846555cccd7997ca5cc9003ed0ed0232cc3a"
+                }, 
+                "message": "No implementation for diagnostic service ZvLadeklappeDc_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "15989a6610e573f4e03c84db471ec12a88a0da565210788e4a4b8e3c57714096"
+                }, 
+                "message": "No implementation for diagnostic service LadedoseDc_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "26c9d4eaa0320d72d3521cabf173a88fe53022399cf2bf99ccbdcb7e9ec103af"
+                }, 
+                "message": "No implementation for diagnostic service ZvLadedoseAcCcs_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b0610b6029ef60e4ecf77a94cb38bca69871ff0e63cab814a625451790df3eb4"
+                }, 
+                "message": "No implementation for diagnostic service LadebereitschaftAcCcs_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f2ec4067709d5f084c89a5acbb250014e44f60ad38ebb1ac5b2e7446d4015b85"
+                }, 
+                "message": "No implementation for diagnostic service LedLadedoseDc_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7227c2f25bca8849d461d21c519266d42cf74be505a3f7d11098023e249c13a2"
+                }, 
+                "message": "No implementation for diagnostic service LadenAbkEinmalSteckerentriegelung_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "19beb3ee5e21bd86b4c17d812e6f5f7b353de0a30ec6783a27c78d3c315f64cc"
+                }, 
+                "message": "No implementation for diagnostic service ZustandVerriegelungLadestecker_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1e7bd0f49dfc689e58370017f6b63ede077b3b9356f80f9a768810e92cb47a81"
+                }, 
+                "message": "No implementation for diagnostic service LadeklappeDc_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "17b2da5444ccd1435dff9fbf9500cefeb234c373f11d1df60f56230757934b39"
+                }, 
+                "message": "No implementation for diagnostic service LadedoseAcCcs_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }
+]

@@ -1,0 +1,71 @@
+[
+    {
+        "path": "SVN_BMW_SWC_LdkProc/Model/LIB_BMW_MOD_LdkProc_10ms_p.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_LdkProc/BMW_MOD_LdkProc_10ms_p/BMW_MOD_LdkProc_10ms_p/LdkProc_Combined_HVPM_Output/Calculate_MaxDeratingPower&TargetPower/Application Parameter7'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LdkProc_10ms_p/BMW_MOD_LdkProc_10ms_p/LdkProc_Combined_HVPM_Output/Calculate_MaxDeratingPower&TargetPower/Application Parameter7", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'InitialCondition' of 'BMW_SWC_LdkProc/BMW_MOD_LdkProc_10ms_p/BMW_MOD_LdkProc_10ms_p/LdkProc_calculate_local_efficiency_signal/calculate_internal_average_efficiency/LIB_LdkProc_internal_Avg_Efficiency_Chgr1/Average_Filter/Unit Delay1'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LdkProc_10ms_p/BMW_MOD_LdkProc_10ms_p/LdkProc_calculate_local_efficiency_signal/calculate_internal_average_efficiency/LIB_LdkProc_internal_Avg_Efficiency_Chgr1/Average_Filter/Unit Delay1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'InitialCondition' of 'BMW_SWC_LdkProc/BMW_MOD_LdkProc_10ms_p/BMW_MOD_LdkProc_10ms_p/LdkProc_calculate_local_efficiency_signal/calculate_internal_average_efficiency/LIB_LdkProc_internal_Avg_Efficiency_Chgr2/Average_Filter/Unit Delay1'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LdkProc_10ms_p/BMW_MOD_LdkProc_10ms_p/LdkProc_calculate_local_efficiency_signal/calculate_internal_average_efficiency/LIB_LdkProc_internal_Avg_Efficiency_Chgr2/Average_Filter/Unit Delay1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'InitialCondition' of 'BMW_SWC_LdkProc/BMW_MOD_LdkProc_10ms_p/BMW_MOD_LdkProc_10ms_p/LdkProc_calculate_local_efficiency_signal/calculate_internal_average_efficiency/LIB_LdkProc_internal_Avg_Efficiency_Chgr3/Average_Filter/Unit Delay1'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LdkProc_10ms_p/BMW_MOD_LdkProc_10ms_p/LdkProc_calculate_local_efficiency_signal/calculate_internal_average_efficiency/LIB_LdkProc_internal_Avg_Efficiency_Chgr3/Average_Filter/Unit Delay1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

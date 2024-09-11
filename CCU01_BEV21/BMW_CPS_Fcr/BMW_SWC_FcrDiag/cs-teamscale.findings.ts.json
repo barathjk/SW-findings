@@ -1,0 +1,227 @@
+[
+    {
+        "path": "ART_BMW_SWC_FcrDiag/CCU01BEV21BMW/BMW_SWC_FcrDiag.c", 
+        "findings": [
+            {
+                "startLine": "205", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3c0c07bab1900901e359fc228c28f4fdd2b0a66d0e9634f7064a05104824569f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][205] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "242", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "34f4f004e66bdc1d0714096ba058e428f910b12dbd7a4902eea3cdb36c1f6e25"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][242] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "308", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2f9815774570b851dc6ceea7e91202cccc5d50fb5e086044385db08c679ab019"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][308] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "386", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4eaab3e4f65f8059aca7e82ca0dc78e8203a463684b3243f172575311c872bc3"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][386] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "343", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "90196f1f3e876c2210409b449db72397b024743b982243f2b5cf9d977d6e6a14"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][343] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "218", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0be06038e738eee0a6d738b70201bd7a89c9b43f80b98b538d70e7fecf491b21"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][218] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "371", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "048659cbea878ac00466abf0fd2ac3151938f740a81f04c5eb9d55591a4011fb"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][371] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "384", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4eaab3e4f65f8059aca7e82ca0dc78e8203a463684b3243f172575311c872bc3"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][384] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "253", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0ee0eee15da1557d83970f95ea31c113ee0acd30fef9c59e1e96c63f7a61687a"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][253] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "282", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a8ad1b9b07c0f7de7653cf6f56b3f434c8e88cbe00e44891f08e07d7ba6b06d4"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][282] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "241", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "34f4f004e66bdc1d0714096ba058e428f910b12dbd7a4902eea3cdb36c1f6e25"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][241] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "309", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2f9815774570b851dc6ceea7e91202cccc5d50fb5e086044385db08c679ab019"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][309] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "269", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "314551b8b700f889f518188b9879cd0b98d3eb03cedd3945e1caa13734d4f4ac"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][269] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "345", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "90196f1f3e876c2210409b449db72397b024743b982243f2b5cf9d977d6e6a14"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][345] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "330", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "49676caff684ed482065ada36caf683984601c9fc108922aeb98073f2b46c1af"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][330] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "220", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0be06038e738eee0a6d738b70201bd7a89c9b43f80b98b538d70e7fecf491b21"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][220] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "203", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3c0c07bab1900901e359fc228c28f4fdd2b0a66d0e9634f7064a05104824569f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][203] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "314", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2f9815774570b851dc6ceea7e91202cccc5d50fb5e086044385db08c679ab019"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][314] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "284", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a8ad1b9b07c0f7de7653cf6f56b3f434c8e88cbe00e44891f08e07d7ba6b06d4"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][284] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }, 
+            {
+                "startLine": "369", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "048659cbea878ac00466abf0fd2ac3151938f740a81f04c5eb9d55591a4011fb"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][369] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }
+        ]
+    }
+]

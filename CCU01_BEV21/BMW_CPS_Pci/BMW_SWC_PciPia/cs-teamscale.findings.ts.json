@@ -1,0 +1,127 @@
+[
+    {
+        "path": "ART_BMW_SWC_PciPia/CCU01BEV21BMW/BMW_MOD_PciPia_0x13c_CheckValue.c", 
+        "findings": [
+            {
+                "startLine": "143", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b5fd9058f06399743328d69f175d2f79f128157f52e3e0eb169391d348e68a62"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][143] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "144", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "474d13dec5ae09b21066eec2780c733c4e3421956d524da2eec5e49b945da7de"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][144] Unreachable Call", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "131", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fb2b431eea971fb8b705b509aa935c898b8362ece384df5e69c338beba0dfdec"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][131] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_PciPia/CCU01BEV21BMW/BMW_MOD_PciPia_0x13c_GetDefaultValue.c", 
+        "findings": [
+            {
+                "startLine": "115", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "00c40d8166652520331a483240719e3715b777c614ace69a4a2555fdafcd83a6"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][115] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "116", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8ed5601ab36377776de7cd6b5c0e5cbdecd3638cc776acb82986b425ddcf50cb"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][116] Unreachable Call", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "105", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8fed87ed12d9e27fb9b0166703022bbf8dd2bc89544eb4fd59b535cfc8f40e95"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][105] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_PciPia/CCU01BEV21BMW/BMW_SWC_PciPia.c", 
+        "findings": [
+            {
+                "startLine": "347", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "04a868f2b8720977d6eea97b265b6a47eb03566f74426f312daf2b1b7abee313"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][347] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "323", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8e0b7e30ddf654b9131a4e1a97c4351b3d56f58727df4e22bbc39cbee99d1daa"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][323] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "348", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "91d7d8ebe7a57b28da702222de81913068acc9245a3286630eda19f6b211a008"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][348] Unreachable Data Flow", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "326", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7ac48b1037f6b7bec510a31bc29fdcb45616f1e113273510b36c5bd84c7845d8"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][326] Unreachable Data Flow", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }
+        ]
+    }
+]

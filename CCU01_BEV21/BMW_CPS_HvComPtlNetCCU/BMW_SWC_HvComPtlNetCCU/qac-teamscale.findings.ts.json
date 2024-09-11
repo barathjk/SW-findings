@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvComPtlNetCCU/CCU01BEV21BMW/BMW_SWC_HvComPtlNetCCU.c", 
+        "findings": [
+            {
+                "startLine": "2307", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e3dc70a95691a7c2ca71b224eb1063fb11b09bd4fe6e93d2be0ef0d4c6b38906"
+                }, 
+                "justification": "", 
+                "message": "[2307:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }
+]

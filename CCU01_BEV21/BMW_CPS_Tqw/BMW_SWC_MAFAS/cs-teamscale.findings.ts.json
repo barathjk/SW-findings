@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_MAFAS/CCU01BEV21BMW/BMW_SWC_MAFAS.c", 
+        "findings": [
+            {
+                "startLine": "546", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "addea11a1ca62a3bb0ec7d921edd9257a2f42385c5efdae912da1d98bdede0dd"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][546] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }
+        ]
+    }
+]

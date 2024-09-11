@@ -1,0 +1,106 @@
+[
+    {
+        "path": "ART_BMW_SWC_OsaTqWhl/CCU01BEV21BMW/BMW_SWC_OsaTqWhl.c", 
+        "findings": [
+            {
+                "startLine": "777", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "99c08023c7ebccefad6ab8428b0a08b9d4c9ad56256ab367f7c8f83e44d60384"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][777] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "763", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cc005e3cb46f7de3153571ede508c630cd48b9683baeff34076825a08309642f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][763] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "710", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ddd6c50e2464f95c6631fe286493fe64a7a7916b5a3b885f763c6f0353aefc74"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][710] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "396", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "499e3251457e6b58f8cbb868525f26eeb05de2a1702913062a284b9d9740f4a9"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][396] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "345", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "26d2abdc61daec12e5fe6bd10cc01ec57ca50084d12c3a27581c5cb050a12e76"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][345] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "410", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "22691573ef63d2c0d8ac03802349b6ddff679afd01a906240208d459e422ccb2"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][410] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "2081", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d63f32e562a853ff65a8524f6e1d3e6a998003f11daeac127b0f0815644be017"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][2081] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "1863", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8cec0862ccf7893b118f2603acb4f906d330cdd848a890e90d9b1472e90575fc"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][1863] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "1626", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "44e07a0ad57782c1280dca86113acd2091e77b277e89be4f12c3990feba37f03"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][1626] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }
+        ]
+    }
+]

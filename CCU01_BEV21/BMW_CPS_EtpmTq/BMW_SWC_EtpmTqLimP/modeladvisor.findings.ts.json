@@ -1,0 +1,62 @@
+[
+    {
+        "path": "SVN_BMW_SWC_EtpmTqLimP/Model/LIB_BMW_MOD_EtpmTqLimP_EM2_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWetpmt_pwr_sEMChaWishDyn seems to be wrongly connected to the inport Pwr_In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed. Connection is corrected</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqLimP_EM2_10ms/BMW_MOD_EtpmTqLimP_EM2_10ms/Error_Correction_sEM/pwr_correction_sEM/BMWetpmt_pwr_sEMChaWishDyn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWetpmt_pwr_sEMDchaWishDyn seems to be wrongly connected to the inport Pwr_In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed. Connection is corrected</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqLimP_EM2_10ms/BMW_MOD_EtpmTqLimP_EM2_10ms/Error_Correction_sEM/pwr_correction_sEM/BMWetpmt_pwr_sEMDchaWishDyn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_EtpmTqLimP/Model/LIB_BMW_MOD_EtpmTqLimP_EM1_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of PowerLim_Discharge and the signal PowerLim_Disharge resolved to it do not match. <br/> <mark><em>[Whitelisted] Signal is reviewed. Connection is corrected</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqLimP_EM1_10ms/BMW_MOD_EtpmTqLimP_EM1_10ms/Error_Correction_pEM/PowerLim_Discharge", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWetpmt_pwr_pEMChaWishDyn seems to be wrongly connected to the inport Pwr_In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed. Connection is corrected</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqLimP_EM1_10ms/BMW_MOD_EtpmTqLimP_EM1_10ms/Error_Correction_pEM/pwr_correction_pEM/BMWetpmt_pwr_pEMChaWishDyn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWetpmt_pwr_pEMDchaWishDyn seems to be wrongly connected to the inport Pwr_In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is reviewed. Connection is corrected</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EtpmTqLimP_EM1_10ms/BMW_MOD_EtpmTqLimP_EM1_10ms/Error_Correction_pEM/pwr_correction_pEM/BMWetpmt_pwr_pEMDchaWishDyn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "path": "ART_BMW_SWC_MassmOut/CCU01BEV21BMW/BMW_SWC_MassmOut.c", 
+        "findings": [
+            {
+                "startLine": "3450", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bde0ebdb8311af96138842cdc69c03203c06604c1b405faed2a47465674a4c40"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][3450] Unreachable Computation", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }, 
+            {
+                "startLine": "3248", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5b53daad93a7278c004f0366c417d0d37ed684f65d022d0d0a97eecb218bb44a"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][3248] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "3441", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1c37a3b4d78ceafc4c714e73a72f57351d8f3bd93951a32d02adeed2d1e0c9d3"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][3441] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "3240", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6f3c72551f254bb4b71ebad22be4183385eda969ef08c6bec7de5c61e8ad963b"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][3240] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }
+        ]
+    }
+]

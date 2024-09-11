@@ -1,0 +1,77 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfOTqDrvr/Model/LIB_BMW_MOD_SfOTqDrvr_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block UpDownFilter of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOTqDrvr_10ms/BMW_MOD_SfOTqDrvr_10ms/Vorverarbeitung/FahrerwunshGegenAktuelleRichtung/Steigungsfilterung/UpDownFilter", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] Time constant for Integrator_ASAM has value 1 instead of the sample time 0.01 of the process block. <br/> <mark><em>[Whitelisted] i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOTqDrvr_10ms/BMW_MOD_SfOTqDrvr_10ms/GradientenSprung/Integrator_ASAM", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0065"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion1 is not recommended. <br/> <mark><em>[Whitelisted] der Typecast ist leider unbedingt notwendig und wohlbedacht,  da sonst die Genauigkeit bei der Division zu ungenau fr die Darstellung des Ausgangssignals wird</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOTqDrvr_10ms/BMW_MOD_SfOTqDrvr_10ms/Zug/Drehmoment_Fahrpedalkennfelder_Zug/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion2 is not recommended. <br/> <mark><em>[Whitelisted] der Typecast ist leider unbedingt notwendig und wohlbedacht,  da sonst die Genauigkeit bei der Division zu ungenau fr die Darstellung des Ausgangssignals wird</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOTqDrvr_10ms/BMW_MOD_SfOTqDrvr_10ms/Zug/Drehmoment_Fahrpedalkennfelder_Zug/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion3 is not recommended. <br/> <mark><em>[Whitelisted] der Typecast ist leider unbedingt notwendig und wohlbedacht,  da sonst die Genauigkeit bei der Division zu ungenau fr die Darstellung des Ausgangssignals wird</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOTqDrvr_10ms/BMW_MOD_SfOTqDrvr_10ms/Zug/Drehmoment_Fahrpedalkennfelder_Zug/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion1 is not recommended. <br/> <mark><em>[Whitelisted] der Typecast ist leider unbedingt notwendig und wohlbedacht,  da sonst die Genauigkeit bei der Division zu ungenau fr die Darstellung des Ausgangssignals wird</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOTqDrvr_10ms/BMW_MOD_SfOTqDrvr_10ms/Zug/NullPedal_Kennlinie/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Conversion from a data type with less number of bits to a data type with greater number of bits in block Data Type Conversion2 is not recommended. <br/> <mark><em>[Whitelisted] der Typecast ist leider unbedingt notwendig und wohlbedacht,  da sonst die Genauigkeit bei der Division zu ungenau fr die Darstellung des Ausgangssignals wird</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOTqDrvr_10ms/BMW_MOD_SfOTqDrvr_10ms/Zug/NullPedal_Kennlinie/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0102"
+            }
+        ]
+    }
+]

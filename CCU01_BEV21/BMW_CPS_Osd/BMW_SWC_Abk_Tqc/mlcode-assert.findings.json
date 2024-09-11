@@ -1,0 +1,113 @@
+[
+    {
+        "path": "SVN_BMW_SWC_Abk_Tqc/Model/LIB_BMW_MOD_AbkTqcPmAvail_20ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Mixture of 1-D array and 2-D vector (matrix) signals are driving 'BMW_SWC_Abk_Tqc/BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms/PM_Avail/Degradationsgrund/Product'. It has automatically converted the 1-D signals to 2-D vector signals. In order to eliminate this message either (1) use a Reshape, or (2) set the 'Action' for 'Vector/Matrix conversion' in the Diagnostics page of Configuration Parameters dialog to 'None'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms/PM_Avail/Degradationsgrund/Product", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_Abk_Tqc/BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms/PM_Avail/VM/Otto/Emissionierung/Compare To Constant/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmAvail_20ms/BMW_MOD_AbkTqcPmAvail_20ms/PM_Avail/VM/Otto/Emissionierung/Compare To Constant/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_Abk_Tqc/Model/LIB_BMW_MOD_AbkTqcPmSig_20ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_Abk_Tqc/BMW_MOD_AbkTqcPmSig_20ms/BMW_MOD_AbkTqcPmSig_20ms/PM_Sig/Berechnung_Referenzen/Umrechnung_in_dynamische_Referenzen/Umrechnung_Winkelgeschw_Rad/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcPmSig_20ms/BMW_MOD_AbkTqcPmSig_20ms/PM_Sig/Berechnung_Referenzen/Umrechnung_in_dynamische_Referenzen/Umrechnung_Winkelgeschw_Rad/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_Abk_Tqc/Model/LIB_BMW_MOD_AbkTqcEcoTip_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_Abk_Tqc/BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms/Berechnung_Signale_fuer_EcoTipp/SP2018/Eco-Tipp Schwelle/BACE_Lowpass_safe/BACE_Lowpass_IV_ext/0 <= K <= 1/max_val'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms/Berechnung_Signale_fuer_EcoTipp/SP2018/Eco-Tipp Schwelle/BACE_Lowpass_safe/BACE_Lowpass_IV_ext/0 <= K <= 1/max_val", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'UpperLimit' of 'BMW_SWC_Abk_Tqc/BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms/Berechnung_Signale_fuer_EcoTipp/SP2018/Eco-Tipp Schwelle/BACE_Lowpass_safe/SaturationSwitchable/Sat/Sat'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms/Berechnung_Signale_fuer_EcoTipp/SP2018/Eco-Tipp Schwelle/BACE_Lowpass_safe/SaturationSwitchable/Sat/Sat", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_Abk_Tqc/BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms/Berechnung_Signale_fuer_EcoTipp/SP2018/Eco-Tipp Schwelle/Basiswert/Nicht_Achshybrid/BACE_Lowpass_const/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcEcoTip_10ms/BMW_MOD_AbkTqcEcoTip_10ms/Berechnung_Signale_fuer_EcoTipp/SP2018/Eco-Tipp Schwelle/Basiswert/Nicht_Achshybrid/BACE_Lowpass_const/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_EtpmPSumSrc_ppBMWetpmp_pwr_HvSrcChaMaxDyn_BMWetpmp_pwr_HvSrcChaMaxDyn", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_EtpmPSumSrc_ppBMWetpmp_pwr_HvSrcChaMaxStat_BMWetpmp_pwr_HvSrcChaMaxStat", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_EtpmPSumSrc_ppBMWetpmp_pwr_HvSrcDchaMaxDyn_BMWetpmp_pwr_HvSrcDchaMaxDyn", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_EtpmPSumSrc_ppBMWetpmp_pwr_HvsDchaStatReq_BMWetpmp_pwr_HvsDchaStatReq", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_EtpmPSumSrc_ppBMWetpmp_pwr_HvSrcDchaMaxStat_BMWetpmp_pwr_HvSrcDchaMaxStat", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_EtpmPSumSrc_ppBMWetpmp_pwr_HvsChaStatReq_BMWetpmp_pwr_HvsChaStatReq", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_EtpmPSumSrc/BMW_MOD_EtpmPSumSrc_10ms", 
+        "assessment": {
+            "YELLOW": "62"
+        }, 
+        "count": "62"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_EtpmPSumSrc/BMW_SWC_EtpmPSumSrc_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }
+]

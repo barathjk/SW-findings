@@ -1,0 +1,27 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfOPtPot/Model/LIB_BMW_MOD_SfOPtPot_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Check Switch blocks The following Switch blocks might cause floating point inequality comparisons in generated code. MDL_BMW_SWC_SfOPtPot/BMW_SWC_SfOPtPot/BMW_SWC_SfOPtPot/BMW_MOD_SfOPtPot_10ms/SollRadMoment/Switch3 <br/> <mark><em>[Whitelisted] i.O. da nur 0/1 als Konstante vorgegeben wird. Keine andere Lsung mglich, da logical Signale fr arithmetic actions (product) nicht zulssig sind.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOPtPot_10ms/BMW_MOD_SfOPtPot_10ms/SollRadMoment/Switch3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.iec61508.SignalRoutingBlockUsage"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Check Switch blocks The following Switch blocks might cause floating point inequality comparisons in generated code. MDL_BMW_SWC_SfOPtPot/BMW_SWC_SfOPtPot/BMW_SWC_SfOPtPot/BMW_MOD_SfOPtPot_10ms/SollRadMoment/Switch4 <br/> <mark><em>[Whitelisted] i.O. da nur 0/1 als Konstante vorgegeben wird. Keine andere Lsung mglich, da logical Signale fr arithmetic actions (product) nicht zulssig sind.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOPtPot_10ms/BMW_MOD_SfOPtPot_10ms/SollRadMoment/Switch4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.iec61508.SignalRoutingBlockUsage"
+            }
+        ]
+    }
+]

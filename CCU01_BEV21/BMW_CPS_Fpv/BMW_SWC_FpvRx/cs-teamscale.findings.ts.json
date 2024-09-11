@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_FpvRx/CCU01BEV21BMW/BMW_SWC_FpvRx.c", 
+        "findings": [
+            {
+                "startLine": "271", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c6a75e9d00759a4e7b23b6546617eda1a3bdb5a67f22f422a7af7570f308f921"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][271] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "272", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c6a75e9d00759a4e7b23b6546617eda1a3bdb5a67f22f422a7af7570f308f921"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][272] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "272", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c9884df3ddf1522b248b8da64b827303dc82ad3d89ffae2ed1586ebb6341186c"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][272] Unreachable Conditional", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }
+        ]
+    }
+]

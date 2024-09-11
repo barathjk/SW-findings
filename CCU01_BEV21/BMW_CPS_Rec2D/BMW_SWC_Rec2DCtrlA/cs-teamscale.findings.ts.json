@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_Rec2DCtrlA/CCU01BEV21BMW/runBMW_MOD_Rec2DCtrlA_10ms.c", 
+        "findings": [
+            {
+                "startLine": "412", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "82a65a243543e0b2ad1c8fdab91b4c37b25fde380cacd788e61b2ba40e65b0fc"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][412] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }
+        ]
+    }
+]

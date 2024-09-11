@@ -1,0 +1,141 @@
+[
+    {
+        "path": "ART_BMW_SWC_Rec2DCtrlA/CCU01BEV21BMW/graphaccess.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_Rec2DCtrlA/CCU01BEV21BMW/graphbuilder.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_Rec2DCtrlA/CCU01BEV21BMW/graphstructures.c", 
+        "findings": [
+            {
+                "startLine": "189", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[189:13] 'rootIndex' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "190", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[190:13] 'mappedIndex' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "830", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7258ad1f071303c0d17eee7a0e117dccacb92963965ec7f7bd0a76c760021232"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[830:16] Variable 'segment' previously seen here. (Specimen value: '63').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "851", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7258ad1f071303c0d17eee7a0e117dccacb92963965ec7f7bd0a76c760021232"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[851:36] Variable 'mappedIndex' previously seen here. (Specimen value: '63').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "852", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6a0e39a051a2c9f66860bb240a2710b483cde6bcf3614171aa20f10d01188bb1"
+                }, 
+                "justification": "", 
+                "message": "[852:90] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "876", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7258ad1f071303c0d17eee7a0e117dccacb92963965ec7f7bd0a76c760021232"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[876:25] Variable 'mappedIndex' previously seen here. (Specimen value: '63').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "881", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6a0e39a051a2c9f66860bb240a2710b483cde6bcf3614171aa20f10d01188bb1"
+                }, 
+                "justification": "", 
+                "message": "[881:75] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "904", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7258ad1f071303c0d17eee7a0e117dccacb92963965ec7f7bd0a76c760021232"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[904:23] Variable 'rootIndex' previously seen here. (Specimen value: '63').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "909", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6a0e39a051a2c9f66860bb240a2710b483cde6bcf3614171aa20f10d01188bb1"
+                }, 
+                "justification": "", 
+                "message": "[909:73] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_Rec2DCtrlA/CCU01BEV21BMW/runBMW_MOD_Rec2DCtrlA_10ms.c", 
+        "findings": [
+            {
+                "startLine": "136", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[136:83] 'navGraphContainer' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "143", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6a0e39a051a2c9f66860bb240a2710b483cde6bcf3614171aa20f10d01188bb1"
+                }, 
+                "justification": "", 
+                "message": "[143:108] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }
+        ]
+    }
+]

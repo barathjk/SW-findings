@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_OsdOut/CCU01BEV21BMW/SCHDGRP_BMW_SWC_OsdOut.xml", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b726dd0de1aa144c1cd46adc3bbfca956d0bf511f83cda7528035bc976539fa1"
+                }, 
+                "message": "Schedgroup 'SCHDGRP_BMW_SWC_OsdOut_Init' references runnables/events with different properties (TIMING-EVENT, 0.01 vs. INIT-EVENT, Init). ", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "swcsched.diffeventprops"
+            }
+        ]
+    }
+]

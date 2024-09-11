@@ -1,0 +1,51 @@
+[
+    {
+        "path": "ART_BMW_SWC_FstDecn/CCU01BEV21BMW/BMW_SWC_FstDecn.c", 
+        "findings": [
+            {
+                "startLine": "160", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[160:9] 'rtb_Product2_k' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "653", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e2c2b7e05156a089697cb969c14443c53268b7bbce67f31a52100e1ce6a37922"
+                }, 
+                "justification": "", 
+                "message": "[653:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "872", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "49b8ab3617dbd12438a9f8f86e9f182dbdc4618c9e5a8fb3c3b007f75b6ecf45"
+                }, 
+                "justification": "", 
+                "message": "[872:19] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "984", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "de9b7485512b121615b768eafacf197f7bc9ec78d018041d103f09572c92d5e1"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[984:19] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }
+        ]
+    }
+]

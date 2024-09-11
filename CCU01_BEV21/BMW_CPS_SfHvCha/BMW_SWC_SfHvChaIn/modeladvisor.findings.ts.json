@@ -1,0 +1,207 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfHvChaIn/Model/Lib_BMW_MOD_SfHvChaCifIn_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveCheck of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveCheck", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveCheck1 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveCheck1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveCheck2 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveCheck2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveSignalCheck", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck1 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveSignalCheck1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck10 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveSignalCheck10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck11 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveSignalCheck11", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck2 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveSignalCheck2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck4 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveSignalCheck4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck5 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveSignalCheck5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck6 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveSignalCheck6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck7 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveSignalCheck7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck8 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveSignalCheck8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck9 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/ChargingPlugLock/QualifierInactiveSignalCheck9", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveCheck of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/DcContactors/QualifierInactiveCheck", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/DcContactors/QualifierInactiveSignalCheck", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck1 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/DcContactors/QualifierInactiveSignalCheck1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck2 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/DcContactors/QualifierInactiveSignalCheck2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck3 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/DcContactors/QualifierInactiveSignalCheck3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block QualifierInactiveSignalCheck4 of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] The block comes from LIB_Common.mdl</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifIn_10ms/BMW_MOD_SfHvChaCifIn_10ms/DcContactors/QualifierInactiveSignalCheck4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }
+        ]
+    }
+]

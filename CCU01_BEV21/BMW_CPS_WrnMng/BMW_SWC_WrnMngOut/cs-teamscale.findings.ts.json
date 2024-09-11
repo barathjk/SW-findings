@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_WrnMngOut/CCU01BEV21BMW/BMW_SWC_WrnMngOut.c", 
+        "findings": [
+            {
+                "startLine": "103", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0649048cad13186845c830b697618c6eccfbf8d28bc452d18062578bf94b1ff7"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][103] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }
+        ]
+    }
+]

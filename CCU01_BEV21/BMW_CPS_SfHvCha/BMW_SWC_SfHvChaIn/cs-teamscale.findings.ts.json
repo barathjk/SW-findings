@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfHvChaIn/CCU01BEV21BMW/BMW_SWC_SfHvChaIn.c", 
+        "findings": [
+            {
+                "startLine": "2123", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "10fe10b6d68dc9c3e1278367e95e64f363e5d18d2cb0294e48eb669e099acebd"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][2123] Shift Amount Exceeds Bit Width", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.ARITH.BIGSHIFT"
+            }
+        ]
+    }
+]

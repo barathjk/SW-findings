@@ -1,0 +1,42 @@
+[
+    {
+        "path": "SVN_BMW_SWC_LdkProc/Model/LIB_LdkProc_CombinedState.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The Stateflow chart Chart_ConsolidatedOperatingModeForThreeBltdVehCfg has a State-vs.-Transition ratio of 0%, which is below the threshold of 10%. <br/> <mark><em>[Whitelisted] White listed</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LdkProc_CombinedState/Combined_actual_LDK_state_for_HVPM/ConsolidatedOperatingModeForThreeBltdVehCfg/Chart_ConsolidatedOperatingModeForThreeBltdVehCfg", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The Stateflow chart Chart_ConsolidatedOperatingModeForTwoBltdVehCfg has a State-vs.-Transition ratio of 0%, which is below the threshold of 10%. <br/> <mark><em>[Whitelisted] White listed</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LdkProc_CombinedState/Combined_actual_LDK_state_for_HVPM/ConsolidatedOperatingModeForTwoBltdVehCfg/Chart_ConsolidatedOperatingModeForTwoBltdVehCfg", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_LdkProc/Model/LIB_LdkProc_Opm_TarCha.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The Stateflow chart Chart has a State-vs.-Transition ratio of 35%, which is greater than or equal to the threshold of 10%. <br/> <mark><em>[Whitelisted] White listed</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LdkProc_Opm_TarCha/LdkProc_Opm_TarCha/CalculateOperationMode/Restart_charging_when_Err/Chart", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0182"
+            }
+        ]
+    }
+]

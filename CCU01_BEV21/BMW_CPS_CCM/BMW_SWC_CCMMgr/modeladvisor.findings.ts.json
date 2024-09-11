@@ -1,0 +1,2387 @@
+[
+    {
+        "path": "SVN_BMW_SWC_CCMMgr/Model/LIB_BMW_MOD_CCMMgrExt_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem CCM_Priorisierung. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/CCM_Priorisierung/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment connected to Constant(s) in subsystem Bestimmung_kWh. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Bestimmung_kWh/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Bestimmung_kWh. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Bestimmung_kWh/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Bestimmung_kWh. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Bestimmung_kWh/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Bestimmung_kWh. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Bestimmung_kWh/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment4 connected to Constant(s) in subsystem Bestimmung_kWh. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Bestimmung_kWh/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment5 connected to Constant(s) in subsystem Bestimmung_kWh. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Bestimmung_kWh/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Einlaufprogramm. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Einlaufprogramm/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Einlaufprogramm. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Einlaufprogramm/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Einlaufprogramm. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Einlaufprogramm/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment4 was found in subsystem Einlaufprogramm. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Einlaufprogramm/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment5 was found in subsystem Einlaufprogramm. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Einlaufprogramm/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment6 connected to Constant(s) in subsystem Einlaufprogramm. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Einlaufprogramm/Assignment6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment7 connected to Constant(s) in subsystem Einlaufprogramm. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Einlaufprogramm/Assignment7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Restreichweite. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Restreichweite/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Restreichweite. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Restreichweite/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Restreichweite. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Restreichweite/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment4 was found in subsystem Restreichweite. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Restreichweite/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment5 was found in subsystem Restreichweite. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Restreichweite/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment6 connected to Constant(s) in subsystem Restreichweite. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Restreichweite/Assignment6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment7 connected to Constant(s) in subsystem Restreichweite. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Restreichweite/Assignment7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Hybrid. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Tankbereitschaft/Hybrid/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Hybrid. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Tankbereitschaft/Hybrid/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Hybrid. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Tankbereitschaft/Hybrid/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment5 connected to Constant(s) in subsystem Hybrid. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Tankbereitschaft/Hybrid/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Ad_Blue/Diesel/Zahl2Text_Lo/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Ad_Blue/Diesel/Zahl2Text_Lo/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Ad_Blue/Diesel/Zahl2Text_Lo/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment4 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Ad_Blue/Diesel/Zahl2Text_Lo/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment5 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Ad_Blue/Diesel/Zahl2Text_Lo/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment6 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Ad_Blue/Diesel/Zahl2Text_Lo/Assignment6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment7 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Ad_Blue/Diesel/Zahl2Text_Lo/Assignment7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment1 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/FuelTank_Luftung/Diesel/Zahl2Text_Lo/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment3 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/FuelTank_Luftung/Diesel/Zahl2Text_Lo/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment4 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/FuelTank_Luftung/Diesel/Zahl2Text_Lo/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_Crit. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Oel_Texte/Hybrid/Zahl2Text_Crit/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Zahl2Text_Crit. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Oel_Texte/Hybrid/Zahl2Text_Crit/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_Crit. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Oel_Texte/Hybrid/Zahl2Text_Crit/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment5 connected to Constant(s) in subsystem Zahl2Text_Crit. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Oel_Texte/Hybrid/Zahl2Text_Crit/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Oel_Texte/Hybrid/Zahl2Text_Lo/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Oel_Texte/Hybrid/Zahl2Text_Lo/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Oel_Texte/Hybrid/Zahl2Text_Lo/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment5 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Oel_Texte/Hybrid/Zahl2Text_Lo/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment1 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Remaining_Time_Fan/Diesel/Zahl2Text_Lo/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment3 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Remaining_Time_Fan/Diesel/Zahl2Text_Lo/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment4 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Remaining_Time_Fan/Diesel/Zahl2Text_Lo/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Soc_12V/Hybrid/Zahl2Text_Lo/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Soc_12V/Hybrid/Zahl2Text_Lo/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Soc_12V/Hybrid/Zahl2Text_Lo/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment5 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Soc_12V/Hybrid/Zahl2Text_Lo/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Time_to_Next_Engine_Start/Hybrid/Zahl2Text_Lo/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Time_to_Next_Engine_Start/Hybrid/Zahl2Text_Lo/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment4 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Time_to_Next_Engine_Start/Hybrid/Zahl2Text_Lo/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment1 was found in subsystem Zahl_to_Text. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Antrieb_Abkuehldauer/BEV/Zahl_to_Text/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment3 was found in subsystem Zahl_to_Text. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Antrieb_Abkuehldauer/BEV/Zahl_to_Text/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment4 connected to Constant(s) in subsystem Zahl_to_Text. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Antrieb_Abkuehldauer/BEV/Zahl_to_Text/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_MinSec. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Remaining_Time_CheckControl_Charge_Standstill/Hybrid/Zahl2Text_MinSec/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Zahl2Text_MinSec. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Remaining_Time_CheckControl_Charge_Standstill/Hybrid/Zahl2Text_MinSec/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_MinSec. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Remaining_Time_CheckControl_Charge_Standstill/Hybrid/Zahl2Text_MinSec/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment5 connected to Constant(s) in subsystem Zahl2Text_MinSec. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Remaining_Time_CheckControl_Charge_Standstill/Hybrid/Zahl2Text_MinSec/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_Sec. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Remaining_Time_CheckControl_Charge_Standstill/Hybrid/Zahl2Text_Sec/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_Sec. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Remaining_Time_CheckControl_Charge_Standstill/Hybrid/Zahl2Text_Sec/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment4 connected to Constant(s) in subsystem Zahl2Text_Sec. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/Remaining_Time_CheckControl_Charge_Standstill/Hybrid/Zahl2Text_Sec/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl1/Zahl2Text_Lo/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl1/Zahl2Text_Lo/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl1/Zahl2Text_Lo/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment4 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl1/Zahl2Text_Lo/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment5 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl1/Zahl2Text_Lo/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment6 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl1/Zahl2Text_Lo/Assignment6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment7 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl1/Zahl2Text_Lo/Assignment7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl2/Zahl2Text_Lo/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl2/Zahl2Text_Lo/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl2/Zahl2Text_Lo/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment4 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl2/Zahl2Text_Lo/Assignment4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment5 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl2/Zahl2Text_Lo/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment6 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl2/Zahl2Text_Lo/Assignment6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment7 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl2/Zahl2Text_Lo/Assignment7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment8 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl2/Zahl2Text_Lo/Assignment8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl3/Zahl2Text_Lo/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl3/Zahl2Text_Lo/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl3/Zahl2Text_Lo/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment6 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl3/Zahl2Text_Lo/Assignment6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment5 was found in subsystem Zahl2Text_Lo. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/CcmEmiWarnLvl3/Zahl2Text_Lo/Assignment5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/V2HSocHiCCM/Zahl2Text_Lo/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/V2HSocHiCCM/Zahl2Text_Lo/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/V2HSocHiCCM/Zahl2Text_Lo/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment1 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/V2HSocLoCCM/Zahl2Text_Lo/Assignment1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment2 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/V2HSocLoCCM/Zahl2Text_Lo/Assignment2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment3 connected to Constant(s) in subsystem Zahl2Text_Lo. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgrExt_100ms/BMW_MOD_CCMMgrExt_100ms/Bestimme_Zusatztext/V2HSocLoCCM/Zahl2Text_Lo/Assignment3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CCMMgr/Model/LIB_BMW_MOD_CCMMgr_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem CCM_Priorisierung. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgr_100ms/BMW_MOD_CCMMgr_100ms/CCM_Priorisierung/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] Found Assignment Block Assignment connected to Constant(s) in subsystem Unterdruckung. <br/> <mark><em>[Whitelisted] Functionality checked. Index cannot be out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CCMMgr_100ms/BMW_MOD_CCMMgr_100ms/XLockMatrCCMStatus/Unterdruckung/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CCMMgr/Model/LIB_BMW_SWC_CCMMgr.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId0_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId0_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId170_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId170_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId173_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId173_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId175_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId175_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2006_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2006_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2007_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2007_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2008_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2008_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2082QVM_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2082QVM_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId212_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId212_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2132_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2132_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2138_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2138_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2139_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2139_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2140_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2140_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2145_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2145_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2189_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2189_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2199_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2199_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2243_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2243_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2258_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2258_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2302_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2302_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2303_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2303_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2309_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2309_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2362_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2362_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2373_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2373_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2382_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2382_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2383_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2383_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2409_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2409_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2414_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2414_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2429_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2429_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2430_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2430_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2446_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2446_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2447_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2447_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2508_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2508_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2509_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2509_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2511_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2511_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2512_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2512_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2513_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2513_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2514_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2514_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2517_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2517_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2518_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2518_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId275_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId275_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId286_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId286_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId29_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId29_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId394_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId394_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId397_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId397_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId446_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId446_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId461_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId461_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId484_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId484_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId49_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId49_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId568_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId568_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId570_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId570_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId575_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId575_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId585_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId585_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId647_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId647_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId648_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId648_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId649_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId649_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId650_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId650_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId685_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId685_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId686_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId686_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId760_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId760_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId805_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId805_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId806_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId806_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId807_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId807_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId808_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId808_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId860_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId860_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId862_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId862_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId863_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId863_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId911_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId911_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId970_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId970_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId991_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId991_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId992_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId992_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId993_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId993_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmIdManuMgrExt_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmIdManuMgrExt_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmIdManu_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmIdManu_rc is empty. <br/> <mark><em>[Whitelisted] No Min or Max Value Needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CCMMgr/BMW_SWC_CCMMgr", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }
+        ]
+    }
+]

@@ -1,0 +1,192 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfOErrDetPreProc/Model/LIB_BMW_MOD_SfOErrDetDrvgSit_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_st_SftyDirAxlEm_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetDrvgSit_10ms/BMW_MOD_SfOErrDetDrvgSit_10ms/BMWsfoerrdet_st_SftyDirAxlEm_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_stb_SftyDrpAct_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetDrvgSit_10ms/BMW_MOD_SfOErrDetDrvgSit_10ms/BMWsfoerrdet_stb_SftyDrpAct_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SfOErrDetPreProc/Model/LIB_BMW_MOD_SfOErrDetPosnDrv_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_a_SftyActAxlPri_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetPosnDrv_10ms/BMW_MOD_SfOErrDetPosnDrv_10ms/BMWsfoerrdet_a_SftyActAxlPri_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_a_SftyActAxlSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetPosnDrv_10ms/BMW_MOD_SfOErrDetPosnDrv_10ms/BMWsfoerrdet_a_SftyActAxlSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_st_PtDirGbxPri_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetPosnDrv_10ms/BMW_MOD_SfOErrDetPosnDrv_10ms/BMWsfoerrdet_st_PtDirGbxPri_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_st_PtDirGbxSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetPosnDrv_10ms/BMW_MOD_SfOErrDetPosnDrv_10ms/BMWsfoerrdet_st_PtDirGbxSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_v_SftyAxlPri_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetPosnDrv_10ms/BMW_MOD_SfOErrDetPosnDrv_10ms/BMWsfoerrdet_v_SftyAxlPri_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_v_SftyVehVad_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetPosnDrv_10ms/BMW_MOD_SfOErrDetPosnDrv_10ms/BMWsfoerrdet_v_SftyVehVad_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SfOErrDetPreProc/Model/LIB_BMW_MOD_SfOErrDetWhlRotl_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_aga_SftyAxlPri_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetWhlRotl_10ms/BMW_MOD_SfOErrDetWhlRotl_10ms/BMWsfoerrdet_aga_SftyAxlPri_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_aga_SftyAxlSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetWhlRotl_10ms/BMW_MOD_SfOErrDetWhlRotl_10ms/BMWsfoerrdet_aga_SftyAxlSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_agv_SftyAxlPri_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetWhlRotl_10ms/BMW_MOD_SfOErrDetWhlRotl_10ms/BMWsfoerrdet_agv_SftyAxlPri_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_agv_SftyAxlSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetWhlRotl_10ms/BMW_MOD_SfOErrDetWhlRotl_10ms/BMWsfoerrdet_agv_SftyAxlSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_j_SftyRotGbxPri_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetWhlRotl_10ms/BMW_MOD_SfOErrDetWhlRotl_10ms/BMWsfoerrdet_j_SftyRotGbxPri_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_j_SftyRotGbxSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetWhlRotl_10ms/BMW_MOD_SfOErrDetWhlRotl_10ms/BMWsfoerrdet_j_SftyRotGbxSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_tq_RotGbxPri_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetWhlRotl_10ms/BMW_MOD_SfOErrDetWhlRotl_10ms/BMWsfoerrdet_tq_RotGbxPri_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_tq_RotGbxSec_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetWhlRotl_10ms/BMW_MOD_SfOErrDetWhlRotl_10ms/BMWsfoerrdet_tq_RotGbxSec_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SfOErrDetPreProc/Model/LIB_BMW_MOD_SfOErrDetTqCnvn_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfoerrdet_v_SftyVehVad_rc seems to be wrongly connected to the inport In. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] All the ports are connected correctly</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOErrDetTqCnvn_10ms/BMW_MOD_SfOErrDetTqCnvn_10ms/BMWsfoerrdet_v_SftyVehVad_rc", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

@@ -1,0 +1,924 @@
+[
+    {
+        "path": "ART_BMW_SWC_FstRx/CCU01BEV21BMW/BMW_SWC_FstRx.c", 
+        "findings": [
+            {
+                "startLine": "11341", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5375401d8524c96ea9d4a87aebca3e4e8328d80b7b53385359088a0c9e468f67"
+                }, 
+                "justification": "", 
+                "message": "[11341:55] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "11608", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cd6c448575152a6aef57549f73199f920177eb20b7d6d6db208f9bba32931272"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[11608:57] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }, 
+            {
+                "startLine": "11662", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "18bf5f38d93c5f4c56b4fd146dc8e8276477d31f9e79c3f96f8c9a65675c4342"
+                }, 
+                "justification": "", 
+                "message": "[11662:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "11724", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "846d93f32bd3f4487b4ba1dc4fb5027cc0991e98392500497c3b807bf39689e8"
+                }, 
+                "justification": "", 
+                "message": "[11724:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "11817", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "675b3105c31ae23dec58e31c7544cae22207bde50f0518e425e46280ce28ea7c"
+                }, 
+                "justification": "", 
+                "message": "[11817:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "12234", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "aa031e1218137be7d095e33cf110aab98b3c42627cb6ae177fc0b58e0f901800"
+                }, 
+                "justification": "", 
+                "message": "[12234:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "12684", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[12684:10] 'tmp_5' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "12784", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b50e67e11e7879ec7bc13ad469cd5e81b6396fa53e3545b17a931745f5c8ff51"
+                }, 
+                "justification": "", 
+                "message": "[12784:14] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "12788", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "68f877ddfcfe3d5b90bf73cf763d1852a95c78a37c83ec8fa4eb5921ab3ed4dd"
+                }, 
+                "justification": "", 
+                "message": "[12788:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "12876", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "415c0c1d98776bef8f3bbf8a6d52d6d4a14106be55ce45e114e5f1169db817cf"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[12876:10] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }, 
+            {
+                "startLine": "13940", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9d8eefefb0e7dbf88f0d44f168466e81768baa52b8a67c65fcc240244b66c20c"
+                }, 
+                "justification": "", 
+                "message": "[13940:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "14118", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9d8eefefb0e7dbf88f0d44f168466e81768baa52b8a67c65fcc240244b66c20c"
+                }, 
+                "justification": "", 
+                "message": "[14118:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "14339", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ecca2e4d621920a3e235d8d6cbe4ce1bf01cea900da44d1e6d32e632a947cd4e"
+                }, 
+                "justification": "", 
+                "message": "[14339:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "14707", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "aa17ee7b27486a3fabd5ed18afc7ec5fecfa8c3306d9fb0dc81f93eab48f34d3"
+                }, 
+                "justification": "", 
+                "message": "[14707:16] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "14743", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "aa17ee7b27486a3fabd5ed18afc7ec5fecfa8c3306d9fb0dc81f93eab48f34d3"
+                }, 
+                "justification": "", 
+                "message": "[14743:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "15224", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "170bdec7ec66bf2e2a7a0db0258e30785065d0ec177cef8024600c597dc18973"
+                }, 
+                "justification": "", 
+                "message": "[15224:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "15228", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "170bdec7ec66bf2e2a7a0db0258e30785065d0ec177cef8024600c597dc18973"
+                }, 
+                "justification": "", 
+                "message": "[15228:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "16201", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f9ee8b3033a9bc85d2fa9c2f86ed4658f70f472346581d1720f2f3e86d64e5b8"
+                }, 
+                "justification": "", 
+                "message": "[16201:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "16360", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6d5f10bb0a3da76acc81dcd4a917efa2a167cc56b77cc42303237c6b029cc945"
+                }, 
+                "justification": "", 
+                "message": "[16360:12] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "16709", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0cdd5af92281f3f3e5c76819b89f7b15183dd0985073ca4de0aca2890ce832e4"
+                }, 
+                "justification": "", 
+                "message": "[16709:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "16917", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d0900fbc2e17be41e1b588855d57d89aac8be0f91bece1067e2aa5b371abbd49"
+                }, 
+                "justification": "", 
+                "message": "[16917:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "16926", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7002fd65b48ba9e1570f7cbe71f40e8d84114c05027fae57f315bddc77c39c4e"
+                }, 
+                "justification": "", 
+                "message": "[16926:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "17135", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "90209d03035d1bc75f4b1a7bb245186f24c8f9f36b1217cdd462280794e4745c"
+                }, 
+                "justification": "", 
+                "message": "[17135:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "17347", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7174b479dc59722940def55389c886a746ff3b9dc3ed18295c3bbd36b6dff323"
+                }, 
+                "justification": "", 
+                "message": "[17347:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "17349", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "db50f6dcaa7d4634a9b7037a4ba8cf01dad2a842d964ff5a1dcb2acaa8ad5fd6"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[17349:8] Last unreachable statement.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1573.whitelisted"
+            }, 
+            {
+                "startLine": "17408", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "40a594c0d7f7880b19e1c6d37fdc3ba60653e504382eb38facce600327c74b0b"
+                }, 
+                "justification": "", 
+                "message": "[17408:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "17417", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "048e2bf368f3fd701f47a24358261e003bc6ca88b31cc87fa35d553639f72dc3"
+                }, 
+                "justification": "", 
+                "message": "[17417:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "17624", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a77e98733e63d459d9c4890ad75da2baa423291495d7745495cc329b66118c0a"
+                }, 
+                "justification": "", 
+                "message": "[17624:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "17626", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "742504d7c47de49ea897c97a434a04c5de0ec494d33b2d6baad70f8e9eeb0775"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[17626:8] Last unreachable statement.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1573.whitelisted"
+            }, 
+            {
+                "startLine": "18238", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "07423562866a8c25f38926ef2f1f06385cae3daabce3dddf0050fa699be7f06d"
+                }, 
+                "justification": "", 
+                "message": "[18238:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "20555", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "236e711dd2ed80130b35de6e2d1147fbe3e88372a1da29f035d5defe473aba26"
+                }, 
+                "justification": "", 
+                "message": "[20555:12] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "21604", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9b13ee36492ac950736a0e0810b6e7825ce361d9d063a0ea698ac2e4e259d708"
+                }, 
+                "justification": "", 
+                "message": "[21604:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "21735", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fde1e9cdcc1185a821c289b6fc94cc7437d2e37514a8f4ae1a9ad092e0ddf2b7"
+                }, 
+                "justification": "", 
+                "message": "[21735:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "22540", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d4407d23474834d8ca8e4093a80013a2b20840bb3c22674f04256e02181dd294"
+                }, 
+                "justification": "", 
+                "message": "[22540:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "22549", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "256c35c082b0b71e70dfde511f0b47a61da8a467338dfdfc3cd3a6fa750025c7"
+                }, 
+                "justification": "", 
+                "message": "[22549:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "22780", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f93028033051253648cab67fc9e0d1b213368625535b7d067ae065124058b560"
+                }, 
+                "justification": "", 
+                "message": "[22780:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "22946", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "36e755a2689b0d0df2b119ec56d144678065aa7d41498a8d00f5dcba28337315"
+                }, 
+                "justification": "", 
+                "message": "[22946:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "23189", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2b0d6e1cb73de1f563d2cc99011b579556b4bf86a85f303879e0c44863a9049b"
+                }, 
+                "justification": "", 
+                "message": "[23189:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "23847", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e9c0c757e79eba502bfafbad0b5e799d360af3da8cba1e715ffb36e6516825c0"
+                }, 
+                "justification": "", 
+                "message": "[23847:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "23858", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "acbdd81477170604e27121ac74b2cbcdb7a77c2fa0ead8f9c3aa4a2f80bca86e"
+                }, 
+                "justification": "", 
+                "message": "[23858:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "23947", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "47bf60bb970e99444256a370516689ccb56cee12f5f11ea03c924a35479d01b7"
+                }, 
+                "justification": "", 
+                "message": "[23947:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "24922", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cc61f79b946c5cd700e461925a2e637b33ebbe316d12113e09058f66d551ca69"
+                }, 
+                "justification": "", 
+                "message": "[24922:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "24989", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "caae05bbee6080fb2fb0b2b24e5fb81e24e8a538cb260165a4afa2af1e13f9cd"
+                }, 
+                "justification": "", 
+                "message": "[24989:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "24998", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "88186443e88fd4c676f42347a15b860ac7932e0c3d8c9fddcbfafed4ba8a690b"
+                }, 
+                "justification": "", 
+                "message": "[24998:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "25387", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a4cdbcded73e83497e1da758d60ca5c09ee2d14d13426a99ed160d118fc2fd1d"
+                }, 
+                "justification": "", 
+                "message": "[25387:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "25569", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4bc1e59a6838e136346701e8128cb92aef50e9804509124944d63ace29f0a839"
+                }, 
+                "justification": "", 
+                "message": "[25569:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "25689", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f8d2be3315f219147eb5709bc54474060d2628c1bd720529bcc6ca7aafabd7df"
+                }, 
+                "justification": "", 
+                "message": "[25689:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "26075", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ec7abe69f68891ffa1f1f1c2fadcb4e4c3cb033c60f16d0fbe606b1fc3987793"
+                }, 
+                "justification": "", 
+                "message": "[26075:12] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "26133", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "863780e3b5d42b582d8d547fde3a4d5ffcd459378c338285155a8a9f05345cc8"
+                }, 
+                "justification": "", 
+                "message": "[26133:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "26189", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7d57b06164bd96be4f3f231cf70aa50633f0aa7084ac7ae3d9e30262f695145b"
+                }, 
+                "justification": "", 
+                "message": "[26189:10] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "26191", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "aedeb22672bca8a093c408d1306e38a6c8e3d8cb1855384417541a9125fe2065"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[26191:10] Last unreachable statement.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1573.whitelisted"
+            }, 
+            {
+                "startLine": "2848", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5965fa388017fb96dc6d6c4d2303de46d7d470ddfa973e4fd1e3c2ba707f1367"
+                }, 
+                "justification": "", 
+                "message": "[2848:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "2857", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9f62f337a27d49c9575ad22db6c8d7d659152ceecfec13bbfff8ef899332ad43"
+                }, 
+                "justification": "", 
+                "message": "[2857:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3228", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3b5b9478787550e851176a78070dff83fdddd8a7f9fb2df59ae21b0f9c02706a"
+                }, 
+                "justification": "", 
+                "message": "[3228:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3237", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f81a2b6366e8323bedef5a3e0ef838949914e704f970a5c7b09fc7b7204c766c"
+                }, 
+                "justification": "", 
+                "message": "[3237:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3571", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7daba444ff19afe6bec04b3cd2047440ad24e4ffd49f64a22293f337f771e2fb"
+                }, 
+                "justification": "", 
+                "message": "[3571:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3580", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ba44efa76b817dbfc68a9123a5127cfc7f079e54f0276ff418708bf9c924555d"
+                }, 
+                "justification": "", 
+                "message": "[3580:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "378", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[378:17] 'BMW_SWC_FstRx_DW' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "3933", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a5667c60cf1e968ad1d47eed3b4c75709a9bb77738054548147bf5f0dd07a6b2"
+                }, 
+                "justification": "", 
+                "message": "[3933:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "3942", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "02385943c21db121d1f95833776ce0ddfea3768714d873f450cbfcd0e6f03cb9"
+                }, 
+                "justification": "", 
+                "message": "[3942:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "4177", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ead84fa613022d342ab115eaf711d9ac7034a15c186490ea612bad40c16f47dd"
+                }, 
+                "justification": "", 
+                "message": "[4177:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "4186", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c44c4142ba6cd959e8d93c66e802a1c32a4c0b44b995835e49a96325fee61870"
+                }, 
+                "justification": "", 
+                "message": "[4186:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "4463", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1d5904e1b9389e4bb36b4797460e85aa38a32b714c4f2d2fbe3c7b27bf73a9ea"
+                }, 
+                "justification": "", 
+                "message": "[4463:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "4472", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8970e7b945052215b500b551d1b320d574897ff0ac337f12ec86f3572efd8143"
+                }, 
+                "justification": "", 
+                "message": "[4472:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "4707", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cea547adb0275c91ad6521bb572bcf39b7cc057719022a424e79093ffcd191ad"
+                }, 
+                "justification": "", 
+                "message": "[4707:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "4716", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "abdbe8861ff018d1bf2aa37f98dbaa176ef77376defe2db4e9f22954f17f761d"
+                }, 
+                "justification": "", 
+                "message": "[4716:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "4993", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e999c8d368fb469226fc12f3059b19a32538c442089d11edde84491b1c9e5055"
+                }, 
+                "justification": "", 
+                "message": "[4993:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "5002", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "917101a2ae262702d05452d378f3fc9964e0bc3b74d09324d2448f4c1ae29112"
+                }, 
+                "justification": "", 
+                "message": "[5002:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "5522", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ce92e66caba2ec20aa28cec9581597e95b252a9bd82618bdfb685f503ff9ce0e"
+                }, 
+                "justification": "", 
+                "message": "[5522:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "5531", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "310aa650c498bd413c5fca8cdaa97c22dedf6848f50e3ea285d9f774a0afc5b6"
+                }, 
+                "justification": "", 
+                "message": "[5531:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "6497", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1a9f259e723f5db84d5fdd5b240761de5ef248e9ca3f3adeddb70fc04bc815b1"
+                }, 
+                "justification": "", 
+                "message": "[6497:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "7127", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f1407ccc6c52c1bb3d2568a53a896d096a0edbcf5fa6a7d83b541b3dc0926448"
+                }, 
+                "justification": "", 
+                "message": "[7127:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "7463", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5cb0b078b048e3577cf9d7745e3eef44fdce3356d55ee3965880265de1bb5304"
+                }, 
+                "justification": "", 
+                "message": "[7463:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "7528", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4f1be9f2b77f90eeff979852ae17bb674203f60d3221aa825f7b971fe91bb3c2"
+                }, 
+                "justification": "", 
+                "message": "[7528:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "7530", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4f1be9f2b77f90eeff979852ae17bb674203f60d3221aa825f7b971fe91bb3c2"
+                }, 
+                "justification": "", 
+                "message": "[7530:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "8130", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e3e8627b1728724d7f04c8cac980ee70e8d36035cb268e996cda5e2fbe74021c"
+                }, 
+                "justification": "", 
+                "message": "[8130:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "8400", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1ebbf6b6e3a362f2997d558fbcb06bf3f692c3f6e6defbd94db3099638795e16"
+                }, 
+                "justification": "", 
+                "message": "[8400:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "8608", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ce8d9b8dbad9380a10d9a423d1b6967b514cfb62d32d6e80ef7dae9933494cc0"
+                }, 
+                "justification": "", 
+                "message": "[8608:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "8660", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ed7fae0d66c92e2a10c9ee27d6b5d9f20dc24c33c509cfdb8db0bf6a89e36415"
+                }, 
+                "justification": "", 
+                "message": "[8660:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "8663", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ed7fae0d66c92e2a10c9ee27d6b5d9f20dc24c33c509cfdb8db0bf6a89e36415"
+                }, 
+                "justification": "", 
+                "message": "[8663:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "9268", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b8dcb22fcab2fa018626f7dd1769fea86d79bd7c69a6b1d149295bd6e978ad35"
+                }, 
+                "justification": "", 
+                "message": "[9268:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "9555", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "90f34db64a0789762b86f3964158416b0bcf4ebf9cbdc7435a34e32710a2899b"
+                }, 
+                "justification": "", 
+                "message": "[9555:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "9577", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6b738ff4b5c97a1d2ea383e6d3f147269b8e2bf963171d4add234a60acc3e63a"
+                }, 
+                "justification": "", 
+                "message": "[9577:8] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_FstRx/CCU01BEV21BMW/BMW_SWC_FstRx_data.c", 
+        "findings": []
+    }
+]

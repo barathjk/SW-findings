@@ -1,0 +1,37 @@
+[
+    {
+        "path": "SVN_BMW_SWC_LdkDiag/Model/LIB_BMW_MOD_LdkDiag_10ms_p.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion6 is not necessary because the input and output data type are both single. <br/> <mark><em>[Whitelisted] environmental values (UWBs) are not same data type like internal signals. Conversion needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LdkDiag_10ms_p/BMW_MOD_LdkDiag_10ms_p/Data Type Conversion6", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion7 is not necessary because the input and output data type are both single. <br/> <mark><em>[Whitelisted] environmental values (UWBs) are not same data type like internal signals. Conversion needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LdkDiag_10ms_p/BMW_MOD_LdkDiag_10ms_p/Data Type Conversion7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion8 is not necessary because the input and output data type are both single. <br/> <mark><em>[Whitelisted] environmental values (UWBs) are not same data type like internal signals. Conversion needed.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LdkDiag_10ms_p/BMW_MOD_LdkDiag_10ms_p/Data Type Conversion8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }
+        ]
+    }
+]

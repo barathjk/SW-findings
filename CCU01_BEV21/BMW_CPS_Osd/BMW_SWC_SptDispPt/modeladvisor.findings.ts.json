@@ -1,0 +1,107 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SptDispPt/Model/LIB_BMW_MOD_AbkTqcLda_50ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Notwendig fr korrekte Berechnung</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcLda_50ms/BMW_MOD_AbkTqcLda_50ms/Berechnung_Leistung_und_Drehmoment/Umrechnung_der_Leistung_auf_Anzeigenskalierung/Product1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product3 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] See OSD-1154</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcLda_50ms/BMW_MOD_AbkTqcLda_50ms/Berechnung_Leistung_und_Drehmoment/Umrechnung_der_Leistung_auf_Anzeigenskalierung/Product3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Saturation Dynamic2 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] See OSD-1154</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcLda_50ms/BMW_MOD_AbkTqcLda_50ms/Berechnung_Leistung_und_Drehmoment/Umrechnung_der_Leistung_auf_Anzeigenskalierung/Saturation Dynamic2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Saturation Dynamic1 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] See OSD-1154</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcLda_50ms/BMW_MOD_AbkTqcLda_50ms/Berechnung_Leistung_und_Drehmoment/Umrechnung_des_Moments_auf_Anzeigenskalierung/Saturation Dynamic1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product4 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] See OSD-1154</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcLda_50ms/BMW_MOD_AbkTqcLda_50ms/Berechnung_Leistung_und_Drehmoment/Umrechnung_des_Moments_auf_Anzeigenskalierung/Product4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Product2 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] see OSD-1192</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcLda_50ms/BMW_MOD_AbkTqcLda_50ms/Berechnung_Leistung_und_Drehmoment/Umrechnung_des_Moments_auf_Anzeigenskalierung/Product2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] see OSD-1192</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcLda_50ms/BMW_MOD_AbkTqcLda_50ms/Berechnung_Leistung_und_Drehmoment/Umrechnung_der_Leistung_auf_Anzeigenskalierung/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Nearest instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] see OSD-1192</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcLda_50ms/BMW_MOD_AbkTqcLda_50ms/Berechnung_Leistung_und_Drehmoment/Umrechnung_des_Moments_auf_Anzeigenskalierung/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWosd_tq_EmPriCtlrTqSp has the variant condition BMW_PT_TOP_EL_SC_EQU_1_OR_BMW_PT_TOP_AXHY_SC_EQU_1 in ADD but is used within a variant condition Var_Abk_Tqc_Lda_EM2 in process blockBMW_MOD_AbkTqcLda_50ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Implementierung i.O</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcLda_50ms/BMW_MOD_AbkTqcLda_50ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The parameter BMWtqc_swi_SelEm2TqSrc_C has the variant condition BMW_PT_TOP_EL_SC_EQU_1_OR_BMW_PT_TOP_AXHY_SC_EQU_1 in ADD but is used within a variant condition Var_Abk_Tqc_Lda_EM2 in process blockBMW_MOD_AbkTqcLda_50ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] Implementierung i.O</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_AbkTqcLda_50ms/BMW_MOD_AbkTqcLda_50ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

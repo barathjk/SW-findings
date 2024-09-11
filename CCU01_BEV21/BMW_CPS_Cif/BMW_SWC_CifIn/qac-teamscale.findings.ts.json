@@ -1,0 +1,414 @@
+[
+    {
+        "path": "ART_BMW_SWC_CifIn/CCU01BEV21BMW/BMW_SWC_CifIn.c", 
+        "findings": [
+            {
+                "startLine": "1029", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e1b0e14a22bb4cca08be917bb7aba0d8ea6e84fdeb1db974e26a9eb3681e19f2"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1029:4] Variable 'rtb_TmpSignalConversionAtrpBMW_st_OprChaCtlFlp_BMW_st_OprChaCtlFlp_errorOutport1' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1033", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0041c10ef02ac54c33e5434cff7a2d5700a984040c417e83af060ee778ffa7f0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1033:20] Variable 'rtb_sigConversion' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1045", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cc78b6fd980d0f7a0d2c2a69ea884ec669643c8c2325b148e14f3d8dc64976e4"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1045:11] Variable 'u1_val' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1046", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cc78b6fd980d0f7a0d2c2a69ea884ec669643c8c2325b148e14f3d8dc64976e4"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1046:11] Variable 'u2_val' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1047", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cc59dea8d6749526991ff018609f7c0659828ed560a2d2fd0019c90d4ad4bcd0"
+                }, 
+                "justification": "", 
+                "message": "[1047:43] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "1083", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b7783ec56c16a7f1bddb1f275e71bbe441e57526b3c927bb7a7bd07a9ef8e0bf"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1083:4] Variable 'rtb_TmpSignalConversionAtrpBMW_st_OprChaCtlRemPlug_BMW_st_OprChaCtlRemPlug_errorOutport1' previously seen here. (Specimen value: '15').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1088", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7dc6fc1fcbcca7a05ef16fbffc73cb3798a5c7ed45cf64f30c27bde9ebd7f0bd"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1088:6] Variable 'rtb_TmpSignalConversionAtrpBMW_st_OprChaCtlRemPlug_BMW_st_OprChaCtlRemPlug_errorOutport1' previously seen here. (Specimen value: '15').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1089", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7dc6fc1fcbcca7a05ef16fbffc73cb3798a5c7ed45cf64f30c27bde9ebd7f0bd"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1089:22] Variable 'rtb_sigConversion' previously seen here. (Specimen value: '15').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1092", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7dc6fc1fcbcca7a05ef16fbffc73cb3798a5c7ed45cf64f30c27bde9ebd7f0bd"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1092:22] Variable 'rtb_sigConversion' previously seen here. (Specimen value: '15').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1106", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f7f281f4d4df75b83dc73e62a99808f7ebc178932e3a909c8e69853fe1791349"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1106:11] Variable 'u1_val' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1107", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f7f281f4d4df75b83dc73e62a99808f7ebc178932e3a909c8e69853fe1791349"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1107:11] Variable 'u2_val' previously seen here. (Specimen value: '15').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1108", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "de85acf2009b9bab0870673f36a691a2057780f3275c7912130c09dd02b93a9f"
+                }, 
+                "justification": "", 
+                "message": "[1108:43] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "1144", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9f9de81b99e948a7678324c8951354d70a0438f122c3a72601d6660df04666ad"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1144:4] Variable 'rtb_TmpSignalConversionAtrpBMW_st_CtlHospFctRem_BMW_st_CtlHospFctRem_errorOutport1' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1148", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8c5a7e0de4ed8ff642e708f13216cac38c025cf1709b73e901b21415d1e1db51"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1148:20] Variable 'rtb_sigConversion' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1160", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a75528a49803eb6cbb9c93302aea3799db7674ffa1197980976c52262e795691"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1160:11] Variable 'u1_val' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1161", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a75528a49803eb6cbb9c93302aea3799db7674ffa1197980976c52262e795691"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1161:11] Variable 'u2_val' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1162", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f8034043670837adb97b19c1e17fb21f6bb1272f00ad6a63c5631a879c334e28"
+                }, 
+                "justification": "", 
+                "message": "[1162:43] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "1368", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "09d7f5095fe79cc0df330353f02487d1de9f01b0344c7cc1d97378971087d3df"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1368:4] Variable 'rtb_TmpSignalConversionAtrpBMW_st_OprChaCtlPlug_BMW_st_OprChaCtlPlug_errorOutport1' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1372", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3748f595d227e41102cb5f2f8453796ae1fbdbf5fa521cc5562cd9d0aef4c06b"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1372:20] Variable 'rtb_sigConversion' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1384", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "34fe8caa528afb30ea2166c6b88dd21e6a432dfaf307f249945cfd1ce235a12c"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1384:11] Variable 'u1_val' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1385", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "34fe8caa528afb30ea2166c6b88dd21e6a432dfaf307f249945cfd1ce235a12c"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1385:11] Variable 'u2_val' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1386", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a24ade37994558d668ac516ce352a00ff3a5b9ae95084d591f9b07a6bfa39ca7"
+                }, 
+                "justification": "", 
+                "message": "[1386:43] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "1436", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "22591d75560b93c45da773b6193dc9d51ede256e40fc80a5c9e7d10da8dd73ab"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1436:79] Variable 'rtb_TmpSignalConversionAtrpBMW_st_CtlHospFct_BMW_st_CtlHospFct_errorOutport1' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1441", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8e0d56cc24998f4f2910d58e90f4236c2f25240f8fec16b86db7717930581d7a"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1441:20] Variable 'rtb_sigConversion' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1453", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "78ca268e4cf056c60be969e98809117a13920cec1ecac495b2d5fe0a449a2fca"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1453:11] Variable 'u1_val' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1454", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "78ca268e4cf056c60be969e98809117a13920cec1ecac495b2d5fe0a449a2fca"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1454:11] Variable 'u2_val' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1455", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "34a894683902d4a4f53a5582daf7025e3ddd230e01be513ccb7fc998b6039f47"
+                }, 
+                "justification": "", 
+                "message": "[1455:43] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "2900", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "797f909fa4bac4876f18dfdc0aeb6ab108c8160b45eec9ca930aa4e8cebbce37"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2900:4] Variable 'rtb_TmpSignalConversionAtrpBMW_st_CtlChaPlugLockVehShrd_BMW_st_CtlChaPlugLockVehShrd_errorOutport1' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2904", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "81188c9cdd7b55701a5c674539bd5688593ec0f7c4c21d2f4984c82ee4eccda8"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2904:22] Variable 'rtb_sigConversion_a' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2916", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "89f0491da5bbd7d736b6190d26929b17a7dd9def4182d8d759f39d3821924275"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2916:11] Variable 'u1_val' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2917", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "89f0491da5bbd7d736b6190d26929b17a7dd9def4182d8d759f39d3821924275"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2917:11] Variable 'u2_val' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "2918", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "563432525ca7de64c6e97db998fe7526cea925108d96a4ca50326a1c3e9a08fd"
+                }, 
+                "justification": "", 
+                "message": "[2918:45] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }, 
+            {
+                "startLine": "947", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ed7b8fe46417170bdd2ccba3f291a76b489b7abebd3be0dd241a458869b98414"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[947:4] Variable 'rtb_TmpSignalConversionAtrpBMW_st_OprChaCtlRemFlp_BMW_st_OprChaCtlRemFlp_errorOutport1' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "951", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "09b480cba5631fa9c07a91bc4c30477c1722e15fc794158f96cbde6db8c15353"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[951:20] Variable 'rtb_sigConversion' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "963", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bf5ba0a58db069dfe7cb17123bfb6e2f82d0db6bedd5434829ee7474bb4c30ac"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[963:11] Variable 'u1_val' previously seen here. (Specimen value: '1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "964", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bf5ba0a58db069dfe7cb17123bfb6e2f82d0db6bedd5434829ee7474bb4c30ac"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[964:11] Variable 'u2_val' previously seen here. (Specimen value: '255').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "965", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "675c7e3414b837df947020d9097d75c0a3758a1da788545439f0873f80d478fa"
+                }, 
+                "justification": "", 
+                "message": "[965:43] This operation is redundant. The value of the result is always that of the right-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2986"
+            }
+        ]
+    }
+]

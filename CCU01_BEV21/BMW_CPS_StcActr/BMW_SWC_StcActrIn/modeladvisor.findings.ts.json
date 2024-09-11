@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_StcActrIn/Model/LIB_BMW_MOD_FanStc_In_200ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMW_rc_SpFan1_rc has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_OR_BMW_PT_TOP_FULLHY_SC_EQU_1_D636 in ADD but is used within a variant condition BMW_PT_TOP_FULLHY_SC_EQU_1_3BDB in process blockBMW_MOD_FanStc_In_200ms. This might lead to wrong code.", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_FanStc_In_200ms/BMW_MOD_FanStc_In_200ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor.bace_0198"
+            }
+        ]
+    }
+]

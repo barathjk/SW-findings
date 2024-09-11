@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SbwOut/Model/LIB_BMW_MOD_SbwOutMsc_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsbw_posn_TarAvl seems to be wrongly connected to the inport posn. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The connection with Unmap_Position Block is OK</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SbwOutMsc_10ms/BMW_MOD_SbwOutMsc_10ms/PositionOutput/AvailableDrivePositions/BMWsbw_posn_TarAvl", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

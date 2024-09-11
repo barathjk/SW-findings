@@ -1,0 +1,62 @@
+[
+    {
+        "path": "ART_BMW_SWC_AsIn/CCU01BEV21BMW/BMW_SWC_AsIn.c", 
+        "findings": [
+            {
+                "startLine": "4009", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5d41cf18c358d85a061e022ececbf9b30084b8edc378262a4141f0746b9931f7"
+                }, 
+                "justification": "", 
+                "message": "[4009:13] Possible: Division by zero. [MISRA C: 5.4]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2834"
+            }, 
+            {
+                "startLine": "4789", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4789:9] 'rtb_TmpSignalConversionAtrpBMWosc_n_Ck10_BMWosc_n_Ck10_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "4791", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[4791:4] 'rtb_TmpSignalConversionAtrpBMWosc_I_em1_gb1in_BMWosc_I_em1_gb1in_readOutport1' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "4877", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "447c09a55e0fd6bea5d8fa9615233f89f90e1779a483ad98f4e855efb5c7bc15"
+                }, 
+                "justification": "", 
+                "message": "[4877:70] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }, 
+            {
+                "startLine": "4883", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "54914192b4ead22938e23d1cb13483790debef9bf17f9205f296b371263208c6"
+                }, 
+                "justification": "", 
+                "message": "[4883:80] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }
+        ]
+    }
+]

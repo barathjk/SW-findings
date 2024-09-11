@@ -1,0 +1,32 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfBrkEvaProc/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "findingProperties": {
+                        "findingSource": "symp:/#?type=InternalVariable"
+                    }, 
+                    "uniqueId": "bdf3df1cee440f0645a7484b250dbe9ecf718828e94a9a7961b9420dd3562ed9"
+                }, 
+                "message": "Variable [Variable 'BMWsfbrkeva_st_DrpGrbAct_rc'] is using initialization policy [CLEARED] but specifies an initial value equals to 0", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_WRONG_INIT_VALUE"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }
+        ]
+    }
+]

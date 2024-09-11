@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvChaSigIn/CCU01BEV21BMW/BMW_SWC_HvChaSigIn.c", 
+        "findings": [
+            {
+                "startLine": "11273", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "50db157d6e1d4c6392e4420813a8c92098008e630f4a9fec27dfd3f585ccc88d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][11273] Uninitialized Variable", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.UVAR"
+            }
+        ]
+    }
+]

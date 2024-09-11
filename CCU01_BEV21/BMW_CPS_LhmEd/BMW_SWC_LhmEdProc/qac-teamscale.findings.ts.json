@@ -1,0 +1,73 @@
+[
+    {
+        "path": "ART_BMW_SWC_LhmEdProc/CCU01BEV21BMW/BMW_SWC_LhmEdProc.c", 
+        "findings": [
+            {
+                "startLine": "1146", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1146:4] 'rtb_TmpSignalConversionAtrpBMWlhmed_st_ErrHvStrEd_BMWlhmed_st_ErrHvStrEd_readOutport1_m' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "1195", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1195:8] 'rtb_Init_cu' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "5991", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5a650455c01326d83d940b39c93787d082e3a426e3cf27b12c2ac0c261e6d184"
+                }, 
+                "justification": "", 
+                "message": "[5991:8] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "5997", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b420f2c080c18f7ce459ea0aed52553807902be87ea9b968a1e8029d5c018b04"
+                }, 
+                "justification": "", 
+                "message": "[5997:18] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "6007", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "8d9f8a790c645f8c16c45463d62b470417c4375d8383b8ec069bfd7dda27d541"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[6007:10] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }, 
+            {
+                "startLine": "6010", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "567c9f4263ecdb65968dfff7cc34aecffff00ef7347f783fdd2ff98a5bb9b1a1"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[6010:20] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }
+        ]
+    }
+]

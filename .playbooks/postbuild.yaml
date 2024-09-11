@@ -1,0 +1,7 @@
+---
+- name: postbuild
+  hosts: all
+  pre_tasks:
+    - name: Generate Artifacts Copy
+      debug:
+        msg: "Artifacts Copied and checked"

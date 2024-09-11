@@ -1,0 +1,112 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfHvChaMain/Model/Lib_BMW_MOD_SfHvChaCifMain_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] This conversion is used to fix MA Nv problem</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifMain_10ms/BMW_MOD_SfHvChaCifMain_10ms/CablePluggedDetection/DcChinaOrChaoJiCablePluggedDetection/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion1 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] This conversion is used to fix MA Nv problem</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifMain_10ms/BMW_MOD_SfHvChaCifMain_10ms/CablePluggedDetection/DcChinaOrChaoJiCablePluggedDetection/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWshc_u_ChaIfPiw seems to be wrongly connected to the inport u_ChaIfPiw. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is not wrongly connected. It is internal label for documentation</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifMain_10ms/BMW_MOD_SfHvChaCifMain_10ms/Pilot/BMWshc_u_ChaIfPiw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWshc_frq_ChaIfPiw seems to be wrongly connected to the inport frq_ChaIfPiw. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is not wrongly connected. It is internal label for documentation</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifMain_10ms/BMW_MOD_SfHvChaCifMain_10ms/Pilot/BMWshc_frq_ChaIfPiw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWshc_rat_ChaIfPiw seems to be wrongly connected to the inport rat_ChaIfPiw. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is not wrongly connected. It is internal label for documentation</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifMain_10ms/BMW_MOD_SfHvChaCifMain_10ms/Pilot/BMWshc_rat_ChaIfPiw", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWshc_b_ChaAvlAcChn seems to be wrongly connected to the inport VehicleChargingTypeChina. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is not wrongly connected. It is internal label for documentation</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifMain_10ms/BMW_MOD_SfHvChaCifMain_10ms/Pilot/BMWshc_b_ChaAvlAcChn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWshc_st_ChaRdyPiwInt seems to be wrongly connected to the inport ChaRdyPiw. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is not wrongly connected. It is internal label for documentation</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifMain_10ms/BMW_MOD_SfHvChaCifMain_10ms/Pilot/BMWshc_st_ChaRdyPiwInt", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport ChaIfCblPlgdInProx seems to be wrongly connected to the outport BMWshc_st_ChaIfCblPlgdInProx. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is not wrongly connected. It is internal label for documentation</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifMain_10ms/BMW_MOD_SfHvChaCifMain_10ms/CablePluggedDetection/AcCcsCablePluggedDetection/ProximityResistanceEvaluation/ChaIfCblPlgdInProx", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport DcCcsCblPlgdInt seems to be wrongly connected to the outport BMWshc_st_DcCcsCblPlgd. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is not wrongly connected. It is internal label for documentation</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifMain_10ms/BMW_MOD_SfHvChaCifMain_10ms/CablePluggedDetection/DcCcsCablePluggedDetection/ConsolidationWithPilot/DcCcsCblPlgdInt", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_SfHvChaMain/Model/Lib_BMW_MOD_SfHvChaCifMain_1ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWshc_b_ChaAvlAc2 seems to be wrongly connected to the inport BMWshc_b_ChaAc2_bo. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal is not wrongly connected. It is internal label for documentation</em></mark>", 
+                "identifier": "SimulinkBlock:Lib_BMW_MOD_SfHvChaCifMain_1ms/BMW_MOD_SfHvChaCifMain_1ms/BMWshc_b_ChaAvlAc2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

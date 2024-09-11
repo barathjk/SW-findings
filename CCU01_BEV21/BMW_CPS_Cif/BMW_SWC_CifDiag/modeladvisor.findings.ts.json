@@ -1,0 +1,702 @@
+[
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_BMW_MOD_CifDiag_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion1 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion2 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion3 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion4 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion5 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion7 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion1. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion2. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion3. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion4. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion5. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion5", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion7. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/FreezeFrameDataUWB/Data Type Conversion7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_i_ActrFlpLockDc15 seems to be wrongly connected to the inport BMWcif_i_ActrFlpLockDc15 . Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Label for documentation.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/BMWcif_i_ActrFlpLockDc15", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWcif_i_ActrFlpLockDc25 seems to be wrongly connected to the inport BMWcif_i_ActrFlpLockDc25 . Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signals are correctly connected.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/BMWcif_i_ActrFlpLockDc25", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of StuckCheckEventStatus and the signal BMWcif_b_AcTWirNStucEvtSt resolved to it do not match. <br/> <mark><em>[Whitelisted] Signals are correctly connected.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/AcTempDiag/WirNPlausibility/StuckCheckEventStatus", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of StuckCheckEnableCondition and the signal BMWcif_b_AcTWirNStucEnaCdn resolved to it do not match. <br/> <mark><em>[Whitelisted] Signals are correctly connected.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/AcTempDiag/WirNPlausibility/StuckCheckEnableCondition", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of EventStatusGradientCheck and the signal BMWcif_b_AcTWirNGraEvtSt resolved to it do not match. <br/> <mark><em>[Whitelisted] Signals are correctly connected.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/AcTempDiag/WirNPlausibility/EventStatusGradientCheck", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of GradientCheckEnableCondition and the signal BMWcif_b_AcTWirNGraEnaCdn resolved to it do not match. <br/> <mark><em>[Whitelisted] Signals are correctly connected.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifDiag_100ms/BMW_MOD_CifDiag_100ms/AcTempDiag/WirNPlausibility/GradientCheckEnableCondition", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_EvseKommunicationDcChademo_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/EvseKommunicationDcChademo_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_EvseKommunicationDcChademo_ReadData/EvseKommunicationDcChademo_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_ZvLadeklappeDc_ShortTermAdjustment.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_ZvLadeklappeDc_ShortTermAdjustment/ZvLadeklappeDc_ShortTermAdjustment/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_ZvLadeklappeDc_ShortTermAdjustment/ZvLadeklappeDc_ShortTermAdjustment/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadedoseAcCcs_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadedoseAcCcs_ReadData/LadedoseAcCcs/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadedoseAcCcs_ReadData/LadedoseAcCcs_ReadData/LadedoseAcCcs/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadebereitschaftAcCcs_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadebereitschaftAcCcs_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadebereitschaftAcCcs_ReadData/LadebereitschaftAcCcs_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LedLadedoseDc_ShortTermAdjustment.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LedLadedoseDc_ShortTermAdjustment/LedLadedoseDc_ShortTermAdjustment/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LedLadedoseDc_ShortTermAdjustment/LedLadedoseDc_ShortTermAdjustment/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_ZustandVerriegelungLadeklappe_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/ZustandVerriegelungLadeklappe_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_ZustandVerriegelungLadeklappe_ReadData/ZustandVerriegelungLadeklappe_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_ZvLadedoseAcCcs_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/ZvLadedoseAcCcs_ReadData/ZvLadedoseAcCcs/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_ZvLadedoseAcCcs_ReadData/ZvLadedoseAcCcs_ReadData/ZvLadedoseAcCcs/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadeklappeAcCcs_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadeklappeAcCcs_ReadData/LadeklappeAcCcs/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadeklappeAcCcs_ReadData/LadeklappeAcCcs_ReadData/LadeklappeAcCcs/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_ZvLadeklappeDc_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/ZvLadeklappeDc_ReadData/ZvLadeklappeDc/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_ZvLadeklappeDc_ReadData/ZvLadeklappeDc_ReadData/ZvLadeklappeDc/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_ZvLadeklappeAcCcs_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/ZvLadeklappeAcCcs_ReadData/ZvLadeklappeAcCcs/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_ZvLadeklappeAcCcs_ReadData/ZvLadeklappeAcCcs_ReadData/ZvLadeklappeAcCcs/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_ZustandVerriegelungLadestecker_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/ZustandVerriegelungLadestecker_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_ZustandVerriegelungLadestecker_ReadData/ZustandVerriegelungLadestecker_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadeschnittstelleAcCcs_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadeschnittstelleAcCcs_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadeschnittstelleAcCcs_ReadData/LadeschnittstelleAcCcs_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadenAbkDauerhafteKlappenentriegelung_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadenAbkDauerhafteKlappenentriegelung_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadenAbkDauerhafteKlappenentriegelung_ReadData/LadenAbkDauerhafteKlappenentriegelung_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_ZvLadeklappeAcCcs_ShortTermAdjustment.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_ZvLadeklappeAcCcs_ShortTermAdjustment/ZvLadeklappeAcCcs_ShortTermAdjustment/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_ZvLadeklappeAcCcs_ShortTermAdjustment/ZvLadeklappeAcCcs_ShortTermAdjustment/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadenAbkDauerhafteKlappenentriegelung_WriteData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadenAbkDauerhafteKlappenentriegelung_WriteData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadenAbkDauerhafteKlappenentriegelung_WriteData/LadenAbkDauerhafteKlappenentriegelung_WriteData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_EvseKommunicationCcs_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/EvseKommunicationCcs_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_EvseKommunicationCcs_ReadData/EvseKommunicationCcs_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LedLadedoseDc_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LedLadedoseDc_ReadData/LedLadedoseDc/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LedLadedoseDc_ReadData/LedLadedoseDc_ReadData/LedLadedoseDc/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadeschnittstelleChademo_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadeschnittstelleChademo_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadeschnittstelleChademo_ReadData/LadeschnittstelleChademo_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both single. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadeschnittstelleChademo_ReadData/LadeschnittstelleChademo_ReadData/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LedLadedoseAcCcs_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LedLadedoseAcCcs_ReadData/LedLadedoseAcCcs/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LedLadedoseAcCcs_ReadData/LedLadedoseAcCcs_ReadData/LedLadedoseAcCcs/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadedoseDc_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadedoseDc_ReadData/LadedoseDc/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadedoseDc_ReadData/LadedoseDc_ReadData/LadedoseDc/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadeschnittstelleGbT_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadeschnittstelleGbT_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadeschnittstelleGbT_ReadData/LadeschnittstelleGbT_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both single. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadeschnittstelleGbT_ReadData/LadeschnittstelleGbT_ReadData/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion1 is not necessary because the input and output data type are both single. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadeschnittstelleGbT_ReadData/LadeschnittstelleGbT_ReadData/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_EvseKommunicationDcGbt_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/EvseKommunicationDcGbt_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_EvseKommunicationDcGbt_ReadData/EvseKommunicationDcGbt_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LedLadedoseAcCcs_ShortTermAdjustment.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LedLadedoseAcCcs_ShortTermAdjustment/LedLadedoseAcCcs_ShortTermAdjustment/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LedLadedoseAcCcs_ShortTermAdjustment/LedLadedoseAcCcs_ShortTermAdjustment/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadenAbkEinmalSteckerentriegelung_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadenAbkEinmalSteckerentriegelung_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadenAbkEinmalSteckerentriegelung_ReadData/LadenAbkEinmalSteckerentriegelung_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadeklappeDc_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadeklappeDc_ReadData/LadeklappeDc/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadeklappeDc_ReadData/LadeklappeDc_ReadData/LadeklappeDc/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_ZvLadedoseAcCcs_ShortTermAdjustment.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_ZvLadedoseAcCcs_ShortTermAdjustment/ZvLadedoseAcCcs_ShortTermAdjustment/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Conversion needed for the FF data.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_ZvLadedoseAcCcs_ShortTermAdjustment/ZvLadedoseAcCcs_ShortTermAdjustment/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_PilotSignalValue_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/PilotSignalValue_ReadData/PilotSignalValue/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_PilotSignalValue_ReadData/PilotSignalValue_ReadData/PilotSignalValue/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_Ladeverfahren_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/Ladeverfahren_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_Ladeverfahren_ReadData/Ladeverfahren_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CifDiag/Model/LIB_LadenAbkDauerhafteSteckerentriegelung_ReadData.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "Identify subsystem names that use characters that are not correct in C code. The following subsystem names contain incorrect characters:  (Error: Name contains incorrect characters., Subsystem block: MDL_BMW_SWC_CifDiag/BMW_SWC_CifDiag/BMW_SWC_CifDiag/LadenAbkDauerhafteSteckerentriegelung_ReadData/DCM DiagnosticJob) <br/> <mark><em>[Whitelisted] Name comes from the BACE block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_LadenAbkDauerhafteSteckerentriegelung_ReadData/LadenAbkDauerhafteSteckerentriegelung_ReadData/DCM DiagnosticJob", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.mathworks.maab.jc_0201"
+            }
+        ]
+    }
+]

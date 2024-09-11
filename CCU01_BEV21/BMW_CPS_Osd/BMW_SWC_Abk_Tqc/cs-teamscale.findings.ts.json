@@ -1,0 +1,220 @@
+[
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcEmiCCM_20ms.c", 
+        "findings": [
+            {
+                "startLine": "286", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e21cadf8952b6ff2f77e8ca3fc9a60ae6c2251c4ac78d55fa8f16de72ceda3c7"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][286] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "145", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "162d3321994da1ec7d89e91f820574a214bd4714da71a6db000797f006a91380"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][145] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "294", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7f8a9a939347f389338e4ef1d9e5757db80aecf1736c70c1e872d2a3dcd2990d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][294] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "129", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7e295869bf29acd938e32dfdb988a0debd0cf352d09368497bdf064468618f11"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][129] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "270", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ae0c0c4da597f37438614fc4f28db20abb4025aa472153eb038c698979dcf71b"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][270] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "137", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1f37b0cfce03eee297eb722a0180f4cbfe53b5568328ddfab050a0fc8da96f6f"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][137] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "278", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7a04b81a9cc95789622202c6eb0f1f24c7f2bb06a54450050706b2dc38583192"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][278] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcPmAvail_20ms.c", 
+        "findings": [
+            {
+                "startLine": "370", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "3f1e1c7e1f9cbb0f1d39f4add22a61f1fd98c6058a920c1744d81e07ecb4c2da"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][370] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "370", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d559ead8b8d077dc9ffbb86dec19534e51fc8288e23efdb9e1bb82f2e47913dc"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][370] Unreachable Data Flow", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcPmZSG_20ms.c", 
+        "findings": [
+            {
+                "startLine": "141", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9827642e98a63986e37271cc775a235454d76cd24c18eb8ef8de010f2b13bb1e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][141] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "115", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ae63900368b9840b937b57fc58f75c5201180160cb812b66298207f8831db60e"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][115] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "107", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "48c476a589c1a392378f30bbde094178a4b50bde1a829a0aed419e2171fc3f5d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][107] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "121", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "96d8bf894e9aa394ee2325421416427222c93ce6ff6dbe7c012d1f1c3f40528d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][121] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "127", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "bd722bb34ac13927a0dc63b74f5a2f67266d30d7d5c3cbb4a6a0c27aeb2fa1c1"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][127] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "135", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1a673c37d3a5c5307c0dfa977d575e5a53f14d2add6b54985319718234314261"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][135] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_Abk_Tqc/CCU01BEV21BMW/BMW_MOD_AbkTqcEcoTip_10ms.c", 
+        "findings": [
+            {
+                "startLine": "127", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ea98eb82d3b023e3713edef713efaf1b86049de996eb8ae8a6c02faefc541a43"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][127] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "121", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5dc12fe5a178ab35472778ba418aed8d83a191fee66d642347fd0d9ece36893d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][121] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "115", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "74370a925db9ff90592d74b9311c0ec12a2642bce4584c5ed1e847ea53b39200"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][115] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "path": "SVN_BMW_SWC_CifOut/Model/LIB_BMW_MOD_CifOut_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_st_ErrStckCcsInt and the signal BMW_st_ErrStckCcsIntMeas2Id24 resolved to it do not match. <br/> <mark><em>[Whitelisted] This is a valid label.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifOut_10ms/BMW_MOD_CifOut_10ms/DC Combo/BMWcif_st_ErrStckCcsInt", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_i_ChdDcChaMax and the signal BMW_i_DchaMax resolved to it do not match. <br/> <mark><em>[Whitelisted] This is label change as expected</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifOut_10ms/BMW_MOD_CifOut_10ms/CHADEMO/BMWcif_i_ChdDcChaMax", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of BMWcif_u_ChdDcChaMin and the signal BMW_u_DchaMin resolved to it do not match. <br/> <mark><em>[Whitelisted] This is label change as expected</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CifOut_10ms/BMW_MOD_CifOut_10ms/CHADEMO/BMWcif_u_ChdDcChaMin", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

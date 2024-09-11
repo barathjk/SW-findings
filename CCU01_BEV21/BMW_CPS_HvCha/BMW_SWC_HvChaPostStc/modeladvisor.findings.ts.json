@@ -1,0 +1,107 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvChaPostStc/Model/LIB_BMW_MOD_HvChaPostStcHist_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both single. <br/> <mark><em>[Whitelisted] Enabled Subsystem currently used for NVRam values. Therefore needed currently</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostStcHist_100ms/BMW_MOD_HvChaPostStcHist_100ms/HistogrammsCounter/CounterEnergy/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion1 is not necessary because the input and output data type are both single. <br/> <mark><em>[Whitelisted] Enabled Subsystem currently used for NVRam values. Therefore needed currently</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostStcHist_100ms/BMW_MOD_HvChaPostStcHist_100ms/HistogrammsCounter/CounterEnergy/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,16,0). <br/> <mark><em>[Whitelisted] Enabled Subsystem currently used for NVRam values. Therefore needed currently</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostStcHist_100ms/BMW_MOD_HvChaPostStcHist_100ms/HistogrammsCounter/CounterPlugs/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion1 is not necessary because the input and output data type are both fixdt(0,16,0). <br/> <mark><em>[Whitelisted] Enabled Subsystem currently used for NVRam values. Therefore needed currently</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostStcHist_100ms/BMW_MOD_HvChaPostStcHist_100ms/HistogrammsCounter/CounterPlugs/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] change in behaviour needs to be analyzed first</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostStcHist_100ms/BMW_MOD_HvChaPostStcHist_100ms/HistogrammsCounter/AcoPwrHistogramm/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] change in behaviour needs to be analyzed first</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostStcHist_100ms/BMW_MOD_HvChaPostStcHist_100ms/HistogrammsCounter/HvDcVoltageHistogramm/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem AcoPwrHistogramm. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] The indices are limited in accordance to the vector dimensions before they are used within the assignment block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostStcHist_100ms/BMW_MOD_HvChaPostStcHist_100ms/HistogrammsCounter/AcoPwrHistogramm/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem CoolingTempDiffHistogramm. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] The indices are limited in accordance to the vector dimensions before they are used within the assignment block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostStcHist_100ms/BMW_MOD_HvChaPostStcHist_100ms/HistogrammsCounter/CoolingTempDiffHistogramm/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem DcPowerChaTimeHistogramm. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] The indices are limited in accordance to the vector dimensions before they are used within the assignment block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostStcHist_100ms/BMW_MOD_HvChaPostStcHist_100ms/HistogrammsCounter/DcPowerChaTimeHistogramm/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem HvDcVoltageHistogramm. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] The indices are limited in accordance to the vector dimensions before they are used within the assignment block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostStcHist_100ms/BMW_MOD_HvChaPostStcHist_100ms/HistogrammsCounter/HvDcVoltageHistogramm/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }
+]

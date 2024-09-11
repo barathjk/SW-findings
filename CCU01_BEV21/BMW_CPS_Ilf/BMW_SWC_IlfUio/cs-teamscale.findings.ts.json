@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_IlfUio/CCU01BEV21BMW/BMW_SWC_IlfUio.c", 
+        "findings": [
+            {
+                "startLine": "1271", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "a9de1625f7ba3c2ebbead15eaa546ff729dbbfa48da831acfb263caaebfbddfd"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][1271] Unused Value", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UUVAL"
+            }, 
+            {
+                "startLine": "279", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9c9b38ee91300d435df46645a506912c70ec72834ba815bb9bfc36f8dcc728ae"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][279] Useless Assignment", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UA"
+            }
+        ]
+    }
+]

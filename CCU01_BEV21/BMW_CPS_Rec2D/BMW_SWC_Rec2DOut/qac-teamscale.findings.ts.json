@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_Rec2DOut/CCU01BEV21BMW/runBMW_MOD_Rec2DOut_100ms.c", 
+        "findings": [
+            {
+                "startLine": "104", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7258ad1f071303c0d17eee7a0e117dccacb92963965ec7f7bd0a76c760021232"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[104:32] Variable 'BMWrec2d_b_MapTrfReqInit_bo' previously seen here. (Specimen value: '-1').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "105", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "333c1e5cab7237ecc404719b76cad393bcf08083a7821a892d00b0f5c6c7742e"
+                }, 
+                "justification": "", 
+                "message": "[105:241] The result of this logical operation is always 'true'. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2995"
+            }
+        ]
+    }
+]

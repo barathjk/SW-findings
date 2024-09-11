@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_AgbDiag/CCU01BEV21BMW/BMW_SWC_AgbDiag.extension", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "13bd82af1cf64e27fd7e1792f656d3b8dde73af96d47a48b5c6cdaad70648d66"
+                }, 
+                "message": "No implementation for diagnostic service StatusKuehlmittelstand_ConditionCheckRead was found in Extension file.", 
+                "identifier": null, 
+                "assessment": "RED", 
+                "findingTypeId": "diag.servicenotimplemented"
+            }
+        ]
+    }
+]

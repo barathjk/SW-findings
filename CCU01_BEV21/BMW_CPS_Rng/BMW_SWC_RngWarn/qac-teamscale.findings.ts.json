@@ -1,0 +1,150 @@
+[
+    {
+        "path": "ART_BMW_SWC_RngWarn/CCU01BEV21BMW/BMW_SWC_RngWarn.c", 
+        "findings": [
+            {
+                "startLine": "1238", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ab27db4f934246574d2158ae62ff919afd818cf9eb513099d26013ee43ca8a52"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1238:34] Variable 'rtb_MultiportSwitch_idx_0_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1253", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5d8883b0dc1fe16cefc68b74bb8f21b56c5da68974f2e004e6f88df1b29b19c2"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1253:29] Variable 'rtb_LogicalOperator4_b' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1268", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f2cae87ca27e82d65e99407c4c678a5d7b4d10758ce44588fcda558356e404c5"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1268:21] Variable 'rtb_Switch1_ff' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1283", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0b2fe1af59c123308104b6e9fdb1cc800bffdc4718c32cb28805f5582d7d8f40"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1283:19] Variable 'rtb_Merge1_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1296", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "77037cee044c1ca928eb4dc62b6743d17b9f52a275ea1a9219db2826c1de99b3"
+                }, 
+                "justification": "", 
+                "message": "[1296:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "1298", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c1b4b0ad5104b86bc17b3aef46a31a4b3d1f525f4e7c40adf0b22441bb31f77a"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1298:27] Variable 'rtb_ShiftArithmetic2' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1311", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b79dd7428cd98ed86f0317ebd63360d235c7081721971a31e66724b65e57eef1"
+                }, 
+                "justification": "", 
+                "message": "[1311:26] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }, 
+            {
+                "startLine": "1369", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4159b21b325e3c69ee380c782266a95dd58ed1999303bfe0686744d4d3a6cef2"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1369:29] Variable 'rtb_LogicalOperator4_b' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1384", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0b990c51dea504d4444d463c96fbf183e1a9f8f8f24acb526a5bc43712c4c550"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1384:21] Variable 'rtb_Switch1_ff' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1399", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7eca96f009a6b5a9da94f6a6a89d7fd6d7febbecccdb6f359c8953b175fd1bf8"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1399:19] Variable 'rtb_Merge1_0' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1412", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2ae9bb9f83a9d1f0805210f9694d79e1fe437d6e4b99dc7fff95b2f0100a655b"
+                }, 
+                "justification": "", 
+                "message": "[1412:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "1414", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "59a0b9a5cca07f31e8cde18247eb2d0d1fb1099bdb7fb371be630d9e7587626a"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1414:27] Variable 'rtb_ShiftArithmetic2' previously seen here. (Specimen value: '0').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "1430", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5ca2dc57aff6943d092b73ef99d2d3793fa2a17dc34669cc179e3c38bdf28f39"
+                }, 
+                "justification": "", 
+                "message": "[1430:68] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }
+        ]
+    }
+]

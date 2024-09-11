@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_EfdIn/Model/LIB_BMW_MOD_EfdIn_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Gain is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] Rounding mode needed for an accurate resulte -> EFD-306</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_EfdIn_100ms/BMW_MOD_EfdIn_100ms/NotAutomated/Gain", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

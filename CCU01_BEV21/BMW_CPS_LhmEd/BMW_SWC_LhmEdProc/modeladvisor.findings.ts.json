@@ -1,0 +1,117 @@
+[
+    {
+        "path": "SVN_BMW_SWC_LhmEdProc/Model/LIB_BMW_MOD_LhmEdCalcLim_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of EM1_CANAusfallRessources and the signal BMWlhmed_pct_Em1CtlArNetFlr resolved to it do not match. <br/> <mark><em>[Whitelisted] Signal connected correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdCalcLim_100ms/BMW_MOD_LhmEdCalcLim_100ms/BUS_AUSFALL_Einschraenkungen/EM1_CANAusfallRessources", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of EM2_CANAusfallRessources and the signal BMWlhmed_pct_Em2CtlArNetFlr resolved to it do not match. <br/> <mark><em>[Whitelisted] Signal connected correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdCalcLim_100ms/BMW_MOD_LhmEdCalcLim_100ms/BUS_AUSFALL_Einschraenkungen/EM2_CANAusfallRessources", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of HVS_CANAusfallStatus and the signal BMWlhmed_st_HvsCtlArNetFlr resolved to it do not match. <br/> <mark><em>[Whitelisted] Signal connected correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdCalcLim_100ms/BMW_MOD_LhmEdCalcLim_100ms/BUS_AUSFALL_Einschraenkungen/HVS_CANAusfallStatus", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of b_Codierung_China_Var and the signal BMWlhmed_b_CodChnVarVeh resolved to it do not match. <br/> <mark><em>[Whitelisted] Signal connected correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdCalcLim_100ms/BMW_MOD_LhmEdCalcLim_100ms/Codierung_Information/b_Codierung_China_Var", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of Laden_Request_ServReqDemn and the signal BMWlhmed_b_ChaReqSrvReqSot resolved to it do not match. <br/> <mark><em>[Whitelisted] Signal connected correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdCalcLim_100ms/BMW_MOD_LhmEdCalcLim_100ms/DC Laden SChuetzkleber/Laden_Request_ServReqDemn", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of Laden_Request_ServReqSofort and the signal BMWlhmed_b_ChaReqSrvReqImme resolved to it do not match. <br/> <mark><em>[Whitelisted] Signal connected correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdCalcLim_100ms/BMW_MOD_LhmEdCalcLim_100ms/DC Laden SChuetzkleber/Laden_Request_ServReqSofort", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The outport Leistung_generatorisch_status_HEAT2 seems to be wrongly connected to the outport Leistung_generatorisch_status_HEAT1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Signal connected correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdCalcLim_100ms/BMW_MOD_LhmEdCalcLim_100ms/Preparation_HEAT1_status/Leistung_Generatorisch_HEAT2/Leistung_generatorisch_status_HEAT2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of ReadyToDrive_reaquest_deactivate1 and the signal BMWlhmed_st_ReqDeacDrrEdPri resolved to it do not match. <br/> <mark><em>[Whitelisted] Signal connected correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdCalcLim_100ms/BMW_MOD_LhmEdCalcLim_100ms/Preparation_HEAT1_status/ReadyToDrive_reaquest_deactivate1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of ReadyToDrive_reaquest_deactivate2 and the signal BMWlhmed_st_ReqDeacDrrEdSec resolved to it do not match. <br/> <mark><em>[Whitelisted] Signal connected correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdCalcLim_100ms/BMW_MOD_LhmEdCalcLim_100ms/Preparation_HEAT2_Status/ReadyToDrive_reaquest_deactivate2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of EST1_CANAusfallStatus and the signal BMWlhmed_st_Em1CtlArNetFlr resolved to it do not match. <br/> <mark><em>[Whitelisted] Signal connected correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdCalcLim_100ms/BMW_MOD_LhmEdCalcLim_100ms/BUS_AUSFALL_Einschraenkungen/EST1_CANAusfallStatus", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Names of EST2_CANAusfallStatus and the signal BMWlhmed_st_Em2CtlArNetFlr resolved to it do not match. <br/> <mark><em>[Whitelisted] Signal connected correct.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdCalcLim_100ms/BMW_MOD_LhmEdCalcLim_100ms/BUS_AUSFALL_Einschraenkungen/EST2_CANAusfallStatus", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

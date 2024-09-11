@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_FcrCtl/CCU01BEV21BMW/BMW_SWC_FcrCtl.c", 
+        "findings": [
+            {
+                "startLine": "725", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e1221f578b17e93a2c8184e7453c3df0420378beb438a4d5d42841c40d1a3df7"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][725] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "753", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "e6e67975fd90374254d1f5608026cc88cb196f7f61c94656fff47b8e6315ea37"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][753] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }, 
+            {
+                "startLine": "756", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "920b4a1a63fdd3a8def57fab0ba4a4b0d59b1b9aae7ad6f5621057f4a2618553"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][756] Unreachable Computation", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.UC"
+            }
+        ]
+    }
+]

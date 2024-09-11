@@ -1,0 +1,73 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfHvChaMain/CCU01BEV21BMW/BMW_SWC_SfHvChaMain.c", 
+        "findings": [
+            {
+                "startLine": "243", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[243:23] 'BMW_SWC_SfHvChaMain_DW' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "243", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[243:23] 'BMW_SWC_SfHvChaMain_DW' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "2600", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b50a8c64e20d4d6f69556826e3e1699aa39d35c207996567739b85507e99f984"
+                }, 
+                "justification": "", 
+                "message": "[2600:47] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "2611", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d9178b6f2ae3ccc69e4349ca624763d28052d1d5b243dfd2a5c12b9370a9a455"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[2611:47] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }, 
+            {
+                "startLine": "5877", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2275685bf2acf57788f241bec5cf2081ba6b5ca0f244e6984b944e2486a10817"
+                }, 
+                "justification": "", 
+                "message": "[5877:47] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "5888", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "cf5ceff08f325faf670981a0da1acb5cc430e960c66e3c0779a4179988e93c36"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[5888:47] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }
+        ]
+    }
+]

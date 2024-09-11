@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_StcActrIn/CCU01BEV21BMW/BMW_SWC_StcActrIn.c", 
+        "findings": [
+            {
+                "startLine": "310", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f3728e9acd55d8b85dac1971c47c01c8d15474f3a21f4bf2b022a6eb225398c5"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[310:25] Variable 'rtb_Saturation' previously seen here. (Specimen value: '15').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "311", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f3728e9acd55d8b85dac1971c47c01c8d15474f3a21f4bf2b022a6eb225398c5"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[311:21] Variable 'rtb_Saturation' previously seen here. (Specimen value: '15').", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1575.whitelisted"
+            }, 
+            {
+                "startLine": "589", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5d6300a2b9d421fabc8d1913851116b61a5d18f96c7d9987d7463313f3d7aefd"
+                }, 
+                "justification": "", 
+                "message": "[589:78] This operation is redundant. The value of the result is always that of the left-hand operand. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2985"
+            }
+        ]
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "path": "ART_BMW_SWC_IlfUio/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "49228bdbb9955b939eb8caa3b0da461e32c697ab1110bd1862896b7f514fc358"
+                }, 
+                "message": "Physical Unit (minute) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=60.0], [numeratorOfFactor:  this=0.016666666666666666, reference=1.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "findingProperties": {
+                        "findingSource": "symp:/#/BMW/POWERTRAIN/SwComponentTypes/BMW_SWC_IlfUio/EfanRelaisOffNoLinTimeout?type=ProxyServiceNeedForEnableCondition"
+                    }, 
+                    "uniqueId": "bf77c110ec5684946f57f54ae784cadad14aad5a02083afddd45ad0d59dfd2f2"
+                }, 
+                "message": "The expected DiagnosticEventEnableCondition [EfanRelaisOffNoLinTimeout] can't be found on Zedis data", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.MISSING_ZEDIS_DEM_SETENABELCONDITION"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7bf06278d4cfec58aa908d37e6d56864c5f427d4738729c994e6934596c4f9ba"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWilfuio_n_Sp_ub?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f3a0be0d5e56523dbf48d94691019ae1e42239612f64aa92f10401933c0ceaf4"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWilfuio_st_ArnAct_bo?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2a80b10a3ad834fdd7c5beed895f976990663791d56b3fa1174657c9315eddd3"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWilfuio_st_OpmSp_ub?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d342d718df96aa41ecfd902ec2f1019435d6c2b4df990cb52cfc0bae0cce8473"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWilfuio_st_TrigCom_bo?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "c3f87dba22f58e65dff9ade17271e50420cf37671f7784628eb5ac24112253c4"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWilfuio_ti_ArnSum_uw?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "869082e3b5a787fd6cc66cf2f62082b3ea753914f64cccd389fcf78e9f21273c"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWilfuio_ti_FanStrDly_ub?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2eff6d1dd61b10691097d9b83bb7db16ba613e0fed9530ce2c2ccdac2782bfa9"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWilfuio_u_PwrMngtWish_uw?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "findingProperties": {
+                        "findingSource": "symp:/#/BMW/POWERTRAIN/SwComponentTypes/componentInterfaces/BMW_SWC_IlfUio/EfanRelaisOffNoLinTimeout?type=ComponentPort"
+                    }, 
+                    "uniqueId": "c9a6229bc74c88578b7490115050843c5358d3baf5b193961935cb9b6d77c411"
+                }, 
+                "message": "No corresponding EnableCondition found to match the EnableCondition port EfanRelaisOffNoLinTimeout. Please check the ZEDIS input and define the missing EnableCondition or rename the port in order to match the name of an existing EnableCondition.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_PORT_NO_DIAGNOSTIC_ENABLE_CONDITION"
+            }
+        ]
+    }
+]

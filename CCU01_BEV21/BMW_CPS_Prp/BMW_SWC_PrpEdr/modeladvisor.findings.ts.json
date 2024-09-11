@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_PrpEdr/Model/LIB_BMW_MOD_PrpEdrCcm_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The parameter BMWprp_v_HvBatCritEna_C has the variant condition BMW_PT_TOP_EL_SC_EQU_1 in ADD and is used in a nested subsystem pattern in the process block BMW_MOD_PrpEdrCcm_10ms. This condition cannot be checked automatically and must be done manually. <br/> <mark><em>[Whitelisted] Constant relevant only for Electric. \nVatiant checked manually.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_PrpEdrCcm_10ms/BMW_MOD_PrpEdrCcm_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_TqwQueOut/CCU01BEV21BMW/BMW_SWC_TqwQueOut.c", 
+        "findings": [
+            {
+                "startLine": "106", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "298a541ebd755a4c04d20fd7ba59f6a02c0a3d2630d79ab7ee706e5b73d97924"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[106:12] 'rtb_Invoke' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "249", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "abc0067e3da05297ec5f379621f82bd569447f6e8686181cb96eb0a989b34b52"
+                }, 
+                "justification": "", 
+                "message": "[249:17] This assignment is redundant. The value of this object is never subsequently used. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2983"
+            }
+        ]
+    }
+]

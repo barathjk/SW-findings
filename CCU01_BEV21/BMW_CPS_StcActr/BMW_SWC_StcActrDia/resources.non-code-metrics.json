@@ -1,0 +1,226 @@
+[
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_pct_StcOppVectWtrPmp1_BMW_pct_StcOppVectWtrPmp1", 
+        "assessment": {
+            "YELLOW": "128"
+        }, 
+        "count": "128"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_pct_StcOppVectWtrPmp2_BMW_pct_StcOppVectWtrPmp2", 
+        "assessment": {
+            "YELLOW": "128"
+        }, 
+        "count": "128"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMWfanstc_cnt_StcAftRunRly_BMWfanstc_cnt_StcAfK7PET", 
+        "assessment": {
+            "YELLOW": "20"
+        }, 
+        "count": "20"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMWfanstc_ti_StcCtlDur_BMWfanstc_ti_StcCtlDur", 
+        "assessment": {
+            "YELLOW": "48"
+        }, 
+        "count": "48"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_rc_StcWtrPmpDataThdVect1_BMW_rc_StcWtrPmpDVAEZEJ", 
+        "assessment": {
+            "YELLOW": "24"
+        }, 
+        "count": "24"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_C_arr_8_Def_q0p3906_percent_0to99Dot609375_0", 
+        "assessment": {
+            "YELLOW": "8"
+        }, 
+        "count": "8"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_rc_StcWtrPmpDataThdVect2_BMW_rc_StcWtrPmpDVH5IZF", 
+        "assessment": {
+            "YELLOW": "24"
+        }, 
+        "count": "24"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_StcActrDia_ppBMW_st_StcWtrPmpTstrRst_BMW_st_StcWtrPmpTstrRst", 
+        "assessment": {
+            "YELLOW": "14"
+        }, 
+        "count": "14"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_StcActrDia_ppBMWfanstc_b_FanStcRst_bo_BMWfanstc_b_FanStcRst_bo", 
+        "assessment": {
+            "YELLOW": "14"
+        }, 
+        "count": "14"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_StcActrDia_rpBMW_pct_StcOppVectWtrPmp1_BMW_pct_StcOppVectWtrPmp1", 
+        "assessment": {
+            "YELLOW": "50"
+        }, 
+        "count": "50"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_StcActrDia_rpBMW_pct_StcOppVectWtrPmp2_BMW_pct_StcOppVectWtrPmp2", 
+        "assessment": {
+            "YELLOW": "50"
+        }, 
+        "count": "50"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_StcActrDia_rpBMW_rc_StcWtrPmpDataThdVect1_BMW_rc_StcWtrPmpDataThdVect1", 
+        "assessment": {
+            "YELLOW": "34"
+        }, 
+        "count": "34"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_StcActrDia_rpBMW_rc_StcWtrPmpDataThdVect2_BMW_rc_StcWtrPmpDataThdVect2", 
+        "assessment": {
+            "YELLOW": "34"
+        }, 
+        "count": "34"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_StcActrDia_rpBMWfanstc_cnt_StcAftRunRly_BMWfanstc_cnt_StcAftRunRly", 
+        "assessment": {
+            "YELLOW": "50"
+        }, 
+        "count": "50"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_StcActrDia_rpBMWfanstc_pct_StcThd_BMWfanstc_pct_StcThd", 
+        "assessment": {
+            "YELLOW": "42"
+        }, 
+        "count": "42"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_StcActrDia_rpBMWfanstc_ti_StcCtlDur_BMWfanstc_ti_StcCtlDur", 
+        "assessment": {
+            "YELLOW": "50"
+        }, 
+        "count": "50"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_StcActrDia_ppBMW_st_StcWtrPmpTstrRst_BMW_st_StcWtrPmpTstrRst", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_StcActrDia_ppBMWfanstc_b_FanStcRst_bo_BMWfanstc_b_FanStcRst_bo", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_StcActrDia/BMW_SWC_StcActrDia_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/EfanStatisticsReset_WriteData/EfanStatisticsReset_WriteData", 
+        "assessment": {
+            "YELLOW": "40"
+        }, 
+        "count": "40"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/EfanStatistics_ReadData/BMW_SWC_StcActrDia_PhysSigToCodedArrUint8Conv", 
+        "assessment": {
+            "YELLOW": "24"
+        }, 
+        "count": "24"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/EfanStatistics_ReadData/BMW_SWC_StcActrDia_PhysSigToCodedArrUint8Conv17", 
+        "assessment": {
+            "YELLOW": "14"
+        }, 
+        "count": "14"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/EfanStatistics_ReadData/EfanStatistics_ReadData", 
+        "assessment": {
+            "YELLOW": "764"
+        }, 
+        "count": "764"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/ElektrischeWasserpumpeStatisticsReset_Start/ElektrischeWasserpumpeStatisticsReset_Start", 
+        "assessment": {
+            "YELLOW": "40"
+        }, 
+        "count": "40"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/rt_sys_BMW_SWC_StcActrDia_14/BMW_SWC_StcActrDia_PhysSigToCodedArrUint8Conv_o", 
+        "assessment": {
+            "YELLOW": "40"
+        }, 
+        "count": "40"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/rt_sys_BMW_SWC_StcActrDia_16/BMW_SWC_StcActrDia_PhysSigToCodedArrUint8Conv12", 
+        "assessment": {
+            "YELLOW": "10"
+        }, 
+        "count": "10"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/WasserpumpeHochvoltspeicherStatistics_ReadData/WasserpumpeHochvoltspeicherStatistics_ReadData", 
+        "assessment": {
+            "YELLOW": "1308"
+        }, 
+        "count": "1308"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/WasserpumpeLeistungselektronikStatistics_ReadData/WasserpumpeLeistungselektronikStatistics_ReadData", 
+        "assessment": {
+            "YELLOW": "1308"
+        }, 
+        "count": "1308"
+    }
+]

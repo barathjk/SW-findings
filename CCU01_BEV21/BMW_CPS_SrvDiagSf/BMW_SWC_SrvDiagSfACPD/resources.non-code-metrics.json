@@ -1,0 +1,258 @@
+[
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_rc_SftyAccr_rc_BMW_rc_SftyAccr_rc", 
+        "assessment": {
+            "YELLOW": "8"
+        }, 
+        "count": "8"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_rc_SftyFisAccrPe_rc_BMW_rc_SftyFisAccrPe_rc", 
+        "assessment": {
+            "YELLOW": "10"
+        }, 
+        "count": "10"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_rc_SftyFisPeActDet_rc_BMW_rc_SftyFisPeActDet_rc", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_u_AccrSnsr1_rc_BMW_u_AccrSnsr1_rc", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_u_AccrSnsr2_rc_BMW_u_AccrSnsr2_rc", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_u_VccAccrSnsr1_rc_BMW_u_VccAccrSnsr1_rc", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMW_u_VccAccrSnsr2_rc_BMW_u_VccAccrSnsr2_rc", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_SrvDiagSfACPD_FahrpedalBussignal_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_SrvDiagSfACPD_FahrpedalSensor1Spannung_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_SrvDiagSfACPD_FahrpedalSensor1Versorungspannung_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_SrvDiagSfACPD_FahrpedalSensor2Spannung_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_SrvDiagSfACPD_FahrpedalSensor2Versorungspannung_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Write_BMW_SWC_SrvDiagSfACPD_Fahrpedalwert_data", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_SrvDiagSfACPD_rpBMW_rc_SftyAccr_rc_BMW_rc_SftyAccr_rc", 
+        "assessment": {
+            "YELLOW": "30"
+        }, 
+        "count": "30"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_SrvDiagSfACPD_rpBMW_u_AccrSnsr1_rc_BMW_u_AccrSnsr1_rc", 
+        "assessment": {
+            "YELLOW": "22"
+        }, 
+        "count": "22"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Rte/Rte_Read_BMW_SWC_SrvDiagSfACPD_rpBMW_u_AccrSnsr2_rc_BMW_u_AccrSnsr2_rc", 
+        "assessment": {
+            "YELLOW": "22"
+        }, 
+        "count": "22"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SrvDiagSfACPD_BMWsrvdgsf_id_nr_VerChgAccr", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_SrvDiagSfACPD/BMW_MOD_SrvDiagSfACPD_10ms", 
+        "assessment": {
+            "YELLOW": "280"
+        }, 
+        "count": "280"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_SrvDiagSfACPD/BMW_SWC_SrvDiagSfACPD_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SrvDiagSfACPD/BMWsrvdgsf_fac_AccrSnsr1Env_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SrvDiagSfACPD/BMWsrvdgsf_fac_AccrSnsr2Env_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SrvDiagSfACPD/BMWsrvdgsf_fac_VccAccrSnsr1_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SrvDiagSfACPD/BMWsrvdgsf_fac_VccAccrSnsr2_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SrvDiagSfACPD/BMWsrvdgsf_fac_SftyAccrBus_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SrvDiagSfACPD/BMWsrvdgsf_fac_SftyAccr_C", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SrvDiagSfACPD/BMWsrvdgsf_fac_AccrSnsr1_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SrvDiagSfACPD/BMWsrvdgsf_fac_AccrSnsr2_C", 
+        "assessment": {
+            "YELLOW": "4"
+        }, 
+        "count": "4"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BusFahrpedalwert_ReadData/BusFahrpedalwert_ReadData", 
+        "assessment": {
+            "YELLOW": "118"
+        }, 
+        "count": "118"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Ifpwg_ReadData/Ifpwg_ReadData", 
+        "assessment": {
+            "YELLOW": "124"
+        }, 
+        "count": "124"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Iupw1_ReadData/Iupw1_ReadData", 
+        "assessment": {
+            "YELLOW": "100"
+        }, 
+        "count": "100"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/Iupw2_ReadData/Iupw2_ReadData", 
+        "assessment": {
+            "YELLOW": "100"
+        }, 
+        "count": "100"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/rt_sys_BMW_SWC_SrvDiagSfACPD_11/BMW_SWC_SrvDiagSfACPD_ConvSTAT_PWG1_SPANNUNG_WERT", 
+        "assessment": {
+            "YELLOW": "68"
+        }, 
+        "count": "68"
+    }
+]

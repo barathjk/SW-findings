@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SocCcm/Model/LIB_BMW_MOD_SocCcm_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Conversion from enum[uint8] to uint8</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SocCcm_10ms/BMW_MOD_SocCcm_10ms/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }
+        ]
+    }
+]

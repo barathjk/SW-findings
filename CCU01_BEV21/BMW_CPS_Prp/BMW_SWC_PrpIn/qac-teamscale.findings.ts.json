@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_PrpIn/CCU01BEV21BMW/BMW_SWC_PrpIn.c", 
+        "findings": [
+            {
+                "startLine": "150", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d407c674dbc67638daab8d8af5fc99f2294653c09a0adb9bb4a9b90688963bb0"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[150:16] 'BMW_SWC_PrpIn_B' declared here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1594.whitelisted"
+            }, 
+            {
+                "startLine": "1619", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "db53620d7e62115752761604fd4d1109f030d7592749730db3a9e6ceb8bc50a4"
+                }, 
+                "justification": "", 
+                "message": "[1619:43] This assignment is redundant. The value of this object is never used before being modified. [MISRA C: M3CM Rule-2.2]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2982"
+            }, 
+            {
+                "startLine": "1633", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dc37e924fcffdff0044ad8545370c23d241e68a10b544ea46cdea40d671ffea5"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[1633:43] Next set here.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1585.whitelisted"
+            }
+        ]
+    }
+]

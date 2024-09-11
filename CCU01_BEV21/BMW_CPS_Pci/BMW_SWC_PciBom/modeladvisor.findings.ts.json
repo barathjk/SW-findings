@@ -1,0 +1,27 @@
+[
+    {
+        "path": "SVN_BMW_SWC_PciBom/Model/LIB_BMW_MOD_PciBom_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Divide1 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] This rounding option has been chosen on purpose and shall remain active.\nDiscussed and approved with A. Kallmeier and C. Kuscha</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_PciBom_100ms/BMW_MOD_PciBom_100ms/Berechnung Boost Reserv/Divide1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Add4 is set to Ceiling instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] This rounding option has been chosen on purpose and shall remain active.\nDiscussed and approved with A. Kallmeier and C. Kuscha</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_PciBom_100ms/BMW_MOD_PciBom_100ms/Timer_Powerboost/Sp21/Add4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }
+]

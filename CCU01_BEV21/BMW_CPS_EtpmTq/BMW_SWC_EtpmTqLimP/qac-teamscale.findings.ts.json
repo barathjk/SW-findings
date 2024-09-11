@@ -1,0 +1,63 @@
+[
+    {
+        "path": "ART_BMW_SWC_EtpmTqLimP/CCU01BEV21BMW/BMW_SWC_EtpmTqLimP.c", 
+        "findings": [
+            {
+                "startLine": "6793", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4e6512d9c25027a410383aaf81a5194ad9de5a1f4a778b67d053bc54b8194470"
+                }, 
+                "justification": "", 
+                "message": "[6793:12] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "6825", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "fa434f3d15dfa1774da34bd96be88dfa26bb18e3dd7661532c3668aeb14c9c21"
+                }, 
+                "justification": "", 
+                "message": "[6825:12] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "6990", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "175d3fd476531bfd1db98c03fa7cd3e761d0515cd39d39bf501bd4d45d108d26"
+                }, 
+                "justification": "", 
+                "message": "[6990:14] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "7014", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "295193d7cee8a6255125363fae5add5dddd0906daff32cfca1804183f4cb6009"
+                }, 
+                "justification": "", 
+                "message": "[7014:14] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_EtpmTqLimP/CCU01BEV21BMW/BMW_SWC_EtpmTqLimP_CalculateCoefficientForInterpolation.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_EtpmTqLimP/CCU01BEV21BMW/BMW_SWC_EtpmTqLimP_data.c", 
+        "findings": []
+    }, 
+    {
+        "path": "ART_BMW_SWC_EtpmTqLimP/CCU01BEV21BMW/rt_sys_BMW_SWC_EtpmTqLimP_3.c", 
+        "findings": []
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfMPtProc/Model/LIB_BMW_MOD_SfMPtProc_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfmpt_aga_MinLimCordPri seems to be wrongly connected to the inport U. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Doku i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfMPtProc_10ms/BMW_MOD_SfMPtProc_10ms/Koordination_Achsen/UpDownFilter_AxlPri/BMWsfmpt_aga_MinLimCordPri", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfmpt_aga_MinLimCordPri seems to be wrongly connected to the inport ReIntialize Value . Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Doku i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfMPtProc_10ms/BMW_MOD_SfMPtProc_10ms/Koordination_Achsen/UpDownFilter_AxlPri/BMWsfmpt_aga_MinLimCordPri", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfmpt_aga_MaxLimCordPri seems to be wrongly connected to the inport U. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Doku i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfMPtProc_10ms/BMW_MOD_SfMPtProc_10ms/Koordination_Achsen/UpDownFilter_AxlPri/BMWsfmpt_aga_MaxLimCordPri", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfmpt_aga_MaxLimCordPri seems to be wrongly connected to the inport ReIntialize Value . Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Doku i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfMPtProc_10ms/BMW_MOD_SfMPtProc_10ms/Koordination_Achsen/UpDownFilter_AxlPri/BMWsfmpt_aga_MaxLimCordPri", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfmpt_aga_MinLimCordSec seems to be wrongly connected to the inport U. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Doku i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfMPtProc_10ms/BMW_MOD_SfMPtProc_10ms/Koordination_Achsen/UpDownFilter_AxlSec/BMWsfmpt_aga_MinLimCordSec", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfmpt_aga_MinLimCordSec seems to be wrongly connected to the inport ReIntialize Value . Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Doku i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfMPtProc_10ms/BMW_MOD_SfMPtProc_10ms/Koordination_Achsen/UpDownFilter_AxlSec/BMWsfmpt_aga_MinLimCordSec", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfmpt_aga_MaxLimCordSec seems to be wrongly connected to the inport U. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Doku i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfMPtProc_10ms/BMW_MOD_SfMPtProc_10ms/Koordination_Achsen/UpDownFilter_AxlSec/BMWsfmpt_aga_MaxLimCordSec", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWsfmpt_aga_MaxLimCordSec seems to be wrongly connected to the inport ReIntialize Value . Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] Doku i.O.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfMPtProc_10ms/BMW_MOD_SfMPtProc_10ms/Koordination_Achsen/UpDownFilter_AxlSec/BMWsfmpt_aga_MaxLimCordSec", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

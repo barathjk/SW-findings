@@ -1,0 +1,335 @@
+[
+    {
+        "path": "ART_BMW_SWC_SfOErrDetPreProc/CCU01BEV21BMW/dummy_teamscale.txt", 
+        "findings": [
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "065fb78e19014d2591d4e5d8641a611d03d89059b791f26734d8904cb0d1b7c7"
+                }, 
+                "message": "Physical Unit (degree) from ADD does not match symphony master data: [[denominatorOfFactor:  this=1.0, reference=3.14159265358979], [numeratorOfFactor:  this=57.29577951308238, reference=180.0]]", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_MASTERDATA_MISMATCH"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "findingProperties": {
+                        "findingSource": "symp:/#?type=InterfaceAttribute"
+                    }, 
+                    "uniqueId": "bdf3df1cee440f0645a7484b250dbe9ecf718828e94a9a7961b9420dd3562ed9"
+                }, 
+                "message": "Variable [Variable 'BMWsfoerrdet_st_SftyDirAxlEm_rc'] is using initialization policy [CLEARED] but specifies an initial value equals to 0", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_WRONG_INIT_VALUE"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "findingProperties": {
+                        "findingSource": "symp:/#?type=InterfaceAttribute"
+                    }, 
+                    "uniqueId": "bdf3df1cee440f0645a7484b250dbe9ecf718828e94a9a7961b9420dd3562ed9"
+                }, 
+                "message": "Variable [Variable 'BMWsfoerrdet_tqw_TarPtAxlPri_rc'] is using initialization policy [CLEARED] but specifies an initial value equals to 0", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_WRONG_INIT_VALUE"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "findingProperties": {
+                        "findingSource": "symp:/#?type=InternalVariable"
+                    }, 
+                    "uniqueId": "bdf3df1cee440f0645a7484b250dbe9ecf718828e94a9a7961b9420dd3562ed9"
+                }, 
+                "message": "Variable [Variable 'BMWsfoerrdet_st_SftyDirAxlEm_rc'] is using initialization policy [CLEARED] but specifies an initial value equals to 0", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.DX_WRONG_INIT_VALUE"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5df2e65edbe879eabb266996089f098c419c0f944b582933740755f4ce385cea"
+                }, 
+                "message": "There is no root component for system in Symphony model. Expected a root component with name SystemComponent in Symphony model.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.SY_COMP_NO_ROOT"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4447bd5f12a8f8d51397e96e6e95fbf59f349efd082a491b91bcc702a54974ad"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_a_SftyActAxlPri_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "438b1a616f2d626b8ca8dadfdb6a9012bc8e489abcce16d5c5164f92b328f893"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_a_SftyActAxlSec_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "6889871dbe52f2d968e6a5b085dc08d2d18e85a6c8335ed21a22d5edc39b6c5b"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_a_SftyAxlPriSec_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "339f460f280ef4bceb7dc6bb8be7b6c36be8d64a3d7957dbced380655604260f"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_a_SftyLgAxlPri_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5abe187a585f5d67a78bb6bef6928779912d094e27f1a53a6fff45b27532c1e4"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_a_SftyLgAxlSec_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d698fd2cf20b1b3c882e791a72dd9781c3fb22d56e15dc1ecd7ce6893117c57a"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_a_SftyPotAcce_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "77fd57eea2b05a95bc94cdac13f6808ad5f625468bc3931779cd423216239784"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_a_SftyPotRecu_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f459c0d77ecf25ac49866ab7d9f354326256663fb1c7ca2465293daf2d513a00"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_aga_SftyAxlPri_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7bb3b497105ee71b5685aede37c2cc068a508e65bb9e7f1f67227b036059f6dd"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_aga_SftyAxlSec_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "4c8e2968711d6a784fc26a6d583e699e47f92d4f62c087e453e8e611b74beb90"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_agv_SftyAxlPri_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "942635fc6293b66bc3087e85421cc357170f4aa94fe33de7f7b484c5908f241f"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_agv_SftyAxlSec_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ab28fbbb623db5b1c2e2cb6eb7d45eb2ac181af050a8d90ee9e7153924c41586"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_st_PtDirGbxPri_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9aae7eb0f716e384f0592c3987871d1ffa5ca580987d2f8008e56fc07bff80d1"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_st_PtDirGbxSec_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "7bf9e9b0850f1be5fe19491b810adc17c1d233052d00cadabfc836916dfa9f82"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_st_SftyDirAxlEm_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "894e5d42cd8cb184abba66687d49b1b154ca5563b90f694e400d1a029afb2a2c"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_st_SftyDrgDetd_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "1f49720224a53f8273eee68124e1d274db10967de10f7b4c89d700e1b1d74963"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_st_SftyRollDetd_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "aaf66205aeec36359a0e480b35c782c61b65aa279e5693ff7c5c13abda36fa7e"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_st_SftySpdDetd_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "59cb266b2972e911625ee5b00532ffbfcaff41747d82c924d371abf263c6580f"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_stb_SftyDrpAct_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "70da1b6a67d1769e32fa46a549bfa18a19f80578382dedd29e74bf7b9671080b"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_tq_RotAxlPri_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2fb2bc7080a38389003633a0ae2bdc3f73d4295317450bac8bb1c3448ed5e292"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_tq_RotAxlSec_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "0ffa93b0ddde1e7df486359481f824fa069a0e0d06882e4235977b53b28f9d4d"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_v_SftyAxlPri_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "f5f2e926fdc178bd5d05a2f200b0294a4679bf5fa6bcd889552f4f57b148ef56"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_v_SftyAxlSec_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "173cec602de8cef41807616f2c556e9230c2b2503d3580ed7326248496cc2961"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_v_SftyDeltLe_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }, 
+            {
+                "justification": "", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "dd716e9b6503af0735978ff7d8078ad3a775e1a71452a128b1fc66a71879fc09"
+                }, 
+                "message": "Exports contains unexpected, unresolved proxy ar:/#irvBMWsfoerrdet_v_SftyDeltRi_rc?type=VariableDataPrototype. Please contact Symphony Support.", 
+                "identifier": null, 
+                "assessment": "YELLOW", 
+                "findingTypeId": "symph.AR_UNRESOLVED_PROXY"
+            }
+        ]
+    }
+]

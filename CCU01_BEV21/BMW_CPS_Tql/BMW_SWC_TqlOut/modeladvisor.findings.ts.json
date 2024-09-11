@@ -1,0 +1,167 @@
+[
+    {
+        "path": "SVN_BMW_SWC_TqlOut/Model/LIB_BMW_MOD_TqlOutRename_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_st_TqgMaxDynEaPronTqc has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_OR_BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOutRename_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOutRename_10ms/BMW_MOD_TqlOutRename_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_tqg_MaxDynEaPronTqc has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_OR_BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOutRename_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOutRename_10ms/BMW_MOD_TqlOutRename_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_tqg_MinDynEaPronTqc has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_OR_BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOutRename_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOutRename_10ms/BMW_MOD_TqlOutRename_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_tqw_DtEaMaxDyn has the variant condition BMW_PT_TOP_EL_SC_EQU_1_OR_BMW_PT_TOP_AXHY_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOutRename_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOutRename_10ms/BMW_MOD_TqlOutRename_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_tqw_DtEaMaxStat has the variant condition BMW_PT_TOP_EL_SC_EQU_1_OR_BMW_PT_TOP_AXHY_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOutRename_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOutRename_10ms/BMW_MOD_TqlOutRename_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_tqw_DtEaMinDyn has the variant condition BMW_PT_TOP_EL_SC_EQU_1_OR_BMW_PT_TOP_AXHY_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOutRename_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOutRename_10ms/BMW_MOD_TqlOutRename_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_tqw_DtEaMinStat has the variant condition BMW_PT_TOP_EL_SC_EQU_1_OR_BMW_PT_TOP_AXHY_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOutRename_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOutRename_10ms/BMW_MOD_TqlOutRename_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_TqlOut/Model/LIB_BMW_MOD_TqlOutPlug_swini.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_agv_EmPriAct has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_OR_BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOutPlug_swini. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOutPlug_swini/BMW_MOD_TqlOutPlug_swini", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_agv_EmPriRef has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_OR_BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOutPlug_swini. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOutPlug_swini/BMW_MOD_TqlOutPlug_swini", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_tqw_EngDfcoMinStat has the variant condition BMW_PT_TOP_EL_SC_EQU_0_AND_BMW_PT_TOP_AXHY_SC_EQU_0_OR_1C94 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOutPlug_swini. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOutPlug_swini/BMW_MOD_TqlOutPlug_swini", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_TqlOut/Model/LIB_BMW_MOD_TqlOut_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_n_EmRefPri has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_OR_BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOut_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOut_10ms/BMW_MOD_TqlOut_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_tqg_MaxStatEa has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_OR_BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOut_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOut_10ms/BMW_MOD_TqlOut_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_tqg_MinStatEa has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_OR_BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOut_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOut_10ms/BMW_MOD_TqlOut_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_tqg_MaxDynEa has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_OR_BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOut_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOut_10ms/BMW_MOD_TqlOut_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The input signal BMWtql_tqg_MinDynEa has the variant condition BMW_PT_TOP_AXHY_SC_EQU_1_OR_BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_TqlOut_10ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] False Positiv for InOut</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqlOut_10ms/BMW_MOD_TqlOut_10ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

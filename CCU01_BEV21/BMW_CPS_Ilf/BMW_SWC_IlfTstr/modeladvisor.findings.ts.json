@@ -1,0 +1,37 @@
+[
+    {
+        "path": "SVN_BMW_SWC_IlfTstr/Model/LIB_BMW_MOD_IlfTstr_EnvCnd_200ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion2 is not necessary because the input and output data type are both fixdt(0,16,0). <br/> <mark><em>[Whitelisted] tolerated as for providing UWBs it is necessary to ensure that the datatype is correct</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfTstr_EnvCnd_200ms/BMW_MOD_IlfTstr_EnvCnd_200ms/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion3 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] tolerated as for providing UWBs it is necessary to ensure that the datatype is correct</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfTstr_EnvCnd_200ms/BMW_MOD_IlfTstr_EnvCnd_200ms/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion8 is not necessary because the input and output data type are both fixdt(0,16,0). <br/> <mark><em>[Whitelisted] tolerated as for providing UWBs it is necessary to ensure that the datatype is correct</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_IlfTstr_EnvCnd_200ms/BMW_MOD_IlfTstr_EnvCnd_200ms/Data Type Conversion8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }
+        ]
+    }
+]

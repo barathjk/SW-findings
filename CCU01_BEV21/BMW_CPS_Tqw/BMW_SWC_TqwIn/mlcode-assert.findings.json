@@ -1,0 +1,39 @@
+[
+    {
+        "path": "SVN_BMW_SWC_TqwIn/Model/LIB_BMW_MOD_TqwIn_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter Value of 'BMW_SWC_TqwIn/BMW_MOD_TqwIn_10ms/BMW_MOD_TqwIn_10ms/NotAutomated/SignalProcessingIn6/Replacement/ReplacementValue1' is being cast from a data type of 'int32' to the signal data type 'single'. Possible loss of precision\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqwIn_10ms/BMW_MOD_TqwIn_10ms/NotAutomated/SignalProcessingIn6/Replacement/ReplacementValue1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter Value of 'BMW_SWC_TqwIn/BMW_MOD_TqwIn_10ms/BMW_MOD_TqwIn_10ms/NotAutomated/SignalProcessingIn8/Replacement/ReplacementValue1' is being cast from a data type of 'int32' to the signal data type 'single'. Possible loss of precision\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_TqwIn_10ms/BMW_MOD_TqwIn_10ms/NotAutomated/SignalProcessingIn8/Replacement/ReplacementValue1", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

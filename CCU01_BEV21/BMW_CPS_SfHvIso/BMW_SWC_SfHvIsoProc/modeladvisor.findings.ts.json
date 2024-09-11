@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfHvIsoProc/Model/LIB_BMW_MOD_SfHvIsoProc_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] Sink state Iso_Meas_done in chart Eva_Nr_IsoMeas_NotDone is not recommended. <br/> <mark><em>[Whitelisted] The sink state is intended to be hold until the end of respective driving cycles</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfHvIsoProc_100ms/BMW_MOD_SfHvIsoProc_100ms/IsolationResistanceEval/Eva_Nr_IsoMeas_NotDone", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0022"
+            }
+        ]
+    }
+]

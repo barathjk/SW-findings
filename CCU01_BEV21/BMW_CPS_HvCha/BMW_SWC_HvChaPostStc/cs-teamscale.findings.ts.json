@@ -1,0 +1,73 @@
+[
+    {
+        "path": "ART_BMW_SWC_HvChaPostStc/CCU01BEV21BMW/BMW_SWC_HvChaPostStc.c", 
+        "findings": [
+            {
+                "startLine": "523", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "28d079b61f53f3d3f4cdc59c388f868a31c3d2450f770b5b64b5b8281989c85d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][523] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "523", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "53debbb22d5233ca2cb245f6752c30470e2ee78236ce3676d2deb5e196d6f711"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][523] Type Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.TO"
+            }, 
+            {
+                "startLine": "526", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "28d079b61f53f3d3f4cdc59c388f868a31c3d2450f770b5b64b5b8281989c85d"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][526] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "526", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "53debbb22d5233ca2cb245f6752c30470e2ee78236ce3676d2deb5e196d6f711"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][526] Type Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.TO"
+            }, 
+            {
+                "startLine": "2433", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9bc5f138049c8623c6330c436ec064a2ba26b111e1ca380f97b71c4276eeb6f2"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][2433] Buffer Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.BO"
+            }, 
+            {
+                "startLine": "2433", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "ba4f8ea6d5c4d5d69c058560f4170bd674b9a2f4c725f74d86bdccbd32bf7359"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][2433] Type Overrun", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.MEM.TO"
+            }
+        ]
+    }
+]

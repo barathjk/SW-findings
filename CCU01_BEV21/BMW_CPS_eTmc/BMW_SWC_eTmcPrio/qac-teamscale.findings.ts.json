@@ -1,0 +1,33 @@
+[
+    {
+        "path": "ART_BMW_SWC_eTmcPrio/CCU01BEV21BMW/BMW_SWC_eTmcPrio.c", 
+        "findings": [
+            {
+                "startLine": "3171", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "abd8a9acae089a67ecb18f6338533e8d5d20d8f39960e58835046dcd54712eea"
+                }, 
+                "justification": "", 
+                "message": "[3171:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "6214", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "81ed5e979655cef3e296f20b233ad1b7e86c086d0eedf61acba38b54001b721d"
+                }, 
+                "justification": "", 
+                "message": "[6214:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }, 
+    {
+        "path": "ART_BMW_SWC_eTmcPrio/CCU01BEV21BMW/BMW_SWC_eTmcPrio_data.c", 
+        "findings": []
+    }
+]

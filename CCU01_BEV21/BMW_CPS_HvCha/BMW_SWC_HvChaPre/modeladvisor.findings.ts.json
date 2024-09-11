@@ -1,0 +1,747 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvChaPre/Model/LIB_BMW_MOD_HvChaPreStgyResult_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyResult_10ms/BMW_MOD_HvChaPreStgyResult_10ms/Merge/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaPre/Model/LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block S-Function of type S-Function was not found in libBACE. <br/> <mark><em>[Whitelisted] This is an S-function. There is no S-function-block in Lib_Bace so the block used here is from the normal simulink library. It can't be certified using the Certified Subsystem block.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreferredChargingWindow/S-Function", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier2 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreProcessing/HmiAcknowledgement/ChargeTimerSelection/EvaluateQualifier2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreProcessing/ChargingTimerParamCheck/ChargingWindowEndHr/EvaluateQualifier1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreProcessing/ChargingTimerParamCheck/ChargingWindowEndMin/EvaluateQualifier1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreProcessing/ChargingTimerParamCheck/ChargingWindowStartHr/EvaluateQualifier1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreProcessing/ChargingTimerParamCheck/ChargingWindowStartMin/EvaluateQualifier1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreferredChargingWindow/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/ChargeTimerPostAnalysis/PauseRequest/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block PreDiagSelector is not part of libBACE, but was certified by qxu2294 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreProcessing/ChargingTimerParamCheck/ChargingWindowEndHr/PreDiagSelector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block PreDiagSelector is not part of libBACE, but was certified by qxu2294 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreProcessing/ChargingTimerParamCheck/ChargingWindowEndMin/PreDiagSelector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block PreDiagSelector is not part of libBACE, but was certified by qxu2294 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreProcessing/ChargingTimerParamCheck/ChargingWindowStartHr/PreDiagSelector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block PreDiagSelector is not part of libBACE, but was certified by qxu2294 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreProcessing/ChargingTimerParamCheck/ChargingWindowStartMin/PreDiagSelector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/ChargeTimerPostAnalysis/PauseRequest/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/ChargeTimerPostAnalysis/PauseRequest/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion2 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/ChargeTimerPostAnalysis/PauseRequest/Data Type Conversion2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion3 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/ChargeTimerPostAnalysis/PauseRequest/Data Type Conversion3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyPrefWi_10ms/BMW_MOD_HvChaPreStgyPrefWi_10ms/PreProcessing/ChargeTimePrediction/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaPre/Model/LIB_BMW_MOD_HvChaPreStatusEval_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue2 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingMode/SubstValue2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/Dcdc12vConverter/EvaluateQualifier1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/PlugStatus/SubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue3 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingElectronics/ChargingCurrentLimit/UserCurrentLimit/SubstValue3", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block If_T_E1_T1_E2_T2_E is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/PlugStatus/PlugUnknown/If_T_E1_T1_E2_T2_E", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/HvCharging/ChargeRequest/HvbChargeRequest/EvaluateQualifier1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier2 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/HvCharging/ChargeRequest/HvbChargeRequest/EvaluateQualifier2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/DcPlugStatus/SubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block If_T_E1_T1_E2_T2_E is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/DcPlugStatus/DcPlugUnknown/If_T_E1_T1_E2_T2_E", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingMode/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue1 is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingMode/BoolSubstValue1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/Dcdc12vConverter/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/ChargerFlapOpenDetection/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/CommunicationError/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/PlugLocked/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/PowerDegradation/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/HvCharging/ChargeReqForChargingWindow/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/Preconditioning/HvbPreconditioning/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue1 is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/Preconditioning/InteriorPreconditioning/BoolSubstValue1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/PlugPilot/PilotError/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/PlugPilot/ValidPilot/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/PlugPilot/WallboxEndCharging/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/HvCharging/ChargeRequest/ProductionChargingMode/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue1 is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/HvCharging/ChargeRequest/ProductionChargingMode/BoolSubstValue1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/HvCharging/ChargeRequest/SoEChargeEndCond/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/HvCharging/ChargeRequest/TransportMode/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block PreDiagSelector is not part of libBACE, but was certified by qxu2294 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/Preconditioning/InteriorPreconditioning/InteriorPreconditioningHvbDischargeProtection/PreDiagSelector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block Round_integer_and_hold is not part of libBACE, but was certified by QXX6086 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingElectronics/ChargingCurrentLimit/EVSECurrentLimit/effectiveCurrentLimit/Round_integer_and_hold", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block BoolSubstValue is not part of libBACE, but was certified by q277342 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] Block BoolSubstValue is certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingElectronics/ChargingCurrentLimit/EVSECurrentLimit/BoolSubstValue", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingMode/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion1 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingMode/Data Type Conversion1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStatusEval_10ms/BMW_MOD_HvChaPreStatusEval_10ms/ChargingInterface/PlugPilot/Debounce/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaPre/Model/LIB_BMW_MOD_HvChaPreStgyCmn_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier2 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyCmn_10ms/BMW_MOD_HvChaPreStgyCmn_10ms/ChargingPredictionTime/EvaluateQualifier2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue2 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyCmn_10ms/BMW_MOD_HvChaPreStgyCmn_10ms/ChargingPredictionTime/SubstValue2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier2 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyCmn_10ms/BMW_MOD_HvChaPreStgyCmn_10ms/HvbPreconditioning/EvaluateQualifier2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyCmn_10ms/BMW_MOD_HvChaPreStgyCmn_10ms/SmartCharging/SubstValue1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue28 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyCmn_10ms/BMW_MOD_HvChaPreStgyCmn_10ms/SmartCharging/SubstValue28", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block PreDiagSelector is not part of libBACE, but was certified by qxu2294 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyCmn_10ms/BMW_MOD_HvChaPreStgyCmn_10ms/SmartCharging/SmartChargingConfiguration/PreDiagSelector", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Data Type Conversion is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyCmn_10ms/BMW_MOD_HvChaPreStgyCmn_10ms/PlugPluggedInTime/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Subtract4 is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPreStgyCmn_10ms/BMW_MOD_HvChaPreStgyCmn_10ms/ChargingPredictionTime/SoeHvsPredictionTime/Subtract4", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaPre/Model/LIB_BMW_MOD_HvChaPrePhyParEval_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block SubstValue1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/CurrentLimitCalculation/SubstValue1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier2 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/DCChargeDurationPrediction/EvaluateQualifier2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier1 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/VoltageLimitCalculation/EvaluateQualifier1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block PID_ClosedLoopControl is not part of libBACE, but was certified by QXE0771 and reviewed by q277342. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/CurrentLimitCalculation/Inductive/PID_ClosedLoopControl", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block PowerThresholdEvaluation is not part of libBACE, but was certified by QXE0771 and reviewed by QXK6525. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/PowerForHvbCharging/AC/PowerThresholdEvaluation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block PowerThresholdEvaluation is not part of libBACE, but was certified by QXE0771 and reviewed by QXK6525. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/PowerForHvbCharging/Indu/PowerThresholdEvaluation", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier2 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/PowerForHvbCharging/AC/PowerThresholdEvaluation/EvaluateQualifier2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block EvaluateQualifier2 is not part of libBACE, but was certified by q277342 and reviewed by Pavan Satish Gaonkar. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/PowerForHvbCharging/Indu/PowerThresholdEvaluation/EvaluateQualifier2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Info] The block Round_integer_and_hold is not part of libBACE, but was certified by QXX6086 and reviewed by qxl0904. <br/> <mark><em>[Whitelisted] This block is certified and reviewed. This occurence is labeled as [Info] in the HTML-Report</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/ForecastPowerCharging/Round_integer_and_hold", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block DiscreteDerivative of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Block DiscreteDerivative is certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/CurrentLimitCalculation/AC/AC_PID_ClosedLoopControl/DiscreteDerivative", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The block DiscreteIntegrator of type SubSystem was not found in libBACE. <br/> <mark><em>[Whitelisted] Block DiscreteDerivative is certified.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/CurrentLimitCalculation/AC/AC_PID_ClosedLoopControl/DiscreteIntegrator", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0003"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block Subtract1 is set to Round instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/CurrentLimitCalculation/DC/Subtract1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The option Integer rounding mode in block MinMax is set to Floor instead of Simplest. Rounding methods other than Simplest may lead to abnormal/strange and difficult to debug rounding behavior (see example in documentation and ticket BTCM-668). <br/> <mark><em>[Whitelisted] the roundingmethod simplest would leed to a wrong result of the calculation. Therefore roundingmethod Round is used.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/ForecastPowerCharging/ DisplayPowerErrorInit/MinMax", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0115"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The block Divide of type Product was found in subsystem GradientCalculation. This is not allowed in combination with float data types. <br/> <mark><em>[Whitelisted] only used for parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPrePhyParEval_10ms/BMW_MOD_HvChaPrePhyParEval_10ms/DcCurrentLimitation/TemperatureLimitation/ChargePort_Derating/PID_Controller/GradientCalculation/Divide", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0203"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfSbwA/Model/LIB_BMW_MOD_SfSbwAllwd_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Mixture of 1-D array and 2-D vector (matrix) signals are driving 'BMW_SWC_SfSbwA/BMW_MOD_SfSbwAllwd_10ms/BMW_MOD_SfSbwAllwd_10ms/AllowedDrivePositions/DrivingPositionsAllowedStartup/StartupTime/Switch'. It has automatically converted the 1-D signals to 2-D vector signals. In order to eliminate this message either (1) use a Reshape, or (2) set the 'Action' for 'Vector/Matrix conversion' in the Diagnostics page of Configuration Parameters dialog to 'None'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfSbwAllwd_10ms/BMW_MOD_SfSbwAllwd_10ms/AllowedDrivePositions/DrivingPositionsAllowedStartup/StartupTime/Switch", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

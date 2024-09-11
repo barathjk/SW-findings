@@ -1,0 +1,547 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvChaDiag/Model/LIB_BMW_MOD_HvChaDiagOut_10ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/SecondaryDTCs/BEV_FisDcChgHvsChaCtcrUnExpOpn/BEV_FisDcChgHvsChaCtcrUnExpOpn/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/SecondaryDTCs/BEV_FisDcChgHvsChaCtcrUnExpOpn/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisChaSktDcTSnsrOtempAbo/BEV_FisChaSktDcTSnsrOtempAbo/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisChaSktDcTSnsrOtempAbo/BEV_FisChaSktDcTSnsrOtempAbo/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisChaSktDcTSnsrOtempAbo/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisChaSktDcTSnsrOtempAbo/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisChaSktDcTSnsrOtempDgra/BEV_FisChaSktDcTSnsrOtempDgra/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisChaSktDcTSnsrOtempDgra/BEV_FisChaSktDcTSnsrOtempDgra/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisChaSktDcTSnsrOtempDgra/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisChaSktDcTSnsrOtempDgra/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpChgStnDetdCmpErr/BEV_FisDcChgStnCmpChgStnDetdCmpErr/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpChgStnDetdCmpErr/BEV_FisDcChgStnCmpChgStnDetdCmpErr/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpChgStnDetdCmpErr/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpChgStnDetdCmpErr/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpCtrlSigErr/BEV_FisDcChgStnCmpCtrlSigErr/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpCtrlSigErr/BEV_FisDcChgStnCmpCtrlSigErr/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpCtrlSigErr/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpCtrlSigErr/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFbkChgStnErr/BEV_FisDcChgStnCmpFbkChgStnErr/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFbkChgStnErr/BEV_FisDcChgStnCmpFbkChgStnErr/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFbkChgStnErr/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFbkChgStnErr/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFbkVehErr/BEV_FisDcChgStnCmpFbkVehErr/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFbkVehErr/BEV_FisDcChgStnCmpFbkVehErr/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFbkVehErr/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFbkVehErr/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFullChgNotPoss/BEV_FisDcChgStnCmpFullChgNotPoss/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFullChgNotPoss/BEV_FisDcChgStnCmpFullChgNotPoss/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFullChgNotPoss/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpFullChgNotPoss/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpIDiffErr/BEV_FisDcChgStnCmpIDiffErr/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpIDiffErr/BEV_FisDcChgStnCmpIDiffErr/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpIDiffErr/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpIDiffErr/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpNoChgRst/BEV_FisDcChgStnCmpNoChgRst/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpNoChgRst/BEV_FisDcChgStnCmpNoChgRst/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpNoChgRst/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpNoChgRst/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpPrChrgErr/BEV_FisDcChgStnCmpPrChrgErr/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpPrChrgErr/BEV_FisDcChgStnCmpPrChrgErr/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpPrChrgErr/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpPrChrgErr/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpUDiffErr/BEV_FisDcChgStnCmpUDiffErr/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpUDiffErr/BEV_FisDcChgStnCmpUDiffErr/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpUDiffErr/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpUDiffErr/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpVehDetdCmpErr/BEV_FisDcChgStnCmpVehDetdCmpErr/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpVehDetdCmpErr/BEV_FisDcChgStnCmpVehDetdCmpErr/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpVehDetdCmpErr/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In2 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BEV_FisDcChgStnCmpVehDetdCmpErr/PHEV_do_nothing/In2", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/SecondaryDTCs/BEV_FisHvWirDcChaSktWirpronDgra/BEV_FisHvWirDcChaSktWirpronDgra/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Inport In1 has background color white instead of Green. <br/> <mark><em>[Whitelisted] The ports in question belong to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's input port. Thus, this warning is suppressed via whitelisting</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/SecondaryDTCs/BEV_FisHvWirDcChaSktWirpronDgra/PHEV_do_nothing/In1", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0005"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_b_FisCbl3DcTDer seems to be wrongly connected to the inport In1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The ports in question belongs to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's default Input naming 'In'</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/SecondaryDTCs/BMWhvcha_b_FisCbl3DcTDer", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The inport BMWhvcha_b_DcVoltErr_bo seems to be wrongly connected to the inport In1. Place a Certified Subsystem block in the parent subsystem if no connection should be checked for the subsystem. <br/> <mark><em>[Whitelisted] The port in question belongs to a variant-type subsystem, which is regenerated every time the model is compiled. Such compile overwrites the changes saved to the library component, where the libBACE-compatible Input port gets overwritten with Simulink's default Input naming 'In'</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaDiagOut_10ms/BMW_MOD_HvChaDiagOut_10ms/FaultMemoryInterface/PrimaryDTCs/DCLadenDTCs/BMWhvcha_b_DcVoltErr_bo", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0089"
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_EffTr/CCU01BEV21BMW/BMW_SWC_EffTr.c", 
+        "findings": [
+            {
+                "startLine": "647", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "2746aedb80bbb496a532ca6904e1d2f94726c1924d2dc7728015f99e89b56b5c"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][647] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }, 
+            {
+                "startLine": "724", 
+                "whitelisted": true, 
+                "findingProperties": {
+                    "uniqueId": "c146c647dc51753385f2b86574a0d7737a7a81fe6e591a95bf960a165e5d9ab7"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Security][724] Cast Alters Value", 
+                "assessment": "RED", 
+                "findingTypeId": "cs.LANG.CAST.VALUE"
+            }
+        ]
+    }
+]

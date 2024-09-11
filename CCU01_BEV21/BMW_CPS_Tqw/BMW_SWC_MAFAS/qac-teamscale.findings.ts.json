@@ -1,0 +1,29 @@
+[
+    {
+        "path": "ART_BMW_SWC_MAFAS/CCU01BEV21BMW/BMW_SWC_MAFAS.c", 
+        "findings": [
+            {
+                "startLine": "379", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "d503a7720abbbbf1c3d565f8f9be3d0364bf0979a063edce2e4231b468c06f5c"
+                }, 
+                "justification": "", 
+                "message": "[379:14] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "467", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "9d3a21929dd8a3ba522cc917b7795a354e0c9f5e5a75cbd24693f22c6c396ecb"
+                }, 
+                "justification": "Filtered Warnings", 
+                "message": "[467:6] Last unreachable statement.", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.1573.whitelisted"
+            }
+        ]
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "path": "SVN_BMW_SWC_LhmEdDiag/Model/LIB_BMW_MOD_LhmEdDiag_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Data type conversion block is needed to convert enum to unit8.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdDiag_100ms/BMW_MOD_LhmEdDiag_100ms/Generic_enable_conditions/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Saturate on integer overflow is needed to be activated.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdDiag_100ms/BMW_MOD_LhmEdDiag_100ms/Generic_enable_conditions/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_LhmEdDiag/Model/LIB_BMW_MOD_LhmEdEnvCdn_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Data type conversion block is needed to convert enum to unit8.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion7 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Data type conversion block is needed to convert enum to unit8.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion8 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Data type conversion block is needed to convert enum to unit8.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion11 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Data type conversion block is needed to convert enum to unit8.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion11", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion10 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Data type conversion block is needed to convert enum to unit8.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion9 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Data type conversion block is needed to convert enum to unit8.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion9", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion12 is not necessary because the input and output data type are both fixdt(0,16,0). <br/> <mark><em>[Whitelisted] Data type conversion block is needed to convert enum to unit16.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion12", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion13 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Data type conversion block is needed to convert enum to unit8.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion13", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion14 is not necessary because the input and output data type are both fixdt(0,16,0). <br/> <mark><em>[Whitelisted] Data type conversion block is needed to convert enum to unit16.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion14", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Data Type Conversion block Data Type Conversion17 is not necessary because the input and output data type are both fixdt(0,8,0). <br/> <mark><em>[Whitelisted] Data type conversion block is needed to convert enum to unit16.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion17", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0101"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion11. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Saturate on integer overflow is needed to be activated.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion11", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion7. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Saturate on integer overflow is needed to be activated.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion7", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion8. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Saturate on integer overflow is needed to be activated.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion8", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion10. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Saturate on integer overflow is needed to be activated.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion10", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The range [0, 255] of the source data type fixdt(0,8,0) fits into the range [0, 255] of the target data type fixdt(0,8,0) for block Data Type Conversion9. Saturate on integer overflow is activated, but can be deactivated. <br/> <mark><em>[Whitelisted] Saturate on integer overflow is needed to be activated.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion9", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The range [0, 4294967295] of the source data type fixdt(0,32,0) does not fit into the range [0, 65535] of the target data type fixdt(0,16,0) for block Data Type Conversion15. Saturate on integer overflow must be activated, but is deactivated. <br/> <mark><em>[Whitelisted] Saturate on integer overflow is needed to be activated.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion15", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The range [0, 4294967295] of the source data type fixdt(0,32,0) does not fit into the range [0, 65535] of the target data type fixdt(0,16,0) for block Data Type Conversion16. Saturate on integer overflow must be activated, but is deactivated. <br/> <mark><em>[Whitelisted] Saturate on integer overflow is needed to be activated.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_LhmEdEnvCdn_100ms/BMW_MOD_LhmEdEnvCdn_100ms/Environmental_Condition_For_Emergency_Manager/Data Type Conversion16", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0129"
+            }
+        ]
+    }
+]

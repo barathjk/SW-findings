@@ -1,0 +1,90 @@
+[
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMWsfdrvrpret_qlf_SftyFctRcp_rc_BMWsfdrvrpret_JYSPX1", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romData", 
+        "path": "romData/CCU01BEV21BMW/Rte/Rte_init_appl_iBMWsfdrvrpret_st_ReqAtrkMod_rc_BMWsfdrvrpret_sVMS545", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfDrvrPretVirt_ppBMWsfdrvrpret_b_DrvrVirtDetd_BMWsfdrvrpret_b_DrvrVirtDetd", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfDrvrPretVirt_ppBMWsfdrvrpret_stb_FisVirt_BMWsfdrvrpret_stb_FisVirt", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfDrvrPretVirt_ppBMWsfdrvrpret_st_ReqAtrkMod_BMWsfdrvrpret_st_ReqAtrkMod", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "ramData", 
+        "path": "ramData/CCU01BEV21BMW/Rte/Rte_BMW_SWC_SfDrvrPretVirt_BMWsfdrvrpret_id_nr_VerChgVirt", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_SfDrvrPretVirt/BMW_MOD_SfDrvrPretVirt_10ms", 
+        "assessment": {
+            "YELLOW": "200"
+        }, 
+        "count": "200"
+    }, 
+    {
+        "content": "romCode", 
+        "path": "romCode/CCU01BEV21BMW/BMW_SWC_SfDrvrPretVirt/BMW_SWC_SfDrvrPretVirt_Init", 
+        "assessment": {
+            "YELLOW": "2"
+        }, 
+        "count": "2"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SfDrvrPretVirt/BMWsfdrvrpret_swi_DrvrVirt_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SfDrvrPretVirt/BMWsfdrvrpret_b_DrvrVirtDetd_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }, 
+    {
+        "content": "calData", 
+        "path": "calData/CCU01BEV21BMW/BMW_SWC_SfDrvrPretVirt/BMWsfdrvrpret_st_ReqDrvgAtrk_C", 
+        "assessment": {
+            "YELLOW": "1"
+        }, 
+        "count": "1"
+    }
+]

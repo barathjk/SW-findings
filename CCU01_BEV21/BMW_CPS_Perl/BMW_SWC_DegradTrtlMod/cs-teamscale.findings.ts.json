@@ -1,0 +1,18 @@
+[
+    {
+        "path": "ART_BMW_SWC_DegradTrtlMod/CCU01BEV21BMW/BMW_SWC_DegradTrtlMod.c", 
+        "findings": [
+            {
+                "startLine": "207", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "59f8a3e994f503be28770f353a53b06168b6c2d61decdf115bf05028dae0b7b9"
+                }, 
+                "justification": "", 
+                "message": "[Warning][Redundancy][207] Redundant Condition", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "cs.LANG.STRUCT.RC"
+            }
+        ]
+    }
+]

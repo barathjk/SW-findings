@@ -1,0 +1,40 @@
+[
+    {
+        "path": "ART_BMW_SWC_SptDispPt/CCU01BEV21BMW/BMW_SWC_SptDispPt.c", 
+        "findings": [
+            {
+                "startLine": "1953", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "2be259c119cd97fa2bd32961e0f6328a948f79396365ba0200942ecf734d32bd"
+                }, 
+                "justification": "", 
+                "message": "[1953:6] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "2955", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "b6e172122afa04cc5837c81e3a9c217e48b84348ce714839ff0780d7813c8423"
+                }, 
+                "justification": "", 
+                "message": "[2955:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }, 
+            {
+                "startLine": "2978", 
+                "whitelisted": false, 
+                "findingProperties": {
+                    "uniqueId": "5f8d07514e487f2f12604b272718dc29f373ed0fb250a7ddffdf5b36c7b79895"
+                }, 
+                "justification": "", 
+                "message": "[2978:4] This code is unreachable. [MISRA C: M3CM Rule-2.1]", 
+                "assessment": "YELLOW", 
+                "findingTypeId": "qac9.2880"
+            }
+        ]
+    }
+]

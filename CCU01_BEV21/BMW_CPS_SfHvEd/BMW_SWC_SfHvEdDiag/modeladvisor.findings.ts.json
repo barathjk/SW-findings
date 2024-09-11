@@ -1,0 +1,17 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfHvEdDiag/Model/LIB_BMW_MOD_SfHvEdDiag_100ms.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Error] The local signal BMWsfhved_st_FisOvrTCbl3Evt has the variant condition BMW_PT_TOP_EL_SC_EQU_1 in ADD but is used outside of a Variant in the process block BMW_MOD_SfHvEdDiag_100ms. This might lead to wrong code. <br/> <mark><em>[Whitelisted] The signal is placed here intentionally to make all measurement signals present on the same level.</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfHvEdDiag_100ms/BMW_MOD_SfHvEdDiag_100ms", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0198"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "path": "SVN_BMW_SWC_SfOVd/Model/LIB_BMW_MOD_SfOVd_10ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Gain' of 'BMW_SWC_SfOVd/BMW_MOD_SfOVd_10ms/BMW_MOD_SfOVd_10ms/Fahrzeug Geschwindigkeit V_VEH_COG/Fahrzeug_Geschwindigkeit_Schwerpunkt/Gain'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_SfOVd_10ms/BMW_MOD_SfOVd_10ms/Fahrzeug Geschwindigkeit V_VEH_COG/Fahrzeug_Geschwindigkeit_Schwerpunkt/Gain", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]

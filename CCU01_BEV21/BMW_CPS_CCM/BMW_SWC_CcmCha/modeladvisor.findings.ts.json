@@ -1,0 +1,502 @@
+[
+    {
+        "path": "SVN_BMW_SWC_CcmCha/Model/LIB_BMW_MOD_CcmCha_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The Assignment block Assignment was found in subsystem CCM_Priorisierung. Theres a possibility for index out-of-bounds write access. <br/> <mark><em>[Whitelisted] Functionalita checked. Index is not out of bound</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_CcmCha_100ms/BMW_MOD_CcmCha_100ms/CCM_Priorisierung/Assignment", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0212"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_CcmCha/Model/LIB_BMW_SWC_CcmCha.mdl", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2101_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2101_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2102_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2102_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2197_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2197_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2271_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2271_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2417_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2417_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2469_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2469_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId633_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId633_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId636_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId636_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId802_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId802_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId803_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId803_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId804_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId804_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId859_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId859_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId865_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId865_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId866_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId866_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId873_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId873_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId874_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId874_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId875_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId875_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId884_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId884_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId885_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId885_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId887_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId887_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId900_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId900_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId978_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId978_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmIdChaManu_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmIdChaManu_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Min of the BACE.Parameter BMWccm_rc_CcmId2445_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }, 
+            {
+                "justification": "", 
+                "findingProperties": {
+                    "uniqueId": ""
+                }, 
+                "message": "[Warning] The mandatory field Max of the BACE.Parameter BMWccm_rc_CcmId2445_rc is empty. <br/> <mark><em>[Whitelisted] Not possible to give min/max value for record parameter</em></mark>", 
+                "identifier": "SimulinkBlock:LIB_BMW_SWC_CcmCha/BMW_SWC_CcmCha", 
+                "assessment": "RED", 
+                "findingTypeId": "modeladvisor-whitelist.bace_0079"
+            }
+        ]
+    }
+]

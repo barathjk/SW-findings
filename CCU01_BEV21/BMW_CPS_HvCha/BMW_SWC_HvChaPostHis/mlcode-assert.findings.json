@@ -1,0 +1,44 @@
+[
+    {
+        "path": "SVN_BMW_SWC_HvChaPostHis/Model/LIB_BMW_MOD_HvChaPostChaHis_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_HvChaPostHis/BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MaxPowerAll/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostChaHis_100ms/BMW_MOD_HvChaPostChaHis_100ms/ChargingHistory/MaxPowerAll/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }, 
+    {
+        "path": "SVN_BMW_SWC_HvChaPostHis/Model/LIB_BMW_MOD_HvChaPostPwrHis_100ms.slx", 
+        "findings": [
+            {
+                "justification": "", 
+                "findingProperties": {}, 
+                "whitelisted": false, 
+                "build_assessment": "pass", 
+                "whitelistable": "true", 
+                "__idext__": "", 
+                "metric_assessment": "YELLOW", 
+                "applied_comp_type": [], 
+                "uniqueId": "", 
+                "message": "Warning: Parameter precision loss occurred for 'Value' of 'BMW_SWC_HvChaPostHis/BMW_MOD_HvChaPostPwrHis_100ms/BMW_MOD_HvChaPostPwrHis_100ms/internal UTC clock/Compare To Constant/Constant'. The parameter's value cannot be represented exactly using the run-time data type. A small quantization error has occurred. To disable this warning or error, in the Configuration Parameters > Diagnostics > Data Validity pane, set the 'Detect precision loss' option in the Parameters group to 'none'.\n", 
+                "identifier": "SimulinkBlock:LIB_BMW_MOD_HvChaPostPwrHis_100ms/BMW_MOD_HvChaPostPwrHis_100ms/internal UTC clock/Compare To Constant/Constant", 
+                "applied_resolver": null, 
+                "id": "mlcode.matlab_code_finding", 
+                "__idbase__": "mlcode.matlab_code_finding"
+            }
+        ]
+    }
+]
