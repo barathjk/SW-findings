@@ -2,6 +2,10 @@
 - job:
     name: sanity
     run: .playbooks/sanity.yaml
+    
+- job:
+    name: build
+    run: .playbooks/build.yaml
 
 - project:
     default-branch: main
@@ -14,6 +18,7 @@
     gh_post:
       jobs:
         - sanity
+        - build
     gh_tag:
       jobs:
         - sanity
