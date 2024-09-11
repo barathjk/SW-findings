@@ -11,19 +11,28 @@
     name: postbuild
     run: .playbooks/postbuild.yaml
 
+- job:
+    name: publish
+    run: .playbooks/publish.yaml
+    
 - project:
     default-branch: main
     gh_check:
       jobs:
         - sanity
+        - build
     gh_gate:
       jobs:
         - sanity
+        - build
+        - postbuild
+        - publish
     gh_post:
       jobs:
         - sanity
         - build
         - postbuild
+        - publish
     gh_tag:
       jobs:
         - sanity
