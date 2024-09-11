@@ -7,6 +7,10 @@
     name: build
     run: .playbooks/build.yaml
 
+- job:
+    name: postbuild
+    run: .playbooks/postbuild.yaml
+
 - project:
     default-branch: main
     gh_check:
@@ -19,6 +23,7 @@
       jobs:
         - sanity
         - build
+        - postbuild
     gh_tag:
       jobs:
         - sanity
