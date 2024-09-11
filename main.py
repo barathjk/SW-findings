@@ -182,7 +182,7 @@ if __name__ == '__main__':
         workbook = writer.book
         worksheet = writer.sheets[sheet]
         worksheet.freeze_panes(1, 0)
-        worksheet.autofilter('A1:G1')
+        worksheet.autofilter('A1:H1')
         header_format_object = workbook.add_format({
             'bold': 'true',
             'valign': 'top',
