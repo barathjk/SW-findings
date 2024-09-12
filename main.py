@@ -195,4 +195,4 @@ if __name__ == '__main__':
 
     workbook.close()
     print('Success')
-    print("Report Generated")
+    print("Report Generated..")
